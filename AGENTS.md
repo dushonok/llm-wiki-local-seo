@@ -181,3 +181,14 @@ a keyword's difficulty.
 - Whether framework pages (`wiki/framework/`) get a lint pass for staleness against
   evolving Google algorithm guidance — revisit once there's enough framework content
   to matter.
+
+
+## Model integrity
+
+This wiki requires a Claude model for ingest, synthesis, lint, and any task that changes wiki content.
+
+At the beginning of every task, state the model selected in the Cursor UI.
+If the active model is not Claude, do not make file changes. Stop and tell the user:
+"Claude is not active. I will not modify the LLM Wiki until you select or restore Claude."
+
+If model identity cannot be verified, assume it is not Claude and do not modify the wiki.
