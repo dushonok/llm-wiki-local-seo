@@ -8,7 +8,8 @@ General SEO/local SEO knowledge, not tied to a client.
 
 - [on-site-seo.md](framework/on-site-seo.md) — stub, not yet populated
 - [backlinks.md](framework/backlinks.md) — stub, not yet populated
-- [local-seo-checklist.md](framework/local-seo-checklist.md) — stub, not yet populated
+- [ai-overviews-local-search.md](framework/ai-overviews-local-search.md) — How AI Overviews reshape local intent and visibility above map packs
+- [local-seo-checklist.md](framework/local-seo-checklist.md) — 7-part checklist to optimize for AI Overviews (NAP, GBP, reviews, schema, content, citations, monitoring)
 
 ## clients/
 
