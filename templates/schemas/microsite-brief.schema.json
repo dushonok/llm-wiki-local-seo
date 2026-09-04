@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "microsite-brief.schema.json",
+  "title": "Microsite Content Brief",
+  "description": "Schema a wiki/clients/<slug>/microsites/<slug>.md content brief should conform to before it is built into a page via templates/pages or templates/sites. See AGENTS.md §8.",
+  "type": "object",
+  "required": [
+    "client_slug",
+    "microsite_slug",
+    "target_keyword",
+    "target_location",
+    "status",
+    "pages"
+  ],
+  "properties": {
+    "client_slug": {
+      "type": "string",
+      "description": "Matches the client's slug under wiki/clients/."
+    },
+    "microsite_slug": {
+      "type": "string",
+      "description": "kebab-case <service>-<location>, e.g. emergency-plumber-scarborough."
+    },
+    "target_keyword": {
+      "type": "string",
+      "description": "Primary keyword this microsite is built to rank for."
+    },
+    "secondary_keywords": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "target_location": {
+      "type": "string",
+      "description": "City/region/service area this microsite targets."
+    },
+    "status": {
+      "type": "string",
+      "enum": ["brief", "in-progress", "built", "live", "archived"]
+    },
+    "business_info": {
+      "type": "object",
+      "description": "NAP and business details to populate templates/sections (contact block, schema markup).",
+      "properties": {
+        "name": { "type": "string" },
+        "address": { "type": "string" },
+        "phone": { "type": "string" },
+        "hours": { "type": "string" }
+      }
+    },
+    "pages": {
+      "type": "array",
+      "description": "One entry per page this microsite needs, mapped to a templates/pages skeleton.",
+      "items": {
+        "type": "object",
+        "required": ["template", "title", "h1"],
+        "properties": {
+          "template": {
+            "type": "string",
+            "description": "Path under templates/pages/ or templates/sites/ this page is built from."
+          },
+          "title": { "type": "string" },
+          "h1": { "type": "string" },
+          "sections": {
+            "type": "array",
+            "description": "Ordered list of templates/sections/ this page composes, with the copy for each.",
+            "items": {
+              "type": "object",
+              "required": ["template", "content"],
+              "properties": {
+                "template": { "type": "string" },
+                "content": { "type": "object" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "wiki/ pages this brief was derived from (keywords.md, competitors/*.md, recommendations.md)."
+    }
+  }
+}
