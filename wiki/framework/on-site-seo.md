@@ -1,24 +1,145 @@
 ---
 type: framework
 client: none
-status: draft
+status: active
 updated: 2026-09-04
-sources: []
+sources:
+  - "raw/framework/On-Page SEO Content Frameworks - How To Structure On-Page SEO Content · AI SEO Rank Expand Academy.md"
 ---
 
-# On-Site SEO — Structure Requirements
+# On-Site SEO — Content Structure
 
-_Stub. Ingest your on-site SEO / site-structure instructions from `raw/framework/`
-to populate this page. Suggested shape once populated:_
+## Core Principle: Structure > Length
 
-## Required page elements
-_(title tag, meta description, H1 rules, schema markup requirements, etc.)_
+On-page SEO is not about writing more — it's about **structuring information correctly**. Search engines and AI systems don't read pages like humans. They scan titles, headings (H1, H2), and page top sections.
 
-## Site structure
-_(URL structure, internal linking rules, location-page patterns, etc.)_
+**What determines ranking:**
+- The *order and grouping of words (semantics)* determines how your content is understood
+- The *top section of your page carries the most weight*
 
-## Technical baseline
-_(Core Web Vitals targets, mobile requirements, crawlability, etc.)_
+Get structure right → rank quickly. Get it wrong → good content still won't perform.
 
-## Checklist
-_(pull into `local-seo-checklist.md` or a client's `recommendations.md` when auditing a real site)_
+---
+
+## The On-Page Content Structure Recipe
+
+### 1. Title (≤ 60 characters)
+
+- Clear and keyword-focused
+- Aligned with search intent
+- Front-load the benefit or answer
+
+**Example:** "Local Plumbing Services in Denver | 24/7 Emergency"
+
+### 2. Lead-In (2–3 sentences)
+
+- Show you understand the problem
+- Demonstrate you can solve it
+- Set context for what follows
+
+**Purpose:** Build trust and relevance immediately.
+
+### 3. Answer Paragraph (≈ 50 words)
+
+- Direct, factual answer to the main query
+- Appears immediately (above the fold)
+- No fluff or setup needed
+
+**Why:** Google (and AI) reward pages that answer immediately.
+
+### 4. Enticement / Transition ("Read On")
+
+- Brief sentence encouraging deeper reading
+- Creates pathway to detailed sections
+- Natural flow to next heading
+
+**Example:** "Here's how our process works and why we're different..."
+
+### 5. H2 #1 – Core Intent Expansion
+
+- Expand the main answer with detail and context
+- Introduce supporting evidence or methodology
+- Keep focus on primary intent
+
+### 6. H2 #2+ – Supporting Topics & Entities
+
+- Cover related subtopics and questions
+- Address People Also Ask (PAA) queries
+- Include relevant entities (neighborhoods, related services, alternatives)
+
+### 7. Content Blocks (400–600 words per section)
+
+- Provide depth within each H2 section
+- Mention relevant entities and context
+- Build semantic authority around topic
+
+### 8. FAQ / PAA Section (Optional)
+
+- Capture additional long-tail intent
+- Pre-empt common follow-up questions
+- Useful for featured snippets and voice search
+
+---
+
+## What Actually Moves Rankings
+
+**Strong factors:**
+- ✅ Semantic alignment in **title + H1 + H2s**
+- ✅ Clear answer **at the top of the page**
+- ✅ Coverage of **related entities and subtopics**
+- ✅ Logical structure that reads like a **table of contents**
+
+**Weak factors (don't rely on alone):**
+- ❌ Word count alone
+- ❌ Keyword density
+- ❌ Fluffy intro text
+
+---
+
+## Structure vs. Quality: The Reality Check
+
+**Structure gets you in. Quality keeps you there.**
+
+Structure alone may get initial ranking (Google scans structure first), but over time Google evaluates:
+- **Depth** — Do you cover the topic thoroughly?
+- **Accuracy** — Is the information correct and up-to-date?
+- **Value** — Does this actually help the user/AI answer follow-up questions?
+
+---
+
+## How to Apply This to Local SEO Pages
+
+For location or service pages, structure becomes even more critical because AI Overviews rely on clear entity and contextual signals.
+
+**Structure template for local service page:**
+
+1. **Title:** "[Service] in [City/Neighborhood]"
+2. **Lead-in:** Problem statement + unique value (2 sentences)
+3. **Answer:** "We provide [service] to [areas] with [key differentiator]" (1–2 sentences)
+4. **Transition:** "Here's what sets us apart..."
+5. **H2 #1:** "Why Choose [Company] for [Service]?"
+6. **H2 #2:** "Service Areas: [Neighborhoods/ZIP codes]"
+7. **H2 #3:** "[Service] Process & Timeline"
+8. **H2 #4:** "Reviews & Results"
+9. **FAQ:** 5–6 common questions specific to service + location
+
+**Entity signals to include:**
+- Specific neighborhoods, ZIP codes, landmarks
+- Related services (cross-links to other pages)
+- Company history/credentials (LocalBusiness schema)
+- Customer reviews (aggregate rating schema)
+
+---
+
+## Implementation Checklist
+
+- ☐ Rewrite title to be ≤ 60 characters, keyword-focused
+- ☐ Add 2–3 sentence lead-in showing problem understanding
+- ☐ Move answer to paragraph 2 (≈ 50 words)
+- ☐ Restructure heading hierarchy (one H1, logical H2/H3 flow)
+- ☐ Front-load key entities (location, service type) in top 3 sections
+- ☐ Expand core intent under H2 #1 (supporting details)
+- ☐ Cover 2–4 supporting topics under H2 #2+
+- ☐ Aim for 400–600 words per main section
+- ☐ Add FAQ with local/service-specific questions
+- ☐ Validate semantic HTML structure

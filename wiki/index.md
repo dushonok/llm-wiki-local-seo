@@ -6,10 +6,12 @@ added or removed (see AGENTS.md §6, Ingest). Grouped by section.
 ## framework/
 General SEO/local SEO knowledge, not tied to a client.
 
-- [on-site-seo.md](framework/on-site-seo.md) — stub, not yet populated
+- [on-site-seo.md](framework/on-site-seo.md) — Content structure recipe (title, lead-in, answer, H2s, entity signals) that ranks fast
 - [backlinks.md](framework/backlinks.md) — stub, not yet populated
 - [ai-overviews-local-search.md](framework/ai-overviews-local-search.md) — How AI Overviews reshape local intent and visibility above map packs
-- [local-seo-checklist.md](framework/local-seo-checklist.md) — 7-part checklist to optimize for AI Overviews (NAP, GBP, reviews, schema, content, citations, monitoring)
+- [local-seo-checklist.md](framework/local-seo-checklist.md) — 7-part checklist to optimize for AI Overviews + skill-level next steps (Beginner/Intermediate/Advanced)
+- [getting-cited-by-ai.md](framework/getting-cited-by-ai.md) — 5 moves to get cited by ChatGPT/Gemini (invisible URLs, social mentions, listicles, expired domains, profiles page)
+- [fan-out-queries-and-ais.md](framework/fan-out-queries-and-ais.md) — Why ranking for fan-out queries boosts AIO citations (0.77 correlation); topical authority strategy
 
 ## clients/
 

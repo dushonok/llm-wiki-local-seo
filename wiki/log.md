@@ -37,3 +37,15 @@ level, including specific Google search queries for NAP audits and tactical
 tools/frequencies for monitoring. Updated sources list to include all 9
 detailed raw files.
 Pages touched: [[framework/local-seo-checklist.md]], [[log.md]]
+
+## 2026-09-04 | ingest | Getting cited by AI + fan-out queries + on-page structure
+Ingested three new sources on AI citation strategy, fan-out query research, and on-page
+content structure. Created [[framework/getting-cited-by-ai.md]] documenting 5 moves:
+invisible URLs, social mentions, listicles, expired-domain sponsorships, and citation-indexing
+profiles page. Created [[framework/fan-out-queries-and-ais.md]] synthesizing data from
+173,902 URLs showing 0.77 correlation between fan-out ranking and AIO citations; recommends
+topical authority strategy over fan-out chasing. Enhanced [[framework/on-site-seo.md]]
+from stub to full 8-step content structure recipe (title, lead-in, answer, H2s, entity
+signals) with implementation checklist. Updated [[index.md]].
+Pages touched: [[framework/getting-cited-by-ai.md]], [[framework/fan-out-queries-and-ais.md]],
+[[framework/on-site-seo.md]], [[index.md]], [[log.md]]
