@@ -49,3 +49,15 @@ from stub to full 8-step content structure recipe (title, lead-in, answer, H2s, 
 signals) with implementation checklist. Updated [[index.md]].
 Pages touched: [[framework/getting-cited-by-ai.md]], [[framework/fan-out-queries-and-ais.md]],
 [[framework/on-site-seo.md]], [[index.md]], [[log.md]]
+
+## 2026-09-05 | ingest | AI tool stacks + niche selection strategy from community calls
+Ingested 20+ new community call files documenting practical AI/automation stacks and niche
+selection tactics. Created [[framework/ai-tool-stacks.md]] synthesizing 11 tool stacks
+(Shawn's programmatic pages, dual-AI content, Claude writing tools, WordPress factory,
+12-minute microsites, master Git deployment, voice AI, SMS bot, Leadsie onboarding, custom
+MCPs, GHL consolidation) with implementation guidance. Created [[framework/niche-selection-strategy.md]]
+capturing the "niches within niches" thesis with 3-level niche framework, 12-minute microsite
+build process, volume strategy (validation → scaling), research-first mindset, and business
+models (lead gen, affiliates, personal volume). Updated [[index.md]] and [[log.md]].
+Pages touched: [[framework/ai-tool-stacks.md]], [[framework/niche-selection-strategy.md]],
+[[index.md]], [[log.md]]

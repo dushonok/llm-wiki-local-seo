@@ -12,6 +12,8 @@ General SEO/local SEO knowledge, not tied to a client.
 - [local-seo-checklist.md](framework/local-seo-checklist.md) — 7-part checklist to optimize for AI Overviews + skill-level next steps (Beginner/Intermediate/Advanced)
 - [getting-cited-by-ai.md](framework/getting-cited-by-ai.md) — 5 moves to get cited by ChatGPT/Gemini (invisible URLs, social mentions, listicles, expired domains, profiles page)
 - [fan-out-queries-and-ais.md](framework/fan-out-queries-and-ais.md) — Why ranking for fan-out queries boosts AIO citations (0.77 correlation); topical authority strategy
+- [ai-tool-stacks.md](framework/ai-tool-stacks.md) — 11 practical AI/automation stacks (content generation, site building, lead capture, scaling) from community members
+- [niche-selection-strategy.md](framework/niche-selection-strategy.md) — "Niches within niches" framework; 12-minute microsite builds; volume strategy; research-first mindset
 
 ## clients/
 
