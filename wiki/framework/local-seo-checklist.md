@@ -2,7 +2,7 @@
 type: framework
 client: none
 status: active
-updated: 2026-09-04
+updated: 2026-09-16
 sources:
   - "raw/framework/Local SEO Innovation - 2 - Local AI SEO Checklist - 0. Checklist for Local SEO (AI Overview Readiness) · AI SEO Rank Expand Academy.md"
   - "raw/framework/Local SEO Innovation - 2 - Local AI SEO Checklist - 1. Core Business Data (NAP Consistency) · AI SEO Rank Expand Academy.md"
@@ -35,6 +35,19 @@ Goal: Ensure a business's data ecosystem is robust enough to be included in Goog
 ## 2. Google Business Profile Optimization
 
 **Objective:** Make GBP a "data source" for AI summaries.
+
+> **Verification is the gate, not an optimization.** An unverified GBP has
+> essentially no local SEO value: Google flags it "not publicly visible,"
+> suppresses it from meaningful Map Pack / Local Pack placement, and blocks
+> owner access to Insights, review responses, full edits, and Q&A control. It
+> can still be scraped/found (see "GBP Gap Mining" in
+> [Community Call 9](../../raw/framework/Community%20Call%209%20-%20🎙️%20The%20Call%20Vault%20·%20AI%20SEO%20Rank%20Expand%20Academy.md),
+> lines 26–31 — unverified/missing GBPs are treated as prospecting targets,
+> precisely because the business is capturing zero value from them), but for
+> the business itself, claim + verify must happen **before** anything else in
+> this checklist (photos, categories, posts, reviews) starts contributing to
+> ranking or AI Overview inclusion. *Not sourced from a raw call — general
+> GBP/SEO knowledge, flagged here for traceability.*
 
 **Checklist:**
 - ✅ Business description includes key services + location phrases naturally

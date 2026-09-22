@@ -2,10 +2,11 @@
 type: framework
 client: none
 status: active
-updated: 2026-09-05
+updated: 2026-09-11
 sources:
   - "raw/framework/48 - Niches Within Niches - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
   - "raw/framework/49 - The 12-Minute Microsite - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
+  - "raw/framework/EMD - Exact match domain with dashes - AI SEO Rank Expand Academy.md"
 ---
 
 # Niche Selection & Microsite Strategy
@@ -87,6 +88,15 @@ A single-page or 2–3 page site targeting one niche, one location, one service.
 1. **Domain purchase** (2 minutes)
    - Namecheap, Porkbun, or similar
    - Cost: $10–15/year
+   - **TLD choice:** `.com` is the safer default for user trust/perception on a
+     commercial local-service site, but `.org` (or other TLDs) is a fine substitute
+     when the exact-match `.com` string is taken — no ranking penalty either way.
+     Match the domain string (niche + location) to the EMD strategy first; TLD is
+     secondary. Mixing TLDs across a multi-site portfolio also slightly reduces
+     footprint/entity-linking risk (see "Domain & Hosting Security" in
+     [Community Call #8](../../raw/framework/Community%20Call%208%20-%20🎙️%20The%20Call%20Vault%20·%20AI%20SEO%20Rank%20Expand%20Academy.md)
+     on avoiding shared assets across microsites). *Not sourced from a raw call —
+     general domain/SEO knowledge, flagged here for traceability.*
 
 2. **Site generation** (3 minutes)
    - Manus (generates static HTML from prompt)
@@ -195,6 +205,34 @@ Mark's actual results:
 - **2–4 week rankings** typical
 - **$2–5 per site** operational cost
 - **30% conversion to ranking** threshold for profitability
+
+---
+
+## Domain Strategy: EMD with and Without Dashes
+
+**Recent Insight:** EMD (Exact Match Domain) strategy is evolving. Traditional wisdom favored `chicagoplumbing.com` over `chicago-plumbing.com`, but new data suggests dashes are worth testing.
+
+**How Google Treats Dashes:**
+- Google parses dashes as spaces: `chicago-plumbing.com` = `chicago plumbing.com` (same EMD)
+- Functionally equivalent for SEO ranking purposes
+- Both are valid exact match domains
+
+**The Practical Difference:**
+
+| Factor | Without Dashes | With Dashes |
+|--------|---|---|
+| User experience | Easier to type on phone | Slightly harder to type |
+| Visual appearance | Cleaner looking | Looks slightly less spammy |
+| Ranking potential | Same | Same |
+| Test results | #1-#3 rankings common | #1-#3 rankings observed (trending) |
+
+**Real Example:** A site ranking #2 for "water damage Edmond OK" uses a dash domain variant.
+
+**The Trend:** Members are seeing dash-based EMDs ranking in top 3, occasionally #1. Worth A/B testing if the non-dash version is taken.
+
+**Secondary TLDs:** `.net` and `.xyz` are also working when `.com` isn't available, but stick with `.com` or `.net` first; avoid oddball TLDs.
+
+**Strategy Note:** The micro focus now is less about "top of page 1" (fewer clicks) and more about AI Overviews and owning other SERP real estate. Domain variation (with/without dashes) is secondary to content structure and citations.
 
 ---
 
