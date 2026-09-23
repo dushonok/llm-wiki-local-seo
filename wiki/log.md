@@ -129,3 +129,15 @@ directory tool fallback text, and AI/LLM summarization fallback; includes recomm
 tag set and a priority stack showing OG ranks below schema, content, and NAP consistency. Updated
 [[index.md]].
 Pages touched: [[framework/open-graph-and-metadata.md]], [[index.md]], [[log.md]]
+
+## 2026-09-23 | ingest | External SEO tactics for fast-ranking microsites
+Ingested chat summary synthesizing external SEO strategy for a single-location microsite
+(moldremediationgettysburgpa.org, Gettysburg PA). Created [[framework/external-seo-microsite-tactics.md]]
+documenting 5 external SEO levers ranked by ROI: expired-domain sponsorships ($20–50), NAP
+citations + GBP, AI-citation targeting (invisible URLs via DataForSEO), third-party listicles
+($100–500), and social proof (Reddit, YouTube, FB groups + /profiles page). Included detailed
+NAP citations process (lock format → claim Data Axle [optional] → 10–20 top-tier directories →
+index all → quarterly audit), VA delegation split (what to outsource vs. keep in-house), and
+single-location expansion strategy (hub-and-spoke with nearby towns, genuine hyperlocal content).
+Added action checklist and key decision points. Updated [[index.md]].
+Pages touched: [[framework/external-seo-microsite-tactics.md]], [[index.md]], [[log.md]]
