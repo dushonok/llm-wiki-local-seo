@@ -3,6 +3,13 @@
 Catalog of every page in this wiki, one line each. Update this whenever a page is
 added or removed (see AGENTS.md §6, Ingest). Grouped by section.
 
+## framework/seo-fundamentals/
+**Theoretical foundations** — Conceptual knowledge about how SEO works. These are reference material that inform the tactical pages below, but are not action items themselves. Useful for onboarding, building mental models, and understanding *why* specific tactics matter.
+
+- [technical-seo.md](framework/seo-fundamentals/technical-seo.md) — How search engines crawl, index, and rank; crawlability, indexability, ranking signals, Core Web Vitals
+- [keyword-research.md](framework/seo-fundamentals/keyword-research.md) — What keyword research is; search volume, intent, difficulty, tools; keyword research process
+- [content-optimization.md](framework/seo-fundamentals/content-optimization.md) — How to create content that ranks; relevance, authority, structure; SEO copywriting principles
+
 ## framework/
 General SEO/local SEO knowledge, not tied to a client.
 

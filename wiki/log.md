@@ -184,3 +184,20 @@ into [[ai-tool-stacks.md]] (Claude Fable, DeepSeek, Hermes, OpenRouter, Index Bo
 (retention, pricing tiers, portfolio management), and [[pricing-and-deal-structures.md]] (recurring
 revenue models, "build first" sales). Deferred those updates to keep ingest focused. Updated timestamp.
 Pages touched: [[framework/external-seo-microsite-tactics.md]], [[log.md]]
+
+## 2026-09-26 | ingest | SEO Fundamentals: 3-page foundation layer
+Ingested 20+ beginner's guide sources on technical SEO, keyword research, and content optimization
+(official material from Google Search Central, Ahrefs, and general SEO industry guides). Created new
+subsection [[framework/seo-fundamentals/]] as a separate "theoretical foundations" tier—distinct from
+tactical pages to clarify that these are reference/conceptual knowledge, not action items. Created
+three new pages: (1) [[framework/seo-fundamentals/technical-seo.md]] — crawlability, indexability,
+ranking signals, Core Web Vitals; (2) [[framework/seo-fundamentals/keyword-research.md]] — search
+volume, intent, difficulty, tools, keyword research process; (3) [[framework/seo-fundamentals/content-optimization.md]]
+— relevance, authority, structure, SEO copywriting, content depth. Each page clearly marks itself
+as theoretical foundation and cross-links to related tactical pages for practical application.
+Updated [[index.md]] to add new Foundations section and explain the distinction. Rationale: tactical
+pages focus on "rank a client's site for a keyword"; foundations answer "why does that work?" Keeping
+them separate preserves the operational/reference distinction and prevents wiki dilution when new
+tactical calls arrive.
+Pages touched: [[framework/seo-fundamentals/technical-seo.md]], [[framework/seo-fundamentals/keyword-research.md]],
+[[framework/seo-fundamentals/content-optimization.md]], [[index.md]], [[log.md]]
