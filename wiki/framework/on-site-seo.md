@@ -2,9 +2,10 @@
 type: framework
 client: none
 status: active
-updated: 2026-09-04
+updated: 2026-09-25
 sources:
   - "raw/framework/On-Page SEO Content Frameworks - How To Structure On-Page SEO Content · AI SEO Rank Expand Academy.md"
+  - "general SEO knowledge (not raw-sourced) — see traceability note in Meta Descriptions section below"
 ---
 
 # On-Site SEO — Content Structure
@@ -128,6 +129,48 @@ For location or service pages, structure becomes even more critical because AI O
 - Related services (cross-links to other pages)
 - Company history/credentials (LocalBusiness schema)
 - Customer reviews (aggregate rating schema)
+
+---
+
+---
+
+## Meta Descriptions: Town Lists — State Abbreviation or Not?
+
+> *Not sourced from a raw capture — general SEO knowledge, flagged here for
+> traceability (same convention as the GBP-verification note in
+> [`local-seo-checklist.md`](local-seo-checklist.md) and the OG-tags page,
+> [`open-graph-and-metadata.md`](open-graph-and-metadata.md)).*
+
+**Question:** Services/Service-Area meta descriptions list towns without the
+state ("Hanover, Littlestown" instead of "Hanover, PA, Littlestown, PA") — is
+that a problem?
+
+**Short answer: generally fine, with one caveat.**
+
+- Meta descriptions are **not a direct Google ranking signal** — Google often
+  rewrites/truncates them anyway. Their job is influencing **CTR** in the SERP
+  snippet, not indexing or geo-relevance scoring.
+- Character budget matters more than repetition: meta descriptions truncate
+  around ~155–160 characters. Dropping the repeated ", PA" after every town
+  buys room to list more towns or add a stronger CTA — which helps CTR.
+- The actual geo/entity signal for rankings and AI Overviews comes from
+  elsewhere on the page: H1, body copy, `LocalBusiness`/`Service` schema
+  (`areaServed`), URL structure, and GBP service areas (see entity-signals
+  guidance above and in `local-seo-checklist.md` §4–5). As long as the state
+  appears in those places, the meta description doesn't need to repeat it.
+
+**Caveat — town-name collisions:** if a town name is common across multiple
+states (Hanover, Springfield, Franklin, Clinton, etc.), dropping the state
+removes the only disambiguating signal in that snippet — a real risk if the
+description is read out of context (e.g., surfaced in an AI Overview outside
+the local search context). For unambiguous/small town names, this risk is
+negligible.
+
+**Recommendation:** keep the state at least once per description (e.g.,
+"...serving Hanover, Littlestown & nearby PA towns") rather than dropping it
+entirely — cheaper on character budget than repeating "PA" after every town,
+but preserves the geo anchor. Always confirm schema/H1/body still carry full
+"Town, State" pairs regardless of what the meta description does.
 
 ---
 

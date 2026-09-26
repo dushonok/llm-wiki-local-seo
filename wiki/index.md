@@ -7,13 +7,13 @@ added or removed (see AGENTS.md §6, Ingest). Grouped by section.
 General SEO/local SEO knowledge, not tied to a client.
 
 ### Technical SEO & AI Optimization
-- [on-site-seo.md](framework/on-site-seo.md) — Content structure recipe (title, lead-in, answer, H2s, entity signals) that ranks fast
+- [on-site-seo.md](framework/on-site-seo.md) — Content structure recipe (title, lead-in, answer, H2s, entity signals) that ranks fast; incl. meta-description town-list/state-abbreviation guidance
 - [backlinks.md](framework/backlinks.md) — stub, not yet populated
 - [ai-overviews-local-search.md](framework/ai-overviews-local-search.md) — How AI Overviews reshape local intent and visibility above map packs
 - [local-seo-checklist.md](framework/local-seo-checklist.md) — 7-part checklist to optimize for AI Overviews + skill-level next steps (Beginner/Intermediate/Advanced)
 - [getting-cited-by-ai.md](framework/getting-cited-by-ai.md) — 5 moves to get cited by ChatGPT/Gemini (invisible URLs, social mentions, listicles, expired domains, profiles page)
 - [fan-out-queries-and-ais.md](framework/fan-out-queries-and-ais.md) — Why ranking for fan-out queries boosts AIO citations (0.77 correlation); topical authority strategy
-- [external-seo-microsite-tactics.md](framework/external-seo-microsite-tactics.md) — 5 external SEO levers for fast-ranking microsites (expired-domain sponsorships, NAP citations, AI-citation targeting, listicles, social proof); citations process, VA delegation, location-page strategy
+- [external-seo-microsite-tactics.md](framework/external-seo-microsite-tactics.md) — 5 external SEO levers for fast-ranking microsites (expired-domain sponsorships, NAP citations, AI-citation targeting, listicles, social proof); citations process, VA delegation, location-page strategy; safe-vs-risky rebuild framework for updating an already-ranking site with a new builder version
 - [citations-strategy.md](framework/citations-strategy.md) — Citations spectrum (real NAP vs. created address vs. none); strategy by situation; Wikipedia opportunity engine; legal considerations
 - [ai-reliability-and-context.md](framework/ai-reliability-and-context.md) — Fixing context overload; multi-agent architecture (Paperclip); WikiLLM memory setup; guardrails + version control
 - [open-graph-and-metadata.md](framework/open-graph-and-metadata.md) — OG tags aren't a ranking factor; low-priority polish for social CTR + AI/citation fallback
