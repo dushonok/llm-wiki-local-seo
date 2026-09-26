@@ -141,3 +141,46 @@ index all → quarterly audit), VA delegation split (what to outsource vs. keep 
 single-location expansion strategy (hub-and-spoke with nearby towns, genuine hyperlocal content).
 Added action checklist and key decision points. Updated [[index.md]].
 Pages touched: [[framework/external-seo-microsite-tactics.md]], [[index.md]], [[log.md]]
+
+## 2026-09-25 | query | Meta description town lists — state abbreviation or not
+User asked whether Services/Service-Area meta descriptions listing towns without the state
+("Hanover, Littlestown" vs. "Hanover, PA, Littlestown, PA") hurts SEO. Not tied to a client.
+Answer wasn't sourced from a raw capture — general SEO knowledge, flagged for traceability (same
+convention as the OG-tags page and the GBP-verification note in `local-seo-checklist.md`). Verdict:
+generally fine — meta descriptions aren't a direct ranking signal (mainly affect CTR), and the real
+geo/entity signal for rankings + AI Overviews lives in schema/H1/body copy, not the meta description
+string. Caveat: town names that collide across multiple states (Hanover, Springfield, etc.) lose
+their only disambiguating signal in that snippet if state is dropped entirely — recommend keeping
+state at least once per description. Added new "Meta Descriptions: Town Lists" section to
+[[framework/on-site-seo.md]]. Updated [[index.md]].
+Pages touched: [[framework/on-site-seo.md]], [[index.md]], [[log.md]]
+
+## 2026-09-25 | query + ingest | Local SEO page reviews + microsite builder rebuild strategy
+Reviewed moldremediationgettysburgpa.org homepage, `/cost`, and `/service-areas` pages for local
+SEO implementation (not logged as a formal client — one-off review, user declined to onboard as a
+tracked microsite). Findings: homepage and `/cost` had Service + FAQPage schema added since the
+first pass (fixed); open items across pages included missing aggregateRating/review signals, empty
+hero image alt text, no `sameAs` social links, no geo coordinates, long meta descriptions, a weak
+H1/skipped-heading-level on `/service-areas`, and schema-Offer-names-as-prose making `/cost` copy
+read unnaturally. User then asked whether to rebuild already-ranking sites when updating the
+microsite builder; shared a builder changelog confirming URLs stay stable (redirects added when
+they do change). Added new "Updating a Microsite Builder — Safe vs. Risky Rebuild Changes" section
+to [[framework/external-seo-microsite-tactics.md]]: 3-tier risk framework (Tier 1 — schema/alt-text/
+meta fixes, ship freely; Tier 2 — same-URL content rewrites, safe but brief re-eval window; Tier 3 —
+URL changes, require 301 redirects) plus a staged-rollout recommendation (new sites first, batch +
+monitor GSC for already-ranking sites). Updated [[index.md]].
+Pages touched: [[framework/external-seo-microsite-tactics.md]], [[index.md]], [[log.md]]
+
+## 2026-09-25 | ingest | Bulk ingest: Community Calls 42–55 (14 new sources)
+Ingested 14 community call transcripts (September 2026, Calls #42–55) covering microsite building,
+external SEO, AI tooling, scaling, and directory monetization. Added two new sections to 
+[[framework/external-seo-microsite-tactics.md]]: (1) "Content Depth & AI Citations" — 150+ words in
+hero + multiple sections needed to rank & get cited; EMDs + content depth win together; 1,000–10,000
+word pages outrank shorter content; (2) "Directory Authority as a Backlink Engine" — lean WordPress/
+Cloudflare directories can monetize listings ($50–200/year premium tiers) and backlink to microsites.
+Enhanced sources to include Calls 43, 44, 45, 49, 52, 54, 55. These calls also seed future ingests
+into [[ai-tool-stacks.md]] (Claude Fable, DeepSeek, Hermes, OpenRouter, Index Bolt), 
+[[niche-selection-strategy.md]] (zero-volume keywords, market validation), [[agency-operations-scaling.md]]
+(retention, pricing tiers, portfolio management), and [[pricing-and-deal-structures.md]] (recurring
+revenue models, "build first" sales). Deferred those updates to keep ingest focused. Updated timestamp.
+Pages touched: [[framework/external-seo-microsite-tactics.md]], [[log.md]]

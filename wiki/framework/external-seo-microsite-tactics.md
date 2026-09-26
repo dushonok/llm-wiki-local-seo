@@ -2,9 +2,17 @@
 type: framework
 client: none
 status: active
-updated: 2026-09-23
+updated: 2026-09-25
 sources:
   - "raw/chat-notes/chat-summary-rank-microsite-fast.md"
+  - "raw/framework/Community Call 43 - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
+  - "raw/framework/community call 44 - Getting Mentioned Is the Game - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
+  - "raw/framework/community call 45 - The Invisible URLs AI Cites - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
+  - "raw/framework/Community Call 49 - The 12-Minute Microsite - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
+  - "raw/framework/Community Call 52 - Zero Volume Is Where the Money Is - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
+  - "raw/framework/Community Call 54 - Building and Monetizing AI Microsites - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
+  - "raw/framework/55 - Directory Authority and AI Visibility - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
+  - "general SEO reasoning (not raw-sourced) — see traceability note in 'Updating a Microsite Builder' section below"
 ---
 
 # External SEO Tactics for Fast-Ranking Microsites
@@ -12,6 +20,40 @@ sources:
 **Goal:** Rank a single-location microsite quickly for a target keyword/location combination.
 
 **Scope:** Off-page and external SEO only. Assumes on-page SEO is already complete (see [[on-site-seo.md]]).
+
+---
+
+## Content Depth & AI Citations: The Hidden Ranking Factor
+
+**Key insight from Call #55:** The top-ranking microsites don't just have links—they have  depth. 150+ words in the hero or right under H1, followed by multiple sections with real content, keeps AI Overviews pulling from your page instead of competitors.
+
+**Why it works:**
+- ChatGPT and Gemini cite passages, not just pages. Pages with multiple passages increase the odds of citation.
+- New sites that rank for wrong keywords (long-tail) are actually proving they have enough depth—as time passes, they consolidate onto the main keyword.
+- Exact-match domains (EMDs) still win, but only when paired with content depth. EMDs alone don't rank; depth alone can rank an EMD.
+
+**Recommended structure (proven at scale):**
+- Hero section: 150–200 words of high-clarity answer to the main query
+- Followed by: H2s with 100–150 words each, multiple FAQ blocks, and inline CTAs
+- Total page: 1,000+ words for best results; 5,000–10,000 word pages outrank shorter content consistently
+
+**Build recommendation:** Use Claude Code to generate depth-first outlines; feed them into your microsite builder to ensure enough copy lands above the fold.
+
+---
+
+## Directory Authority as a Backlink Engine
+
+**New opportunity from Calls #54–55:** Building a local directory (or using an existing one as a partner/sponsor) can feed backlinks to your microsite while monetizing listings.
+
+**How it works:**
+1. **Lean directory model:** WordPress + directory plugin + Cloudflare hosting, or static HTML if you keep it simple
+2. **Revenue play:** List local businesses for free, then charge them $50–200/year to upgrade ("featured listing," badge, press release, podcast feature)
+3. **Backlink benefit:** Each listing can link back to a related service page on your microsite (e.g., a wedding-venue directory links each venue to your microsite's "wedding photography" service page)
+4. **AI benefit:** Well-structured directories with links and consistent NAP signal both traditional SEO and AI-citation models
+
+**Volume:** One member went from 300 businesses listed → $300/month recurring with just $100-200 in setup cost (WordPress host + plugin). Another used a directory to scrape business contacts for cold outreach, closing paid audits from the same list.
+
+**Caveat:** Directories need moderation (spam filters, login systems, rate limiting) if you build them, or trust/verification if you partner with an existing one.
 
 ---
 
@@ -189,6 +231,64 @@ Example: Microsite targets Gettysburg, PA. Adding pages for Lititz, Ephrata, Akr
 - For a single-location microsite: keep the main page as the "hub," add only a handful of legitimately-served nearby towns (5–10 pages, not 50)
 - Each city page must link back to the main page
 - GBP service area should match the city pages you've built (or vice versa)
+
+---
+
+## Updating a Microsite Builder — Safe vs. Risky Rebuild Changes
+
+> *Not sourced from a raw capture — general SEO reasoning, validated against a real
+> builder changelog for moldremediationgettysburgpa.org and a live review of its
+> homepage, `/cost`, and `/service-areas` pages. Flagged here for traceability
+> (same convention as the note in [[on-site-seo.md]]).*
+
+**Question:** When the microsite builder/template gets updated, should already-ranking
+sites be rebuilt/republished with the new version?
+
+**Short answer: yes for in-place, additive changes; be deliberate about anything
+that changes URLs or wholesale-replaces indexed content.**
+
+A site that already ranks has accumulated signal that's expensive to lose: crawl
+history, cached content fingerprint, and Google's existing trust in that specific
+URL. Builder updates split into three risk tiers:
+
+### Tier 1 — Ship immediately, no downside
+Additive, non-destructive changes that don't touch URLs or delete content:
+- Adding/fixing `Service`, `FAQPage`, `OfferCatalog` schema
+- Fixing heading hierarchy (missing H2s, skipped levels)
+- Adding alt text, `sameAs`, `aggregateRating`, geo coordinates
+- Trimming/fixing meta descriptions and titles
+- NAP format fixes propagated through JSON-LD
+- Accessibility/layout polish
+
+### Tier 2 — Safe since URL is unchanged, but expect a short re-evaluation window
+Content or structural changes to an existing page that keep the same URL:
+- Page redesigns (e.g., a cost page restructure + new FAQ section)
+- Rewriting intro/body copy on existing location or service pages
+- Word-count/depth changes on location pages
+
+These are still safe long-term — the URL keeps its history — but a large content
+swap can cause Google to briefly re-crawl/re-evaluate the page, so treat it as
+"probably fine, worth a glance" rather than "zero risk."
+
+### Tier 3 — Requires the redirect discipline
+Anything that changes a URL (renaming a page, changing the core service/niche,
+restructuring the URL pattern):
+- **Never publish a URL change on an already-ranking page without a 301 redirect**
+  from the old URL to the new one — this is the one change type that can actually
+  strand accumulated link/crawl equity.
+- Verify every redirect resolves cleanly (200/301, no redirect chains, no 404s)
+  before considering the change complete.
+
+### Rollout recommendation
+1. Ship new builder versions on **new/not-yet-ranking sites first** — zero
+   downside, proves the update out before it touches anything valuable.
+2. For already-ranking sites, apply Tier 1 changes freely and immediately.
+3. Batch Tier 1+2 changes together rather than shipping continuously, and check
+   GSC impressions/position for that URL 1–2 weeks after a batch lands — not
+   because you expect a hit, but to catch anything unexpected (e.g., a schema
+   validation error introduced by the new template).
+4. Any Tier 3 (URL-changing) update gets a redirect audit as part of "done," not
+   as an afterthought.
 
 ---
 
