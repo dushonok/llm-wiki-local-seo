@@ -2,7 +2,7 @@
 type: framework-foundation
 client: none
 status: active
-updated: 2026-09-26
+updated: 2026-09-29
 sources:
   - "raw/framework/1. SEO Fundamentals - Learn How to Optimize your Content - Content optimization.md"
   - "raw/framework/1. SEO Fundamentals - Learn How to Optimize your Content - SEO Copywriting 4 Steps to Write Commercial Pages That Get Visibility.md"
@@ -170,6 +170,31 @@ Word count: 800–1,200 words
 - Add structured data (FAQPage schema, Service schema)
 - Link to authoritative sources (adds credibility for AI)
 
+#### FAQ Formatting: Flat vs. Accordion
+
+> **Note:** Not sourced from a raw ingest — this is agent-synthesized general SEO/AI-answer-engine
+> knowledge (2026-09-29), flagged here per the traceability rule since it's not backed by a file in
+> `raw/`. Treat with the same scrutiny as an unsourced claim until a client/competitor capture
+> confirms or contradicts it.
+
+Default to **flat, visible FAQ text** over collapsed accordions, especially on pages meant to
+earn AI citations:
+
+- **AI/LLM crawlers extract passages, not interactions.** ChatGPT/Perplexity/AI Overview
+  systems generally pull text from a static or rendered HTML snapshot. If an accordion injects
+  the answer into the DOM only on click (common in JS-heavy frameworks), there's no text present
+  to extract or cite — the passage effectively doesn't exist to the crawler.
+- **CSS-only accordions are safer, but not risk-free.** If the full answer is already in the
+  HTML and just visually hidden (`<details>/<summary>`, `display:none`), Google generally still
+  indexes it — but visible text is more reliably picked up for featured snippets / PAA than
+  hidden text.
+- **Short FAQ blocks don't need the UX tradeoff.** This wiki's own templates call for 5–7
+  questions per page (see checklist below and `on-site-seo.md` §8) — short enough that flat
+  display costs little in visual clutter but removes all rendering risk.
+- **Rule of thumb:** if an accordion is used for length reasons on a long FAQ page, verify the
+  answer text is server-rendered into the initial HTML rather than injected client-side on
+  interaction.
+
 ### Step 7: Refresh & Update
 Content gets stale. Update quarterly or when:
 - Prices change
@@ -274,6 +299,7 @@ Why Burst Pipes Are Dangerous
 - [ ] Includes 2–3 relevant images (with alt text)
 - [ ] Word count: 300+ for thin pages, 800+ for service pages, 1,000+ for guides
 - [ ] Includes schema markup (LocalBusiness, Service, FAQPage, etc.)
+- [ ] FAQ answers are flat/visible (or, if accordion, answer text is server-rendered — not JS-injected on click)
 - [ ] Meta description is unique and <160 characters
 - [ ] Includes internal links to related pages
 - [ ] Includes external links to authoritative sources

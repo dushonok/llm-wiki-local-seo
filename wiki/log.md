@@ -201,3 +201,33 @@ them separate preserves the operational/reference distinction and prevents wiki 
 tactical calls arrive.
 Pages touched: [[framework/seo-fundamentals/technical-seo.md]], [[framework/seo-fundamentals/keyword-research.md]],
 [[framework/seo-fundamentals/content-optimization.md]], [[index.md]], [[log.md]]
+
+## 2026-09-28 | query | Upwork proposal for a plumbing-GBP job (cross-wiki request)
+A separate Upwork-pitching wiki (C:\Projects\llm-wiki-upwork) asked me to redraft a mock
+job pitch ("Local SEO for Plumbing Business," Dallas TX, GBP not ranking for "emergency
+plumber Dallas") using this wiki's framework knowledge. Synthesized from
+[[framework/local-seo-checklist.md]] (GBP verification-as-gate, GBP checklist items,
+schema requirements), [[framework/on-site-seo.md]] (location-page structure recipe —
+answer in the first ~50 words), [[framework/ai-overviews-local-search.md]] (AI Overviews
+now sit above the map pack for local-intent queries), and [[framework/client-selection-filters.md]]
+(confirms plumbing/local services is a niche where SEO is genuinely the ranking lever).
+No new client or gap found — existing framework pages already covered this well, so
+nothing new was written here. The synthesized pitch itself was written into the other
+wiki's `pipeline/2026-09-23-mock-plumbing-dallas.md`, not into this wiki.
+Pages touched: [[log.md]] (read-only query against existing framework pages; none modified)
+
+## 2026-09-29 | query + ingest | Flat FAQ text vs. accordion FAQs
+User asked why FAQ answers should be flat/visible on the page rather than collapsed in an
+accordion. Checked `wiki/index.md` and searched all framework pages — no existing page covered
+this. Also checked the two new unfiled clippings sitting at repo root (`Clippings/How to Write
+Title Tags for SEO.md`, `Clippings/Small moves no moves (website updates)...md`) — neither
+touches FAQ formatting, so no raw source to cite. Answered from general SEO/AI-answer-engine
+knowledge (AI/LLM crawlers extract passages from static/rendered HTML; JS-injected-on-click
+accordion answers may not exist in the DOM to extract; CSS-only accordions are safer but visible
+text is still more reliably picked up for snippets/PAA). User asked to file it, so it was added
+to [[framework/seo-fundamentals/content-optimization.md]] under Step 6 (AI Citations) as a new
+"FAQ Formatting: Flat vs. Accordion" subsection, explicitly flagged as unsourced/agent-synthesized
+per the traceability rule (no `raw/` file backs this claim yet). Also added a checklist line.
+Note: the two Clippings files remain un-ingested — not yet moved into `raw/framework/` or filed
+into the wiki; flagging for a future ingest pass if the user wants them processed.
+Pages touched: [[framework/seo-fundamentals/content-optimization.md]], [[log.md]]
