@@ -2,9 +2,10 @@
 type: framework
 client: none
 status: active
-updated: 2026-09-25
+updated: 2026-09-29
 sources:
   - "raw/framework/On-Page SEO Content Frameworks - How To Structure On-Page SEO Content · AI SEO Rank Expand Academy.md"
+  - "raw/framework/Small moves  no moves (website updates) - AI SEO Rank Expand Academy.md"
   - "general SEO knowledge (not raw-sourced) — see traceability note in Meta Descriptions section below"
 ---
 
@@ -19,6 +20,16 @@ On-page SEO is not about writing more — it's about **structuring information c
 - The *top section of your page carries the most weight*
 
 Get structure right → rank quickly. Get it wrong → good content still won't perform.
+
+---
+
+## Sidebar: Small Moves > No Moves (Iteration Over Perfection)
+
+> **Real example:** A law firm owner spent a year planning a website redesign. It felt too big, so he shelved it. After getting an unqualified lead, he realized his old copy was attracting the wrong work. Instead of the whole-house rebuild, he made the smallest rewrite possible: clarify "what we do" and "who we serve," rewrite from the visitor's POV (less explaining), keep copy short and tight. Two one-hour sessions over two days. Result: A "cold" inquiry for exactly the work he wanted to grow.
+>
+> **Key insight:** Small incremental improvements beat waiting for the perfect redesign. Start with the smallest change that points you in the right direction. Iterate. Let future work show you what to optimize next.
+
+**For microsites:** Don't wait for the perfect 10,000-word page. Ship 1,500 words, get traffic data, see which questions the search data reveals, then deepen those sections. The process compounds: small moves → clarity → better positioning → more qualified leads → then optimize deeper.
 
 ---
 

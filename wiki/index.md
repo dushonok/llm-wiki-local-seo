@@ -9,12 +9,14 @@ added or removed (see AGENTS.md §6, Ingest). Grouped by section.
 - [technical-seo.md](framework/seo-fundamentals/technical-seo.md) — How search engines crawl, index, and rank; crawlability, indexability, ranking signals, Core Web Vitals
 - [keyword-research.md](framework/seo-fundamentals/keyword-research.md) — What keyword research is; search volume, intent, difficulty, tools; keyword research process
 - [content-optimization.md](framework/seo-fundamentals/content-optimization.md) — How to create content that ranks; relevance, authority, structure; SEO copywriting principles
+- [title-tags.md](framework/seo-fundamentals/title-tags.md) — What title tags are; why they matter for ranking and CTR; best practices and common mistakes
 
 ## framework/
 General SEO/local SEO knowledge, not tied to a client.
 
 ### Technical SEO & AI Optimization
-- [on-site-seo.md](framework/on-site-seo.md) — Content structure recipe (title, lead-in, answer, H2s, entity signals) that ranks fast; incl. meta-description town-list/state-abbreviation guidance
+- [on-site-seo.md](framework/on-site-seo.md) — Content structure recipe (title, lead-in, answer, H2s, entity signals) that ranks fast; incl. meta-description town-list/state-abbreviation guidance; sidebar on small moves vs. waiting for perfection
+- [microsite-launch-checklist.md](framework/microsite-launch-checklist.md) — Pre-launch validation checklist (domain, sitemap, canonicals, broken links, schema, mobile, GSC setup); real case study of sitemap domain error
 - [backlinks.md](framework/backlinks.md) — stub, not yet populated
 - [ai-overviews-local-search.md](framework/ai-overviews-local-search.md) — How AI Overviews reshape local intent and visibility above map packs
 - [local-seo-checklist.md](framework/local-seo-checklist.md) — 7-part checklist to optimize for AI Overviews + skill-level next steps (Beginner/Intermediate/Advanced)
@@ -31,7 +33,7 @@ General SEO/local SEO knowledge, not tied to a client.
 - [agency-operations-scaling.md](framework/agency-operations-scaling.md) — Moving from solo doer to system operator; Loom training, boundaries, documentation for delegation
 - [pricing-and-deal-structures.md](framework/pricing-and-deal-structures.md) — 11 pricing plays and deal structures (per-lead, retainers, stacking, contracts, hourly design)
 - [client-selection-filters.md](framework/client-selection-filters.md) — 4 filters to pick clients that stick (expertise respect, review count, volume capacity, niche leverage)
-- [sales-and-lead-generation.md](framework/sales-and-lead-generation.md) — 3 approaches when cold outreach feels dead (human touch, specific hooks, channel stacking)
+- [sales-and-lead-generation.md](framework/sales-and-lead-generation.md) — 4 approaches to get clients: human touch, specific hooks, channel stacking, Google Maps prospecting (find businesses with SEO gaps before they post jobs)
 - [client-retention-strategies.md](framework/client-retention-strategies.md) — Relationship strength, visible work proof, service intertwining for long-term retention
 
 ## clients/

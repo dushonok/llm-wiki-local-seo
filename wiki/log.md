@@ -231,3 +231,22 @@ per the traceability rule (no `raw/` file backs this claim yet). Also added a ch
 Note: the two Clippings files remain un-ingested — not yet moved into `raw/framework/` or filed
 into the wiki; flagging for a future ingest pass if the user wants them processed.
 Pages touched: [[framework/seo-fundamentals/content-optimization.md]], [[log.md]]
+
+## 2026-09-29 | ingest | 4 new sources: Title Tags, Sitemap QA, Small Moves, Google Maps Prospecting
+Ingested 4 new sources covering title-tag fundamentals, pre-launch technical validation, iteration
+mindset, and local client prospecting. (1) Created [[framework/seo-fundamentals/title-tags.md]] from
+Ahrefs guide on title-tag best practices: keyword placement, length (50–60 chars), CTR impact, common
+mistakes across 1M+ domains, process for optimizing. (2) Created [[framework/microsite-launch-checklist.md]]
+from real case study (Day 37 Longueuil French-drain site): pre-launch checklist covering infrastructure
+(domain/hostname verification, sitemap validation, canonical tags), content & schema, performance,
+mobile, GSC setup, GBP alignment, security, analytics, and final launch steps. (3) Enhanced [[framework/on-site-seo.md]]
+with sidebar "Small Moves > No Moves" emphasizing iteration over waiting for perfect redesigns; real
+example of law firm owner: 1 year of planning shelved → 2 one-hour sessions → qualified leads. (4) Expanded
+[[framework/sales-and-lead-generation.md]] with new Approach #4: Google Maps prospecting—finding
+businesses with SEO/marketing gaps (reviews, website, local SEO, schema) before they post jobs;
+outreach process with real phone scripts; monetization options (retainer, lead share, microsite);
+success signals from community (82yo parent closing audits daily, 4 closures in 1 week). Updated
+[[framework/seo-fundamentals/]] reference in [[index.md]] to add title-tags; updated [[on-site-seo.md]]
+and [[sales-and-lead-generation.md]] sources and descriptions.
+Pages touched: [[framework/seo-fundamentals/title-tags.md]], [[framework/microsite-launch-checklist.md]],
+[[framework/on-site-seo.md]], [[framework/sales-and-lead-generation.md]], [[index.md]], [[log.md]]
