@@ -2,7 +2,7 @@
 type: framework
 client: none
 status: active
-updated: 2026-09-29
+updated: 2026-10-01
 sources:
   - "raw/framework/On-Page SEO Content Frameworks - How To Structure On-Page SEO Content · AI SEO Rank Expand Academy.md"
   - "raw/framework/Small moves  no moves (website updates) - AI SEO Rank Expand Academy.md"
@@ -182,6 +182,54 @@ negligible.
 entirely — cheaper on character budget than repeating "PA" after every town,
 but preserves the geo anchor. Always confirm schema/H1/body still carry full
 "Town, State" pairs regardless of what the meta description does.
+
+---
+
+## Diagnostic Pattern: Legal/Boilerplate Page Outranking the Service Page
+
+> *Not sourced from a raw capture — general SEO diagnostic reasoning, flagged
+> here for traceability (same convention as the other general-knowledge
+> sections in this file).*
+
+**Symptom:** Rank tracking shows a legal/boilerplate page (`/complaints-policy`,
+`/disclaimer`, `/terms`, `/privacy`, `/accessibility`) as the site's best — or
+only — result for *hyperlocal commercial terms*, while the page actually built
+for that service/location sits far down the results (e.g., policy page on
+page 1 for 7 target terms; the real service pages at #54–#55 for the same
+terms).
+
+**Why it happens:** Usually not pure "competition" between the two pages — it's
+a signal-mismatch problem:
+- **Internal link anchor text** disproportionately points keyword-rich anchors
+  at the policy page (e.g., a footer link) while the service pages get generic
+  anchor text ("Learn more") or thin internal linking.
+- **Service page content is weak** relative to the query — thin, missing
+  entity signals (neighborhood/ZIP/landmark), weak title/H1, no schema — so
+  Google has little to work with even once the competing page is removed.
+
+**Fix (don't just noindex and stop):**
+1. **Noindex the legal/boilerplate pages** — add
+   `<meta name="robots" content="noindex, follow">` (not a `robots.txt`
+   disallow — that would stop Google from seeing the tag and from passing
+   link equity through). These pages have no commercial search demand of
+   their own, so there's no downside to deindexing them. Keep them live and
+   linked normally; this is an indexing decision, not a visibility/compliance
+   one.
+2. **Redirect internal-link anchor text** — point the hyperlocal commercial
+   anchors that were landing on the policy page toward the actual service
+   pages instead.
+3. **Rebuild the service pages against the Content Structure Recipe above**
+   (title, lead-in, answer paragraph, entity signals, schema) — a page
+   ranking #54–55 for its own target term almost always has a content/entity
+   gap, not just a cannibalization problem.
+4. **Request re-crawl via GSC URL Inspection** for both the noindexed pages
+   and the rebuilt service pages to speed up reprocessing.
+5. **Monitor rank tracker 2–4 weeks** — noindex + content fixes aren't
+   instant; give Google time to re-evaluate which page should rank.
+
+**Takeaway:** noindexing the legal pages is correct and low-risk, but it only
+removes a false competitor — it doesn't guarantee the service page wins the
+slot unless the anchor-text and content gaps are fixed too.
 
 ---
 

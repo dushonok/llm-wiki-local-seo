@@ -250,3 +250,63 @@ success signals from community (82yo parent closing audits daily, 4 closures in 
 and [[sales-and-lead-generation.md]] sources and descriptions.
 Pages touched: [[framework/seo-fundamentals/title-tags.md]], [[framework/microsite-launch-checklist.md]],
 [[framework/on-site-seo.md]], [[framework/sales-and-lead-generation.md]], [[index.md]], [[log.md]]
+
+## 2026-10-01 | query | Ahrefs "homepage flagged as orphan page" question
+User asked whether a homepage flagged as "orphaned" in Ahrefs Site Audit needs internal links. Answered
+that yes, homepages should receive internal links structurally (logo/nav), but confirmed this specific
+Ahrefs flag is almost always a false positive — Ahrefs' crawler starts at the homepage/sitemap, so its
+orphan-detection doesn't count the homepage as "discovered via a link" the way it does other pages.
+Gave a 3-step verification process (check logo/nav uses real `<a href>`, cross-check GSC Internal Links
+report, confirm homepage is in sitemap with correct canonical). Filed as a new subsection in
+[[framework/seo-fundamentals/technical-seo.md]] under Crawlability (general reasoning, not sourced from
+a raw capture — flagged inline per the no-unsourced-claims convention). Updated [[index.md]] one-liner.
+Pages touched: [[framework/seo-fundamentals/technical-seo.md]], [[index.md]], [[log.md]]
+
+## 2026-10-01 | query + ingest | Legal page outranking service page (noindex fix)
+User described a site-review finding (no client onboarded for this site; one-off review like the mold
+remediation case): `/complaints-policy` was the site's best/only result for 7 hyperlocal commercial
+terms, outranking the actual service pages (`/residential-sewer-line-repair` #55, `/pipe-relining` #54).
+User proposed noindexing the complaints, disclaimer, terms, privacy, and accessibility pages. Confirmed
+this is correct but incomplete — noindex (`noindex, follow`, not robots.txt disallow) removes the false
+competitor but doesn't fix the root cause: likely internal-link anchor text pointing at the policy page
+instead of the service pages, plus weak content/entity signals on the service pages themselves (a #54-55
+rank is a real content gap, not just cannibalization). Filed as a new "Diagnostic Pattern" section in
+[[framework/on-site-seo.md]] (general reasoning, not raw-sourced — flagged inline per convention) with
+the full fix sequence: noindex → redirect anchor text → rebuild service pages against the content recipe
+→ request GSC re-crawl → monitor 2-4 weeks. Updated [[index.md]] one-liner.
+Pages touched: [[framework/on-site-seo.md]], [[index.md]], [[log.md]]
+
+## 2026-10-01 | query + ingest | Ahrefs "Canonical from HTTP to HTTPS" — real issue vs. noise, verified live
+Follow-up to the homepage-orphan question. User asked about another Ahrefs flag: "Canonical from HTTP to
+HTTPS." Explained this one is usually a *real* (if minor) issue, not noise like the orphan flag — it means
+the HTTP URL is still live (`200`) and relying on the canonical tag alone instead of a server-level 301
+redirect. User's PowerShell `curl -I` failed because `curl` is aliased to `Invoke-WebRequest` there, which
+doesn't support `-I` the same way. Ran `curl.exe -I` directly against
+http://moldremediationgettysburgpa.org/ (same site as the 2026-09-25 one-off review) and confirmed: `200 OK`
+directly on HTTP, no redirect, canonical tag present pointing to HTTPS — real issue, Cloudflare not
+configured to force HTTPS at the edge. Filed as a companion "Tool Quirk (Real This Time)" subsection in
+[[framework/seo-fundamentals/technical-seo.md]] right after the orphan-homepage note: real-vs-noise triage
+steps, the live verified example, the Cloudflare "Always Use HTTPS" fix, the HTTPS→HTTP reverse-direction
+warning, and a PowerShell `curl.exe` note. Updated [[index.md]] one-liner.
+Pages touched: [[framework/seo-fundamentals/technical-seo.md]], [[index.md]], [[log.md]]
+
+## 2026-10-01 | query + ingest | HSTS sub-options (Max-Age, includeSubDomains, Preload, No-Sniff)
+Follow-up to the Cloudflare "Always Use HTTPS" fix above. User asked if HSTS needs other options.
+Explained Cloudflare's HSTS panel sub-options: Max-Age (start 6mo, bump to 12mo later — don't max out on
+day one), includeSubDomains (only safe if every subdomain supports HTTPS — no quick undo once cached),
+Preload (leave off for most client sites — months to remove once browsers pick it up, only worth it for
+sensitive-data sites), No-Sniff (safe to leave on, unrelated to HTTPS). Gave a 5-step safe rollout order.
+Expanded step 2 of the Cloudflare fix in [[framework/seo-fundamentals/technical-seo.md]] with this
+breakdown. Updated [[index.md]] one-liner.
+Pages touched: [[framework/seo-fundamentals/technical-seo.md]], [[index.md]], [[log.md]]
+
+## 2026-10-01 | query + ingest | How "Canonical from HTTP to HTTPS" affects rankings
+Follow-up to the Cloudflare fix + HSTS sections above. User asked how the HTTP-200-with-canonical-only
+issue actually affects Google rankings. Explained it's not an active penalty (canonical tag usually
+respected as a safety net) but several small, unforced leaks: duplicate-content dilution if Google ever
+indexes the HTTP duplicate anyway, crawl budget waste crawling both versions, backlink equity leakage if
+any external link points to the http:// version (canonical only *requests* consolidation, a 301
+*guarantees* it), and CTR/trust hit if anyone lands directly on the insecure URL. Added a "Does this
+actually hurt rankings?" subsection to the same Canonical HTTP→HTTPS section in
+[[framework/seo-fundamentals/technical-seo.md]]. Updated [[index.md]] one-liner.
+Pages touched: [[framework/seo-fundamentals/technical-seo.md]], [[index.md]], [[log.md]]

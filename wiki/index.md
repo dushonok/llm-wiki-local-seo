@@ -6,7 +6,7 @@ added or removed (see AGENTS.md §6, Ingest). Grouped by section.
 ## framework/seo-fundamentals/
 **Theoretical foundations** — Conceptual knowledge about how SEO works. These are reference material that inform the tactical pages below, but are not action items themselves. Useful for onboarding, building mental models, and understanding *why* specific tactics matter.
 
-- [technical-seo.md](framework/seo-fundamentals/technical-seo.md) — How search engines crawl, index, and rank; crawlability, indexability, ranking signals, Core Web Vitals
+- [technical-seo.md](framework/seo-fundamentals/technical-seo.md) — How search engines crawl, index, and rank; crawlability, indexability, ranking signals, Core Web Vitals; incl. Ahrefs "homepage flagged as orphan page" false-positive explainer + "Canonical from HTTP to HTTPS" real-vs-noise triage (Cloudflare "Always Use HTTPS" fix + HSTS rollout sub-options + ranking-impact explainer)
 - [keyword-research.md](framework/seo-fundamentals/keyword-research.md) — What keyword research is; search volume, intent, difficulty, tools; keyword research process
 - [content-optimization.md](framework/seo-fundamentals/content-optimization.md) — How to create content that ranks; relevance, authority, structure; SEO copywriting principles
 - [title-tags.md](framework/seo-fundamentals/title-tags.md) — What title tags are; why they matter for ranking and CTR; best practices and common mistakes
@@ -15,7 +15,7 @@ added or removed (see AGENTS.md §6, Ingest). Grouped by section.
 General SEO/local SEO knowledge, not tied to a client.
 
 ### Technical SEO & AI Optimization
-- [on-site-seo.md](framework/on-site-seo.md) — Content structure recipe (title, lead-in, answer, H2s, entity signals) that ranks fast; incl. meta-description town-list/state-abbreviation guidance; sidebar on small moves vs. waiting for perfection
+- [on-site-seo.md](framework/on-site-seo.md) — Content structure recipe (title, lead-in, answer, H2s, entity signals) that ranks fast; incl. meta-description town-list/state-abbreviation guidance; sidebar on small moves vs. waiting for perfection; diagnostic pattern for legal/boilerplate page outranking the service page (noindex + anchor-text fix)
 - [microsite-launch-checklist.md](framework/microsite-launch-checklist.md) — Pre-launch validation checklist (domain, sitemap, canonicals, broken links, schema, mobile, GSC setup); real case study of sitemap domain error
 - [backlinks.md](framework/backlinks.md) — stub, not yet populated
 - [ai-overviews-local-search.md](framework/ai-overviews-local-search.md) — How AI Overviews reshape local intent and visibility above map packs
