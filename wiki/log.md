@@ -251,6 +251,25 @@ and [[sales-and-lead-generation.md]] sources and descriptions.
 Pages touched: [[framework/seo-fundamentals/title-tags.md]], [[framework/microsite-launch-checklist.md]],
 [[framework/on-site-seo.md]], [[framework/sales-and-lead-generation.md]], [[index.md]], [[log.md]]
 
+## 2026-10-02 | ingest | 3 new sources: 20 Q&As, Bryan's case study, Web 2.0 vendors
+Ingested 3 sources covering community Q&As, real microsite execution, and citation vendor guidance.
+(1) Created [[framework/microsite-qa-reference.md]] from "We Answered Every Question You Asked This Week"
+community Q&A, capturing 20 practical questions organized by topic: keyword research (zero volume
+myth, tool accuracy, product testing, vertical vs. geography), domain setup (EMDs, domain selection,
+design consistency), GBP (buying profiles, categories over reviews, keyword names), backlinks (quality
+over volume, niche fit), getting started (build first positioning, non-technical approach). Each answer
+is field-tested and includes key insights. (2) Enhanced [[framework/external-seo-microsite-tactics.md]]
+with "Case Study: Building a Real Microsite" (launchwithbryan.com, New Jersey): <$200 setup (incorporated
+business + 50 citations), 400+ pages indexed, 3-step funnel (free offer → GBP education → CRM VSL),
+11-email sequence feeding YouTube channel, key insight = the list is the real asset, not the free offer.
+(3) Expanded [[framework/citations-strategy.md]] with two new sections: "Web 2.0 & Foundational Links"
+(what they are, where to find them on Fiverr using "foundational links" search, vetting vendors via Ahrefs,
+cost $20–$100, warnings about PBN farms); "Brave Browser Citations" (why Brave matters since Claude uses
+it, manual URL submission process, no cost but adds AI visibility). Updated sources and timestamps for
+both pages. Updated [[index.md]] with new page entry and enhanced descriptions.
+Pages touched: [[framework/microsite-qa-reference.md]], [[framework/external-seo-microsite-tactics.md]],
+[[framework/citations-strategy.md]], [[index.md]], [[log.md]]
+
 ## 2026-10-01 | query | Ahrefs "homepage flagged as orphan page" question
 User asked whether a homepage flagged as "orphaned" in Ahrefs Site Audit needs internal links. Answered
 that yes, homepages should receive internal links structurally (logo/nav), but confirmed this specific

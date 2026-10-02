@@ -2,7 +2,7 @@
 type: framework
 client: none
 status: active
-updated: 2026-09-18
+updated: 2026-10-02
 sources:
   - "raw/framework/Citations for R&R Microsites -  AI SEO Rank Expand Academy.md"
   - "raw/framework/🆕 Wikipedia Citation Opportunity Engine - ⚡ AI Tools & Workflows · AI SEO Rank Expand Academy.md"
@@ -12,6 +12,8 @@ sources:
   - "raw/framework/Citations - Sheet1.csv"
   - "raw/framework/List Of Citations for Australia and some international · AI SEO Rank Expand Academy.md"
   - "raw/framework/Citations from Fiverr company SEO Agency @mason_fik.md"
+  - "raw/framework/Web 2.0 Vendors · AI SEO Rank Expand Academy.md"
+  - "raw/framework/Submit To Brave, One URL At A Time - Citations - AI SEO Rank Expand Academy.md"
 ---
 
 # Citations Strategy
@@ -303,6 +305,55 @@ But when citations are available, they matter for local ranking signals and trus
 - Identify which Fiverr citation sites overlap with your manual citation strategy
 - Find gaps: citations NOT in the Fiverr package that you could build manually for competitive advantage
 - Validate: Many of these sites are tier 2–3 (not the highest authority), so don't rely on Fiverr citations alone
+
+---
+
+## Web 2.0 & Foundational Links (Tier 2 Strategy)
+
+**What are Web 2.0 links?**
+
+Web 2.0 links are links from user-generated content platforms (free blog networks, profile sites, social platforms) that point *to your citations* (not directly to your main site). They "power up" your citation authority.
+
+**Strategy:**
+- Build citations on Tier 1–2 platforms (Yelp, BBB, YellowPages, etc.)
+- Buy Web 2.0/foundational links pointing to those citations
+- This indirect link-building approach protects your main domain from overoptimization while boosting your citation authority
+
+**Where to Find Web 2.0 Vendors:**
+
+**Fiverr (Recommended):**
+- Search category: **Off-page SEO → Top Rated Sellers**
+- Search term: **"foundational links"** (more results than "web 2.0 backlinks")
+- Look for: Vendors with 4.8+ ratings and track records on home-services projects
+- Cost: $20–$100 per order depending on link quantity/quality
+
+**Vetting Vendors:**
+- Check reviews for real clients mentioning their niche (home services, local services)
+- Ask for sample links before ordering
+- Verify links post-delivery using Ahrefs or SEMrush (some vendors deliver PBN/spam)
+- Warning: One member tried what looked like high-quality links from icopify.com; Semrush later identified them as a PBN link farm
+
+**Caution:** Don't over-rely on Web 2.0 links. They're supplementary to real citations and social proof. Quality sources on Fiverr vary widely — always verify.
+
+---
+
+## Brave Browser Citations (AI Visibility Boost)
+
+**Why Brave Matters:**
+
+Claude (Anthropic's AI) uses Brave Search. If you want your citations indexed by Brave and discoverable to Claude-based queries, submit them to:
+
+**Brave Search Submission:** [https://search.brave.com/submit-url](https://search.brave.com/submit-url)
+
+**Process:**
+- One URL submission at a time
+- Submit each of your top citations individually
+- Takes 1–2 minutes per citation but ensures Brave crawler finds them
+- No guaranteed ranking, but improves discoverability in Brave results (which Claude references)
+
+**Added Value:**
+- As AI citations become more important for visibility, being indexed on Brave (which Claude uses) is a practical hedge
+- Zero cost; only time investment
 
 ---
 

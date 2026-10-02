@@ -2,7 +2,7 @@
 type: framework
 client: none
 status: active
-updated: 2026-09-25
+updated: 2026-10-02
 sources:
   - "raw/chat-notes/chat-summary-rank-microsite-fast.md"
   - "raw/framework/Community Call 43 - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
@@ -12,6 +12,7 @@ sources:
   - "raw/framework/Community Call 52 - Zero Volume Is Where the Money Is - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
   - "raw/framework/Community Call 54 - Building and Monetizing AI Microsites - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
   - "raw/framework/55 - Directory Authority and AI Visibility - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
+  - "raw/framework/launchwithbryan.com website by  AI SEO Rank Expand Academy.md"
   - "general SEO reasoning (not raw-sourced) — see traceability note in 'Updating a Microsite Builder' section below"
 ---
 
@@ -289,6 +290,40 @@ restructuring the URL pattern):
    validation error introduced by the new template).
 4. Any Tier 3 (URL-changing) update gets a redirect audit as part of "done," not
    as an afterthought.
+
+---
+
+## Case Study: Building a Real Microsite (launchwithbryan.com)
+
+**Project:** Web design/SEO consulting microsite in New Jersey
+
+**Timeline:** Real-world build with on-going monitoring
+
+**Setup Cost:** Under $200
+- Incorporated a real local business: $160
+- 50 manual citations (Fiverr): $25
+- **Total entity foundation:** <$200
+
+**Indexation:** 400+ pages indexed via Omega Indexer (verified against GSC)
+
+**The Funnel (3+ steps):**
+1. **Step 1:** Free website offer → opt-in → tag as "interested"
+2. **Step 2:** GBP management education → tag as interested
+3. **Step 3:** VSL for the CRM → tag yes/no
+
+**The Key Leverage: The Email Sequence**
+- 11 emails, each built around a video
+- Videos aren't embedded—they're thumbnails linking to YouTube
+- Feeds YouTube channel while nurturing list
+- **One asset doing two jobs**
+
+**The Real Asset: The List**
+- Most people say "no" to the front-end offer (free website)
+- That's fine. The email sequence retargets them (like a Facebook pixel, but you own it)
+- No cost to run; audience already qualified and knows the business
+- Next offers (additional services, affiliates, etc.) go to an already-warm audience
+
+**Lesson:** SEO services are the front door. The list is the actual business.
 
 ---
 
