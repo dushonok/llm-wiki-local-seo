@@ -343,3 +343,14 @@ the existing Canonical HTTP→HTTPS section, following the same structure (check
 / fix / ranking-impact / bottom line). Updated frontmatter `updated` date and `sources_note`, and the
 [[index.md]] one-liner.
 Pages touched: [[framework/seo-fundamentals/technical-seo.md]], [[index.md]], [[log.md]]
+
+## 2026-10-02 | query + ingest | How important is the No-Sniff header (X-Content-Type-Options: nosniff)
+Follow-up to the HSTS sub-options note. User asked how important the No-Sniff header is. Explained it's
+a security-hardening header (prevents MIME-sniffing XSS where a mislabeled uploaded file could get
+reinterpreted as executable script/HTML), not a ranking signal, with zero risk/effort to enable and
+most relevant to sites accepting user uploads (barely applies to a static microsite with no uploads) —
+leave it on regardless since it's free. Expanded the one-line No-Sniff bullet (within the existing HSTS
+sub-options list, under the Canonical HTTP→HTTPS section) in
+[[framework/seo-fundamentals/technical-seo.md]] into this fuller explainer. Updated [[index.md]]
+one-liner.
+Pages touched: [[framework/seo-fundamentals/technical-seo.md]], [[index.md]], [[log.md]]

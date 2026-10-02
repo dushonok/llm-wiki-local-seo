@@ -132,8 +132,17 @@ HTTPS at the edge.
      propagate through browser release cycles. Only worth it for sites
      handling sensitive data, and only after `includeSubDomains` has run
      stable for a while.
-   - **No-Sniff Header:** safe to leave on regardless (unrelated to HTTPS
-     enforcement, adds `X-Content-Type-Options: nosniff`).
+   - **No-Sniff Header:** adds `X-Content-Type-Options: nosniff`, which tells
+     the browser to trust the server's declared `Content-Type` instead of
+     "MIME-sniffing" (guessing) the real file type. This closes an older XSS
+     vector where a mislabeled uploaded file (e.g. an "image") could get
+     reinterpreted and executed as script/HTML. **Not a ranking signal, low
+     security priority on its own, but zero risk and zero effort to enable**
+     — it only restricts how browsers reinterpret content, so it can't break
+     a normal page. Matters most on sites that accept user uploads
+     (avatars, forum attachments); barely applies to a static local-service
+     microsite with no uploads. Leave it **on** regardless — free hardening,
+     unrelated to HTTPS enforcement.
 3. Re-run the `curl.exe -I http://...` check — expect a `301` with a
    `Location: https://...` header instead of a direct `200`.
 4. The canonical tag doesn't need to change — once the redirect exists, it
