@@ -329,3 +329,17 @@ any external link points to the http:// version (canonical only *requests* conso
 actually hurt rankings?" subsection to the same Canonical HTTP→HTTPS section in
 [[framework/seo-fundamentals/technical-seo.md]]. Updated [[index.md]] one-liner.
 Pages touched: [[framework/seo-fundamentals/technical-seo.md]], [[index.md]], [[log.md]]
+
+## 2026-10-02 | query + ingest | Is having a www version of the site up and running important?
+User asked whether the www version of a site needs to be "up and running." Explained this is the same
+canonicalization/duplicate-content problem as the HTTP-to-HTTPS case already documented, just applied
+to www vs. non-www hostnames instead: Google doesn't prefer either version, but one must be canonical
+and the other must 301-redirect into it (not sit unconfigured or 404). Walked through the curl-based
+real-vs-harmless check, the Cloudflare redirect-rule fix (separate from the Always-Use-HTTPS toggle),
+DNS requirements for the non-canonical hostname, canonical tag alignment, and GSC property verification
+(already referenced in the launch checklist). Added a new "www vs. non-www: Same Canonicalization
+Problem, Different Pair" subsection to [[framework/seo-fundamentals/technical-seo.md]], directly after
+the existing Canonical HTTP→HTTPS section, following the same structure (check / real example framing
+/ fix / ranking-impact / bottom line). Updated frontmatter `updated` date and `sources_note`, and the
+[[index.md]] one-liner.
+Pages touched: [[framework/seo-fundamentals/technical-seo.md]], [[index.md]], [[log.md]]

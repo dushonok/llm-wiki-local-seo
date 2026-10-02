@@ -6,7 +6,7 @@ added or removed (see AGENTS.md §6, Ingest). Grouped by section.
 ## framework/seo-fundamentals/
 **Theoretical foundations** — Conceptual knowledge about how SEO works. These are reference material that inform the tactical pages below, but are not action items themselves. Useful for onboarding, building mental models, and understanding *why* specific tactics matter.
 
-- [technical-seo.md](framework/seo-fundamentals/technical-seo.md) — How search engines crawl, index, and rank; crawlability, indexability, ranking signals, Core Web Vitals; incl. Ahrefs "homepage flagged as orphan page" false-positive explainer + "Canonical from HTTP to HTTPS" real-vs-noise triage (Cloudflare "Always Use HTTPS" fix + HSTS rollout sub-options + ranking-impact explainer)
+- [technical-seo.md](framework/seo-fundamentals/technical-seo.md) — How search engines crawl, index, and rank; crawlability, indexability, ranking signals, Core Web Vitals; incl. Ahrefs "homepage flagged as orphan page" false-positive explainer + "Canonical from HTTP to HTTPS" real-vs-noise triage (Cloudflare "Always Use HTTPS" fix + HSTS rollout sub-options + ranking-impact explainer) + www vs. non-www canonicalization (same redirect/backlink-consolidation logic as HTTP→HTTPS)
 - [keyword-research.md](framework/seo-fundamentals/keyword-research.md) — What keyword research is; search volume, intent, difficulty, tools; keyword research process
 - [content-optimization.md](framework/seo-fundamentals/content-optimization.md) — How to create content that ranks; relevance, authority, structure; SEO copywriting principles
 - [title-tags.md](framework/seo-fundamentals/title-tags.md) — What title tags are; why they matter for ranking and CTR; best practices and common mistakes

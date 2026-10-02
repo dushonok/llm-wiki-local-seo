@@ -2,8 +2,8 @@
 type: framework-foundation
 client: none
 status: active
-updated: 2026-10-01
-sources_note: "Canonical HTTP→HTTPS section verified live via curl against http://moldremediationgettysburgpa.org/ on 2026-10-01 — not a raw/ capture, see inline traceability note"
+updated: 2026-10-02
+sources_note: "Canonical HTTP→HTTPS section verified live via curl against http://moldremediationgettysburgpa.org/ on 2026-10-01 — not a raw/ capture, see inline traceability note. www vs. non-www section (2026-10-02) is general reasoning parallel to that case — not independently verified against a live site, see inline traceability note."
 sources:
   - "raw/framework/1. SEO Fundamentals - Learn Technical SEO - The Beginner's Guide to Technical SEO.md"
   - "raw/framework/1. SEO Fundamentals - Learn Technical SEO - Google Crawling and Indexing  Google Search Central    Documentation.md"
@@ -182,6 +182,69 @@ bundled since Windows 10 1803+) to get actual curl behavior, or use
 > *Not sourced from a raw capture — general SEO/tool-behavior reasoning,
 > verified live against moldremediationgettysburgpa.org. Flagged here for
 > traceability (same convention as the note above).*
+
+### www vs. non-www: Same Canonicalization Problem, Different Pair
+
+**Is having the `www` version "up and running" important?** Not in the sense of
+running two live sites — it's the exact same duplicate-content/canonicalization
+issue as HTTP vs. HTTPS above, just with `www.yoursite.com` vs. `yoursite.com`
+instead. Google doesn't prefer one over the other; it just needs **one** to be
+canonical and the other to **redirect** into it, not sit unconfigured or 404.
+
+**How to tell real issue vs. harmless** (same pattern as the HTTP/HTTPS check):
+- Check both hostnames' actual status codes directly:
+  `curl.exe -I http://www.yourdomain.com/` and `curl.exe -I http://yourdomain.com/`
+  (repeat with `https://` once HTTPS is confirmed forced — see above).
+  - **One 301/302-redirects to the other:** harmless — canonicalization is
+    already enforced at the server/edge level. No action needed.
+  - **Both resolve with `200 OK` independently (no redirect either direction):**
+    real issue. Two live, crawlable copies of every page exist under different
+    hostnames, each eligible to be indexed and linked to separately.
+  - **The non-canonical version doesn't resolve at all (DNS error, timeout, or
+    a generic "can't connect" instead of a redirect):** also a real issue —
+    not a ranking problem, but a broken-link/trust problem for anyone who
+    types `www.` out of habit or follows an old `www` backlink.
+
+**Fix:**
+1. Pick a canonical version — non-www is the common default for new
+   microsites, but either is fine as long as it's consistent everywhere
+   (GBP, citations, internal links, sitemap).
+2. Configure a 301 redirect from the non-canonical hostname to the canonical
+   one. On Cloudflare: **Rules → Redirect Rules** (or a page rule) matching
+   the non-canonical hostname, forwarding to the canonical one with the path
+   preserved. This is a separate setting from the "Always Use HTTPS" toggle
+   used for the HTTP→HTTPS fix above — both redirects need to exist
+   independently (http→https *and* www→non-www, or whichever pairing applies).
+3. Make sure DNS has a record for **both** hostnames (an `A`/`CNAME` for
+   `www`) even though one just redirects — an unconfigured `www` subdomain
+   can fail to resolve at all instead of redirecting.
+4. Set the canonical tag on every page to the canonical hostname version.
+5. Re-run the `curl.exe -I` check on the non-canonical hostname — expect a
+   `301`/`308` with a `Location:` header pointing at the canonical version.
+6. In Google Search Console, verify **both** hostname properties (or the
+   domain-level property, which covers both) so GSC reporting isn't split
+   across two "sites" — this is already called out as a launch-checklist item
+   in [[microsite-launch-checklist.md]].
+
+**Does this actually hurt rankings?** Same shape of risk as the HTTP/HTTPS
+case — not an active penalty, but free-to-close leaks:
+- **Duplicate content dilution** if both hostnames get crawled/indexed
+  independently instead of consolidating to one.
+- **Backlink equity leakage** — any external link built to the "wrong"
+  hostname (easy to happen across citations, guest posts, social profiles)
+  only consolidates correctly if a 301 exists; a canonical tag alone just
+  requests it.
+- **Broken-link/trust risk** if the non-canonical hostname doesn't resolve at
+  all, rather than redirecting.
+
+**Bottom line:** "is www up and running important" → reframe as "is www→non-www
+(or the reverse) **redirecting correctly** important" — yes, for the same
+backlink-consolidation and duplicate-content reasons as HTTPS, but it's a
+one-time setup task, not something to actively monitor once confirmed working.
+
+> *Not sourced from a raw capture — general SEO/canonicalization reasoning,
+> directly parallel to the verified HTTP→HTTPS case above. Flagged here for
+> traceability (same convention as the notes above).*
 
 ---
 
