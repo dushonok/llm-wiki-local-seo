@@ -14,6 +14,10 @@ correcting it rather than rewriting history.
 
 ---
 
+## 2026-10-06 | ingest | Social media profiles as backlink sources
+Populated [[framework/backlinks.md]] (was a stub) with social media platform hierarchy for building backlinks and citations. Covers YouTube, Reddit, Instagram, Facebook, TikTok, LinkedIn, trade associations ranked by domain authority × AI citation frequency × implementation ease. Included 12-week mold remediation example, linking architecture with `/profiles` page, niche-specific platform selection, and quarterly audit cadence. Updated [[index.md]] to reflect active status and summary.
+Pages touched: [[framework/backlinks.md]], [[index.md]]
+
 ## 2026-09-04 | setup | Vault scaffolded
 Set up AGENTS.md and the wiki/templates/raw structure per Karpathy's LLM-wiki
 pattern, tailored for local SEO agency work (multi-client, shared framework/
