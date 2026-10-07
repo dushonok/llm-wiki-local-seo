@@ -2,16 +2,18 @@
 type: framework
 client: none
 status: active
-updated: 2026-10-02
+updated: 2026-10-07
 sources:
   - "raw/framework/We Answered Every Question You Asked This Week - Sep 8, 2026 · AI SEO Rank Expand Academy.md"
+  - "raw/framework/We Answered Every Question You Had, 10-22-2026 - AI SEO Rank Expand Academy.md"
+  - "raw/framework/Microsite Contest Day 22 One Contestant Is Beating Everyone (on both queries) - Rank Expand Academy.md"
 ---
 
 # Microsite Q&A Reference
 
-**Purpose:** Quick reference for 20 common questions about microsite building, ranking, and local SEO strategy. Compiled from community Q&A.
+**Purpose:** Quick reference for 30+ common questions about microsite building, ranking, and local SEO strategy, plus real-time case studies. Compiled from community Q&A.
 
-**Format:** Questions organized by topic; each answer is practical and field-tested.
+**Format:** Questions organized by topic; each answer is practical and field-tested. Answers are sourced from Sep 8, 2026 Q&A batch (Sep batch) and Oct 22, 2026 Q&A batch (Oct batch), plus ongoing community contests.
 
 ---
 
@@ -132,9 +134,135 @@ None of these is a reason to abandon the niche.
 
 ---
 
+## October 2026 Q&A Batch
+
+### Q1-Oct: I'm a month in. Five sites live, zero leads, one click. Is that normal?
+
+**A:** Yes. Five sites live in a month is the hard part done. Check which pages are indexed using `site:` in Google Search Console—leads always lag behind indexing. Deacon Nick got his first leads at three weeks; Ruth Gray got hers at six weeks. It's normal, and you're on track.
+
+**Key insight:** Track indexing velocity first, leads second. Both are lagging indicators.
+
+### Q2-Oct: Can I use Search Console without tying all my sites together?
+
+**A:** Fine for your first 2 sites; after that, keep them separate. Google knows which account created them, and grouping 100+ sites in one Search Console account can trigger a ban. Use ProRankTracker, DataForSEO, or Ahrefs' free traffic tracker for larger portfolios.
+
+### Q3-Oct: Should my first site cover one service or several?
+
+**A:** Optimize for one primary service + 2–4 related ones to add context. The tighter the site at launch, the better its chances of early ranking. Add more services after the site ranks.
+
+### Q4-Oct: I already run the business. How do I use microsites to feed my own crew?
+
+**A:** Keep your brand off the microsites (except the logo) and don't link back to your main site. Use smaller towns, alternate word orders, or .net if EMD is taken. If the head term is brutal (e.g., "plumber"), go niche: "main water line replacement" is a different fight with less competition.
+
+**Key insight:** You own the business relationship—that's your biggest advantage over builders with no existing client base.
+
+### Q5-Oct: My English isn't great and I don't want to cold call. How do I sell the leads?
+
+**A:** Email + free leads. Send 2 free leads by email, ask if they want more, give a price. The relationship with the contractor becomes the real asset. Shawn has never cold-called a business. Relationship > English proficiency.
+
+### Q6-Oct: Kinsta or Cloudflare for the sites Claude builds?
+
+**A:** Cloudflare. Kinsta is expensive for what you need. Cloudflare + Claude Code is the standard now.
+
+### Q7-Oct: Can I share one gallery of my real work across all my sites?
+
+**A:** No. Don't create a footprint. Ask: if Google deindexed every site sharing that gallery, would it hurt? If yes, keep one original gallery per site.
+
+### Q8-Oct: One business, twenty sites. Same Google Business Profile and phone number on all of them?
+
+**A:** Same phone number is typically a no-go. Same GBP is OK if all sites are the same niche and brand (franchise model), but if they're different businesses, don't link sites to the profile or vice versa.
+
+### Q9-Oct: Claude says neighborhood pages are doorway pages. Is it right?
+
+**A:** Claude is giving general advice; the proven builder template is the specific version. Start from the template and let Claude build on top. A real doorway page is the same page with a few swapped words. Neighborhood pages are fine if each has its own content, images, and headings, and actually helps someone who finds it.
+
+### Q10-Oct: The service happens in one country and the buyers search from another. Does a microsite still work?
+
+**A:** It can. Microsites work for anything location-based. Position it as the business that connects buyer with provider. First check: is anyone searching for it? Zero volume = zero calls.
+
+### Q11-Oct: Is Google's new anti-spam update going to hit microsites?
+
+**A:** Not from what's being observed. The update targets mass-builds that swap town names across thousands of near-identical pages. A site that looks and works like a real local business is a different pattern. Early data shows microsite rankings unchanged.
+
+### Q12-Oct: WhatConverts put my account in manual review. Did I burn it?
+
+**A:** No. Add the tracking script (you should be doing this anyway) and email support. Manual review is routine. One member was approved within 2 minutes.
+
+### Q13-Oct: Where's the Content Generator GPT from the Builder video?
+
+**A:** It's inside the Builder flow (Step 4). Not a separate download—it's built into the workflow.
+
+### Q14-Oct: I have zero experience. Will people laugh at my Upwork profile?
+
+**A:** No. Everyone here started at zero. Verify your account, add portfolio pieces (your own microsites count), add 1–2 credentials. Write for the business owner, not for SEO: "I will help you make more money" beats any technical bullet point.
+
+---
+
+## Real-Time Case Study: Microsite Contest Day 22
+
+**Status:** Ongoing competition (may change as contest progresses)  
+**Contestants:** ~20 active builders competing on two keywords: "mold" and "radon"  
+**Contest Rules:** Build a microsite targeting each keyword, rank as high as possible
+
+### Current Leaderboard (Day 22)
+
+| Rank | Mold Position | Radon Position | Status |
+|------|---------------|----------------|--------|
+| 1st (winning) | 10 | 22 | 12 points total |
+| 2nd (close) | 22 | 34 | 0 points (both < top 20) |
+| 3rd-10th | 24–35 | N/A (top 50) | ~8 contestants |
+| Press release buyers | 46 (own) | Page 1 (3 results) | Own sites deindexed |
+| Early leader (weeks 1-2) | 50+ | 39 | Fell out |
+| Rest | 50+ | 50+ | ~20 contestants |
+
+### Why the Leader Is Winning
+
+The #1 contestant is using a strategy that looks like a **real, well-established business**, not a microsite:
+
+1. **Two identical sites:** Same template, same schema, same setup. One for mold; one for radon.
+2. **Unified business identity:** One business name, one address, one phone number—copied to ~15 profiles across trusted platforms:
+   - Facebook, YouTube, Houzz, Clutch, Manta, Crunchbase, Pinterest, and more
+   - All listed in the site code
+   - Google sees the same business described identically on 15 domains it already trusts
+
+3. **Supporting listings rank around the main site:**
+   - **Mold:** Facebook #6, site #10, MapQuest #11, Clutch #12 (9 total top results)
+   - **Radon:** Houzz #8, Crunchbase #17, site #22 (3 top results)
+   - No other contestant has more than 2 top results on either query
+
+4. **Stable homepage ranking:** Homepage held positions #10–#13 every day this week
+   - Deep, comprehensive homepage covering all services
+   - Other contestants' homepages swap with FAQ/contact pages; rankings swing daily
+
+5. **What they did NOT do:**
+   - No press releases
+   - No daily republishing
+   - No 100-page site
+
+6. **What they DID do:**
+   - ~50 pages, built once
+   - Surrounded by 15 matching profiles
+   - Left alone
+
+### The Takeaway
+
+**A fresh domain cannot hold a ranking by itself.** The winning strategy works because:
+- The site looks like a real local business (unified NAP everywhere)
+- Supporting listings provide authority signals
+- Consistency (homepage locked in) signals stability to Google
+- Profile diversity (15 platforms) builds legitimacy
+
+**Lesson for builders:** Don't count on the microsite alone. Build the site + the profiles + match them exactly + stop touching it. This is different from the high-volume, constantly-optimized approach—it's the "build once, leave alone" strategy that works.
+
+**Note:** This contest is ongoing and rankings may shift. Current leaderboard as of Day 22, Oct 2026.
+
+---
+
 ## Summary: The Recurring Theme
 
-Across all 20 questions, one pattern emerges: **Build first, optimize second.** The tools are rough estimates. Your site will teach you more than any tool. Small moves compound. Start cheap, measure real results, then scale what works.
+Across 30+ questions and ongoing contests, one pattern emerges: **Build first, optimize second.** The tools are rough estimates. Your site will teach you more than any tool. Small moves compound. Start cheap, measure real results, then scale what works.
+
+**Build-and-leave-alone beats constant optimization.** The winning microsite in the contest stayed at #10 by being stable and surrounded by matching profiles, while sites being constantly tweaked swapped positions daily.
 
 ---
 

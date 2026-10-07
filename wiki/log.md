@@ -358,3 +358,19 @@ sub-options list, under the Canonical HTTP→HTTPS section) in
 [[framework/seo-fundamentals/technical-seo.md]] into this fuller explainer. Updated [[index.md]]
 one-liner.
 Pages touched: [[framework/seo-fundamentals/technical-seo.md]], [[index.md]], [[log.md]]
+
+## 2026-10-07 | ingest | Directory strategy + Q&A refresh + microsite contest findings
+Created [[framework/directory-strategy.md]] (new page) covering directories as distinct from microsites:
+authority hubs, force multipliers, low PBN risk. Included two sources: Vincent's careertrainingpath.com
+case study (28 days live, 7,114 pages indexed, 485 clicks, built with Claude Code, Link-Flywheel for
+automated outreach) and Community Call #56 demo (Directory Blueprint: 1,500 listings in 45 min–1.5 hrs
+for <$100; monetization via featured listings $95–$200/year, "best XYZ" articles, sales outreach;
+DataForSEO for data sourcing; AI vs. real photos for images; PBN risk assessment). Updated
+[[framework/microsite-qa-reference.md]] with: 14 new Q&As from Oct 22 Q&A batch (timeline
+expectations, Search Console strategy, service scoping, business reuse, phone/GBP handling, doorway
+pages, international search, anti-spam updates, WhatConverts manual review, Upwork experience);
+and Microsite Contest Day 22 case study (winning strategy: ~50 pages + 15 matching profiles across
+trusted platforms, stable homepage, built once and left alone; current leaderboard: 1st place at
+mold #10/radon #22, 2nd place at mold #22/radon #34). Updated [[index.md]] with directory-strategy
+entry and enhanced microsite-qa-reference description.
+Pages touched: [[framework/directory-strategy.md]] (new), [[framework/microsite-qa-reference.md]], [[index.md]], [[log.md]]
