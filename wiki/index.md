@@ -40,7 +40,15 @@ General SEO/local SEO knowledge, not tied to a client.
 
 ## clients/
 
-_(none yet — see AGENTS.md §7 for how to onboard a client)_
+### tipicita-kinesio
+- [profile.md](clients/tipicita-kinesio/profile.md) — Emmanuelle Mesnard, kinésiologue + coach de vie, relocated Eysines/Mérignac → Le Bouscat (19 Aug 2026); 47 Google + 73 Résalib reviews, all 5.0
+- [keywords.md](clients/tipicita-kinesio/keywords.md) — 15 keywords tracked; top priority: `coach de vie le bouscat` (already #1) and `kinésiologue le bouscat` (dense local competition)
+- competitors/
+  - [mr-kinesiologue.md](clients/tipicita-kinesio/competitors/mr-kinesiologue.md) — Marion Reynaud, +70 reviews, review-volume leader in Le Bouscat kinésiologue niche
+  - [aude-coue.md](clients/tipicita-kinesio/competitors/aude-coue.md) — Aude Coué, same street as Tipicita's new address, two-location model (Le Bouscat + Blaye)
+  - [bonjourlebonheur-nina-peret.md](clients/tipicita-kinesio/competitors/bonjourlebonheur-nina-peret.md) — Nina Peret, lowest review volume of the four, low priority
+- [recommendations.md](clients/tipicita-kinesio/recommendations.md) — top open recommendation: fix stale `LocalBusiness` schema on homepage still listing old Eysines address
+- [90-day-plan.md](clients/tipicita-kinesio/90-day-plan.md) — phased execution tracker (Oct 8 2026 – Jan 6 2027): Wk1-2 NAP/schema fixes → Wk3-6 on-page signals → Wk7-10 content/coach-de-vie push → Wk11-13 measure
 
 <!--
 Template for a new client block once one exists:

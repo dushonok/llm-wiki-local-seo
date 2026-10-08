@@ -455,3 +455,37 @@ with the town name swapped (cross-linked to the hub-and-spoke requirement in
 Pattern's "Recommended implementation" note and the Implementation Checklist. Updated [[index.md]]
 one-liner. No raw source backs this synthesis — flagged inline per convention.
 Pages touched: [[framework/on-site-seo.md]], [[index.md]], [[log.md]]
+
+## 2026-10-08 | ingest | Onboarded new client: tipicita-kinesio (Le Bouscat relocation analysis)
+User asked for an analysis of tipicita-kinesio.com — Emmanuelle Mesnard, kinésiologue + coach de vie,
+recently moved from Eysines/Mérignac to Le Bouscat (19 Aug 2026). No raw client material existed yet,
+so performed a fresh capture: live fetch of all 9 core pages + sitemap/robots.txt + raw HTML
+title/meta/JSON-LD, plus web search for GBP/directory/competitor signals. Saved as
+[[raw/clients/tipicita-kinesio/site-crawl-2026-10-08.md]]. Full onboarding per AGENTS.md §7: created
+profile, keyword map, 3 competitor pages (Marion Reynaud, Aude Coué, Nina Peret — all clustered on/near
+the same Le Bouscat street), and recommendations. Key findings: (1) homepage's LocalBusiness JSON-LD
+schema is stale — still declares the old Eysines address, directly contradicting visible page content;
+(2) the location page (/ou-me-trouver) has zero structured data despite being the most location-relevant
+page; (3) a third-party citation (lesmedecinesdouces.fr) still lists the old Eysines address and is
+still actively aggregating reviews under it; (4) homepage title/meta don't mention Le Bouscat at all,
+unlike the flagship service page and location page which are already correctly updated; (5) the practice
+already ranks #1 for "coach de vie le bouscat" (thin competition) but faces 4-5 established, well-reviewed
+competitors for "kinésiologue le bouscat" (denser competition, one with ~70 reviews vs. Tipicita's ~40).
+Flagged that GBP dashboard, Search Console, and a full citation/backlink audit weren't accessible with
+available tools — listed as open items for the client to provide. Updated index.md with new clients/
+section.
+Pages touched: [[clients/tipicita-kinesio/profile.md]], [[clients/tipicita-kinesio/keywords.md]], [[clients/tipicita-kinesio/competitors/mr-kinesiologue.md]], [[clients/tipicita-kinesio/competitors/aude-coue.md]], [[clients/tipicita-kinesio/competitors/bonjourlebonheur-nina-peret.md]], [[clients/tipicita-kinesio/recommendations.md]], [[index.md]], [[log.md]]
+
+## 2026-10-08 | query | Turned tipicita-kinesio recommendations into a phased 90-day plan
+User asked to turn the recommendations into an actionable 90-day plan. Synthesized the 12
+recommendations in [[clients/tipicita-kinesio/recommendations.md]] into a new dated execution
+tracker, [[clients/tipicita-kinesio/90-day-plan.md]], with 4 phases: Wk1-2 NAP/schema fixes (stale
+homepage LocalBusiness schema, GBP address/merge audit, stale lesmedecinesdouces.fr citation) → Wk3-6
+on-page location signals + easy schema wins (homepage title/meta, FAQPage schema on /ou-me-trouver,
+Review/AggregateRating schema on testimonials) → Wk7-10 content build-out (Caudéran/Bruges paragraphs,
+one net-new Le Bouscat-anchored blog post, review-velocity push) → Wk11-13 measure (GSC/live-rank
+re-check, full citation audit, GBP insights review). Each task has an owner (Em/Dev/SEO), effort
+estimate, and traces back to the specific recommendation number it implements. Added a Day-90 success
+criteria checklist and a closing instruction to ingest Week 11-13 results back into recommendations.md
+and keywords.md once the plan completes. Updated index.md one-liner.
+Pages touched: [[clients/tipicita-kinesio/90-day-plan.md]], [[index.md]], [[log.md]]
