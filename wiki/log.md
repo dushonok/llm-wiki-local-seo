@@ -409,3 +409,18 @@ Pattern: Ranking URL Flapping Between Two Pages" section in [[framework/on-site-
 reasoning, not raw-sourced — flagged inline per convention), sibling to the existing legal-page
 diagnostic. Updated [[index.md]] one-liner.
 Pages touched: [[framework/on-site-seo.md]], [[index.md]], [[log.md]]
+
+## 2026-10-08 | query | Correction — FAQ page linked only from footer, no specific township was given
+Follow-up to the ranking-URL-flapping entry above. Two corrections from the user: (1) the FAQ page on
+the site in question is linked sitewide only from a generic footer link ("FAQ" anchor text) — no
+township-specific internal link is actually pointing at it, so step 3 of the fix ("consolidate
+internal links") as originally written doesn't apply; the cannibalization must be driven by on-page
+content/schema overlap, not link signals. Revised that step in [[framework/on-site-seo.md]] to check
+whether the lever applies before doing it, and added a new step checking whether the overlapping Q&A
+carries `FAQPage` schema — if so, that structured-data markup is likely the dominant signal pulling
+Google toward the FAQ page, independent of links. (2) Clarified that no specific township was actually
+named in the original query — `[Township]` in the diagnostic is a placeholder, not a real value pulled
+from this conversation; the site identity (`moldremediationgettysburgpa.org`) was inferred only from
+matching the user's local folder name to prior one-off review sessions (2026-09-25, 2026-10-01), not
+from new raw data. No real township/URL has been supplied yet to audit directly.
+Pages touched: [[framework/on-site-seo.md]], [[log.md]]
