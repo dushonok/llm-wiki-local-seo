@@ -392,3 +392,20 @@ sources list, [[index.md]] one-liner, and this log entry. Confirmed via `git sta
 the Oct 7 ingest (directory-strategy.md, microsite-qa-reference.md updates) was already committed
 (commits 8ca5c67 and 5cb0780) before starting this ingest — avoided re-doing completed work.
 Pages touched: [[framework/citations-strategy.md]], [[index.md]], [[log.md]]
+
+## 2026-10-08 | query + ingest | Ranking URL flapping between FAQ page and township page (keyword cannibalization)
+User reported, for `moldremediationgettysburgpa.org` (same one-off-reviewed site as the 2026-09-25
+and 2026-10-01 entries — not formally onboarded as a tracked client), that the ranking URL for one
+query had switched daily all week between the FAQ page and a township page, with position moving
+every time it flipped. Diagnosed as keyword cannibalization distinct from the existing legal-page-
+outranking pattern: here Google has two of the site's own pages (FAQ + township) both plausibly
+answering the same hyperlocal query and hasn't settled on one, with the weaker page dragging average
+position down whenever it wins the swap. Fix sequence: pick the township page as the one true target
+for hyperlocal queries, de-duplicate/trim the overlapping FAQ entry, consolidate internal link anchor
+text onto the township page, prefer content differentiation over canonicalizing the FAQ page away,
+strengthen the township page's entity/schema signals per the Content Structure Recipe, confirm via
+GSC URL Inspection's Google-selected-canonical, then monitor 2–4 weeks. Filed as a new "Diagnostic
+Pattern: Ranking URL Flapping Between Two Pages" section in [[framework/on-site-seo.md]] (general
+reasoning, not raw-sourced — flagged inline per convention), sibling to the existing legal-page
+diagnostic. Updated [[index.md]] one-liner.
+Pages touched: [[framework/on-site-seo.md]], [[index.md]], [[log.md]]

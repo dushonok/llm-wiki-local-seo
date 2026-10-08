@@ -15,7 +15,7 @@ added or removed (see AGENTS.md §6, Ingest). Grouped by section.
 General SEO/local SEO knowledge, not tied to a client.
 
 ### Technical SEO & AI Optimization
-- [on-site-seo.md](framework/on-site-seo.md) — Content structure recipe (title, lead-in, answer, H2s, entity signals) that ranks fast; incl. meta-description town-list/state-abbreviation guidance; sidebar on small moves vs. waiting for perfection; diagnostic pattern for legal/boilerplate page outranking the service page (noindex + anchor-text fix)
+- [on-site-seo.md](framework/on-site-seo.md) — Content structure recipe (title, lead-in, answer, H2s, entity signals) that ranks fast; incl. meta-description town-list/state-abbreviation guidance; sidebar on small moves vs. waiting for perfection; diagnostic pattern for legal/boilerplate page outranking the service page (noindex + anchor-text fix); diagnostic pattern for ranking-URL flapping between two of your own pages (keyword cannibalization — de-duplicate overlap, consolidate internal links, strengthen the correct page's signals)
 - [microsite-launch-checklist.md](framework/microsite-launch-checklist.md) — Pre-launch validation checklist (domain, sitemap, canonicals, broken links, schema, mobile, GSC setup); real case study of sitemap domain error
 - [backlinks.md](framework/backlinks.md) — Social media profiles (YouTube, Reddit, Instagram, Facebook, TikTok) as high-authority backlink sources; platform hierarchy by ROI; implementation process for 12-week backlink stack
 - [ai-overviews-local-search.md](framework/ai-overviews-local-search.md) — How AI Overviews reshape local intent and visibility above map packs

@@ -2,7 +2,7 @@
 type: framework
 client: none
 status: active
-updated: 2026-10-01
+updated: 2026-10-08
 sources:
   - "raw/framework/On-Page SEO Content Frameworks - How To Structure On-Page SEO Content · AI SEO Rank Expand Academy.md"
   - "raw/framework/Small moves  no moves (website updates) - AI SEO Rank Expand Academy.md"
@@ -230,6 +230,82 @@ a signal-mismatch problem:
 **Takeaway:** noindexing the legal pages is correct and low-risk, but it only
 removes a false competitor — it doesn't guarantee the service page wins the
 slot unless the anchor-text and content gaps are fixed too.
+
+---
+
+## Diagnostic Pattern: Ranking URL Flapping Between Two Pages (Keyword Cannibalization)
+
+> *Not sourced from a raw capture — general SEO diagnostic reasoning, flagged
+> here for traceability (same convention as the other general-knowledge
+> sections in this file).*
+
+**Symptom:** Rank tracking shows the ranking URL for a *single target
+keyword* switching between two different pages day to day — e.g. an FAQ page
+ranks Monday, a location/township page ranks Tuesday, the FAQ page again
+Wednesday. Position moves (often worsens) every time the switch happens, even
+though the keyword itself hasn't lost relevance.
+
+**Why it happens:** This is different from the legal-page-outranking pattern
+above (where one wrong page clearly, persistently wins). Here, Google's
+indexing/ranking system has **two of your own pages that both look like
+plausible answers** to the same query and hasn't settled on which one to
+treat as canonical for it:
+- Both pages share overlapping title/H1/body-copy keyword targeting — e.g.
+  the FAQ page has a Q&A entry that answers the exact same question the
+  township page is built to rank for ("How much does mold remediation cost
+  in [Township]?" appearing almost verbatim on both).
+- Internal links to that query's topic are split between the two pages
+  instead of consistently pointing at one.
+- Neither page has a strong enough standalone signal (backlinks, dwell time,
+  CTR) to decisively win, so Google keeps re-testing both in a swap pattern —
+  this is Google's own uncertainty showing up in the SERP, not something the
+  site is doing "right" that's being punished.
+
+**Why the position moves every time it switches:** the two pages don't have
+identical authority/relevance scores. Each time Google re-evaluates and picks
+the weaker of the two candidates, it ranks lower; when it picks the stronger
+one, it ranks higher. The *flapping itself* — not just which page wins — is
+what's suppressing average position, because the weaker page is dragging the
+average down every other day.
+
+**Fix:**
+1. **Decide the one true target page** for that specific query — for a
+   hyperlocal commercial term ("mold remediation cost in [Township]"), that
+   should almost always be the township/location page, not the FAQ page.
+   The FAQ page should serve broader, non-location-specific questions.
+2. **De-duplicate the overlapping content.** If the FAQ page has an entry
+   that restates the exact question the township page targets, either
+   remove/generalize that FAQ entry (drop the township name from it) or
+   trim it to a one-line answer that links to the township page for the
+   full answer — don't let both pages carry a full, self-contained answer
+   to the same hyperlocal query.
+3. **Consolidate internal links.** Audit every internal link whose anchor
+   text references that township + service combination; point all of them
+   at the township page. Don't link that phrase to the FAQ page anywhere.
+4. **Add a canonical signal if content must stay similar.** If the overlap
+   can't be fully removed (e.g. the FAQ entry has to exist for site-wide FAQ
+   schema), do not canonical the FAQ page to the township page unless the FAQ
+   page truly has no independent query of its own to serve — canonicalizing
+   away a page's own long-tail value is a bigger cost than the overlap. Prefer
+   content differentiation over canonicalization here.
+5. **Strengthen the township page's standalone signals** per the Content
+   Structure Recipe above (clear answer in first ~50 words, entity signals —
+   neighborhood/ZIP/landmark — `Service`/`LocalBusiness` schema with
+   `areaServed`) so it has a decisive relevance edge over the FAQ page for
+   that query, not just a technical nudge.
+6. **Check GSC URL Inspection's "Google-selected canonical"** for the query
+   in question — it will show which URL Google is currently treating as
+   canonical for that content cluster, confirming whether the fix above
+   needs to happen on the FAQ page, the township page, or both.
+7. **Monitor rank tracker 2–4 weeks** after the fix — like the legal-page
+   pattern above, de-cannibalization isn't instant; the flapping should
+   settle into one consistent URL once Google re-crawls both pages and the
+   signal overlap is gone.
+
+**Takeaway:** URL flapping is Google's own confusion, not a penalty — but it
+caps your visible ranking at whatever the *weaker* of the two competing pages
+can achieve. Fixing it is about giving Google exactly one unambiguous
+candidate per query, not about generating more content.
 
 ---
 
