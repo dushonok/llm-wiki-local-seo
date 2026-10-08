@@ -440,3 +440,18 @@ flat-vs-accordion guidance in [[framework/seo-fundamentals/content-optimization.
 block short, flat text, server-rendered if collapsed). No raw source backs this synthesis — flagged
 inline per convention.
 Pages touched: [[framework/on-site-seo.md]], [[log.md]]
+
+## 2026-10-08 | query + ingest | Formalized permanent content-ownership rule: location-page FAQs vs. sitewide FAQ page
+Follow-up to the three entries above. User asked whether every township page should permanently have
+its own FAQ section, not just as a one-time fix for the overlap that caused the ranking-URL flapping.
+Answered yes — and pointed out this isn't a new policy, it's enforcing something already in the
+Structure Template section of [[framework/on-site-seo.md]] (step 9, "FAQ: 5-6 questions specific to
+service + location") that wasn't being followed consistently, which is how the overlap happened in the
+first place. Formalized an explicit content-ownership rule in the Structure Template section: location/
+township pages permanently own all location-specific questions; the sitewide FAQ page is scoped to
+universal, non-location questions only; location-page FAQs must be genuinely local, not templated copy
+with the town name swapped (cross-linked to the hub-and-spoke requirement in
+[[framework/external-seo-microsite-tactics.md]]). Cross-referenced this rule from the Diagnostic
+Pattern's "Recommended implementation" note and the Implementation Checklist. Updated [[index.md]]
+one-liner. No raw source backs this synthesis — flagged inline per convention.
+Pages touched: [[framework/on-site-seo.md]], [[index.md]], [[log.md]]

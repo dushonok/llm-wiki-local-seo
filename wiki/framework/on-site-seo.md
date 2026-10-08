@@ -133,7 +133,26 @@ For location or service pages, structure becomes even more critical because AI O
 6. **H2 #2:** "Service Areas: [Neighborhoods/ZIP codes]"
 7. **H2 #3:** "[Service] Process & Timeline"
 8. **H2 #4:** "Reviews & Results"
-9. **FAQ:** 5–6 common questions specific to service + location
+9. **FAQ:** 5–6 common questions specific to service + location — **permanent,
+   not optional**, for location/township pages. See the content-ownership
+   rule below.
+
+**Content-ownership rule — sitewide FAQ page vs. location-page FAQs:** to
+prevent the keyword-cannibalization failure mode documented below, enforce
+this split permanently, not just as a one-time cleanup:
+- **Location/township pages** own every location-specific question (cost in
+  that area, local permitting, nearby landmarks/neighborhoods, local
+  competitors) — as a standing part of the page template, for every current
+  and future location page, not something added reactively when a problem
+  is noticed.
+- **The sitewide FAQ page** is scoped to universal, non-location questions
+  only (what the service is, how long it takes, what's included,
+  certifications/insurance, general process). Nothing that names or implies
+  a specific town belongs there.
+- Each location page's FAQ must be genuinely local (reference something
+  real to that area), not templated copy with the town name swapped — see
+  the hub-and-spoke content requirement in
+  [`external-seo-microsite-tactics.md`](external-seo-microsite-tactics.md).
 
 **Entity signals to include:**
 - Specific neighborhoods, ZIP codes, landmarks
@@ -339,6 +358,9 @@ text on click) per the Content Structure Recipe above and the FAQ-formatting
 guidance in
 [`seo-fundamentals/content-optimization.md`](seo-fundamentals/content-optimization.md).
 Repeat per spoke town if more than one township page shares this problem.
+Treat this as adopting the content-ownership rule in the Structure Template
+section above permanently — not a one-off cleanup — so future content edits
+don't drift a location-specific question back onto the sitewide FAQ page.
 
 ---
 
@@ -352,5 +374,6 @@ Repeat per spoke town if more than one township page shares this problem.
 - ☐ Expand core intent under H2 #1 (supporting details)
 - ☐ Cover 2–4 supporting topics under H2 #2+
 - ☐ Aim for 400–600 words per main section
-- ☐ Add FAQ with local/service-specific questions
+- ☐ Add FAQ with local/service-specific questions (permanent part of the
+  template for location/township pages — see content-ownership rule above)
 - ☐ Validate semantic HTML structure
