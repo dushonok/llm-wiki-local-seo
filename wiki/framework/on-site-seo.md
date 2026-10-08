@@ -279,25 +279,39 @@ average down every other day.
    trim it to a one-line answer that links to the township page for the
    full answer — don't let both pages carry a full, self-contained answer
    to the same hyperlocal query.
-3. **Consolidate internal links.** Audit every internal link whose anchor
-   text references that township + service combination; point all of them
-   at the township page. Don't link that phrase to the FAQ page anywhere.
-4. **Add a canonical signal if content must stay similar.** If the overlap
+3. **Consolidate internal links — but check this actually applies first.**
+   This lever only matters if something is actually sending township+service
+   anchor text at the FAQ page. If the FAQ page is linked sitewide only from
+   a footer/nav link with generic anchor text ("FAQ"), there's no competing
+   link signal to fix — skip this step and focus on #2 and #5 instead; the
+   cannibalization is being driven by on-page content/schema overlap, not
+   links. Only do the anchor-text audit when a township-specific internal
+   link (e.g. a "cost in [Township]?" link from a blog post or another
+   township page) is actually pointing at the FAQ page instead of the
+   township page.
+4. **Check `FAQPage` schema on the overlapping Q&A.** If the FAQ page marks
+   up the exact overlapping question with `FAQPage` structured data, that's
+   often the dominant signal pulling Google toward the FAQ page for that
+   query — independent of links entirely. Removing the township name from
+   that marked-up question (or removing the schema from that specific Q&A
+   item while leaving it on the page as plain text) is usually a stronger
+   lever here than anything link-related.
+5. **Add a canonical signal if content must stay similar.** If the overlap
    can't be fully removed (e.g. the FAQ entry has to exist for site-wide FAQ
    schema), do not canonical the FAQ page to the township page unless the FAQ
    page truly has no independent query of its own to serve — canonicalizing
    away a page's own long-tail value is a bigger cost than the overlap. Prefer
    content differentiation over canonicalization here.
-5. **Strengthen the township page's standalone signals** per the Content
+6. **Strengthen the township page's standalone signals** per the Content
    Structure Recipe above (clear answer in first ~50 words, entity signals —
    neighborhood/ZIP/landmark — `Service`/`LocalBusiness` schema with
    `areaServed`) so it has a decisive relevance edge over the FAQ page for
    that query, not just a technical nudge.
-6. **Check GSC URL Inspection's "Google-selected canonical"** for the query
+7. **Check GSC URL Inspection's "Google-selected canonical"** for the query
    in question — it will show which URL Google is currently treating as
    canonical for that content cluster, confirming whether the fix above
    needs to happen on the FAQ page, the township page, or both.
-7. **Monitor rank tracker 2–4 weeks** after the fix — like the legal-page
+8. **Monitor rank tracker 2–4 weeks** after the fix — like the legal-page
    pattern above, de-cannibalization isn't instant; the flapping should
    settle into one consistent URL once Google re-crawls both pages and the
    signal overlap is gone.
