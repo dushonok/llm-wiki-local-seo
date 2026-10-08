@@ -1,0 +1,89 @@
+PARASITE,BEST USE,LINK TYPE,RANK POTENTIAL,STRATEGY
+Google Sites,Long-form SEO articles,Dofollow,High,Seedable — publish/post directly
+Medium,Product reviews & guides,Dofollow,High,Seedable — publish/post directly
+Quora Answers,Target long-tail keywords,Nofollow,High,Seedable — publish/post directly
+LinkedIn Articles,B2B content & brand positioning,Nofollow,Medium,Seedable — publish/post directly
+Pinterest,Visual product showcase & links,Dofollow,Medium,Seedable — publish/post directly
+WordPress.com,Blogging & contextual links,Dofollow,Medium,Seedable — publish/post directly
+Tumblr,Web 2.0 contextual links,Dofollow,Medium,Seedable — publish/post directly
+Reddit,Engaging niche community & discussions,Nofollow,Medium,Seedable — publish/post directly
+Weebly,Simple Web 2.0 SEO landing pages,Dofollow,Medium,Seedable — publish/post directly
+Wix,Branded website & SEO pages,Dofollow,Medium,Seedable — publish/post directly
+HubPages,User-generated content & articles,Dofollow,Medium,Seedable — publish/post directly
+Blogger,Classic blog hosting,Dofollow,Medium,Seedable — publish/post directly
+SlideShare,Slide & presentation sharing,Dofollow,Medium,Seedable — publish/post directly
+Issuu,PDF & magazine distribution,Dofollow,Medium,Seedable — publish/post directly
+Scribd,Document sharing,Dofollow,Medium,Seedable — publish/post directly
+Academia.edu,Academic papers & authority links,Dofollow,Medium,Seedable — publish/post directly
+DocDroid,PDF & document hosting,Dofollow,Medium,Seedable — publish/post directly
+Behance,Portfolio showcase & backlinks,Dofollow,Medium,Seedable — publish/post directly
+DeviantArt,Art & creative linking,Dofollow,Medium,Seedable — publish/post directly
+SoundCloud,Audio content & backlinks,Dofollow,Medium,Seedable — publish/post directly
+Mix.com,Content curation & backlinks,Dofollow,Medium,Seedable — publish/post directly
+Flickr,Photo sharing & backlinks,Dofollow,Medium,Seedable — publish/post directly
+LiveJournal,Classic blogging & contextual links,Dofollow,Medium,Seedable — publish/post directly
+VK,Social networking & links,Nofollow,Medium,Seedable — publish/post directly
+Dailymotion,Video hosting & backlinks,Dofollow,Medium,Seedable — publish/post directly
+Twitch,Live streaming & authority links,Dofollow,Medium,Seedable — publish/post directly
+Vimeo,Alternative video hosting,Dofollow,Medium,Seedable — publish/post directly
+Crunchbase,Startup & company profiles,Dofollow,Medium,Listing — claim & optimize a profile/citation
+AngelList,Startup networking & backlinks,Dofollow,Medium,Listing — claim & optimize a profile/citation
+GitHub Pages,Developer & code hosting,Dofollow,Medium,Seedable — publish/post directly
+About.me,Personal branding & SEO,Dofollow,Medium,Seedable — publish/post directly
+Strikingly,One-page website creator,Dofollow,Medium,Seedable — publish/post directly
+500px,Photography & creative links,Dofollow,Medium,Seedable — publish/post directly
+ReverbNation,Music & artist promotion,Dofollow,Medium,Seedable — publish/post directly
+MuckRack,Journalist & media backlinks,Dofollow,Medium,Listing — claim & optimize a profile/citation
+Patch.com,Local news & authority links,Dofollow,Medium,Seedable — publish/post directly
+PressAdvantage,Press releases & brand exposure,Dofollow,Medium,Seedable — publish/post directly
+PRLog,Free PR submissions,Dofollow,Medium,Seedable — publish/post directly
+IssueWire,Paid PR distribution,Dofollow,Medium,Seedable — publish/post directly
+Newswire,Financial news & authority,Dofollow,Medium,Seedable — publish/post directly
+MarketWatch,Business directory & links,Dofollow,Medium,Earned — get mentioned/cited (no self-publishing)
+Business.com,News & PR exposure,Dofollow,Medium,Listing — claim & optimize a profile/citation
+The PR News,Simple website creation,Dofollow,Medium,Seedable — publish/post directly
+Webs.com,Free website builder,Dofollow,Medium,Seedable — publish/post directly
+Jimdo,Business website builder,Dofollow,Medium,Seedable — publish/post directly
+Zoho Sites,Free small business websites,Dofollow,Medium,Seedable — publish/post directly
+Yola,Old-school free hosting,Dofollow,Medium,Seedable — publish/post directly
+Tripod,Personal branding & reputation,Dofollow,Medium,Seedable — publish/post directly
+Houzz,"Home improvement showcase, product pages & pro profiles (water/plumbing intent)",Dofollow,High,Seedable — publish/post directly
+Angi,Home-services lead listings & service pages,Nofollow,High,Listing — claim & optimize a profile/citation
+Thumbtack,Local service provider profiles & quote pages,Nofollow,Medium,Listing — claim & optimize a profile/citation
+Porch,Home-services pro listings & project content,Dofollow,Medium,Listing — claim & optimize a profile/citation
+BobVila.com,Home improvement guides & product roundups,Dofollow,High,Earned — get mentioned/cited (no self-publishing)
+Hometalk,DIY home & water-treatment how-to content,Dofollow,Medium,Seedable — publish/post directly
+DoItYourself.com Forums,Plumbing/water DIY community threads,Nofollow,Medium,Seedable — publish/post directly
+Terry Love Plumbing Forum,Niche plumbing/water-softener authority threads,Dofollow,High,Seedable — publish/post directly
+InspectAPedia,Home inspection & water-treatment reference content,Dofollow,Medium,Earned — get mentioned/cited (no self-publishing)
+JustAnswer,Expert Q&A capturing 'how do I' + commercial queries,Nofollow,High,Seedable — publish/post directly
+Home Improvement Stack Exchange,High-authority plumbing/water Q&A,Nofollow,Medium,Seedable — publish/post directly
+Answers.com,General Q&A long-tail capture,Nofollow,Low,Seedable — publish/post directly
+Nextdoor,Hyperlocal recommendations & service mentions,Nofollow,High,Seedable — publish/post directly
+Alignable,Local B2B networking & business profile,Dofollow,Medium,Listing — claim & optimize a profile/citation
+Yelp,Local business listing & review ranking,Nofollow,High,"Review-driven — earn real reviews, ranks for brand queries"
+Manta,Small business directory & profile,Dofollow,Medium,Listing — claim & optimize a profile/citation
+Hotfrog,Free local business directory,Dofollow,Low,Listing — claim & optimize a profile/citation
+Brownbook,Global business directory listing,Dofollow,Low,Listing — claim & optimize a profile/citation
+Bing Places,Local listing for Bing/Maps visibility,Nofollow,Medium,Listing — claim & optimize a profile/citation
+Trustpilot,"Review profile, ranks for 'brand reviews' queries",Nofollow,High,"Review-driven — earn real reviews, ranks for brand queries"
+BBB.org,Trust/authority business profile & reviews,Nofollow,High,"Review-driven — earn real reviews, ranks for brand queries"
+SiteJabber,Review profile capturing commercial-intent searches,Dofollow,Medium,"Review-driven — earn real reviews, ranks for brand queries"
+ConsumerAffairs,Review & comparison authority pages,Nofollow,Medium,"Review-driven — earn real reviews, ranks for brand queries"
+Birdeye,Reputation/review profile & listing,Nofollow,Low,"Review-driven — earn real reviews, ranks for brand queries"
+"Reddit (r/Plumbing, r/HomeImprovement, r/WaterTreatment)",Niche subreddit discussions & recommendations,Nofollow,High,Seedable — publish/post directly
+Google Shopping / Merchant,Product feed for Plumbing Supply pages,Nofollow,High,Listing — claim & optimize a profile/citation
+ProductReview,Product review profiles & comparison,Dofollow,Medium,"Review-driven — earn real reviews, ranks for brand queries"
+Knoji,"Product reviews, deals & comparison pages",Dofollow,Low,"Review-driven — earn real reviews, ranks for brand queries"
+Substack,High-authority long-form publishing & newsletters,Dofollow,High,Seedable — publish/post directly
+Notion (Public Pages),Indexable docs/guides with contextual links,Dofollow,Medium,Seedable — publish/post directly
+Telegraph (telegra.ph),Fast-indexing anonymous article publishing,Dofollow,Medium,Seedable — publish/post directly
+Flipboard,Content curation magazines & syndication,Dofollow,Medium,Seedable — publish/post directly
+Google Docs (Published),Published doc ranking for long-tail queries,Dofollow,Medium,Seedable — publish/post directly
+Disqus,Comment-profile contextual links across blogs,Nofollow,Low,Seedable — publish/post directly
+iGlobal,Supplementary local citation listing,Dofollow,Low,Listing — claim & optimize a profile/citation
+Wikipedia,Cited reference pages; add brand/topic via verifiable sources,Nofollow,High,Earned — get mentioned/cited (no self-publishing) (notability + citations required)
+G2,B2B software/service review profile & comparison,Dofollow,Medium,"Review-driven — earn real reviews, ranks for brand queries"
+TheSpruce,Home & DIY editorial — pitch contributor/source content,Dofollow,High,Earned — get mentioned/cited (no self-publishing)
+TripAdvisor,Local business listing (lower relevance for water/plumbing),Nofollow,Low,Listing — claim & optimize a profile/citation
+Stacker,Syndicated data-journalism distributed to news partners,Dofollow,Medium,Earned — get mentioned/cited (no self-publishing)

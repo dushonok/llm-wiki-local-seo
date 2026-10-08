@@ -2,7 +2,7 @@
 type: framework
 client: none
 status: active
-updated: 2026-10-02
+updated: 2026-10-08
 sources:
   - "raw/framework/Citations for R&R Microsites -  AI SEO Rank Expand Academy.md"
   - "raw/framework/🆕 Wikipedia Citation Opportunity Engine - ⚡ AI Tools & Workflows · AI SEO Rank Expand Academy.md"
@@ -14,6 +14,12 @@ sources:
   - "raw/framework/Citations from Fiverr company SEO Agency @mason_fik.md"
   - "raw/framework/Web 2.0 Vendors · AI SEO Rank Expand Academy.md"
   - "raw/framework/Submit To Brave, One URL At A Time - Citations - AI SEO Rank Expand Academy.md"
+  - "raw/framework/Public_Parasite_list_v3 w_Vendors - August 2026 citations - REA - Categorized Parasite list .csv"
+  - "raw/framework/Public_Parasite_list_v3 w_Vendors - August 2026 citations - REA - Extensive Parasite List.csv"
+  - "raw/framework/Public_Parasite_list_v3 w_Vendors - August 2026 citations - REA - LLM Citation Sources.csv"
+  - "raw/framework/Public_Parasite_list_v3 w_Vendors - August 2026 citations - REA - Doc Parasites.csv"
+  - "raw/framework/Public_Parasite_list_v3 w_Vendors - August 2026 citations - REA - Another Great List.csv"
+  - "raw/framework/The King’s Parasite list 👑- AI SEO Rank Expand Academy.md"
 ---
 
 # Citations Strategy
@@ -305,6 +311,107 @@ But when citations are available, they matter for local ranking signals and trus
 - Identify which Fiverr citation sites overlap with your manual citation strategy
 - Find gaps: citations NOT in the Fiverr package that you could build manually for competitive advantage
 - Validate: Many of these sites are tier 2–3 (not the highest authority), so don't rely on Fiverr citations alone
+
+---
+
+## The Parasite List Framework (Aug 2026 Update)
+
+**What is a "parasite" site?** A high-authority third-party platform (Web 2.0 site, directory, Q&A site, document host, or review platform) that you "seed" content onto or claim a profile on — borrowing that platform's existing domain authority instead of waiting for your own site to build it. The term comes from "parasite SEO": you temporarily or permanently live on a host domain Google already trusts.
+
+This is a broader, more systematic version of the Web 2.0 vendor strategy below — the community compiled ~100+ platforms into one master reference, tagged by **how** to use each one.
+
+### The Four Strategy Types
+
+Every parasite platform falls into one of four execution patterns:
+
+| Strategy Type | What It Means | Example Platforms |
+|---|---|---|
+| **Seedable** | Publish/post content directly — you control the page | Google Sites, Medium, Quora Answers, LinkedIn Articles, Pinterest, WordPress.com, Tumblr, Reddit, Substack, Telegraph |
+| **Listing** | Claim and optimize an existing profile/citation | Crunchbase, AngelList, Manta, Hotfrog, Brownbook, Bing Places, Alignable, Angi, Thumbtack, Porch |
+| **Review-driven** | Earn real reviews; ranks for "brand + reviews" queries | Trustpilot, BBB.org, SiteJabber, ConsumerAffairs, Birdeye, ProductReview, G2, Yelp |
+| **Earned** | Get mentioned/cited by someone else — no self-publishing | BobVila.com, InspectAPedia, TheSpruce, Wikipedia, MarketWatch, Stacker |
+
+**Why this matters:** Most operators treat all citation/Web 2.0 platforms the same way (just "build a profile everywhere"). The strategy-type tagging tells you *which* platforms you can act on directly (Seedable, Listing) vs. which require a different approach entirely (Review-driven = earn reviews; Earned = PR/outreach, not self-publishing).
+
+### Rank Potential by Platform (Selected Highlights)
+
+**High rank potential, Seedable:**
+- Google Sites, Medium, Quora Answers — general-purpose, works for any niche
+- Substack — long-form authority + newsletter list-building
+- Houzz, Terry Love Plumbing Forum, JustAnswer — niche-specific (home services/water treatment example), high relevance = high rank potential
+
+**High rank potential, Listing:**
+- Angi, Google Shopping/Merchant — strong for home-services/product niches
+
+**High rank potential, Review-driven:**
+- Yelp, Trustpilot, BBB.org — the review platforms that actually move local rankings
+
+**High rank potential, Earned:**
+- BobVila.com, Wikipedia — require real outreach/notability, not a form fill, but carry the most authority
+
+**Full category list from the tracking checklist (102 platforms across 17 categories):** Video Hosting & Streaming (Vimeo, Dailymotion, Rumble), Podcast Platforms (Spotify for Podcasters, Apple Podcasts, Podbean, Buzzsprout, iHeartRadio), Blogging & Long-Form (Google Sites, Medium, LinkedIn Articles, WordPress.com, Tumblr, HubPages, Blogger, LiveJournal, Substack, Telegraph, Notion, Google Docs), Q&A Platforms (Quora, JustAnswer, Home Improvement Stack Exchange, Answers.com), Website Builders (Weebly, Wix, Strikingly, Webs.com, Jimdo, Zoho Sites, Yola, Tripod, About.me, GitHub Pages), Document Sharing (SlideShare, Issuu, Scribd, Academia.edu, DocDroid), Visual/Creative (Behance, DeviantArt, 500px, Flickr, Pinterest), Audio (SoundCloud, ReverbNation), Content Curation (Mix.com, Flipboard), Social Networks (VK, Reddit, Nextdoor, Disqus), Reviews (Trustpilot, BBB, SiteJabber, ConsumerAffairs, Birdeye, Yelp, ProductReview, Knoji, G2), PR & News (PressAdvantage, PRLog, IssueWire, Newswire, MarketWatch, Patch.com, MuckRack, Stacker, Business.com), Business Directories (Crunchbase, AngelList, Manta, Hotfrog, Brownbook, Bing Places, Alignable, TripAdvisor), Local Home-Services (Angi, Thumbtack, Porch), Niche Forums (Houzz, Hometalk, DoItYourself.com, Terry Love Plumbing Forum, relevant subreddits), Editorial/Earned Media (BobVila.com, InspectAPedia, TheSpruce, Wikipedia), Ecommerce (Google Shopping/Merchant).
+
+**Use this as a tracking template:** The raw CSV is a blank checklist (account status / password / content posted / date) — copy it per-client or per-microsite to track which parasite properties are claimed and seeded.
+
+---
+
+## LLM Citation Sources (Tier-1 Media for AI Visibility)
+
+Separate from the Web 2.0/parasite list above — this is a reference for **getting cited by LLMs specifically** (ChatGPT, Gemini, Claude answers), which weight Tier-1 media much more heavily than local citation platforms.
+
+| Tier | Sources | How to Get Cited | Potential |
+|---|---|---|---|
+| **Highest** | Forbes, PR Newswire | HARO/Qwoted expert quotes, Forbes Councils membership; paid wire distribution | High |
+| **Medium** | TechRadar, Reuters, AP News, CNBC, The Verge, Wired, Investopedia, Healthline, OpenStreetMap | Product PR, reviewer outreach, roundup inclusion, newsworthy wire pickup, expert commentary, HARO | Medium |
+| **Low (but high trust if earned)** | NYT, WSJ, Bloomberg, Washington Post, FT, The Economist, Mayo Clinic, Britannica, The Atlantic, New Yorker | Major PR, cannot self-publish, requires genuine news hook or editorial pitch | Low probability, highest authority if it lands |
+
+**Practical takeaway:** Don't burn effort chasing NYT/WSJ-tier placements directly (low probability). Prioritize **Forbes Councils + HARO/Qwoted** (structured programs built for exactly this), and **PR Newswire** (paid but reliable wire pickup that seeds many LLM-cited republications). For health/science claims specifically, cite NIH/PubMed in your own content rather than trying to get published there.
+
+**Connects to:** [[getting-cited-by-ai.md]] (the "invisible URLs" and persona-listicle tactics) — this table is the media-outlet equivalent of that page's citation-source research.
+
+---
+
+## Document-Hosting Parasites (Doc Parasites)
+
+A narrower category worth tracking separately — document/file-hosting platforms where you can publish a PDF, slide deck, or guide and have it rank independently:
+
+**Highest DA (90+):** Google Drive (97), Acrobat Adobe (96), Issuu (94), 4shared (94), OneDrive (94), SlideShare (94), Scribd (94), Dropbox (95)
+
+**Strong mid-tier (DA 70–90):** WeTransfer (91), Flipsnack (91), Mega.nz (93), Calameo (93), SlideServe (94), Depositfiles (92), Pearltrees (86), Zoho WorkDrive (88), Diigo (90)
+
+**Use case:** Publish a client's service brochure, FAQ guide, or "complete guide to X" PDF on 2–3 of the highest-DA document hosts, with a link back to the main site. Works well paired with the "Resources section" tactic in [[microsite-qa-reference.md]].
+
+---
+
+## Vendor Pricing Reference (Paid Placement Summary)
+
+The community also captured a specific vendor's price list for paid parasite placements (~260 sites). **Use this as a cost/quality benchmark when vetting Fiverr or similar vendors — not as an endorsement of this specific vendor.**
+
+**Pricing tiers observed:**
+- **Tier A (~$5/500 PKR per link):** ~167 sites, mix of Dofollow/Nofollow, DA ranging from 20–99. Roughly 60% showed as "Indexable" at time of capture, 40% "Non Index" — i.e., **not all paid placements get indexed**, consistent with Hunter Lord's case study above (validate everything post-delivery).
+- **Tier B (~$2/300 PKR per link):** ~95 lower-authority sites (DA mostly under 60), higher proportion non-indexed. Lower cost but lower reliability — treat as volume filler, not primary citation strategy.
+
+**Notable high-DA sites in the paid tier:** LinkedIn.com (DA 99), Sites.google.com (DA 96), Ok.ru (DA 95), Medium.com (DA 95), Blogspot.com (DA 91), Archive.org (DA 94), Patreon.com (DA 92), GitLab.com (DA 92).
+
+**Key caution (reinforces the Web 2.0 vendor warning below):** A meaningful share of "high DA" sites in this list showed as **Non-Indexed** at capture time — DA alone doesn't guarantee the specific page/profile you get is indexed. Always verify post-delivery with a bulk index checker (see Hunter Lord case study) before paying for a second batch from the same vendor.
+
+---
+
+## Execution Playbook: Diversification Tactics (Community Wisdom)
+
+Surfaced in community discussion on how to actually run a parasite-list campaign at scale (not just which sites to use):
+
+**1. Diversify vendors by platform type, not one vendor for everything.** Find vendors who specialize in specific platform types (one strong at PR-style sites, another at document hosting, etc.) rather than one generalist for the whole list.
+
+**2. Mix anchor text types.** Heavy use of brand name, product name, and naked URL anchors — not exact-match keyword anchors everywhere. Product names that already contain keywords help naturally.
+
+**3. Embed a relevant YouTube video in parasite articles.** Harder for Google to dismiss content that also carries an embedded video from Google's own platform — adds a legitimacy signal beyond just text.
+
+**4. Diversify content types within the same parasite platform type:** listicles, customer-story format, press-release style, "X vs. Y" comparison articles — don't submit the same article template to every site.
+
+**5. Always brief vendors with a Writer's Brief.** Provide: target keywords, key entities (business name, service, location), and the specific product/service page URL(s) you want linked. Removes ambiguity and keeps vendor output on-target.
+
+**Where this fits:** This is the execution layer on top of the Fiverr vendor-vetting guidance already in this page (see "Vetting Vendors" under Web 2.0 & Foundational Links) and the pacing discipline in the Hunter Lord case study — list, vendor, and execution discipline all need to work together.
 
 ---
 

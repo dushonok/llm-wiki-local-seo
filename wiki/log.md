@@ -374,3 +374,21 @@ trusted platforms, stable homepage, built once and left alone; current leaderboa
 mold #10/radon #22, 2nd place at mold #22/radon #34). Updated [[index.md]] with directory-strategy
 entry and enhanced microsite-qa-reference description.
 Pages touched: [[framework/directory-strategy.md]] (new), [[framework/microsite-qa-reference.md]], [[index.md]], [[log.md]]
+
+## 2026-10-08 | ingest | Parasite List framework + LLM citation sources + vendor pricing benchmark
+Ingested 6 new raw sources (5 CSVs + 1 comment-thread markdown, "Public_Parasite_list_v3" series,
+Aug 2026 citations) into [[framework/citations-strategy.md]] as new sections, per user's choice to
+merge rather than create a new page. Added: "The Parasite List Framework" (102 platforms across 17
+categories, tagged by 4 strategy types — Seedable/Listing/Review-driven/Earned — with rank-potential
+highlights); "LLM Citation Sources" (Tier-1 media outlets LLMs cite, tiered by probability: Forbes
+Councils/HARO/PR Newswire as highest-ROI targets, NYT/WSJ/Bloomberg as low-probability/high-authority);
+"Document-Hosting Parasites" (DA-ranked doc hosts: Google Drive, Scribd, SlideShare, etc.); "Vendor
+Pricing Reference" (summarized, not full list, per user's choice — two price tiers from a captured
+vendor list, ~260 sites, with the caution that a meaningful share of "high DA" sites showed Non-Indexed
+at capture time, reinforcing the existing Hunter Lord validation-step guidance); "Execution Playbook"
+(5 community tactics: vendor diversification by platform type, anchor-text mix, YouTube embeds in
+parasite articles, content-type diversification, Writer's Brief for vendors). Updated frontmatter
+sources list, [[index.md]] one-liner, and this log entry. Confirmed via `git status`/`git log` that
+the Oct 7 ingest (directory-strategy.md, microsite-qa-reference.md updates) was already committed
+(commits 8ca5c67 and 5cb0780) before starting this ingest — avoided re-doing completed work.
+Pages touched: [[framework/citations-strategy.md]], [[index.md]], [[log.md]]

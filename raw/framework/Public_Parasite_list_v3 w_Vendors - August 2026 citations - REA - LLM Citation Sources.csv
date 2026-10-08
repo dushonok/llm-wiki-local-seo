@@ -1,0 +1,34 @@
+"Not a simple parasite but may can do ""pay to play""",,,
+SOURCE,WHY IT MATTERS (LLM/AEO),HOW TO GET CITED,RANK / CITE POTENTIAL
+Forbes,Heavily cited by LLMs; Forbes Councils & contributor mentions,"HARO/Qwoted, expert quotes, Councils membership",High
+Business Insider,Frequent LLM source for consumer/product context,"HARO, PR pitches, product roundups",High
+TechRadar,Product review authority LLMs surface for 'best X',"Product PR, reviewer outreach, roundup inclusion",Medium
+Reuters,Tier-1 news LLMs trust heavily,"Newsworthy PR, wire pickup",Medium
+New York Times,Top-trust LLM citation source,Major PR / newsworthy story,Low
+Financial Times,Trusted business source,Business/industry PR,Low
+Time,Broadly cited general-interest source,Newsworthy angle / PR,Low
+Axios,Frequently cited concise news,PR pitch on trend/data story,Low
+The Guardian,High-trust global news,PR / op-ed pitching,Low
+WSJ,Tier-1 business citation,Business PR,Low
+PR Newswire,Wire that seeds many LLM-cited republications,Paid press release distribution,High
+Bloomberg,Trusted financial/business source,Business/financial PR,Low
+AP News,Wire syndication LLMs trust,Newsworthy PR via wire,Medium
+Washington Post,High-trust news citation,Major PR,Low
+CNBC,Business/consumer source LLMs cite,"Expert commentary, PR",Medium
+CNN,Broad high-trust source,Newsworthy PR,Low
+Economist,Authority on business/econ,Industry data / PR,Low
+The Atlantic,Cited longform source,Op-ed / expert pitch,Low
+New Yorker,High-trust longform,Editorial pitch,Low
+Wired,Tech/consumer authority,Product & trend PR,Medium
+The Verge,Consumer-tech authority LLMs surface,"Product reviews, PR",Medium
+Ars Technica,Technical authority,Technical PR / expert source,Low
+NIH / PubMed,Trusted for health/water-quality claims,Cite in your own content; sponsor/author research,Medium
+Microsoft Docs,Technical reference authority,N/A — reference only,Low
+NY Post,Frequently cited consumer news,PR pitch,Low
+OpenStreetMap,Powers map/location answers,Accurate business geo-data entry,Medium
+Investopedia,Cited for finance/cost explainers,"HARO, expert contribution",Medium
+Mayo Clinic,Trusted health source (water quality/health),Cite in content; cannot self-publish,Low
+Healthline,Trusted health source LLMs surface,HARO medical/expert review,Medium
+Britannica,High-trust reference,Cite as source; cannot self-publish,Low
+Times of India,High-traffic cited news,PR (lower US relevance),Low
+The Sun (UK),High-traffic news,PR (UK/low US relevance),Low
