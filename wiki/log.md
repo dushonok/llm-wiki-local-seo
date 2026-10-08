@@ -424,3 +424,19 @@ from this conversation; the site identity (`moldremediationgettysburgpa.org`) wa
 matching the user's local folder name to prior one-off review sessions (2026-09-25, 2026-10-01), not
 from new raw data. No real township/URL has been supplied yet to audit directly.
 Pages touched: [[framework/on-site-seo.md]], [[log.md]]
+
+## 2026-10-08 | query | Recommended implementation: move overlapping FAQ to township page as small FAQPage-marked-up section
+Follow-up to the two entries above. User asked whether the township-specific question causing the
+overlap should move to the township page as a small FAQ section with its own `FAQPage` markup.
+Confirmed yes, and connected it to two existing pages rather than treating it as a new idea: (1) it
+executes steps 2 and 4 of the ranking-URL-flapping diagnostic (removes the duplicate content, moves
+the structured-data signal onto the correct page) in one action; (2) it satisfies the existing
+hub-and-spoke requirement in [[framework/external-seo-microsite-tactics.md]] ("Single-Location Ranking
++ Surrounding Location Pages") that spoke/township pages need genuine hyperlocal content, not
+templated copy, to earn their keep — a real local FAQ block is a low-effort way to add that. Added a
+"Recommended implementation" paragraph to the end of the Diagnostic Pattern section in
+[[framework/on-site-seo.md]], cross-linking to the hub-and-spoke section and to the FAQ-formatting
+flat-vs-accordion guidance in [[framework/seo-fundamentals/content-optimization.md]] (keep the new
+block short, flat text, server-rendered if collapsed). No raw source backs this synthesis — flagged
+inline per convention.
+Pages touched: [[framework/on-site-seo.md]], [[log.md]]

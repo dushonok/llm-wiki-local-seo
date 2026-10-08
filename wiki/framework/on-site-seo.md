@@ -321,6 +321,25 @@ caps your visible ranking at whatever the *weaker* of the two competing pages
 can achieve. Fixing it is about giving Google exactly one unambiguous
 candidate per query, not about generating more content.
 
+**Recommended implementation when the overlap is one FAQ entry vs. one
+township/location page:** move the question (and its `FAQPage` markup)
+*off* the general FAQ page and onto the township page as a small, genuinely
+local FAQ section — don't leave a copy on both. This does three things at
+once: removes the duplicate content causing the overlap (step 2 above),
+redirects the structured-data signal to reinforce the page you actually want
+to rank instead of competing against it (step 4 above), and adds the kind of
+genuine hyperlocal content a spoke/township page needs to earn its keep in a
+hub-and-spoke location-page strategy (see "Single-Location Ranking +
+Surrounding Location Pages" in
+[`external-seo-microsite-tactics.md`](external-seo-microsite-tactics.md) —
+spoke pages only help the hub if they carry real local content, not
+templated copy with the town name swapped in). Keep the new FAQ block short
+(3–5 questions, flat/visible text, not an accordion that only injects answer
+text on click) per the Content Structure Recipe above and the FAQ-formatting
+guidance in
+[`seo-fundamentals/content-optimization.md`](seo-fundamentals/content-optimization.md).
+Repeat per spoke town if more than one township page shares this problem.
+
 ---
 
 ## Implementation Checklist
