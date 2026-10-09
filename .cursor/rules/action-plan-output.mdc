@@ -1,0 +1,28 @@
+---
+description: Always deliver action plans as plain-text, copy-paste-ready output
+alwaysApply: true
+---
+
+# Action plan output format
+
+Whenever a response includes an action plan, execution plan, roadmap, or
+step-by-step rollout (e.g. a client's N-day SEO plan, a launch checklist, a
+task list meant to be handed off or pasted elsewhere), always present it as
+plain text ready to copy-paste — not as rendered markdown with links,
+checkboxes styled as UI widgets, or wiki-style `[[...]]`/`[text](path)` links.
+
+Formatting rules for this plain-text output:
+- Use a wrapped plain-text/code block (triple backticks, no language tag) so
+  it renders as literal copy-pasteable text in chat.
+- Use simple ASCII structure: dashed section rules, numbered tasks, `[ ]` for
+  checklist items, plain parenthetical owner/effort tags — no markdown
+  headers (`#`), bold (`**`), or links inside the block.
+- Strip internal wiki cross-references (file paths, `[[page]]` links) from
+  this output — those belong in the underlying wiki page, not the
+  copy-paste version.
+- This applies regardless of whether the plan was just discussed in-chat or
+  pulled from an existing wiki page (e.g. `wiki/clients/<slug>/*.md`) — the
+  underlying wiki file keeps full markdown/links as normal; only the
+  chat-facing plan output follows this plain-text rule.
+- This is a standing preference for this project: apply it by default to
+  every future action-plan output without being re-asked.
