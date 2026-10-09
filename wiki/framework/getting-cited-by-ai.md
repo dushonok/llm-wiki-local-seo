@@ -2,9 +2,10 @@
 type: framework
 client: none
 status: active
-updated: 2026-09-04
+updated: 2026-10-09
 sources:
   - "raw/framework/🎙️ The Wisdom's In The Calls - Getting Cited by AI  · AI SEO Rank Expand Academy.md"
+  - "https://developers.google.com/search/docs/appearance/structured-data/organization (external, fetched 2026-10-09 — basis for the sameAs placement correction below)"
 ---
 
 # Getting Cited by AI
@@ -43,7 +44,10 @@ sources:
 1. Create affiliate YouTube accounts (for services like water treatment, contracting, etc.) cranking out educational content
 2. Participate actively in local Facebook groups, recommending your client's business
 3. Build Reddit presence in relevant communities
-4. Add all social profiles to website pages with sameAs schema to strengthen entity connections
+4. Add all social profiles via `sameAs` schema to strengthen entity connections —
+   put this on the `Organization` markup on the home page (or About page), not
+   duplicated across every page; see the placement rule in
+   [[seo-fundamentals/technical-seo.md]]
 
 **Principle:** AI answers are a mirror of public conversation. Put your client's name where the conversation happens.
 

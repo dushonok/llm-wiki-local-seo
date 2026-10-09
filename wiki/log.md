@@ -489,3 +489,31 @@ estimate, and traces back to the specific recommendation number it implements. A
 criteria checklist and a closing instruction to ingest Week 11-13 results back into recommendations.md
 and keywords.md once the plan completes. Updated index.md one-liner.
 Pages touched: [[clients/tipicita-kinesio/90-day-plan.md]], [[index.md]], [[log.md]]
+
+## 2026-10-09 | query + ingest | Correction: `Organization`/`sameAs` schema does NOT need to repeat on every page
+During a `sameAs`/OpenGraph correctness review of `moldremediationgettysburgpa.org` (same
+one-off-reviewed site as prior entries — not a tracked client), incorrectly told the user that
+Google parses each page's JSON-LD in isolation and therefore `sameAs` (declared only in the
+`Organization` node on the home page) provided no entity-verification benefit on the other 28
+pages, recommending it be duplicated onto every page's `LocalBusiness` node. User pushed back
+("are u sure?"). Fetched Google's own structured-data documentation
+(https://developers.google.com/search/docs/appearance/structured-data/organization) to check
+rather than defend the claim from memory, and it says the opposite: *"We recommend placing this
+information on your home page, or a single page that describes your organization... You don't
+need to include it on every page of your site."* Retracted the recommendation to the user.
+Root cause of the error: over-applying a heuristic that's true for per-URL rich-result schema
+(e.g. `FAQPage`, which must appear on the specific page to produce a result for that URL) to
+`Organization`/`sameAs`, which is a brand-level entity-disambiguation signal Google computes by
+crawling the site as a whole, not a per-page rich-result eligibility check. The site's existing
+implementation (sameAs once, home-page `Organization` node only) was already correct and needed
+no change. Filed the corrected rule, with the Google doc link as direct inline citation, in a new
+subsection of [[framework/seo-fundamentals/technical-seo.md]] ("Organization/sameAs placement:
+homepage only, not every page"), explicitly distinguishing it from `LocalBusiness`/NAP schema
+(which does correctly repeat per page/location page — not the same case). Also corrected the
+pre-existing, ambiguously-worded instruction in [[framework/getting-cited-by-ai.md]] Move #2
+("Add all social profiles to website pages with sameAs schema") that could be read the same
+wrong way, pointing it at the new placement rule instead. Updated frontmatter `sources`
+(added the Google doc URL as an external, dated source — exception to the usual raw/-only
+convention, justified since this is an authoritative primary source directly cited inline) and
+`updated` dates on both pages, and the [[index.md]] one-liners.
+Pages touched: [[framework/seo-fundamentals/technical-seo.md]], [[framework/getting-cited-by-ai.md]], [[index.md]], [[log.md]]

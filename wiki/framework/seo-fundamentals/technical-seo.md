@@ -2,12 +2,13 @@
 type: framework-foundation
 client: none
 status: active
-updated: 2026-10-02
-sources_note: "Canonical HTTP→HTTPS section verified live via curl against http://moldremediationgettysburgpa.org/ on 2026-10-01 — not a raw/ capture, see inline traceability note. www vs. non-www section (2026-10-02) is general reasoning parallel to that case — not independently verified against a live site, see inline traceability note."
+updated: 2026-10-09
+sources_note: "Canonical HTTP→HTTPS section verified live via curl against http://moldremediationgettysburgpa.org/ on 2026-10-01 — not a raw/ capture, see inline traceability note. www vs. non-www section (2026-10-02) is general reasoning parallel to that case — not independently verified against a live site, see inline traceability note. Organization/sameAs placement section (2026-10-09) corrects an earlier incorrect claim made during a sameAs/OpenGraph review of moldremediationgettysburgpa.org, verified directly against Google's own structured-data documentation — see inline citation and log entry."
 sources:
   - "raw/framework/1. SEO Fundamentals - Learn Technical SEO - The Beginner's Guide to Technical SEO.md"
   - "raw/framework/1. SEO Fundamentals - Learn Technical SEO - Google Crawling and Indexing  Google Search Central    Documentation.md"
   - "raw/framework/1. SEO Fundamentals - Learn Technical SEO - Technical optimization.md"
+  - "https://developers.google.com/search/docs/appearance/structured-data/organization (external, fetched 2026-10-09)"
 ---
 
 # Technical SEO Fundamentals
@@ -352,6 +353,37 @@ Structured data doesn't directly rank you higher, but it:
 - Helps Google understand your content
 - Enables rich snippets (star ratings, images) in search results
 - Supports AI Overviews and Knowledge Panels
+
+### `Organization`/`sameAs` placement: homepage only, not every page
+
+> *Sourced from Google's own documentation — confirms a correction to earlier,
+> less-rigorous reasoning (see log entry 2026-10-09). Not a raw capture, but an
+> authoritative primary source, so it's cited directly rather than flagged as
+> "general reasoning."*
+
+**Rule:** `Organization` schema (including its `sameAs` property) belongs on the
+home page, or a single page that represents the organization (e.g. an About page)
+— **not duplicated on every page of the site.**
+
+Source: [Google Search Central — Organization structured data](https://developers.google.com/search/docs/appearance/structured-data/organization),
+"Technical guidelines" section: *"We recommend placing this information on your
+home page, or a single page that describes your organization, for example the
+about us page. You don't need to include it on every page of your site."*
+
+**Why this is different from `LocalBusiness`/NAP, which *does* repeat per page:**
+`Organization`/`sameAs` is a brand-level entity-disambiguation signal — Google
+computes it by crawling the site as a whole, not by stitching together matching
+`@id` values across independently-parsed pages. It isn't powering a per-URL rich
+result the way `FAQPage` or `BreadcrumbList` schema does, so there's no reason it
+needs to appear on every URL to "count." `LocalBusiness` schema (address, phone,
+hours, `areaServed`) is a different case — that's normal and expected to repeat on
+every page/location page, since each page's local-relevance signals are evaluated
+per-URL. Don't conflate the two when deciding what to duplicate site-wide.
+
+**Practical takeaway:** put `Organization` + `sameAs` once, on the home page (or
+the About page). Repeating it on every page isn't harmful, just unnecessary —
+don't spend implementation effort duplicating it, and don't flag its absence from
+inner pages as a gap during a schema review.
 
 ---
 
