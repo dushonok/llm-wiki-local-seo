@@ -2,10 +2,14 @@
 type: framework
 client: none
 status: active
-updated: 2026-09-04
+updated: 2026-10-10
 sources:
   - "raw/framework/Fan-Out Queries - 🚨 Extract Query Fan Out From ChatGPT (1-minute setup) · AI SEO Rank Expand Academy.md"
   - "raw/framework/Fan-Out Queries - Ranking for Multiple Fan-Out Queries Dramatically Increases Your Chances of Getting Cited in AIOs (173,902 URLs Studied).md"
+  - "raw/framework/ChatGPT Query Fanout Analyzer (Bookmarklet) - JC Chouinard.md"
+  - "raw/framework/How to see fan-out queries in ChatGPT - written by Perplexity on Oct 10, 2026.md"
+  - "raw/framework/Pasted image 20261010085447.png"
+  - "raw/framework/Pasted image 20261010085748.png"
 ---
 
 # Fan-Out Queries and AI Overviews
@@ -50,14 +54,24 @@ Ranking for multiple fan-out queries dramatically increases your chances of bein
 
 ### Method 1: ChatGPT Bookmarklet Tool
 
-A free tool pulls all queries ChatGPT uses when searching the web:
+A free browser bookmarklet ("ChatGPT Query Fanout Analyzer" by Jean-Christophe Chouinard) pulls all queries and citations ChatGPT used for a conversation, straight out of ChatGPT's own backend API:
 
-1. Install the bookmarklet (see raw sources for setup link)
-2. Ask ChatGPT your target question
-3. Click bookmarklet
-4. Get query fan-out + all source links with one click
+**Setup (one-time):**
+1. Go to [jcchouinard.com/chatgpt-query-fanout-analyzer](https://www.jcchouinard.com/chatgpt-query-fanout-analyzer/)
+2. Right-click your browser's bookmark bar → "Add Page…"
+3. Name it, then paste the bookmarklet's JavaScript code into the URL field (full code in the raw capture)
 
-**Cost:** Free | **Time:** 1 minute setup
+**Per-query use:**
+1. Open a ChatGPT conversation (must be a real `chatgpt.com/c/<id>` URL, not a fresh unsaved chat) and ask your target question (e.g., "best hair transplant clinic in Austin")
+2. Click the bookmarklet in your bookmark bar
+3. It opens a new tab with a dashboard showing, per prompt: the fan-out **Queries** ChatGPT actually ran (`search_model_queries`), every **citation** it used (grouped/sidebar/footnote/business-map, each with URL, domain, title, snippet), entities mentioned, and which model answered
+4. Use **Export Selected** to download a CSV per column (e.g. a `Queries_Report.csv` of every fan-out query, or a citations CSV of every cited URL/domain), or **View Markdown** for the full transcript
+
+**How it works technically:** it reads the conversation ID from the URL, fetches your own session token via `/api/auth/session`, then calls ChatGPT's internal `/backend-api/conversation/{id}` endpoint — the same data ChatGPT's UI renders from. No external server, no tracking; runs entirely in your browser against your own logged-in session.
+
+**Limitation:** one conversation at a time — not an aggregation tool across many queries. For aggregating citation frequency across 30+ queries (Move #1 in `getting-cited-by-ai.md`), you'd still run this per-query and manually compile results, or use DataForSEO for a paid/automated version of the same idea.
+
+**Cost:** Free | **Time:** 1 minute setup, seconds per query
 
 ### Method 2: Chrome Extension (Keyword Surfer)
 

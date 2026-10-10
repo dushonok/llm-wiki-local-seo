@@ -517,3 +517,42 @@ wrong way, pointing it at the new placement rule instead. Updated frontmatter `s
 convention, justified since this is an authoritative primary source directly cited inline) and
 `updated` dates on both pages, and the [[index.md]] one-liners.
 Pages touched: [[framework/seo-fundamentals/technical-seo.md]], [[framework/getting-cited-by-ai.md]], [[index.md]], [[log.md]]
+
+## 2026-10-09 | ingest | ChatGPT Query Fanout Analyzer bookmarklet (jcchouinard.com)
+User supplied the setup link for the "ChatGPT Bookmarklet Tool" that
+[[framework/fan-out-queries-and-ais.md]] Method 1 had referenced only vaguely
+("see raw sources for setup link," which pointed nowhere concrete) — closing a
+gap flagged in the prior turn's answer about DataForSEO/bookmarklet mechanics.
+Saved the full page (including complete bookmarklet JS source, captured
+verbatim per the raw/ immutability rule) to
+`raw/framework/ChatGPT Query Fanout Analyzer (Bookmarklet) - JC Chouinard.md`.
+Rewrote Method 1 in [[framework/fan-out-queries-and-ais.md]] with concrete
+setup steps (add as a browser bookmarklet), per-query usage (open a ChatGPT
+conversation, click bookmarklet, get a dashboard of fan-out queries +
+citations), how it technically works (reads the conversation ID from the URL,
+calls ChatGPT's own `/backend-api/conversation/{id}` endpoint with the user's
+session token — no external server/tracking), and its key limitation
+(one conversation at a time, not an aggregation tool — DataForSEO is still the
+only automatable/aggregating option across many queries). Also updated
+[[framework/getting-cited-by-ai.md]] Move #1 to cross-reference this as the
+free per-query alternative to DataForSEO. Updated `sources` and `updated` on
+both wiki pages and the [[index.md]] one-liners.
+Pages touched: [[framework/fan-out-queries-and-ais.md]], [[framework/getting-cited-by-ai.md]], [[index.md]], [[log.md]]
+
+## 2026-10-10 | ingest | Perplexity troubleshooting guide + bookmarklet extraction walkthrough
+Added detailed troubleshooting guide from Perplexity (complete Network tab walkthrough for extracting
+`search_model_queries` and `safe_urls` from ChatGPT's backend conversation endpoint) and two screenshots
+showing the actual capture process. User successfully extracted a real `search_model_queries` block
+containing the query: "best SEO companies in Verdun Montreal Quebec local SEO Google Maps official websites"
+and confirmed that ChatGPT's conversation endpoint delivers both query metadata and source-URL data,
+even when the current bookmarklet parser does not extract them. Saved:
+`raw/framework/How to see fan-out queries in ChatGPT - written by Perplexity on Oct 10, 2026.md`
+(full Perplexity chat transcript with step-by-step Network debugging), `Pasted image 20261010085447.png`
+(Network tab screenshot with 107 requests visible), `Pasted image 20261010085748.png`
+(conversation JSON response showing the `search_model_queries` and `safe_urls` structures). Updated
+`sources` frontmatter on both [[framework/fan-out-queries-and-ais.md]] and
+[[framework/getting-cited-by-ai.md]] to include these new raw files, and set `updated` to 2026-10-10.
+These sources provide the complete technical foundation for how to manually extract fan-out query
+metadata and citations from ChatGPT when needed (e.g., single-query or exploratory analysis before
+committing to DataForSEO for scale).
+Pages touched: [[framework/fan-out-queries-and-ais.md]], [[framework/getting-cited-by-ai.md]], [[log.md]]

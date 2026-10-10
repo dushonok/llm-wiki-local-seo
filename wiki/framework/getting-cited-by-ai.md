@@ -2,10 +2,14 @@
 type: framework
 client: none
 status: active
-updated: 2026-10-09
+updated: 2026-10-10
 sources:
   - "raw/framework/🎙️ The Wisdom's In The Calls - Getting Cited by AI  · AI SEO Rank Expand Academy.md"
   - "https://developers.google.com/search/docs/appearance/structured-data/organization (external, fetched 2026-10-09 — basis for the sameAs placement correction below)"
+  - "raw/framework/ChatGPT Query Fanout Analyzer (Bookmarklet) - JC Chouinard.md"
+  - "raw/framework/How to see fan-out queries in ChatGPT - written by Perplexity on Oct 10, 2026.md"
+  - "raw/framework/Pasted image 20261010085447.png"
+  - "raw/framework/Pasted image 20261010085748.png"
 ---
 
 # Getting Cited by AI
@@ -21,7 +25,11 @@ sources:
 **Process:**
 1. Take top 30 queries from Google Search Console
 2. Turn each into a question
-3. Use DataForSEO to check which third-party pages ChatGPT and Gemini cite for each
+3. Check which third-party pages ChatGPT and Gemini cite for each — either via
+   DataForSEO (paid, automatable at scale) or, per-query and free, the ChatGPT
+   Query Fanout Analyzer bookmarklet (see
+   [[fan-out-queries-and-ais.md]] Method 1 for setup/use — exports a citations
+   CSV per conversation)
 4. Aggregate 250–500 URLs and sort by citation frequency
 5. Target URLs cited 10+ times (the "invisible layer")
 
