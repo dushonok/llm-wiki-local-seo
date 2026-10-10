@@ -556,3 +556,15 @@ These sources provide the complete technical foundation for how to manually extr
 metadata and citations from ChatGPT when needed (e.g., single-query or exploratory analysis before
 committing to DataForSEO for scale).
 Pages touched: [[framework/fan-out-queries-and-ais.md]], [[framework/getting-cited-by-ai.md]], [[log.md]]
+
+## 2026-10-10 | deprecation notice | Bookmarklet approach no longer working; redirect to manual Network tab method
+ChatGPT updates to message structure broke the "ChatGPT Query Fanout Analyzer" bookmarklet's parser. While the
+bookmarklet source code is preserved in raw/ (per immutability), Method 1 in [[framework/fan-out-queries-and-ais.md]]
+is now flagged as "Deprecated (as of Oct 10, 2026)" and rewritten to center on the manual Network tab extraction
+process outlined in the Perplexity troubleshooting guide. The manual method works because it directly inspects
+ChatGPT's `/backend-api/conversation/{id}` response without parsing assumptions — just search the JSON for
+`search_model_queries` and `safe_urls`. Updated [[framework/fan-out-queries-and-ais.md]] with: (1) new Method 1
+(manual Network tab, with link to Perplexity's full walkthrough), (2) deprecated Method 1 section explaining
+why the bookmarklet no longer works. The underlying extraction mechanism (calling the backend endpoint) remains
+valid; only the parser layer broke.
+Pages touched: [[framework/fan-out-queries-and-ais.md]], [[log.md]]

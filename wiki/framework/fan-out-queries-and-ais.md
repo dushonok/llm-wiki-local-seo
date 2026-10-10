@@ -52,26 +52,41 @@ Ranking for multiple fan-out queries dramatically increases your chances of bein
 
 ## How to Extract Fan-Out Queries
 
-### Method 1: ChatGPT Bookmarklet Tool
+### Method 1: Manual Network Tab Extraction (Perplexity Guide)
 
-A free browser bookmarklet ("ChatGPT Query Fanout Analyzer" by Jean-Christophe Chouinard) pulls all queries and citations ChatGPT used for a conversation, straight out of ChatGPT's own backend API:
+**Status: Recommended as of Oct 10, 2026** (Bookmarklet approach no longer reliably working)
 
-**Setup (one-time):**
-1. Go to [jcchouinard.com/chatgpt-query-fanout-analyzer](https://www.jcchouinard.com/chatgpt-query-fanout-analyzer/)
-2. Right-click your browser's bookmark bar → "Add Page…"
-3. Name it, then paste the bookmarklet's JavaScript code into the URL field (full code in the raw capture)
+The most direct way to extract fan-out queries and citations: manually inspect ChatGPT's backend conversation endpoint via Chrome DevTools Network tab, following the step-by-step troubleshooting guide outlined by Perplexity.
 
-**Per-query use:**
-1. Open a ChatGPT conversation (must be a real `chatgpt.com/c/<id>` URL, not a fresh unsaved chat) and ask your target question (e.g., "best hair transplant clinic in Austin")
-2. Click the bookmarklet in your bookmark bar
-3. It opens a new tab with a dashboard showing, per prompt: the fan-out **Queries** ChatGPT actually ran (`search_model_queries`), every **citation** it used (grouped/sidebar/footnote/business-map, each with URL, domain, title, snippet), entities mentioned, and which model answered
-4. Use **Export Selected** to download a CSV per column (e.g. a `Queries_Report.csv` of every fan-out query, or a citations CSV of every cited URL/domain), or **View Markdown** for the full transcript
+**Why this method:** ChatGPT's `/backend-api/conversation/{id}` endpoint stores both `search_model_queries` (the queries ChatGPT actually ran) and `safe_urls` (all cited sources) in the raw JSON response. This method bypasses the parsing complexity that breaks bookmarklets when ChatGPT updates its message structure.
 
-**How it works technically:** it reads the conversation ID from the URL, fetches your own session token via `/api/auth/session`, then calls ChatGPT's internal `/backend-api/conversation/{id}` endpoint — the same data ChatGPT's UI renders from. No external server, no tracking; runs entirely in your browser against your own logged-in session.
+**High-level process:**
+1. Open a ChatGPT conversation with Web Search enabled
+2. Submit your target question
+3. Open Chrome DevTools → Network tab
+4. Filter for the `conversation` request (type: `fetch`, status: 200)
+5. Click it and open the Response panel
+6. Use `Ctrl + F` to search for `search_model_queries` or `safe_urls`
+7. Copy the JSON, extract the values (see Perplexity guide for full details + screenshots)
 
-**Limitation:** one conversation at a time — not an aggregation tool across many queries. For aggregating citation frequency across 30+ queries (Move #1 in `getting-cited-by-ai.md`), you'd still run this per-query and manually compile results, or use DataForSEO for a paid/automated version of the same idea.
+**Detailed walkthrough:** See `raw/framework/How to see fan-out queries in ChatGPT - written by Perplexity on Oct 10, 2026.md` for the complete Network tab debugging process, including screenshots showing where to look for the data and what each field means.
 
-**Cost:** Free | **Time:** 1 minute setup, seconds per query
+**What you extract:**
+- `search_model_queries.queries[]` — the actual fan-out query/queries ChatGPT generated
+- `safe_urls[]` — all URLs ChatGPT cited (filter out `images.openai.com`, `google.com/maps`, `google.com/search`)
+- Per-prompt metadata: model slug, request ID, reasoning steps
+
+**Limitation:** one conversation at a time. For aggregating across 30+ queries, either manually run this per-query and compile results, or use DataForSEO for automated/scaled extraction.
+
+**Cost:** Free | **Time:** 2–5 minutes per query (once you learn the pattern)
+
+---
+
+### Method 1 (Deprecated): ChatGPT Bookmarklet Tool
+
+⚠️ **No longer recommended as of Oct 10, 2026.** The "ChatGPT Query Fanout Analyzer" bookmarklet by Jean-Christophe Chouinard does not reliably parse the current ChatGPT message structure. While the bookmarklet source code is preserved in `raw/framework/ChatGPT Query Fanout Analyzer (Bookmarklet) - JC Chouinard.md` for reference, use the manual Network tab method (Method 1 above) instead.
+
+Historical context: The bookmarklet worked by calling ChatGPT's internal `/backend-api/conversation/{id}` endpoint and parsing the response JSON to extract queries, citations, and entities. It required one-time browser bookmark setup and then ran with a single click. However, recent ChatGPT updates changed the response message structure in ways the bookmarklet's parser does not handle, so it now fails to extract `search_model_queries` even though the data is present in the endpoint response (as confirmed by the Perplexity troubleshooting guide in raw/framework).
 
 ### Method 2: Chrome Extension (Keyword Surfer)
 
