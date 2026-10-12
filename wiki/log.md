@@ -569,14 +569,17 @@ why the bookmarklet no longer works. The underlying extraction mechanism (callin
 valid; only the parser layer broke.
 Pages touched: [[framework/fan-out-queries-and-ais.md]], [[log.md]]
 
-## 2026-10-12 | ingest | GBP creation strategy (Blair's off-record methods)
+## 2026-10-12 | ingest + clarification | GBP creation strategy (Blair's off-record methods)
 Created [[framework/gbp-creation-strategy.md]] from Blair's off-record note on two GBP creation methods:
-(1) Create via Google Maps UI yourself (legitimate for real local businesses truly missing from Maps);
+(1) Create via Google Maps UI yourself (for real local businesses missing from Maps, AND for your own
+microsites that can't get GBPs otherwise — but use sparingly to avoid burning your Local Person rating);
 (2) Clone an existing high-review business with your own address (faster but riskier, works via 2-minute
-phone-number change window before Google locks; risky at scale). Page includes detailed cautions against
-abuse, best practices, comparison table, and strategic use cases (legitimate: filling real gaps for local
-businesses; not recommended: using Method 2 to scale R&R microsite networks, which is easily detected
-and leads to suspension). Emphasized user's guidance: Method 1 is not to be abused, and is best used for
-genuinely existing local businesses that are truly missing from Maps. Moved source file from `raw/` root
-to `raw/framework/` for proper organization. Updated [[index.md]] with entry for the new page.
-Pages touched: [[framework/gbp-creation-strategy.md]] (new), [[index.md]], [[log.md]]
+phone-number change window before Google locks; risky at scale). Clarified per user's feedback that
+Method 1 should be used both for real businesses AND for microsites (when necessary), but sparingly —
+your Local Person rating on Google Maps is a finite asset that shouldn't be over-used. Page includes
+detailed cautions against abuse (mass-creating profiles across 20+ microsites burns your trust rating),
+best practices, comparison table, and strategic use cases distinguishing (a) legitimate one-off business
+gaps, (b) occasional microsite GBP creation (using up some trust), vs. (c) mass microsite scaling
+(don't do this). Moved source file from `raw/` root to `raw/framework/` for proper organization. Updated
+[[index.md]] with entry for the new page.
+Pages touched: [[framework/gbp-creation-strategy.md]], [[index.md]], [[log.md]]
