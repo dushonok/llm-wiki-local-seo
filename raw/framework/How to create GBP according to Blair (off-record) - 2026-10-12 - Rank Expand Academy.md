@@ -1,0 +1,3 @@
+Two ways:
+1. put it on the map yourself - you as a person with a Google account and a good trust of Local Person rating can adda business to the map through the Google Map UI
+2. find a business with a lot of good reviews, create a GBP with their name but with a different (yours) address - now u have 2 mins to change the phone number. Why it works: Google thinks it is the same business with a different location.

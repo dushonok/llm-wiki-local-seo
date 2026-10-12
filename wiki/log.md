@@ -568,3 +568,15 @@ ChatGPT's `/backend-api/conversation/{id}` response without parsing assumptions 
 why the bookmarklet no longer works. The underlying extraction mechanism (calling the backend endpoint) remains
 valid; only the parser layer broke.
 Pages touched: [[framework/fan-out-queries-and-ais.md]], [[log.md]]
+
+## 2026-10-12 | ingest | GBP creation strategy (Blair's off-record methods)
+Created [[framework/gbp-creation-strategy.md]] from Blair's off-record note on two GBP creation methods:
+(1) Create via Google Maps UI yourself (legitimate for real local businesses truly missing from Maps);
+(2) Clone an existing high-review business with your own address (faster but riskier, works via 2-minute
+phone-number change window before Google locks; risky at scale). Page includes detailed cautions against
+abuse, best practices, comparison table, and strategic use cases (legitimate: filling real gaps for local
+businesses; not recommended: using Method 2 to scale R&R microsite networks, which is easily detected
+and leads to suspension). Emphasized user's guidance: Method 1 is not to be abused, and is best used for
+genuinely existing local businesses that are truly missing from Maps. Moved source file from `raw/` root
+to `raw/framework/` for proper organization. Updated [[index.md]] with entry for the new page.
+Pages touched: [[framework/gbp-creation-strategy.md]] (new), [[index.md]], [[log.md]]
