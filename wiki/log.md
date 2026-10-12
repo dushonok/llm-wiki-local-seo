@@ -583,3 +583,18 @@ gaps, (b) occasional microsite GBP creation (using up some trust), vs. (c) mass 
 (don't do this). Moved source file from `raw/` root to `raw/framework/` for proper organization. Updated
 [[index.md]] with entry for the new page.
 Pages touched: [[framework/gbp-creation-strategy.md]], [[index.md]], [[log.md]]
+
+## 2026-10-12 | ingest | Parasite platform ranking data (real contest results, Oct 12)
+Created [[framework/parasite-ranking-data.md]] from microsite contest data showing which parasite/citation
+platforms actually ranked in top-50 search results (Tier 1: 27 platforms) vs. which contestants built but
+never ranked (Tier 2: 25+ platforms). Tier 1 includes Facebook, Clutch, Houzz, BBB, Manta, YouTube,
+press releases, Pinterest, MapQuest, etc. Tier 2 includes LinkedIn company pages, Medium, Substack, Yelp,
+TikTok, Reddit, Quora, WordPress.com, Weebly, etc. — surprisingly, many high-DA platforms didn't rank.
+Page includes: (1) both tiers with platform type/notes, (2) common ranking factors observed (identical
+business name/NAP everywhere, sameAs schema linking, built early + left alone), (3) comparison with the
+earlier Parasite List Framework to show the difference between "how to use" categories and "actual ranking
+potential" tiers, (4) practical implications for citation strategy, (5) open questions (why Yelp didn't
+rank, why press releases did, etc.). This provides empirical validation/contradiction of the earlier
+parasite platform taxonomy. Updated [[index.md]] with entry and link to [[citations-strategy.md]] for
+the theoretical framework comparison.
+Pages touched: [[framework/parasite-ranking-data.md]] (new), [[index.md]], [[log.md]]
