@@ -2,7 +2,7 @@
 type: framework
 client: none
 status: active
-updated: 2026-10-02
+updated: 2026-10-13
 sources:
   - "raw/chat-notes/chat-summary-rank-microsite-fast.md"
   - "raw/framework/Community Call 43 - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
@@ -14,6 +14,7 @@ sources:
   - "raw/framework/55 - Directory Authority and AI Visibility - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
   - "raw/framework/launchwithbryan.com website by  AI SEO Rank Expand Academy.md"
   - "general SEO reasoning (not raw-sourced) — see traceability note in 'Updating a Microsite Builder' section below"
+  - "live code review of external website-launchpad builds C:\\Projects\\website-launchpad\\Sewer-Line-Repair-San-Diego-CA and C:\\Projects\\website-launchpad\\Sewer-Line-Repair-Portland-OR (2026-10-13) — one-off reviews, not onboarded as tracked wiki clients; see 'Don't Build a Separate Page for the Primary Location' section below"
 ---
 
 # External SEO Tactics for Fast-Ranking Microsites
@@ -232,6 +233,38 @@ Example: Microsite targets Gettysburg, PA. Adding pages for Lititz, Ephrata, Akr
 - For a single-location microsite: keep the main page as the "hub," add only a handful of legitimately-served nearby towns (5–10 pages, not 50)
 - Each city page must link back to the main page
 - GBP service area should match the city pages you've built (or vice versa)
+
+### Don't Build a Separate Page for the Primary Location
+**The home page owns the primary location's head term — never build a
+`/service-in-[primary-city]` page alongside it.** The "surrounding location
+pages" above are only for towns *other than* the one the homepage already
+targets. A dedicated page for the primary city duplicates the homepage's
+H1/title/intent (two indexable, internally-linked, sitemap-listed pages both
+targeting e.g. "sewer line repair Portland, OR") and splits ranking signal
+instead of consolidating it — classic keyword cannibalization.
+
+**Where the site lists towns** (nav, the "Service Areas" page, the
+"Nearby Areas We Serve" block on each spoke page) — keep the primary location
+*in* those lists (omitting it looks like an oversight once 10+ surrounding
+towns are listed), but point its link at the home page (`/`) instead of a
+dedicated subpage:
+- On the "Service Areas" page and on every spoke/suburb page's nearby-areas
+  list: link the primary location's list item to `/`. This doubles as the
+  spoke-to-hub backlink the hub-and-spoke pattern above already requires,
+  with on-topic anchor text.
+- On the home page itself, if it renders its own inline copy of the same town
+  list, omit the primary location from that one instance (or render it as
+  plain text / `aria-current="page"`) — linking a page to itself adds no SEO
+  value and reads as a minor quality issue.
+- `LocalBusiness`/`Service` `areaServed` schema should still include the
+  primary location's `City` entity regardless of this choice — the schema
+  question is separate from the visible-link question.
+
+Verified live on two sibling microsites in the same build: the San Diego
+build never created a primary-location page and was confirmed clean; the
+Portland build initially shipped `/sewer-line-repair-in-portland-or` with an
+H1 identical to the homepage's and listed in both the sitemap and the
+Service Areas page — removing the page (and the list entry) resolved it.
 
 ---
 

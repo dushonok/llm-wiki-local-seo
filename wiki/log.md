@@ -614,3 +614,30 @@ Camtasia sync → YouTube auto-publish → Replit-generated Pinterest pins. Resu
 12 YouTube Shorts, 3 long-form videos. Moved both raw sources to raw/framework/ for consistent organization.
 Updated [[index.md]] with entries for both pages.
 Pages touched: [[framework/multi-tier-distribution-network.md]] (new), [[framework/ai-tool-stacks.md]], [[index.md]], [[log.md]]
+
+## 2026-10-13 | query + ingest | Primary-location page is a cannibalization bug - verified live, filed as explicit rule
+During code review of two sibling website-launchpad microsite builds (Sewer-Line-Repair-San-Diego-CA
+and Sewer-Line-Repair-Portland-OR - one-off reviews, not onboarded as tracked wiki clients), found that
+the San Diego build correctly never created a dedicated page for its own primary location (homepage
+owns 'Sewer Line Repair in San Diego, CA'), while the Portland build initially shipped
+/sewer-line-repair-in-portland-or with an H1 identical to the homepage's, indexable, listed in the
+sitemap, and linked from the Service Areas page's town list - direct keyword cannibalization of the
+homepage's head term. User fixed it by deleting the page and the list entry. When asked where the
+existing wiki rule for this lived, found only the adjacent-but-not-explicit hub-and-spoke guidance in
+[[framework/external-seo-microsite-tactics.md]] ('keep the main page as the hub' for *surrounding*
+towns) - no line explicitly forbidding a primary-location page existed yet. User then asked a follow-up
+design question (option A: omit primary location from all town lists entirely vs. option B: keep it
+in nav/Service-Areas/nearby-areas lists but link to the home page instead of a dedicated page) and
+chose option B. Confirmed B is sound: it satisfies the existing 'each city page must link back to the
+main page' hub-and-spoke requirement with on-topic anchor text, and is better UX than omitting the
+primary city once 10+ surrounding towns are listed - with one caveat (don't self-link the primary
+location if the home page renders its own inline copy of the same town list). Added a new 'Don't Build
+a Separate Page for the Primary Location' subsection to
+[[framework/external-seo-microsite-tactics.md]] codifying: never build a /service-in-[primary-city]
+page; keep the primary location in visible town lists pointing at '/'; omit/de-link it only on the home
+page's own inline copy of the list; areaServed schema should include it regardless. Sourced inline to
+the live verification on both builds (flagged per the no-unsourced-claims convention, since this is
+general SEO reasoning + live verification rather than a raw framework capture). Updated [[index.md]]
+one-liner.
+Pages touched: [[framework/external-seo-microsite-tactics.md]], [[index.md]], [[log.md]]
+
