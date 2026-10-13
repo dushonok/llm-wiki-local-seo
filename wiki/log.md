@@ -598,3 +598,19 @@ rank, why press releases did, etc.). This provides empirical validation/contradi
 parasite platform taxonomy. Updated [[index.md]] with entry and link to [[citations-strategy.md]] for
 the theoretical framework comparison.
 Pages touched: [[framework/parasite-ranking-data.md]] (new), [[index.md]], [[log.md]]
+
+## 2026-10-13 | ingest | Multi-tier distribution network case study + video automation stack
+Created [[framework/multi-tier-distribution-network.md]] from Bryan Collins' detailed case study of a 4-tier
+SEO automation system: Tier 1 (Foundation: Medium + LinkedIn long-form), Tier 2 (Amplification: rotation
+across LinkedIn/Notion/YouTube/Artifacts), Tier 3 (Conversion: .repair and .dev error-checker microsites
+with triple monetization), Tier 4 (Core: mrgrid.io main site). System publishes 240 pieces of content over
+30 days (8/day) across 9 platforms using Claude Sonnet 4 + OpenAI adaptation + Replit automation. Day 1
+proof: 102 indexed pages across 5 domains, 3 revenue streams live (direct sales $7–$29, affiliate SNOW
+$22 CPA, multi-offer landing pages), fully automated. Detailed keyword strategy example ("PDF Corrupted"
+base + 20 modifiers = 20 articles). Key insight: error-solver niche (different from local services) +
+multi-platform distribution + affiliate monetization. Also added Stack #12 (Video Automation) to
+[[framework/ai-tool-stacks.md]]: Claude → HeyGen API avatars → Gamma slides → ElevenLabs voiceover →
+Camtasia sync → YouTube auto-publish → Replit-generated Pinterest pins. Results: 85 creatives scheduled,
+12 YouTube Shorts, 3 long-form videos. Moved both raw sources to raw/framework/ for consistent organization.
+Updated [[index.md]] with entries for both pages.
+Pages touched: [[framework/multi-tier-distribution-network.md]] (new), [[framework/ai-tool-stacks.md]], [[index.md]], [[log.md]]

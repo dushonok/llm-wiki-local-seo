@@ -32,7 +32,8 @@ General SEO/local SEO knowledge, not tied to a client.
 - [open-graph-and-metadata.md](framework/open-graph-and-metadata.md) — OG tags aren't a ranking factor; low-priority polish for social CTR + AI/citation fallback
 
 ### Strategy & Operations
-- [ai-tool-stacks.md](framework/ai-tool-stacks.md) — 11 practical AI/automation stacks (content generation, site building, lead capture, scaling) from community members
+- [ai-tool-stacks.md](framework/ai-tool-stacks.md) — 12 practical AI/automation stacks (content generation, site building, lead capture, scaling, video + multi-platform distribution) from community members
+- [multi-tier-distribution-network.md](framework/multi-tier-distribution-network.md) — Bryan Collins case study: 4-tier SEO network architecture (Foundation/Amplification/Conversion/Core), 102 indexed pages Day 1, 9-platform publishing automation (Dev.to, Hashnode, GitHub, Reddit, Medium, LinkedIn, YouTube, Pinterest, Claude Artifacts), Claude + OpenAI content generation, 3 revenue streams (direct sales + 2 affiliates)
 - [niche-selection-strategy.md](framework/niche-selection-strategy.md) — "Niches within niches" framework; 12-minute microsite builds; volume strategy; research-first mindset
 - [agency-operations-scaling.md](framework/agency-operations-scaling.md) — Moving from solo doer to system operator; Loom training, boundaries, documentation for delegation
 - [pricing-and-deal-structures.md](framework/pricing-and-deal-structures.md) — 11 pricing plays and deal structures (per-lead, retainers, stacking, contracts, hourly design)

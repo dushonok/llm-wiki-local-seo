@@ -2,11 +2,12 @@
 type: framework
 client: none
 status: active
-updated: 2026-09-05
+updated: 2026-10-13
 sources:
   - "raw/framework/AI Stacks Members Are Actually Using - 🎙️ The Wisdom's In The Calls · AI SEO Rank Expand Academy.md"
   - "raw/framework/51 - SEO Is Now Prompts and Agents - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
   - "raw/framework/49 - The 12-Minute Microsite - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
+  - "raw/framework/AI video - What are you building this week · AI SEO Rank Expand Academy.md"
 ---
 
 # AI Tool Stacks: Practical Combinations That Work
@@ -218,6 +219,48 @@ sources:
 
 ---
 
+### Stack #12: Automated Video + Multi-Platform Distribution (Bryan's Build)
+
+**Concept:** Generate video scripts via Claude, create videos via HeyGen API, and distribute across YouTube, Pinterest, and email automatically.
+
+**Process:**
+1. Claude generates prompts for video creation
+2. HeyGen API 1.0 (via OpenRouter) creates videos with AI avatars (avatars cost pennies)
+3. Gamma.app converts presentations to slides with voiceover
+4. ElevenLabs generates voiceovers
+5. Camtasia syncs audio to slides
+6. Auto-publish to YouTube
+7. Replit generates Pinterest pins from YouTube thumbnails
+8. Upload pins to Pinterest with auto-generated titles/descriptions
+
+**Outputs:**
+- YouTube Shorts (90 seconds)
+- Long-form YouTube videos (2–3 minutes)
+- Pinterest pins with embedded YouTube links
+- Scheduled email sequences with video CTAs
+
+**Results (Oct 13, 2026):**
+- 85 creatives scheduled via GoHighLevel planner
+- 12 YouTube Shorts (3/week)
+- 3 long-form videos with HeyGen avatars
+- 1 completed YouTube channel
+- Pinterest pins driving traffic back to microsites
+
+**Cost:** HeyGen API at pennies-per-video scale. AI avatars eliminate voiceover talent costs.
+
+**Tools:**
+- Claude (script generation)
+- HeyGen API 1.0 (video creation with AI avatars)
+- Gamma.app (presentation slides)
+- ElevenLabs (voiceover generation)
+- Camtasia (audio-to-video sync)
+- OpenArt.ai (graphics for shorts)
+- Replit (Pinterest pin generation)
+- YouTube API (auto-publish)
+- Pinterest API (scheduled posting)
+
+---
+
 ## The Pattern
 
 Nobody is buying stacks off the shelf. They're:
@@ -236,6 +279,7 @@ Nobody is buying stacks off the shelf. They're:
 - Building sites & pages → Stack #4–6
 - Lead capture & onboarding → Stack #7–9
 - Scaling & research → Stack #10–11
+- Video + multi-platform distribution → Stack #12
 
 Copy just that one stack. Don't rebuild your whole toolkit. Solve one problem, then move to the next.
 
