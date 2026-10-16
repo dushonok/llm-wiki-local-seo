@@ -14,6 +14,10 @@ correcting it rather than rewriting history.
 
 ---
 
+## 2026-10-16 | ingest | Service-area-only business (NAP & schema guidance)
+Added documentation to [[framework/on-site-seo.md]] and [[framework/local-seo-checklist.md]] explaining how to handle businesses with no customer-facing address. Covers website footer strategy (name + phone only), LocalBusiness schema using `areaServed` instead of `address`, and GBP setup as service-area-only (verification address hidden). Clarifies that service-area-only configuration often ranks better than publishing an office address when business is truly mobile/multi-location-serving. Addresses documentation gap: previous pages assumed physical address requirement; this update distinguishes legitimate service-area businesses (plumbing, HVAC, cleaning, etc.) from location-based retail.
+Pages touched: [[framework/on-site-seo.md]], [[framework/local-seo-checklist.md]]
+
 ## 2026-10-06 | ingest | Social media profiles as backlink sources
 Populated [[framework/backlinks.md]] (was a stub) with social media platform hierarchy for building backlinks and citations. Covers YouTube, Reddit, Instagram, Facebook, TikTok, LinkedIn, trade associations ranked by domain authority × AI citation frequency × implementation ease. Included 12-week mold remediation example, linking architecture with `/profiles` page, niche-specific platform selection, and quarterly audit cadence. Updated [[index.md]] to reflect active status and summary.
 Pages touched: [[framework/backlinks.md]], [[index.md]]

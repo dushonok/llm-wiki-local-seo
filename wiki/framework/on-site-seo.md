@@ -162,6 +162,53 @@ this split permanently, not just as a one-time cleanup:
 
 ---
 
+## Service-Area-Only Businesses (No Physical Customer Address)
+
+For contractors, service providers, and other businesses that operate in customers' locations rather than a physical storefront — and don't want to publish an office address for privacy or security reasons.
+
+**Website Footer:**
+- Show: **Business name + phone number only** (the two pieces of NAP you *can* control)
+- Omit: physical address
+- Add: "Serving [neighborhoods/ZIP codes]" or "Service areas" link
+
+**LocalBusiness Schema:**
+- Include `name` and `telephone` (match GBP exactly)
+- Use `areaServed` to list the same regions/neighborhoods/territories you mention on your website (use consistent terminology across all three places: website copy, GBP service areas, and schema)
+- `areaServed` accepts place names, region names, neighborhoods, ZIP codes, or any geographic identifier — whatever language your business uses to describe its territory
+- Schema example (place names):
+  ```json
+  {
+    "@type": "LocalBusiness",
+    "name": "Company Name",
+    "telephone": "+1-555-0123",
+    "areaServed": ["Brooklyn, NY", "Queens, NY", "Westchester County"],
+    "aggregateRating": {...}
+  }
+  ```
+- Schema example (mixed ZIPs and regions):
+  ```json
+  {
+    "@type": "LocalBusiness",
+    "name": "Company Name",
+    "telephone": "+1-555-0123",
+    "areaServed": ["12345", "12346", "Northern Westchester", "Downtown Brooklyn"],
+    "aggregateRating": {...}
+  }
+  ```
+- Omit the `address` field entirely if the office address isn't customer-facing
+- **Key rule:** Use the same region/territory names in your website copy, GBP service area field, and schema `areaServed` — consistency across all three signals stronger relevance to AI systems
+
+**GBP Setup:**
+- Create profile as **service-area only** (not a location pin on the map)
+- You can enter a real office address for verification purposes, but Google will not display it publicly
+- Add service area ZIP codes or neighborhoods in the GBP service-area field instead
+
+**Why this matters:** Service-area businesses with published addresses often rank *worse* because Google sees the mismatch between "serves entire city" and "located at one office" — it reads as incomplete/suspicious. By omitting the address and using `areaServed` schema + GBP service-area configuration, you signal that your business is genuinely mobile/multi-location-serving, which is more semantically honest and often ranks better.
+
+**Real examples:** Plumbing, HVAC, cleaning, electrical, roofing, locksmithing — any trade operating in customers' homes rather than a retail location.
+
+---
+
 ---
 
 ## Meta Descriptions: Town Lists — State Abbreviation or Not?

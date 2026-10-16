@@ -32,6 +32,13 @@ Goal: Ensure a business's data ecosystem is robust enough to be included in Goog
 - ✅ Secondary categories cover other key services (e.g., *Siding Contractor*, *Gutter Installation*)
 - ✅ Hours of operation, service areas, and contact info are current
 
+**For service-area-only businesses (no customer-facing address):**
+- ✅ Business Name and Phone Number are consistent across platforms
+- ✅ Address is omitted from website footer (show only name + phone + service areas)
+- ✅ Service areas (regions/territories/neighborhoods/ZIP codes) are listed consistently across **website copy, GBP service-area field, and LocalBusiness schema** — use the same terminology in all three places
+- ⚠️ GBP is set up as "service area only" (not a location pin) — office address used for verification only, not displayed publicly
+- See "Service-Area-Only Businesses" section in [`on-site-seo.md`](on-site-seo.md) for schema guidance and examples
+
 ## 2. Google Business Profile Optimization
 
 **Objective:** Make GBP a "data source" for AI summaries.
