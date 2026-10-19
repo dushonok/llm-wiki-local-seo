@@ -43,6 +43,12 @@ General SEO/local SEO knowledge, not tied to a client.
 
 ## clients/
 
+### groupe-nova
+- [profile.md](clients/groupe-nova/profile.md) — Groupe Nova, residential renovation general contractor (kitchen/bathroom/basement/design), Montreal + Laval/North Shore/South Shore/Montérégie/Lanaudière, WordPress+Elementor bilingual FR/EN site
+- [keywords.md](clients/groupe-nova/keywords.md) — initial service×area map (no rank-tracker data yet); biggest gap: homepage title has zero keyword/location signal
+- [recommendations.md](clients/groupe-nova/recommendations.md) — Rue Saint-Denis confirmed as the real GBP address via client screenshot of the live Maps listing (11 reviews, not the 6 an earlier stale aggregator showed); also covers a confirmed P0 bug (the English interior-design-services page renders blank due to a stuck-open phone country-selector), a URL-cleanup item, and a content-depth gap (no location pages, thin page copy)
+- [4-week-plan.md](clients/groupe-nova/4-week-plan.md) — rewritten at a more generic milestone level (~54 hrs total, up from ~34h): Wk1 fix the confirmed broken page + NAP audit + quick fixes + URL cleanup → Wk2 GBP alignment with the website → Wk3 schema + first location pages + expanded page copy + image alt text → Wk4 remaining location pages + review-velocity system + hardening + validation
+
 ### tipicita-kinesio
 - [profile.md](clients/tipicita-kinesio/profile.md) — Emmanuelle Mesnard, kinésiologue + coach de vie, relocated Eysines/Mérignac → Le Bouscat (19 Aug 2026); 47 Google + 73 Résalib reviews, all 5.0
 - [keywords.md](clients/tipicita-kinesio/keywords.md) — 15 keywords tracked; top priority: `coach de vie le bouscat` (already #1) and `kinésiologue le bouscat` (dense local competition)

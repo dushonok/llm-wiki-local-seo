@@ -14,9 +14,9 @@ checkboxes styled as UI widgets, or wiki-style `[[...]]`/`[text](path)` links.
 Formatting rules for this plain-text output:
 - Use a wrapped plain-text/code block (triple backticks, no language tag) so
   it renders as literal copy-pasteable text in chat.
-- Use simple ASCII structure: dashed section rules, numbered tasks, `[ ]` for
-  checklist items, plain parenthetical owner/effort tags — no markdown
-  headers (`#`), bold (`**`), or links inside the block.
+- Use simple ASCII structure: dashed section rules, numbered tasks, plain
+  parenthetical owner/effort tags — no markdown headers (`#`), bold (`**`),
+  or links inside the block.
 - Strip internal wiki cross-references (file paths, `[[page]]` links) from
   this output — those belong in the underlying wiki page, not the
   copy-paste version.
@@ -26,3 +26,27 @@ Formatting rules for this plain-text output:
   chat-facing plan output follows this plain-text rule.
 - This is a standing preference for this project: apply it by default to
   every future action-plan output without being re-asked.
+
+## Client/prospect-facing text (proposals, cold emails, Upwork bids) — stricter rules
+
+Anything meant to be sent externally (an Upwork proposal, a cold email, a
+message to a prospect or client) must read like a human typed it directly
+into the send box, ready to select-all, copy, and paste with zero edits.
+This is stricter than the general action-plan format above:
+
+- No `[ ]` or `[x]` checkbox brackets. These read as internal task-tracker
+  syntax, not something a person writes in a proposal. Use plain numbers
+  ("1.", "2.") only.
+- No hard line breaks in the middle of a sentence or paragraph. Write each
+  numbered item's body as one continuous line (let the chat UI/recipient's
+  textbox soft-wrap it naturally) rather than manually wrapping at ~70
+  characters. Manually-wrapped text looks fine in a code block but pastes
+  into Upwork/Gmail/etc. with awkward mid-sentence breaks that scream
+  "pasted from an AI tool."
+- No other bracketed meta-notation (`[Owner]`, `[TBD]`, placeholders in
+  brackets, etc.) — write it as real words or omit it.
+- Keep estimates and asides as plain parenthetical or trailing sentences,
+  not a separate bracketed tag.
+- Before finalizing, mentally re-read it as "would this look identical to
+  something typed by hand in a text box" — if any artifact (brackets, odd
+  breaks, markdown leftovers) would survive a copy-paste, remove it.

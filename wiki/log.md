@@ -645,3 +645,258 @@ general SEO reasoning + live verification rather than a raw framework capture). 
 one-liner.
 Pages touched: [[framework/external-seo-microsite-tactics.md]], [[index.md]], [[log.md]]
 
+## 2026-10-19 | ingest | Onboarded new client: groupe-nova (technical SEO + GBP + NAP audit)
+User asked for a local SEO analysis of groupenova.ca — Groupe Nova, residential
+renovation general contractor (kitchen/bathroom/basement/design) serving Montreal,
+Laval, the North Shore, the South Shore, Montérégie, and Lanaudière — covering
+technical SEO, GBP optimization, and NAP consistency. No raw client material
+existed yet, so performed a fresh capture: live fetch of the homepage, 4 service
+pages, portfolio, about page, robots.txt, and full wp-sitemap.xml tree (FR + EN)
+via HTTP, raw HTML `<head>`/body inspection for title/meta/canonical/hreflang/
+schema, plus web search cross-referencing a Google Places–mirroring aggregator
+against the live site's Trustindex review widget. Saved as
+[[raw/clients/groupe-nova/site-crawl-and-gbp-check-2026-10-19.md]]. Created
+profile, keyword map, and recommendations per AGENTS.md §7. Key findings: (1)
+**NAP mismatch** — the website's address (4388 Rue Saint-Denis #200, Montreal)
+and phone (514-701-9898) don't match the connected Google Business Profile
+(7657 Rue Montbrun, Saint-Léonard; +1 438-866-6682), confirmed same profile via
+identical review text/reviewer names on both; (2) the website's address is
+independently confirmed (Yelp + a commercial leasing listing) to be a third-party
+coworking space ("Montréal Cowork"), not a Groupe Nova office — a GBP-guideline
+risk if ever synced; (3) homepage `<title>` is literally "Groupe Nova" with zero
+service/location keyword — the single biggest on-page gap on the site's highest-
+authority URL; (4) zero meta descriptions and zero JSON-LD structured data found
+on any of 11 pages checked; (5) duplicate-homepage URLs confirmed via the site's
+own sitemap (`/` + `/accueil/`, `/en/` + `/en/home/` each serve the same content
+as separate indexable URLs); (6) the site's strongest local-proof content — 6
+homepage project photos and 56 portfolio before/after images, each already
+captioned with a specific town (Laval, Brossard, Île-des-Sœurs, Blainville,
+Montréal) — has empty or meaningless auto-generated alt text sitewide, so none
+of that location signal is machine-readable; (7) the footer's service-area list
+("Rive-Nord"/"Rive-Sud") doesn't name-match the client's stated target areas
+("Laval," "Montérégie") despite having real completed-project proof in both.
+Flagged GBP dashboard login, Search Console, a full citation sweep, and real
+Core Web Vitals data as open items the client/user needs to provide directly.
+Updated [[index.md]] with new clients/ section.
+Pages touched: [[clients/groupe-nova/profile.md]], [[clients/groupe-nova/keywords.md]], [[clients/groupe-nova/recommendations.md]], [[index.md]], [[log.md]]
+
+## 2026-10-19 | query + ingest | Correction: groupe-nova P0 NAP/GBP finding was overconfident and partly wrong
+User asked to review the prior groupe-nova findings for correctness. Re-verified
+the P0 NAP/GBP claim (website vs. "GBP" address mismatch) with additional web
+searches and direct fetches, since it was the single highest-stakes, lowest-
+certainty claim in the original pass (inferred from a third-party aggregator,
+not a GBP dashboard login). Found two real problems: (1) the alternate address
+(7657 Rue Montbrun, Saint-Léonard) was asserted as "the current GBP" but its
+source's newest review is dated October 2023 — a ~3-year-stale cached snapshot,
+not confirmed live GBP data; the original write-up overstated currency/
+confidence. (2) A better, previously-missed data point existed: the website's
+own printed RBQ licence number (5881-0540-01) is tied, per an independently
+and recently verified (2026-08-26) licence-citing directory, to a *third*,
+different address (1-8925 Avenue Millen, Montreal — "9562-0605 Québec inc."),
+making this a genuine first-party self-inconsistency (the website disagreeing
+with itself) rather than a speculative third-party cross-check — a stronger
+finding than the one originally foregrounded. Also confirmed via
+ProfileCanada.com (explicitly names "Groupe Nova" + links `www.groupenova.ca`)
+that the Rue Montbrun address really is tied to this business at some point,
+under yet another RBQ number (5797-3208-01, a different numbered company) —
+so there are now 3 addresses in the picture, not 2, each with different
+confidence/currency. One search-synthesis artifact was caught and excluded
+during this process (a directory snippet appeared to tie "Groupe Nova" wording
+directly to the Avenue Millen listing, but reading the full source page showed
+that text belonged to a neighboring, unrelated directory entry). Separately
+re-verified the lower-stakes technical findings (meta descriptions, JSON-LD,
+duplicate homepage) with fresh, permissive/case-insensitive re-parsing of newly
+re-fetched raw HTML — these all held up unchanged. Saved the full verification
+trail as
+[[raw/clients/groupe-nova/nap-verification-followup-2026-10-19.md]] (raw/ is
+append-only — did not edit the original capture file). Rewrote P0 #1-2 in
+[[clients/groupe-nova/recommendations.md]] with an inline correction note and
+the corrected 3-address table, and updated the address caveat in
+[[clients/groupe-nova/profile.md]]. Updated `sources` frontmatter on both pages
+to include the new raw file.
+Pages touched: [[clients/groupe-nova/recommendations.md]], [[clients/groupe-nova/profile.md]], [[log.md]]
+
+## 2026-10-19 | query | Turned groupe-nova recommendations into a 4-week execution plan
+User asked for 3-4 week milestones with priorities and hour estimates. Synthesized
+the 15 recommendations in [[clients/groupe-nova/recommendations.md]] (as corrected
+earlier the same day) into [[clients/groupe-nova/4-week-plan.md]]: Week 1 - NAP/
+citation audit + request GBP access + homepage title/duplicate-homepage fixes (no
+GBP-access dependency, 7.5h) -> Week 2 - GBP dashboard optimization (category,
+display name, service areas, photos, Q&A) once access confirmed + service-page
+metadata (9h) -> Week 3 - LocalBusiness/Service/Review schema + portfolio/homepage
+image alt text + service-area wording reconciliation (9h) -> Week 4 - review-
+request system, GBP posting cadence, HSTS, image compression, schema validation,
+client wrap-up (8.5h). ~34 hours total. Each task cites its source recommendation
+number for traceability. Added a Day-30 success-criteria checklist and an explicit
+stop-and-re-ingest instruction if the Week 1 citation audit contradicts the
+3-address NAP picture documented in recommendations.md. Updated [[index.md]].
+Pages touched: [[clients/groupe-nova/4-week-plan.md]], [[index.md]], [[log.md]]
+
+## 2026-10-19 | query + ingest | Correction: 4-week-plan.md had a sequencing bug, a schema-placement miss, a citation gap, and a mischaracterized source
+User asked to review the 4-week plan for accuracy. Re-verified the hour arithmetic
+(recomputed independently — original totals were correct: 7.5+9+9+8.5=34) and the
+Rec# citations against the actual recommendations.md text, and found 4 real
+issues. (1) **Sequencing bug**: Week 1's original Task 3 bundled "decide SAB
+conversion" with "remove the coworking address," but rec P0 #2 explicitly says
+the SAB decision needs GBP dashboard confirmation first — and Week 1 only
+*requests* GBP access, doesn't guarantee it arrives in time. Split into a Week 1
+task (remove the confirmed-false address only — safe now, independently
+confirmed via Yelp/commercial-listing data, doesn't need GBP) and a new Week 2
+task (decide + finalize the correct address once GBP/citation-audit results are
+in). (2) **Schema-placement miss**: the plan had `Service` schema bundled onto
+the homepage only; per this wiki's own existing technical-seo.md guidance
+(`Organization`/`sameAs` is homepage-only, but per-item rich-result schema like
+`FAQPage` must live on the specific page), `Service` schema for 4 distinct
+services should live on each service page individually. Split into a homepage
+`LocalBusiness`/`Organization` task (2h, reduced from 3h) plus a new per-service-
+page `Service` schema task (1h) — net neutral on Week 3's total. Updated rec #9
+in recommendations.md to state this explicitly. (3) **Citation gap**: Week 2's
+About/Portfolio title+meta task cited only "P1 #7" (meta descriptions) because
+rec #6 was scoped only to the 4 named service pages, leaving the title-rewrite
+portion uncited — extended rec #6 in recommendations.md to explicitly cover
+`/a-propos/` and `/realisations/` too (the raw capture's own title table already
+listed both as generic). (4) **Mischaracterized source**: the companion raw file
+`nap-verification-followup-2026-10-19.md` claimed the 5797-3208-01/9394-3199
+Québec inc. RBQ pairing came from "a direct fetch" of the licence page — it
+didn't; my direct WebFetch attempt to that URL was Cloudflare-blocked, and the
+actual data came from a search engine's own cached snippet in an earlier call.
+Corrected the attribution in that file (same risk category as the snippet
+artifact already caught/excluded there, though the data's specificity makes
+hallucination unlikely). Net effect: plan total moved from 34h to 34.5h (Week 1
+7.5h->7h, Week 2 9h->10h, Week 3 unchanged at 9h). Updated
+[[clients/groupe-nova/4-week-plan.md]], [[clients/groupe-nova/recommendations.md]]
+(rec #6 and #9 text), [[raw/clients/groupe-nova/nap-verification-followup-2026-10-19.md]],
+and [[index.md]].
+Pages touched: [[clients/groupe-nova/4-week-plan.md]], [[clients/groupe-nova/recommendations.md]], [[index.md]], [[log.md]]
+
+## 2026-10-19 | ingest | Client confirmed Rue Saint-Denis IS the real GBP address — P0 NAP finding retracted and narrowed
+User stated directly that 4388 Rue Saint-Denis #200, Montreal — the address
+the two prior passes had investigated as a possible NAP mismatch/coworking-
+space risk — is in fact the real, correct address on Groupe Nova's Google
+Business Profile. Client-provided ground truth outranks every public/
+third-party source used in the two prior investigation passes, so this
+retracts the core claim of the original P0 finding (that this address was
+"wrong" or needed removal/SAB conversion). Rewrote P0 in
+[[clients/groupe-nova/recommendations.md]] (renumbered 1-5, was 1-4) to: (1)
+retract the mismatch/removal claim for Rue Saint-Denis, keeping only a
+lower-priority "confirm shared-office GBP requirements" check; (2) reframe
+the Saint-Léonard listing (7657 Rue Montbrun, same 6 reviews as the site's
+widget but all dated 2022-2023) as now most likely a stale/duplicate GBP
+listing needing a merge-or-close action, not evidence of a live address
+conflict — same pattern as the tipicita-kinesio precedent; (3) de-prioritize
+(not drop) the RBQ-licence-address discrepancy (Avenue Millen) as likely a
+legal/registration address distinct from the public NAP, since RBQ
+registration and GBP/citation NAP aren't required to match. Renumbered all
+downstream P1 (now 6-12, was 5-11) and P2 (now 13-16, was 12-15) items and
+fixed every internal cross-reference. Updated the address caveat in
+[[clients/groupe-nova/profile.md]]. Rewrote
+[[clients/groupe-nova/4-week-plan.md]]: Week 1's "remove the address" task
+became a quick informational client-check (3 -> 0.5h), Week 2's "decide
+correct address" task became "search for and merge/close the Saint-Léonard
+duplicate" (1h), and all Rec# citations were updated to match the new
+numbering. New grand total: 34h (was 34.5h) — Week 1 now 6.5h (was 7h), all
+other weeks unchanged. Updated [[index.md]] one-liners for both pages.
+Pages touched: [[clients/groupe-nova/recommendations.md]], [[clients/groupe-nova/profile.md]], [[clients/groupe-nova/4-week-plan.md]], [[index.md]], [[log.md]]
+
+## 2026-10-19 | ingest | Client provided live GBP screenshot — NAP fully screenshot-verified, review count corrected from 6 to 11
+Client supplied a screenshot of the live Google Maps listing for "GROUPE NOVA"
+(saved to [[raw/clients/groupe-nova/assets/gbp-live-maps-screenshot-2026-10-19.jpg]],
+documented in new raw file
+[[raw/clients/groupe-nova/gbp-live-screenshot-note-2026-10-19.md]]). This is
+the strongest evidence tier in the engagement so far — a direct visual of the
+live profile, not a third-party aggregator or search-snippet. It confirms
+name, address (4388 Rue Saint-Denis #200, Montreal, QC H2J 2L1), phone
+(514-701-9898), website, category (General contractor), and hours all match
+the site exactly, fully closing out the address question from the prior two
+entries. It also surfaces a correction: the live listing shows **11 reviews**,
+not the 6 the earlier (stale, 2022-2023-dated) aggregator snapshot showed.
+Updated [[clients/groupe-nova/recommendations.md]]: strengthened the P0 #1
+correction note to cite the screenshot, dropped the now-unnecessary "confirm
+shared-office requirements" caveat since the live listing shows no sign of a
+problem, corrected the review-count figure in the GBP-optimization rec
+(still recommending a review-velocity push, just from a more accurate
+baseline), and added a note to the Saint-Léonard duplicate rec (P0 #2)
+that the screenshot is an encouraging but non-conclusive data point since
+that Maps search wasn't targeted at the Saint-Léonard area. Updated
+[[clients/groupe-nova/profile.md]] reputation line (6 -> 11 reviews) and
+address line (now screenshot-confirmed, not just client-stated). No change
+to [[clients/groupe-nova/4-week-plan.md]] — none of its hour estimates or
+task scopes depended on the exact review count or needed the dropped caveat.
+Pages touched: [[clients/groupe-nova/recommendations.md]], [[clients/groupe-nova/profile.md]], [[index.md]], [[log.md]]
+
+## 2026-10-19 | ingest | Broadened scope to website URL fixes + content depth; rewrote 4-week-plan at a more generic level
+User asked to broaden the plan beyond NAP/GBP/metadata to also cover website
+URL fixes (service-name URLs, a reported broken
+`/en/services-2/interior-design-services/` page) and content depth (location
+pages, more text on existing pages), rewrite the milestones more generically
+(less task-by-task detail), and update estimates. Before writing
+recommendations, verified the new claims directly: curled the reported broken
+URL (returns HTTP 200, correct title, correctly linked from the English nav —
+doesn't match "broken," flagged for client clarification rather than taken at
+face value); sampled stripped body text of `/services/renovation-de-cuisine/`
+to confirm the content-depth gap is real (unique copy per service page is one
+intro paragraph + one 4-item bullet list + one 4-step process graphic + one
+closing paragraph, beyond the reused reviews-widget boilerplate); confirmed
+via the existing sitemap data that no dedicated location landing pages exist
+anywhere on the site. Captured all of this in new raw file
+[[raw/clients/groupe-nova/url-structure-and-content-depth-check-2026-10-19.md]].
+Added items 17-20 to [[clients/groupe-nova/recommendations.md]] under a new
+"Website structure fixes and content depth" section (not renumbering the
+existing 1-16 to avoid breaking every existing citation): #17 URL `-2` slug
+cleanup, #18 investigate-before-fixing the reported broken page, #19 build
+location landing pages for Laval/Montérégie first (real project proof already
+exists there) then the remaining 3 areas, #20 expand thin page copy with
+FAQ/location-specific content. Fully rewrote
+[[clients/groupe-nova/4-week-plan.md]] at a more generic milestone level —
+collapsed the prior ~22 numbered sub-tasks into 4-5 bullet themes per week —
+and updated the total from ~34h to **~53h** to reflect the two new production
+workstreams (location pages, expanded copy), distributed as Wk1 9h / Wk2 10h /
+Wk3 18h / Wk4 16h. Updated [[index.md]] one-liners for both pages. Also
+delivered the milestones to the user as a plain-text, copy-paste-ready block
+per the standing action-plan-output rule and the user's explicit request (no
+markdown, brackets, or internal links in that chat-facing version — full
+detail/links stay in the wiki page only).
+Pages touched: [[clients/groupe-nova/recommendations.md]], [[clients/groupe-nova/4-week-plan.md]], [[index.md]], [[log.md]]
+
+## 2026-10-19 | ingest | Broken page claim CONFIRMED and root-caused via live browser check — correction to the previous entry
+The previous entry's conclusion on the reported broken
+`/en/services-2/interior-design-services/` page ("doesn't match broken, flag
+for client clarification") was wrong — it was based on a `curl` fetch, which
+only sees raw HTML and can't see client-side rendering. The user then provided
+a screenshot of the actual broken render, prompting a live browser
+investigation (navigation, accessibility snapshots, screenshots, and CDP
+`Runtime.evaluate` calls). Confirmed and root-caused: this page's phone-number
+country-code selector loads already expanded (244-country dropdown open by
+default) instead of collapsed like every other page's equivalent field, and
+that open list visually buries the hero image, heading, and body copy beneath
+it — the content is present in the DOM, just pushed down the page behind an
+unwanted, fully-expanded country picker. Reproduced on two independent fresh
+loads. Explicitly re-checked English kitchen-renovation, English
+bathroom-renovation, the English homepage, and French renovation-de-cuisine —
+all render correctly, so this is isolated to one page, not a site-wide outage.
+Also found a related issue: the site's "Get your free quote" popup shows the
+same stuck-open phone-selector behavior in at least one instance, suggesting a
+shared root cause in the phone-input widget. Captured the full investigation
+in new raw file
+[[raw/clients/groupe-nova/interior-design-page-bug-confirmed-2026-10-19.md]].
+Rewrote item #18 in [[clients/groupe-nova/recommendations.md]] to reflect the
+confirmed bug and root cause, and promoted it to P0 (a dead lead-gen page),
+relabeling the section header accordingly. Moved the fix to the top of Week 1
+in [[clients/groupe-nova/4-week-plan.md]] and bumped the total from 53h to
+54h. Updated [[index.md]]. This is a direct example of why a `curl`-only
+technical check can miss real, user-facing bugs — client-side rendering
+issues need an actual browser.
+Pages touched: [[clients/groupe-nova/recommendations.md]], [[clients/groupe-nova/4-week-plan.md]], [[index.md]], [[log.md]]
+
+
+## 2026-10-19 | lint | Retracted the "duplicate Saint-Leonard GBP" framing — Montbrun address was never seen on Google Maps
+User asked where the 7657 Rue Montbrun / 438-866-6682 "GBP" came from, noting Google Maps shows only the Montreal listing. Traced it: it came from exa.ai's places-data mirror (assumed to be a Google listing because its 6 reviews matched the site's Trustindex widget) plus ProfileCanada, studio-lb.fr and aubaine.ca directory listings (see [[raw/clients/groupe-nova/nap-verification-followup-2026-10-19.md]]). It was never observed on Google Maps itself, so calling it a "GBP duplicate" overstated the evidence. Since the reviews are identical and the live listing now has 11 (a superset), the likelier explanation is the same GBP captured earlier with its old address/phone — i.e. stale third-party citations, not a second Google listing. Rewrote rec #2 in [[clients/groupe-nova/recommendations.md]] accordingly (verify reviewers match, one Maps search for a second listing, fold directory cleanup into the citation audit #5, escalate to a Google merge request only if a second listing is actually found). Updated [[clients/groupe-nova/4-week-plan.md]] (Week 1, Week 2, day-30 criteria) and [[clients/groupe-nova/profile.md]] to match; hours unchanged.
+Pages touched: [[clients/groupe-nova/recommendations.md]], [[clients/groupe-nova/4-week-plan.md]], [[clients/groupe-nova/profile.md]], [[log.md]]
+
+## 2026-10-19 | query | Re-scoped groupe-nova 4-week plan to the client's stated fixed-price scope
+Client's initial scope: technical SEO audit and priority fixes, GBP optimization, business-info consistency across website/GBP/directories, keyword research for services and service areas, and a written report. Also stated that all website work is manual Elementor editing. Rewrote [[clients/groupe-nova/4-week-plan.md]]: added an explicit keyword-research task (~7h) and a written-report/walkthrough week (~9h in Week 4), raised per-edit estimates for manual Elementor work, and moved location landing pages and copy expansion (Rec #19, #20) out of the 4 weeks into an optional Phase 2 (~28h French, ~+14h English). New total ~53h (was ~54h). No changes to [[clients/groupe-nova/recommendations.md]] numbering.
+Pages touched: [[clients/groupe-nova/4-week-plan.md]], [[log.md]]
+
+## 2026-10-19 | ingest | Re-verified old Montbrun address/phone listings; reordered plan (priority fixes first, keyword research to Week 4)
+User asked to verify the "old Montbrun address/phone still listed" claim, its severity, and proof links. Fetched the pages directly: ProfileCanada and aubaine.ca both still show 7657 Rue Montbrun + 438-866-6682 today (both unclaimed, auto-generated, no reviews). exa.ai and studio-lb.fr are snippet-level only. New: a LinkedIn company page summary shows a third phone (514-929-1906) and postal code H1S 2K3 (unverified, login wall). Severity rated low-to-medium; open question for the client is whether 438-866-6682 is still a live number. Saved as [[raw/clients/groupe-nova/montbrun-citation-verification-2026-10-19.md]]; updated rec #2 in [[clients/groupe-nova/recommendations.md]]. Also reordered [[clients/groupe-nova/4-week-plan.md]]: broken pages, URL fixes, on-page SEO and GBP alignment now in Weeks 1-2, directories in Week 3, keyword research plus report in Week 4 (+2h refinement pass; total ~55h).
+Pages touched: [[clients/groupe-nova/recommendations.md]], [[clients/groupe-nova/4-week-plan.md]], [[log.md]]
