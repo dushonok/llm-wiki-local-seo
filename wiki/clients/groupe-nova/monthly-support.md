@@ -9,6 +9,7 @@ sources:
   - raw/clients/groupe-nova/url-structure-and-content-depth-check-2026-10-19.md
   - raw/clients/groupe-nova/interior-design-page-bug-confirmed-2026-10-19.md
   - raw/clients/groupe-nova/montbrun-citation-verification-2026-10-19.md
+  - raw/clients/groupe-nova/engagement-and-estimates-notes-2026-10-19.md
 ---
 
 # Ongoing monthly support after the audit — groupenova.ca
@@ -29,6 +30,7 @@ pages (see "Open question for the client").
 
 ## Estimates (owner's sheet, 2026-10-19)
 
+Source: [engagement-and-estimates-notes-2026-10-19.md](../../../raw/clients/groupe-nova/engagement-and-estimates-notes-2026-10-19.md).
 "Per page" means the French and English versions together.
 
 | Task | Hours | Notes |
@@ -221,10 +223,12 @@ the page. Points to handle:
 
 ## Open question for the client
 
-Client service areas as stated: Montreal, Montreal East, West Island, North Shore,
-South Shore and Lanaudière. The original brief listed Montreal, Laval, North Shore,
-South Shore, Montérégie and Lanaudière, and real project photos exist for Laval and
-Brossard (Montérégie). Planning assumption: one page per region, 6 ad pages and
+The owner's region list (Montreal, Montreal East, West Island, North Shore, South
+Shore and Lanaudière) is the same wording the website footer uses today
+([profile.md](profile.md)), not something the client has just confirmed. The
+original brief listed Montreal, Laval, North Shore, South Shore, Montérégie and
+Lanaudière, and real project photos exist for Laval and Brossard (Montérégie).
+Planning assumption: one page per region, 6 ad pages and
 5 SEO location pages (Montreal is covered by the homepage), with Laval and
 Montérégie covered inside the North Shore and South Shore pages. This is
 unconfirmed.

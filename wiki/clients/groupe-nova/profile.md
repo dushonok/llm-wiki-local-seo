@@ -7,6 +7,7 @@ sources:
   - raw/clients/groupe-nova/site-crawl-and-gbp-check-2026-10-19.md
   - raw/clients/groupe-nova/nap-verification-followup-2026-10-19.md
   - raw/clients/groupe-nova/gbp-live-screenshot-note-2026-10-19.md
+  - raw/clients/groupe-nova/engagement-and-estimates-notes-2026-10-19.md
 ---
 
 # Groupe Nova
@@ -62,6 +63,17 @@ Real completed-project proof already exists in Laval and Brossard
 (Montérégie), per homepage gallery captions — these specific towns aren't
 targeted anywhere in copy/titles/schema yet.
 
+**Two lists, not yet reconciled (2026-10-19).** For the retainer and ads
+planning, the owner is working from the website footer's list — Montreal,
+Montreal East, West Island, North Shore, South Shore, and Lanaudière — with one
+page per region
+([engagement-and-estimates-notes-2026-10-19.md](../../../raw/clients/groupe-nova/engagement-and-estimates-notes-2026-10-19.md)).
+That list has no Laval or Montérégie and adds Montreal East and West Island,
+which the original brief did not name. The client has not been asked yet; the
+question is drafted in [monthly-support.md](monthly-support.md). Until it is
+answered, the plan assumes Laval and Montérégie are covered inside the North Shore
+and South Shore pages.
+
 ## Goals (this engagement)
 
 1. Technical SEO audit and correction of priority issues (titles, meta
@@ -69,6 +81,19 @@ targeted anywhere in copy/titles/schema yet.
 2. Google Business Profile optimization.
 3. NAP (Name/Address/Phone) consistency across the website, Google Business
    Profile, and directories.
+
+## Next phase and upcoming events
+
+- **Ongoing monthly support after the audit** — proposed as $600/month for 3
+  months, then $300/month; see [monthly-support.md](monthly-support.md). Scope:
+  service-page optimization, French/English content (local pages, blog articles),
+  quality directory listings, ongoing GBP management, monthly reporting (rankings,
+  calls and quote requests from Google, work completed), embedded forms replacing
+  CTA buttons, and a Montreal-focused homepage.
+- **Google Ads launch planned for February–March 2027.** The ad landing pages must
+  be separate from the normal website pages (one per region, noindex), and
+  tracking has to be live before launch. The campaigns themselves are outside the
+  SEO retainer scope.
 
 See [recommendations.md](recommendations.md) for the full findings and action
 plan, and [keywords.md](keywords.md) for the initial keyword/location map.

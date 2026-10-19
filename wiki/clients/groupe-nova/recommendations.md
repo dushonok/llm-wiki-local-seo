@@ -369,6 +369,16 @@ as noted.
     Rive-Sud/South Shore, Lanaudière) as a follow-on phase once the first two
     are live and indexing.
 
+    *Update 2026-10-19:* the retainer plan
+    ([monthly-support.md](monthly-support.md)) now assumes five SEO location
+    pages named after the website footer's regions (Montreal East, West Island,
+    North Shore, South Shore, Lanaudière), with Montreal covered by the
+    homepage and Laval and Montérégie folded into the North Shore and South Shore
+    pages, pending the client's answer on the service-area list. The Laval and
+    Brossard proof above still applies to those pages. The Google Ads landing
+    pages planned for February–March 2027 are separate `noindex` pages and do
+    not replace these.
+
 20. **Expand the thin unique body copy on the homepage and 4 service pages.**
     Sampled directly on `/services/renovation-de-cuisine/`: beyond the
     reused reviews widget (identical boilerplate on every page), the entire

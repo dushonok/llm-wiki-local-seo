@@ -50,3 +50,62 @@ This is stricter than the general action-plan format above:
 - Before finalizing, mentally re-read it as "would this look identical to
   something typed by hand in a text box" — if any artifact (brackets, odd
   breaks, markdown leftovers) would survive a copy-paste, remove it.
+
+### Length limit (Upwork cover letters) — hard rule
+
+- Upwork cover letters are capped at 5,000 characters including spaces. Never
+  deliver a draft over that. Aim for 4,500-4,800 so there is a buffer, and
+  never leave less than ~100 characters of margin.
+- Measure, don't guess: before presenting a cover letter, write it to a temp
+  file outside the repo and count characters with a shell command
+  (`(Get-Content -Raw file).TrimEnd().Length` in PowerShell). State the
+  character count right after the letter, e.g. "4,900 / 5,000".
+- If a draft is over the limit, cut in this order and never touch the first
+  two: (1) never cut price, timeline, or the direct answers to the client's
+  numbered questions; (2) never cut the client's-need opening or the video
+  link. Then trim: credibility commentary and self-description first, then
+  the 6-month/3-month results narrative, then per-item deliverable detail
+  (collapse into one line per month or phase), then extra offers.
+- Use short forms where it saves room and still reads naturally ("GBP" after
+  the first mention, "Fre and Eng" is acceptable in a plan list, "Q and A").
+- Other Upwork-style text (bids, short messages) follows the same
+  "measure, then state the count" habit when the platform has a limit.
+
+### Tone: less categorical, less padded (learned from the human's edit of the Groupe Nova letter, 2026-10-19)
+
+The human cut an over-length, over-confident AI draft down to a final 4,900
+character letter and softened it. Apply these by default to every future
+proposal:
+
+- Do not assert what you do not know. When the scope depends on something the
+  client has not said (how many ads, how many landing pages, which pages are
+  needed), state the assumption in plain words instead of presenting a fixed
+  plan as fact: "I do not know how many ads you will run - for my plan I
+  assumed one ad per region in both French and English."
+- Be honest about gaps in one short line, then move on. Say "I do not have a
+  Quebec renovation site I can point you to" once; do not add defensive
+  explanations, reassurances, or "what transfers" paragraphs beyond one
+  sentence.
+- Drop self-promotional filler: no "I am based in X so I work in this market,"
+  no "which is the kind of durable work I aim for," no "I am responsible for
+  everything that goes live," no "I have already built this kind of listing
+  set..." re-statements, no comparisons to other freelancers ("anyone who
+  promises you #1 is selling...").
+- Keep personal details minimal. Mention "a native Quebec French speaker"
+  reviews the French; do not describe the household or relationship.
+- Do not enumerate every place the client named (all six regions, every town)
+  when "several local regions" or a short group says the same thing. Name
+  specifics only where they change the work.
+- Results sections stay short: "No ranking guarantees," then 2-3 plain
+  sentences per time horizon. No promises about compounding, competing, or
+  dominating, and no "should be able to see" claims beyond what the plan
+  actually delivers.
+- Credibility proof is a list of links plus one sentence. Do not narrate
+  stats or long-term ranking history unless the client asks for it.
+- State the currency once, in caps, right before the first price ("Please
+  note that ALL PRICES ARE IN USD").
+- Open with the client's need (not a greeting or thanks), then the video
+  link, then answer the client's numbered questions in the order they were
+  asked, using their own numbering and short labels.
+- Offers that add length (extra sample videos, extra calls) are optional:
+  keep one at most, and only if there is room under the limit.

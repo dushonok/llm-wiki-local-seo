@@ -3,7 +3,7 @@ type: keyword-map
 client: groupe-nova
 status: draft
 updated: 2026-10-19
-sources: [raw/clients/groupe-nova/site-crawl-and-gbp-check-2026-10-19.md]
+sources: [raw/clients/groupe-nova/site-crawl-and-gbp-check-2026-10-19.md, raw/clients/groupe-nova/engagement-and-estimates-notes-2026-10-19.md]
 ---
 
 # Keyword map — groupenova.ca
@@ -39,6 +39,7 @@ priority as directional until real volume/difficulty data is ingested.
 | rénovation Montérégie | transactional, local | Medium | gap | Named in the client brief, not named anywhere on the site (site uses "Rive-Sud" instead). |
 | rénovation Lanaudière | transactional, local | Medium | targeted-onpage | Already named explicitly in the footer service-area line — the only brief-matching area term currently on-site. |
 | rénovation Blainville / Île-des-Sœurs | local, near-me | Low–Medium | proof-only | Both appear as real completed-project captions on the homepage (gallery) but nowhere else. |
+| rénovation Montréal-Est / rénovation West Island | transactional, local | Medium (unverified) | gap | Both are in the website footer's service-area line and in the owner's region list for the retainer ([engagement-and-estimates-notes-2026-10-19.md](../../../raw/clients/groupe-nova/engagement-and-estimates-notes-2026-10-19.md)), but were not in the original brief and have no on-site proof, title, or copy. No volume data yet; the planned Google Ads search-terms report (Feb–March 2027) is the first real data source. |
 
 ## Brand / trust terms
 

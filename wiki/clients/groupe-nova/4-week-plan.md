@@ -115,6 +115,12 @@ the keyword map, and the recommended Phase 2 roadmap (3h).
 
 ## Ongoing — after the 4 weeks, not counted in the 40.5h
 
+> Update 2026-10-19: the list below, and the Phase 2 section after it, are now
+> scheduled and priced in [monthly-support.md](monthly-support.md) ($600/month for
+> 3 months, then $300/month, on the owner's estimates sheet). That page also adds
+> separate Google Ads landing pages for the planned February–March 2027 launch.
+> Keep this list as the origin of those items; the schedule lives there.
+
 - Turn off the WordPress author-archive pages and add the HSTS header (0h in
 the fixed-price sheet; earlier wiki estimate ~1h for the author archives
 including sitemap removal and hiding usernames, ~0.5h for HSTS with a short
@@ -134,7 +140,10 @@ Not in the owner's spreadsheet; the earlier wiki estimate is unchanged. Recommen
 written report, not included in the initial scope:
 
 - Five dedicated location landing pages (Laval, Montérégie, North Shore, South
-Shore, Lanaudière) with real project proof, FAQ, and schema (~17h; Rec #19).
+Shore, Lanaudière) with real project proof, FAQ, and schema (~17h; Rec #19). The
+page names are under review: the retainer plan assumes Montreal East, West
+Island, North Shore, South Shore, and Lanaudière (the website footer's list),
+pending the client's answer — see [monthly-support.md](monthly-support.md).
 - Expand the thin body copy on the homepage and the four service pages (~10h;
 Rec #20).
 
