@@ -183,6 +183,19 @@ by priority, not by category.
    at the root), then confirm the FR/EN hreflang pair is declared on the
    correct canonical URLs (`/` ⇄ `/en/`), not the duplicates.
 
+   *Re-verified 2026-10-19 (live fetch):* all four URLs return 200 with no
+   redirect; each self-canonicalizes; `/` and `/en/` carry the FR⇄EN hreflang
+   pair but `/accueil/` and `/en/home/` carry none; both duplicates are still
+   listed in the page sitemaps; no internal link on the homepage, services
+   page, or EN about page points at either duplicate (so they're discoverable
+   mainly via the sitemap and any old external links). **Severity:
+   low-to-medium** — a common WordPress quirk that mostly splits signals and
+   risks the wrong title ("ACCUEIL – Groupe Nova") showing in results; cheap to
+   fix. Fix sequence: 301 each duplicate to the root, confirm no redirect loop
+   with the multilingual setup, drop both from the sitemap, re-check hreflang
+   and canonicals on the roots, then check Search Console for which URL Google
+   currently indexes.
+
 10. **Add `LocalBusiness`/`GeneralContractor` + `Organization` structured data
     to the homepage, and `Service` schema to each of the 4 service pages
     individually (not bundled only on the homepage).** Zero JSON-LD exists
@@ -209,11 +222,29 @@ by priority, not by category.
     author archives/sitemaps; this isn't a multi-author blog so there's no
     downside to turning them off.
 
+    *Re-verified 2026-10-19 (live fetch):* `/author/farhan/` returns 200 (title
+    "Farhan – Groupe Nova", no posts on it) and both author URLs are still in
+    `wp-sitemap-users-1.xml` and `en/wp-sitemap-users-1.xml`. Additionally,
+    `/?author=1` 301-redirects to `/author/hector-fabio-009hotmail-ca/`, so
+    anyone can discover a username that looks derived from an email address —
+    a small privacy/security hygiene issue (username enumeration), more than an
+    SEO one. `/wp-json/wp/v2/users` also returned 200 (contents not inspected
+    in this pass). **Importance: low** for rankings; low-to-medium as hygiene.
+    Not a first-two-weeks priority.
+
 12. **Add the `Strict-Transport-Security` (HSTS) header.** HTTP→HTTPS and
     www→non-www redirects are already correctly configured (both 301 to
     `https://groupenova.ca/`), which is the important part — HSTS is a minor
     additional hardening layer on top of that, not a ranking fix. Low
     priority, easy to add at the host/CDN level.
+
+    *Re-verified 2026-10-19:* the response headers (server: nginx, with
+    `X-Content-Type-Options` and `X-XSS-Protection`) still show no
+    `Strict-Transport-Security`. HSTS is a security setting, not an SEO signal.
+    Caution when adding: start with a short max-age and avoid
+    `includeSubDomains`/preload until every subdomain is confirmed HTTPS-only,
+    since browsers cache the rule. **Importance: low.** Not a first-two-weeks
+    priority.
 
 ## P2 — Local content & image signals (fast, because the proof already exists)
 
@@ -271,6 +302,32 @@ as noted.
     issue: rename the slug to drop the `-2` and 301-redirect the old URLs
     (updating internal nav links and hreflang pairs to point at the new
     canonical versions) so English URLs read as cleanly as the French ones.
+
+    *Re-verified 2026-10-19 (live fetch):* all 5 English service URLs are
+    live (200) and linked from the English homepage nav; hreflang pairs them
+    correctly with the French pages (e.g. `/services/renovation-de-cuisine/` ⇄
+    `/en/services-2/kitchen-renovation/`). Complication: `/en/services/`
+    currently 301-redirects to the **French** `/services/` page, and
+    `/en/services/kitchen-renovation/` 301s to the `-2` URL — i.e. the plain
+    "services" slug is held by the French page, which is why English got `-2`.
+    So a rename needs a different English slug (e.g. `renovation-services`) and
+    the existing guess-redirects checked/overridden, not just dropping the `-2`.
+    **Importance: low (P2, polish).** The segment carries no keyword either way,
+    the service names are already in the URLs, and URL words are a very minor
+    ranking signal; the change creates redirect risk on already-indexed URLs
+    for a small cosmetic gain. Suitable for Week 3 rather than the first two
+    weeks.
+
+    **Decision (client/user, 2026-10-19):** scheduled for Week 3. Approach:
+    remove the redirect sending `/en/services/` to the French page, make the
+    English services page live at `/en/services/`, and 301 `/en/services-2/`
+    (and its 4 children) to the new addresses. Likely `/en/services/` is
+    WordPress's automatic "closest match" redirect rather than a configured
+    rule (the child path `/en/services/kitchen-renovation/` also 301s to its
+    `-2` URL the same way), in which case it stops once a real English page
+    holds that slug — to be confirmed in the admin. Open risk: the `-2` shows
+    the multilingual setup refused the duplicate slug once; if it still does,
+    fall back to a different English slug.
 
 18. **Fix the confirmed broken render on
     `/en/services-2/interior-design-services/` — promoted to P0, this is a
