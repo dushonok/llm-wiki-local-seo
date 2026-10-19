@@ -956,3 +956,44 @@ Pages touched: [[clients/groupe-nova/monthly-support.md]], [[index.md]], [[log.m
 ## 2026-10-19 | ingest | Reviewed changes since the last logged entry and folded the session's decisions into the groupe-nova pages
 Review: the git working tree was clean and no file was newer than the previous log entry (the earlier work was already committed), so the new material was the owner's chat statements and estimates sheet that had not yet been saved to `raw/`. Saved them as [[raw/clients/groupe-nova/engagement-and-estimates-notes-2026-10-19.md]]: the retainer scope, the proposed pricing ($600/month for 3 months, then $300/month), the Google Ads plan (launch Feb-March 2027, separate landing pages, one per region), the owner's region list, and the final estimates sheet (12 rows). Updated [[clients/groupe-nova/profile.md]] (new next-phase and Google Ads section, plus the unreconciled service-area lists), [[clients/groupe-nova/keywords.md]] (new Montréal-Est / West Island row, no volume data), [[clients/groupe-nova/recommendations.md]] (update note on #19: location page names and separate noindex ad pages), [[clients/groupe-nova/4-week-plan.md]] (pointers from the Ongoing and Phase 2 sections to monthly-support.md), and [[clients/groupe-nova/monthly-support.md]] (source added). Correction: the region list the owner gave (Montreal, Montreal East, West Island, North Shore, South Shore, Lanaudière) is the website footer's own wording, not a new client statement; the earlier monthly-support wording implied otherwise and was fixed. Open items: the client has not yet been asked about the service-area list; the ads landing page estimates and the four assistant-added items in monthly-support.md are unverified.
 Pages touched: [[clients/groupe-nova/profile.md]], [[clients/groupe-nova/keywords.md]], [[clients/groupe-nova/recommendations.md]], [[clients/groupe-nova/4-week-plan.md]], [[clients/groupe-nova/monthly-support.md]], [[index.md]], [[log.md]]
+
+## 2026-10-19 | ingest | Ingested Calls #57–58, domain advice, and Bryan's content production workflow
+
+Saved four raw sources to `raw/framework/`:
+- Community Call 57 (Oct 15): AI credit optimization, Shawn's $350 directory (fal.ai image models), tiered link building (GSA/SEO Neo), radon contest niche assessment
+- Community Call 58 (Oct 15): when backlinks matter (structure + semantics first, backlinks as fuel), YMYL licensing risks (financial/legal/insurance), flat-rate leasing retention strategy (Brandon: 25+ year clients, +$500/mo per location), engagement tactics (quiz forms, video production)
+- Domain advice thread: .com taken → test competing TLD (hyphenated .com, .ca, .org); data from microsite contest shows position gains come from NAP + profiles + brand, not TLD
+- Bryan's workflow (Oct 15): image posts via Claude Code + Pillow (no AI images, $0 cost), shorts via OpenArt Seedance 2.0 (~$17/mo for 16/month), 97% margin, reusable scripts
+
+Distribution per user recommendation:
+
+1. **[[wiki/framework/backlinks.md]]**: Added new section "When Backlinks Actually Matter" before "Why Backlinks Matter" (the foundational section). Moved sources timestamp to 2026-10-19. New content:
+   - Backlinks are a function of competition, not default; structure + schema + NAP work first
+   - Three-tier ladder: (1) Structure + semantics, (2) Citations + social profiles, (3) Backlink building
+   - Competition test: 0–3 competitors = Tier 1+2 enough; 10+ = need Tier 3
+   - Real example: Jacksonville carpenter ranking in AI Overviews from structure alone
+
+2. **[[wiki/framework/niche-selection-strategy.md]]**: Added two new sections after the existing Domain Strategy section; updated sources timestamp to 2026-10-19:
+   - "Domain Selection When .COM Is Taken": Niche is winnable if the .com is poorly-maintained or just a "coming soon" page; real test is whether you can make the brand name the keyword; three variant strategies (hyphenated .com, geo-TLD like .ca reordered, .org last resort); microsite contest data: no ranking gains from TLD alone, only from NAP + profiles + brand
+   - "YMYL Niches & Licensing Requirements": High-risk categories (financial, insurance, legal, health); three safe approaches (work under existing license, build as lead-gen aggregator, skip entirely); real example (attorney niches: build relationship with largest firm, run test site "powered by" them at discounted per-lead rate); risk mitigation (disclaimers, separate entity, own attorney consult)
+
+3. **[[wiki/framework/pricing-and-deal-structures.md]]**: Added new Play #12 "Flat-Rate Leasing for 25+ Year Client Retention" before the "Bottom Line" section; updated sources timestamp to 2026-10-19. New content:
+   - Brandon's model: same flat rate all year; each new location/service adds ~$500/mo; no seasonal pricing
+   - Why it works: long-term retention, effortless scaling, predictable revenue, less admin
+   - Real example: 25+ year client started at 1 location, now scales to $5k–8k/mo after adding locations incrementally
+   - Implementation: quote flat rate, set expectations, renew at same rate unless client requests additions
+   - New closing line: "Build for 25-year relationships, not one-year contracts."
+
+4. **[[wiki/framework/ai-tool-stacks.md]]**: Added new Stack #13 "Image Posts + Short Videos (Claude Code + OpenArt + Python)" before the "The Pattern" section; updated sources timestamp to 2026-10-19 and added Bryan's workflow to sources list. New content:
+   - Part 1: Instagram image posts via Python/Pillow (5×5 grid, no AI images, $0 cost, client-approved)
+   - One-time setup (15 min): Claude Code, Python, Pillow, ffmpeg, optional GoHighLevel
+   - Workflow: client photos + design screenshot → Claude Code generates script → render 25 posts → client approval → schedule
+   - Tweaking: plain-English edits to dark fade, headline breaks, photo swaps; Claude re-renders in seconds
+   - Part 2: Short videos via OpenArt Seedance 2.0 (13–15 sec walkthrough + end card, 9:16 vertical)
+   - Upload photos to OpenArt in order → generate with Seedance 2.0 → upscale + captions + end card in Claude Code → music from Pixabay
+   - Numbers: standard way (all AI images) = ~$233/mo; Bryan's way = ~$17/mo for 16 shorts/mo
+   - Margin: $600 client fee − $17 cost = $583/mo ≈ 97% margin (before Claude/GHL overhead)
+   - Key rules: no AI people lookalikes, no unauthorized pricing/ratings/licensing, one video at a time in OpenArt, client approval before scheduling, GHL workflow for each "COMMENT" post
+
+Updated [[wiki/log.md]] with this entry.
+Pages touched: [[wiki/framework/backlinks.md]], [[wiki/framework/niche-selection-strategy.md]], [[wiki/framework/pricing-and-deal-structures.md]], [[wiki/framework/ai-tool-stacks.md]], [[wiki/log.md]]

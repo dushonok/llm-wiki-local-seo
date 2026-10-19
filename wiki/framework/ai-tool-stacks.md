@@ -8,6 +8,7 @@ sources:
   - "raw/framework/51 - SEO Is Now Prompts and Agents - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
   - "raw/framework/49 - The 12-Minute Microsite - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
   - "raw/framework/AI video - What are you building this week · AI SEO Rank Expand Academy.md"
+  - "raw/framework/How I make the posts and the shorts (Claude Code + OpenArt) - Bryan Collins - AI SEO Rank Expand Academy.md"
 ---
 
 # AI Tool Stacks: Practical Combinations That Work
@@ -258,6 +259,137 @@ sources:
 - Replit (Pinterest pin generation)
 - YouTube API (auto-publish)
 - Pinterest API (scheduled posting)
+
+---
+
+## Content Production
+
+### Stack #13: Image Posts + Short Videos (Claude Code + OpenArt + Python)
+
+**Concept (Bryan's Workflow):** Build reusable scripts for client Instagram posts and walkthrough videos. Image posts cost $0 (built in code); video shorts scale to 16/month at ~$17 OpenArt cost. 97% margin after tools.
+
+**The Workflow Has Two Parts:**
+
+---
+
+#### Part 1: Instagram Image Posts (5x5 Grid, No AI Images)
+
+**Why Not AI?** Image models redraw the client's real photos. The kitchen comes back slightly different, and the text gets misspelled. Built in code, the photo stays exactly as shot and every word is exact. Re-rendering all 25 takes seconds. Cost: $0.
+
+**Setup (One-time, ~15 min):**
+1. Install Claude desktop app or use terminal version
+2. Open folder and start Claude Code session there
+3. Ensure Python, Pillow (image library), and ffmpeg are installed (ask Claude to check/install)
+4. Optional: Connect GoHighLevel (Settings > Connectors) so Claude can schedule directly
+
+**The Workflow:**
+1. Get client's 15–25 real project photos into a folder
+2. Screenshot a design you like (e.g., a builder's carousel: full-bleed photo, dark fade, serif headline)
+3. Paste into Claude Code with the screenshot and this prompt:
+
+```
+Here's a screenshot of a post design I like. My client's project photos are in [folder]. 
+Their website is [URL]. Only use facts from the website.
+
+1. Plan 25 Instagram posts: 5 Education, 5 Inspiration, 5 Process, 5 Comparison, 5 Trust. 
+   Short headlines. Put "COMMENT [KEYWORD]" on exactly 5 of them.
+2. Write a Python/Pillow script that renders each post at 1080x1350 in the style of the 
+   screenshot: full-bleed photo, dark fade at the bottom, small letter-spaced brand name 
+   top-left, a small letter-spaced label, a serif headline with the last word in italic 
+   (Source Serif 4 from Google Fonts), a light sans subtitle and a thin white rule. 
+   Use the real photos untouched except for cropping. Don't use AI to make or change any image.
+3. Make a 5x5 board of all 25 so I can approve it.
+```
+
+4. Tweak: "darker fade, the photos are bright", "break the headline after 'nail'", "use a different photo on 16". Claude edits the script, re-renders.
+5. Send 5x5 grid to client for approval, only finish what they approve
+6. Same approach for carousels: 15 carousels × 5 slides, approved on three 5×5 grids
+
+**Output:** 25 pixel-perfect posts (or carousels) per month, client-approved
+
+**Cost:** $0
+
+---
+
+#### Part 2: Short Videos (Walkthrough + End Card)
+
+**The Workflow:**
+1. Pick 6–9 photos of one space in walking order (front door → room → details)
+2. Paste into Claude Code:
+
+```
+Upload these photos to OpenArt in this order: [list files]. 
+Make a 13-second vertical walkthrough with Seedance 2.0, image references (element-to-video), 
+9:16, 480p, using this prompt:
+
+Vertical 9:16 architectural walkthrough of a finished custom home. One continuous, smooth gimbal 
+shot at chest height, slow and steady, like a high-end real estate film. Natural daylight, 
+calm and premium. Strictly NO people, no faces, no bodies, no hands; no on-screen text, 
+no captions, no logos, no watermarks.
+
+Beat 1 (0-2.5s): exterior entry from image 1: [describe]. Door swings open, warm interior light.
+Beat 2 (2.5-6s): through doorway into [room] from images 2-4: [materials]. Gentle forward push.
+Beat 3 (6-9s): camera arcs slowly along [feature] from image 5 toward [feature] from image 6.
+Beat 4 (9-11.5s): slow slide past [details] from images 7-9, showing grain and joinery.
+Beat 5 (11.5-13s): eases back, holds wide hero view for last second.
+
+Keep every material, colour and layout faithful to the reference photos. Do not invent rooms, 
+furniture or decor.
+```
+
+3. Watch against photos. If it invents rooms or changes materials, regenerate. Never post a wrong one.
+4. Finish in Claude Code:
+
+```
+Take the OpenArt video and:
+- upscale it to 1080x1920
+- add 4-5 timed captions in the same style as the posts (label + serif headline, italic last word)
+- add a 2.5-second end card with logo, website, and phone
+- replace OpenArt's audio with [music.mp3]
+- export H.264 under 10 MB
+
+Write it as a reusable script, so the next short is one command.
+```
+
+5. Music: Use one free track from Pixabay (free for commercial use) under every short so the account sounds consistent
+
+**Output:** 1–4 short videos per month (13–15 seconds each)
+
+**Cost:** ~$17/month for Seedance 2.0 at 480p (455 credits per 13-second video at ~$0.03/credit)
+
+---
+
+#### The Numbers
+
+**Standard way (all AI images):**
+- 25 singles at ~42 credits each: 1,050 credits
+- 15 carousels × 5 slides at ~42 credits each: 3,150 credits
+- Approval boards + grids: ~170 credits
+- Total: ~4,400 credits/month (~$88)
+- Plus shorts: 16 × 455 credits = ~7,280 credits (~$145)
+- **Total standard: ~$233/month for images + shorts**
+
+**Bryan's way:**
+- Image posts: $0 (Claude Code, no OpenArt)
+- 16 shorts: ~7,280 credits (~$17/month with bulk pricing)
+- **Total: ~$17/month**
+
+**The Margin:**
+- Client pays: $600/month for 25 image posts + 16 shorts
+- Tools cost: ~$17/month
+- Margin: ~$583/month = **97%**
+
+(This doesn't include Claude subscription or GHL/CRM costs, but Claude Max at ~$20/month spread across multiple clients is negligible per client.)
+
+---
+
+#### Key Rules (Each Learned Hard)
+
+- **No AI versions of real people.** GPT Image turned owners into lookalikes. Real people only ever in their real photos.
+- **No prices, ratings, years in business or licences** unless they're on the client's own site
+- **OpenArt: generate one video at a time.** A 429 error means wait an hour, start fresh chat. Check result in OpenArt's Media tab; "created" status isn't proof.
+- **Client approves the board or short before anything is scheduled**
+- **Every "COMMENT [KEYWORD]" post needs a GHL workflow behind it** (comment contains keyword → reply → DM the link). Build it before the first one goes out.
 
 ---
 

@@ -2,11 +2,13 @@
 type: framework
 client: none
 status: active
-updated: 2026-09-11
+updated: 2026-10-19
 sources:
   - "raw/framework/48 - Niches Within Niches - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
   - "raw/framework/49 - The 12-Minute Microsite - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
   - "raw/framework/EMD - Exact match domain with dashes - AI SEO Rank Expand Academy.md"
+  - "raw/framework/Domain advice. .com is taken - AI SEO Rank Expand Academy.md"
+  - "raw/framework/Community Call 58 - Semantics Over Backlinks, Flat Leasing - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
 ---
 
 # Niche Selection & Microsite Strategy
@@ -233,6 +235,108 @@ Mark's actual results:
 **Secondary TLDs:** `.net` and `.xyz` are also working when `.com` isn't available, but stick with `.com` or `.net` first; avoid oddball TLDs.
 
 **Strategy Note:** The micro focus now is less about "top of page 1" (fewer clicks) and more about AI Overviews and owning other SERP real estate. Domain variation (with/without dashes) is secondary to content structure and citations.
+
+---
+
+## Domain Selection When .COM Is Taken
+
+**Key Finding (from Contest Data):** The .com being taken is not a reason to move on. What matters is whether you can make the *brand name match the keyword*.
+
+### The Real Test: What's the Competition Actually Running?
+
+**Scenario:** Your target .com and .ca (or .org) are both taken.
+
+**Ask:** 
+- Is the .com an actual functioning site with traffic/authority? Or just a placeholder?
+- Is the .ca (or alternative TLD) site live and strong?
+- Or is it a "coming soon" page?
+
+**Real Example:** One niche had the .com going to a poorly-maintained site and the .ca showing "coming soon." That's a winnable market. The site that gets profiles + pages built first wins, not the one that registered the domain first.
+
+### Variant Strategies (All Proven to Rank)
+
+**Option 1: Hyphenated .COM**
+- Example: `kitchen-renos-city.com`
+- Proven ranking: Sites using hyphenated EMDs are in top 3, occasionally #1
+- Psychology: Slightly less polished-looking than unhyphenated, but ranks just as well
+
+**Option 2: .CA (or Geographic-Specific TLD)**
+- Example: `kitchenrenoscity.ca` or `city-kitchenrenos.ca`
+- Advantage: In Canada, .ca beats .org for local trust every time
+- Reorder the words if needed: `kitchenrenos-city.ca` or `city-kitchenrenopros.ca`
+- Works just as well as .com for local ranking
+
+**Option 3: .ORG (Last Resort)**
+- Works and ranks fine
+- **Downside:** Reads psychologically like a nonprofit, even for commercial services
+- Use only if .com and geographic TLDs are unavailable
+
+### What NOT to Do
+
+- **Don't use oddball TLDs** (.xyz, .co, .io for local services) — they confuse users and signal lower trust for commercial local work
+- **Don't abandon a good niche** because the .com is taken; abandon it only if both the .com AND the alternative TLD are in strong hands
+
+### The Data from the Microsite Contest
+
+Test results across hyphenated .com, .org, .net, and .us showed:
+- **No position gained because of the extension alone**
+- Every position gained came from the business entity behind the domain:
+  - Brand name matching the keyword
+  - Phone + address showing up the same way everywhere (NAP consistency)
+  - 10–15 profiles all pointing at the site
+
+### Summary
+
+**The question isn't ".com or .org." It's "can you make the brand name the keyword?"**
+
+You can, with any of these:
+- Hyphenated .com (proven top-3 performer)
+- Geographic TLD variant reordered (e.g., .ca or .uk with words rearranged)
+- .org only if nothing else works
+
+**Then execute:** Profiles + pages built first. The site that gets built wins, not the one that registered the domain first.
+
+---
+
+## YMYL Niches & Licensing Requirements
+
+**Key Finding (from Call #58):** YMYL (Your Money or Your Life) niches require special handling. Financial services, insurance, legal, and health-related microsites carry licensing and liability risks.
+
+### Niches to Avoid or Approach Carefully
+
+**High-Risk YMYL Categories:**
+- **Financial services** (loans, investment advice, debt management)
+- **Insurance** (health, life, auto, home)
+- **Legal services** (attorney services, legal advice)
+- **Health & medical** (medical advice, treatments, diagnoses)
+
+### Safe Approaches for YMYL
+
+**Option 1: Work Under an Existing License (Recommended)**
+- Example for attorneys: Build sites but run them under/powered by an actual attorney
+- Example for financial services: Partner with a licensed bank or credit union; site is "powered by" their license
+- You build the site; they provide the license and liability coverage
+- Business model: Per-lead fee or rev-share from closed deals
+
+**Real Example (Attorneys):** Build a relationship with the largest law firm in the niche. Run a test site "powered by" their firm at a discounted per-lead rate. Cover the smaller towns they don't reach yet. This protects you legally and gives them a scalable channel.
+
+**Option 2: Build as Lead Gen Aggregator (Not Advisor)**
+- You don't give advice; you connect leads to licensed professionals
+- Example: "Find a lawyer near you" (not "get legal advice")
+- This avoids YMYL liability because you're not making the recommendation
+
+**Option 3: Skip It**
+- The consensus in the community: most people *should* skip high-risk YMYL niches unless they have a clear licensing path
+- The liability risk isn't worth the upside unless you're working under someone else's license
+
+### Mitigating Risk
+
+**If you do work in YMYL:**
+- Use clear disclaimers ("not legal/financial/medical advice")
+- Work *under* an existing license whenever possible
+- Consult your own attorney before launching
+- Separate the lead aggregation (yours) from the advice (theirs)
+- Maintain clear liability boundaries in your contract
 
 ---
 

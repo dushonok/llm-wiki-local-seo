@@ -2,9 +2,10 @@
 type: framework
 client: none
 status: active
-updated: 2026-09-18
+updated: 2026-10-19
 sources:
   - "raw/framework/🎙️ The Wisdom's In The Calls - What To Charge And How To Structure Deals · AI SEO Rank Expand Academy.md"
+  - "raw/framework/Community Call 58 - Semantics Over Backlinks, Flat Leasing - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
 ---
 
 # Pricing and Deal Structures
@@ -295,8 +296,52 @@ Every clause came from a real incident.
 
 ---
 
+## Play #12: Flat-Rate Leasing for 25+ Year Client Retention
+
+**Principle (Brandon's Model):** Flat-rate pricing all year, kept fair, builds decades-long relationships. Each new location adds only a couple of pages and ~$500/month to the contract. This is how you keep clients for 25+ years.
+
+### The Model
+
+**Structure:**
+- One flat rate per month, regardless of season or demand fluctuation
+- Rate stays the same all year (no seasonal pricing variations)
+- Fair to both parties (client budgets predictably; you have reliable revenue)
+- Each new location/service: +$500/month (small incremental growth, not renegotiation hell)
+
+### Why This Works
+
+1. **Long-term retention:** Fairness builds trust. Clients who get the same rate year-round don't feel nickeled-and-dimed
+2. **Effortless scaling:** New location = +$500/month. Repeat this 10 times = $5,000/month from one client without acquisition costs
+3. **Predictable revenue:** You know what a client is worth 12 months out
+4. **Less admin:** One rate = no renegotiation, no seasonal disputes
+
+### Real Example
+
+**Brandon's client base:** 25+ year relationships
+- Started: 1 location, flat rate/month
+- Year 5: Added 2 more locations; rate increased by $1,000/month ($500 per new location)
+- Year 10: Added 3 more; rate increased by $1,500/month
+- Year 25: Multiple locations, pages, multiple services; rate scales cleanly
+
+Result: One client relationship compounds to $5,000–8,000/month after 20+ years without requiring new sales cycles.
+
+### Implementation
+
+**When onboarding:**
+- Quote a flat monthly rate (e.g., $1,500/month for one location)
+- Be explicit: "This rate holds for the full 12 months, seasons included"
+- Set expectation: "When you want to add another location or service, we talk about adding ~$500/month per location"
+
+**Every year:**
+- Renew at the same rate (unless the client requests additions)
+- Only renegotiate if the scope significantly changes (client asks to cut services, not add them)
+
+---
+
 ## The Bottom Line
 
 **Price with confidence.** The operators making the most money aren't the best at SEO—they're the ones who structured deals so they get paid cleanly, moved to recurring revenue, and raised their existing clients without losing them.
 
 Underpricing doesn't make you accessible. It makes you broke.
+
+**Bonus insight:** The most stable, highest-lifetime-value clients are the ones who stayed because the deal was fair, not because they got a discount. Build for 25-year relationships, not one-year contracts.
