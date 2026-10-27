@@ -2,9 +2,10 @@
 type: framework
 client: none
 status: active
-updated: 2026-09-29
+updated: 2026-10-27
 sources:
   - "raw/framework/Day 37 of My 90-Day Challenge A Wrong Sitemap Found on a Live Site - AI SEO Rank Expand Academy.md"
+  - "raw/framework/Lead Form on Cloudflare pages - Even better than Formspree - AI SEO Rank Expand Academy.md"
 ---
 
 # Microsite Launch Checklist
@@ -176,6 +177,45 @@ A microsite was built correctly in all respects, but the **sitemap listed URLs o
   - [ ] Contact form doesn't send sensitive data via email plain-text
   - [ ] No client data exposed in URLs or source code
   - [ ] Spam protection is configured (reCAPTCHA, honeypot, etc.)
+
+### Lead Capture Infrastructure: Cloudflare D1 + Workers (Alternative to Formspree)
+
+**Why Replace Formspree:**
+
+Formspree works, but it has blind spots that can bite you:
+
+1. **Silent failures:** A wrong form endpoint still shows a "thank you" page. No error anywhere. You could ship a site with a broken endpoint on all pages and never know until someone manually tests it.
+2. **No verification:** Formspree returns the same response for a real form ID and a fake one. The only way to verify it works is a real lead going through.
+3. **Lead data is trapped:** Leads live in an inbox. You can't query "how many leads came from this site" programmatically.
+4. **Email fragility:** If your email path breaks, Formspree goes silent. No record of failed sends.
+
+**The Cloudflare D1 + Workers Solution:**
+
+Cloudflare Pages (free static hosting) + D1 database + Workers (serverless functions) creates a lead endpoint that:
+- ✅ Writes every lead to a database first, then emails it
+- ✅ Queryable: `SELECT count(*) WHERE site = ?` to show contractors how many leads their site generated
+- ✅ Resilient: If email breaks, leads are still stored and flagged `emailed=0`
+- ✅ Testable: You can query the database to verify leads exist
+- ✅ Free at microsite scale
+
+**Implementation:**
+
+1. **Repo:** [bacioni/cloudflare-lead-endpoint](https://github.com/bacioni/cloudflare-lead-endpoint) — Complete setup with three files and a setup script
+2. **Setup time:** ~30 minutes (includes two Cloudflare gotchas documented in the repo that aren't in Cloudflare's docs)
+3. **Cost:** Free for microsites (Cloudflare free tier supports this)
+
+**The Three Files:**
+- Worker function (handles form POST)
+- D1 database schema (stores leads)
+- Deployment script (one command provisions a new site)
+
+**Key Advantage Over Formspree:**
+- When you show a contractor the site's performance, you can query the database: "Your site generated 47 leads. Here's when they came in, who they are, and which pages they came from."
+- An inbox tells you nothing. A database is proof.
+
+**Setup Gotchas (In the Repo):**
+- Two Cloudflare configuration issues that aren't documented in their official docs
+- The repo includes solutions; follow the README exactly
 
 ### Phase 7: Analytics & Monitoring Setup (Before Launch)
 

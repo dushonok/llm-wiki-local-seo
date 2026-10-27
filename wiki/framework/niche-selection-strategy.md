@@ -2,13 +2,15 @@
 type: framework
 client: none
 status: active
-updated: 2026-10-19
+updated: 2026-10-27
 sources:
   - "raw/framework/48 - Niches Within Niches - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
   - "raw/framework/49 - The 12-Minute Microsite - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
   - "raw/framework/EMD - Exact match domain with dashes - AI SEO Rank Expand Academy.md"
   - "raw/framework/Domain advice. .com is taken - AI SEO Rank Expand Academy.md"
   - "raw/framework/Community Call 58 - Semantics Over Backlinks, Flat Leasing - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
+  - "raw/framework/Bilingual sites Worth it - how to do it - AI SEO Rank Expand Academy.md"
+  - "raw/framework/Domains - weird extensions - AI SEO Rank Expand Academy.md"
 ---
 
 # Niche Selection & Microsite Strategy
@@ -236,6 +238,31 @@ Mark's actual results:
 
 **Strategy Note:** The micro focus now is less about "top of page 1" (fewer clicks) and more about AI Overviews and owning other SERP real estate. Domain variation (with/without dashes) is secondary to content structure and citations.
 
+### Non-Traditional TLDs (.solar, .io, etc.)
+
+**What Members Are Trying:**
+- `.solar` (for solar companies)
+- `.io` (tech/projects)
+- `.dev`, `.app`, `.co`, `.xyz` (various niches)
+
+**The Verdict (Early Data):**
+- **Pros:** Easier to get short, snappy domain names when .com is unavailable; `.solar` specifically works well for solar/energy niches
+- **Cons:** Renewal costs jump significantly year 2+ (year 1 often discounted, then $15–$30+/year); community members report mixed results (some parked unused, Brandon wants more test data)
+- **Ranking impact:** No data yet on whether .solar, .io, etc. rank differently than .com/geo-TLDs. Brandon suggests A/B testing if you want to compare.
+
+**Recommendation:**
+- Use non-traditional TLDs only if:
+  - The .com and geo-TLDs are unavailable
+  - The TLD is semantically relevant to the niche (.solar for solar, .dev for developers)
+  - You're willing to pay renewal costs (~$15–$30/year after year 1)
+  - You're OK testing and gathering data (no clear winner yet)
+- For most local service microsites, prefer .com, geo-TLDs (.ca, .uk, .mx), or hyphenated .com first
+
+**Cost Gotcha:**
+- Many registrars offer cheap year 1 (.solar at $6/year, for example)
+- Year 2+ can jump to $25–$30/year
+- Factor this into your microsite unit economics if building at scale
+
 ---
 
 ## Domain Selection When .COM Is Taken
@@ -337,6 +364,55 @@ You can, with any of these:
 - Consult your own attorney before launching
 - Separate the lead aggregation (yours) from the advice (theirs)
 - Maintain clear liability boundaries in your contract
+
+---
+
+## Language & Market Focus
+
+**Key Finding:** Don't build bilingual/hybrid-language sites. Pick one language and own that market completely.
+
+### The Problem with Hybrid Language Sites
+
+**Principle:** A site with language switchers or mixed-language content confuses search engines and dilutes ranking potential. You're splitting authority between two languages instead of dominating one.
+
+**Real Case Study (Texas Home Services Client):**
+- **Setup:** English primary site with a Spanish subdirectory (`site.com/es/`)
+- **Traffic:** Spanish section was ~5% of overall traffic
+- **Best practices applied:** All multilingual SEO best practices followed (hreflang tags, proper structure, etc.)
+- **Problem:** The Spanish content was competing against a much larger English site; Spanish search volume was lower than English equivalents, but Spanish *competition* was significantly less (they were targeting the wrong language structure)
+- **Solution:** Moved all Spanish content to a Spanish-only domain (`site.es` or similar)
+- **Result:** Spanish traffic tripled in a few months
+
+**Why the Spanish-only domain won:**
+- Search engines see a single-language, focused domain with clear intent
+- No dilution of authority (all signals point to one language)
+- Lower competition in Spanish market (fewer competitors are there)
+- Users landing on a Spanish-only site have a clear, consistent experience (no confusion about language toggling)
+
+### Strategy: One Language Per Site
+
+**For microsites:**
+- English-speaking area? Build one .com or local TLD site in English
+- Spanish-speaking area? Build a separate .com.mx or .es or Spanish-localized .com site in Spanish
+- Do not build one site with both; build separate, focused sites
+
+**For directories:**
+- Same principle applies: a Spanish-only directory ranks better than an English directory with a Spanish section
+- Example: If building a directory for Texas where 80% of the service area speaks Spanish, build a Spanish-only directory, not an English directory with Spanish pages/switching
+- If you want to serve both markets, build two separate directories (or two separate microsites per location)
+
+**For client sites (like the Texas case):**
+- If the client's market is bilingual but one language dominates, pick that language
+- If the market is truly 50/50, negotiate with the client to build two separate sites
+- If they insist on one site, at minimum: use proper hreflang tags and structure (but expect lower performance in both languages than two separate sites would deliver)
+
+### How to Present This to Clients
+
+**The pitch:** "You'll rank better and capture more leads if we build a Spanish-only site targeting Spanish speakers than if we try to serve both English and Spanish speakers on one site. Spanish search competition is much lighter, and we can own that market completely."
+
+**Why clients often resist:** They think one bilingual site is cheaper. It often is, short-term. But two focused sites outrank one hybrid site, usually within a few months.
+
+**The numbers:** If a Spanish-only site triples traffic (as in the Texas case), the additional revenue typically pays for the second site's cost within 1–2 months. Long-term play wins here.
 
 ---
 

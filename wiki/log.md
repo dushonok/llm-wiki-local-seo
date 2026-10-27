@@ -998,6 +998,39 @@ Distribution per user recommendation:
 Updated [[wiki/log.md]] with this entry.
 Pages touched: [[wiki/framework/backlinks.md]], [[wiki/framework/niche-selection-strategy.md]], [[wiki/framework/pricing-and-deal-structures.md]], [[wiki/framework/ai-tool-stacks.md]], [[wiki/log.md]]
 
+## 2026-10-27 | ingest | Bilingual sites, domain extensions, free-trial sales, Cloudflare lead capture
+
+Saved four raw sources to `raw/framework/`:
+- Bilingual sites (Oct 27): One language per site, not hybrid switchers; Spanish-only domain ranks better than English site with Spanish section
+- Domains - weird extensions (Oct 27): .solar, .io, etc. work but year 2+ renewal costs jump; data inconclusive on ranking difference vs. .com
+- Free trial closing framework (Oct 19): 5-step process to convert cold prospect to paying client by giving the first lead free
+- Cloudflare lead endpoint (Oct 21): D1 + Workers alternative to Formspree; database-backed, resilient, queryable, free at microsite scale
+
+Distribution:
+
+1. **[[wiki/framework/niche-selection-strategy.md]]**: Added two new sections (updated timestamp to 2026-10-27, added sources):
+   - "Language & Market Focus": One-language-per-site principle + real case study (Texas client: Spanish subdirectory 5% traffic → Spanish-only domain tripled traffic in months). Why hybrid sites fail: diluted authority, mixed language signals confuse search engines. Strategy: separate sites for separate languages, or if client insists on one site, use proper hreflang + accept lower performance in both languages. Includes client pitch rationale.
+   - "Non-Traditional TLDs (.solar, .io, etc.)": .solar/similar can work, easier short names than .com, but renewal costs jump year 2+ (from $6 to $25–$30). Data inconclusive on ranking difference. Recommendation: use only if .com/geo-TLDs unavailable, semantically relevant (.solar for solar), and willing to pay/test.
+
+2. **[[wiki/framework/sales-and-lead-generation.md]]**: Added new Approach #5 "The Free Trial Close (Prove Value Before Billing)" (updated timestamp to 2026-10-27, added source). The 5-step framework:
+   - Step 1: Get lead on phone via your own microsite (you answer, qualify, gather info, position yourself as call agent not owner)
+   - Step 2: Cold call business owner (Facebook groups, Google Maps, LinkedIn) with "I have a hot lead on the phone for you"
+   - Step 3: Merge calls, stay muted to vet the business owner's phone skills and professionalism
+   - Step 4: Follow up immediately (15–30 min) while the conversion is fresh; this is your sales window
+   - Step 5: Send Loom onboarding video within hours; if they don't watch in 3 days, they're not serious; tie to CRM
+   - Real-world rationale: First lead free = proof the system works; post-conversion urgency closes them; zero buyer's remorse
+   - Why this beats Upwork: No 100-bidder auctions, prospect sees proof before signing, higher-quality clients, you control the relationship
+
+3. **[[wiki/framework/microsite-launch-checklist.md]]**: Added new subsection "Lead Capture Infrastructure: Cloudflare D1 + Workers (Alternative to Formspree)" under Phase 6 (Security & Compliance, Forms & Data) (updated timestamp to 2026-10-27, added source). Key content:
+   - Problems with Formspree: Silent failures (wrong endpoint shows thank-you anyway), no verification possible (same response for real/fake form IDs), lead data trapped in inbox, email breaks = no backup
+   - Solution: Cloudflare D1 + Workers writes leads to database first, then emails; queryable; resilient; testable; free at microsite scale
+   - Implementation: GitHub repo [bacioni/cloudflare-lead-endpoint](https://github.com/bacioni/cloudflare-lead-endpoint), ~30 min setup, three files + setup script
+   - Key advantage: Query the database to show contractors lead counts/dates/sources (database proof > inbox)
+   - Warning: Repo documents two Cloudflare gotchas not in official docs; follow the README exactly
+
+Updated [[wiki/log.md]] with this entry.
+Pages touched: [[wiki/framework/niche-selection-strategy.md]], [[wiki/framework/sales-and-lead-generation.md]], [[wiki/framework/microsite-launch-checklist.md]], [[wiki/log.md]]
+
 ## 2026-10-27 | query | Main service page cannibalizing microsite home page
 User asked how to handle a microsite's main-service page (e.g. locksmithdurhamregion.ca/locksmith) cannibalizing the home page. Answered from the existing primary-location rule and filed a new subsection in [[framework/external-seo-microsite-tactics.md]]: the home page is the main service page; do not build /[service]; if it exists, merge unique content and 301 to /; spend pages on sub-services and non-primary towns. Index line updated.
 Pages touched: [[framework/external-seo-microsite-tactics.md]], [[index.md]], [[log.md]]
