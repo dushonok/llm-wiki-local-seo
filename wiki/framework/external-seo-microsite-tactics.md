@@ -2,7 +2,7 @@
 type: framework
 client: none
 status: active
-updated: 2026-10-13
+updated: 2026-10-27
 sources:
   - "raw/chat-notes/chat-summary-rank-microsite-fast.md"
   - "raw/framework/Community Call 43 - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
@@ -265,6 +265,46 @@ build never created a primary-location page and was confirmed clean; the
 Portland build initially shipped `/sewer-line-repair-in-portland-or` with an
 H1 identical to the homepage's and listed in both the sitemap and the
 Service Areas page — removing the page (and the list entry) resolved it.
+
+### Same Rule for the Main Service Page — No `/locksmith` Next to a Locksmith Home Page
+
+> *Not sourced from a raw capture — general SEO reasoning extending the
+> primary-location rule above (added 2026-10-27 after a question about
+> locksmithdurhamregion.ca / `/locksmith`).*
+
+On a single-service microsite whose domain and home page already target
+"[service] [region]", a `/[service]` page (e.g. `/locksmith`) is the same
+duplicate as the primary-city page: same intent, same entity, same title/H1.
+**The home page is the main service page.**
+
+1. **Don't build `/[service]`.** Make the home page carry the full main-service
+   content (H1 = service + region, answer paragraph, services overview,
+   process, pricing/ETA, reviews, FAQ, NAP block, `LocalBusiness`/`Service`
+   schema). Nav label "Locksmith" or "Services" points at `/` or at a
+   sub-service hub, never at a twin page.
+2. **Spend the page budget on distinct intents.** Sub-service pages
+   (`/car-lockout`, `/rekey`, `/lock-change`, `/commercial-locksmith`,
+   `/emergency-locksmith`) and non-primary location pages (`/oshawa`,
+   `/ajax`...) each target a different query, link up to `/`, and receive
+   links from it. That is hub-and-spoke with the home page as the hub.
+3. **If `/[service]` already exists** (live or indexed):
+   - Best: merge any unique content into the home page, then **301 `/service`
+     to `/`**. A 301 consolidates signals; `noindex` and canonical-to-home are
+     weaker (noindex drops the page without passing signal; canonical is only
+     a hint).
+   - Remove it from the sitemap and nav, change every internal link to `/`
+     (watch footer, breadcrumbs, blog/location links with service anchor text),
+     and request re-crawl of `/` in GSC.
+   - Only keep it if it is genuinely differentiated (e.g. `/locksmith-services`
+     as a hub/index listing sub-services with a different title and intent) —
+     and then the home page must not use the same title/H1.
+4. **Watch-out:** the same collision happens if the home page is a thin
+   "brand + CTA" page and the real content sits on `/locksmith`. Fix by moving
+   the content up to `/`, not by keeping both.
+
+Related: the diagnostic pattern for ranking-URL flapping between two of your own
+pages in [[on-site-seo.md]] applies if this was already live and the two URLs are
+swapping positions.
 
 ---
 

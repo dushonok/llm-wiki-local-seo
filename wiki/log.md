@@ -997,3 +997,7 @@ Distribution per user recommendation:
 
 Updated [[wiki/log.md]] with this entry.
 Pages touched: [[wiki/framework/backlinks.md]], [[wiki/framework/niche-selection-strategy.md]], [[wiki/framework/pricing-and-deal-structures.md]], [[wiki/framework/ai-tool-stacks.md]], [[wiki/log.md]]
+
+## 2026-10-27 | query | Main service page cannibalizing microsite home page
+User asked how to handle a microsite's main-service page (e.g. locksmithdurhamregion.ca/locksmith) cannibalizing the home page. Answered from the existing primary-location rule and filed a new subsection in [[framework/external-seo-microsite-tactics.md]]: the home page is the main service page; do not build /[service]; if it exists, merge unique content and 301 to /; spend pages on sub-services and non-primary towns. Index line updated.
+Pages touched: [[framework/external-seo-microsite-tactics.md]], [[index.md]], [[log.md]]
