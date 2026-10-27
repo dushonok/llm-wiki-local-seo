@@ -389,6 +389,26 @@ You can, with any of these:
 - Lower competition in Spanish market (fewer competitors are there)
 - Users landing on a Spanish-only site have a clear, consistent experience (no confusion about language toggling)
 
+**The Tradeoff (Authority Building):**
+
+One drawback of splitting to separate domains: You're now building authority on two websites instead of one. In the Texas case, the original English site had consolidated all citations, including GBP, linking to it. The Spanish subdirectory was benefiting from that concentrated authority. By splitting to a Spanish-only domain, they lost that consolidated backlink profile and had to rebuild citations from scratch for the new site.
+
+**However, this tradeoff favors separation *if you're building from scratch*:**
+
+- **Scenario A (Existing business, mature English site):** If the client already has a strong, established English site with built-up authority and citation history, consolidating Spanish to a subdirectory can leverage that authority short-term. The tradeoff: fewer Spanish leads, but operationally simpler for the client.
+  
+- **Scenario B (Starting from scratch, no existing authority):** Build two separate sites from day one. No consolidated authority to leverage anyway. Each site builds its own focused authority. Spanish search's lower competition means the Spanish site ranks faster and cleaner than it would as a subdirectory. The Texas case proves this: tripled traffic in a few months by separating.
+
+**The Client Pitch (If They Already Have an English Site):**
+
+"You have two options:
+
+1. **Keep Spanish as a subdirectory:** Faster to set up, leverages your existing English site's authority and citations. Trade-off: Spanish traffic will always be constrained—it's competing against English content for Google's attention.
+
+2. **Separate Spanish domain:** Takes more effort to rebuild citations from scratch. Trade-off: Spanish search has way less competition. In 3–6 months, you'll own the Spanish market completely, and traffic will likely exceed what a Spanish subdirectory could ever deliver.
+
+Most clients choose option 2 once they see the Texas case numbers."
+
 ### Strategy: One Language Per Site
 
 **For microsites:**
