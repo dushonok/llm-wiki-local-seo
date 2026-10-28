@@ -1031,6 +1031,35 @@ Distribution:
 Updated [[wiki/log.md]] with this entry.
 Pages touched: [[wiki/framework/niche-selection-strategy.md]], [[wiki/framework/sales-and-lead-generation.md]], [[wiki/framework/microsite-launch-checklist.md]], [[wiki/log.md]]
 
+## 2026-10-28 | ingest | Five Pillar Local SEO Framework + Grey Hat Tactics
+
+Saved two raw sources to `raw/framework/`:
+- The Five Pillar Local SEO Checklist (PDF): Foundational framework built from 6 weeks of daily ranking checks on 61 brand-new sites + 20 audits (Oct 2026)
+- Easy to use CTR Software / Traffic Tool (Oct 28): Reference to TrafficDominator.org, a CTR manipulation tool for artificial click fraud
+
+Distribution:
+
+1. **[[wiki/framework/five-pillar-local-seo-framework.md]]** (NEW PAGE): Master reference for the Five Pillar framework
+   - **Pillar 1: Foundation** (5 min): Redirects, real HTML, domain naming, canonical tags, sitemaps, images with alt text
+   - **Pillar 2: Entity** (5 min): NAP consistency, LocalBusiness schema, sameAs array (critical: links profiles to site)
+   - **Pillar 3: Pages** (10 min): Homepage 1.2k–2k words, 1–2 service pages, cost page, town pages with real detail, FAQ markup, outbound links, real photos
+   - **Pillar 4: Footprint** (5 min to check, 1 week to build): Primary profiles (Facebook, Patch, MapQuest, Houzz, BBB, Clutch, YouTube, press releases), secondary profiles, skip list (LinkedIn, TikTok, Reddit, etc.)
+   - **Pillar 5: Ship & Measure** (daily): Pinned ranking checks, write daily, batch updates, 48 hours to result, 3-week hands-off period
+   - **Key Finding**: Every site that reached top 15 did it within 48 hours of a big republish. Every site that held page one had Pillars 2 and 4 complete. Pages alone → top 20 (stuck). Profiles alone → page 3 (alone). Both together → page 1 (held).
+   - **Includes**: Full schema template (with sameAs array), pinned search method (location pinning with UULE parameter, base64 encoding walkthrough), and checklist scorecard
+
+2. **[[wiki/framework/grey-hat-tactics-and-risks.md]]** (NEW PAGE): Grey hat tactics documented with warnings
+   - **CTR Manipulation / Click Fraud**: TrafficDominator.org tool, what it is, how it works, user warnings
+   - **Risks**: Google penalty/deindexing, hard to reverse, ineffective long-term, wasted money better spent on real SEO
+   - **When community uses it**: Testing, unblocking stuck sites, competitor research (all risky)
+   - **Better alternative**: Optimize naturally; improve fundamentals; build Pillar 4 profiles
+   - **Lesson**: The data shows Pillar 2 & 4 work better and carry no penalty risk. Framework guidance: "Site stuck → get Pillar 2 and Pillar 4 work, not more pages." Not: "Use CTR tools."
+
+3. **[[wiki/index.md]]**: Updated to reflect new pages and updated descriptions for affected existing pages
+
+Updated [[wiki/log.md]] with this entry.
+Pages touched: [[wiki/framework/five-pillar-local-seo-framework.md]] (new), [[wiki/framework/grey-hat-tactics-and-risks.md]] (new), [[wiki/index.md]], [[wiki/log.md]]
+
 ## 2026-10-27 | query | Main service page cannibalizing microsite home page
 User asked how to handle a microsite's main-service page (e.g. locksmithdurhamregion.ca/locksmith) cannibalizing the home page. Answered from the existing primary-location rule and filed a new subsection in [[framework/external-seo-microsite-tactics.md]]: the home page is the main service page; do not build /[service]; if it exists, merge unique content and 301 to /; spend pages on sub-services and non-primary towns. Index line updated.
 Pages touched: [[framework/external-seo-microsite-tactics.md]], [[index.md]], [[log.md]]

@@ -15,8 +15,9 @@ added or removed (see AGENTS.md §6, Ingest). Grouped by section.
 General SEO/local SEO knowledge, not tied to a client.
 
 ### Technical SEO & AI Optimization
+- [five-pillar-local-seo-framework.md](framework/five-pillar-local-seo-framework.md) — Master reference: The foundational 5-pillar framework (Foundation, Entity, Pages, Footprint, Ship & Measure) built from 6 weeks of ranking data on 61 sites + 20 audits; includes schema template, pinned search method, and checklist; every page-one result in the contest had Pillars 2 and 4 complete
 - [on-site-seo.md](framework/on-site-seo.md) — Content structure recipe (title, lead-in, answer, H2s, entity signals) that ranks fast; incl. meta-description town-list/state-abbreviation guidance; sidebar on small moves vs. waiting for perfection; diagnostic pattern for legal/boilerplate page outranking the service page (noindex + anchor-text fix); diagnostic pattern for ranking-URL flapping between two of your own pages (keyword cannibalization — de-duplicate overlap, check `FAQPage` schema and internal-link relevance before assuming either applies, strengthen the correct page's signals); permanent content-ownership rule splitting location-specific FAQs (own them on the location page) from the sitewide FAQ page (universal questions only)
-- [microsite-launch-checklist.md](framework/microsite-launch-checklist.md) — Pre-launch validation checklist (domain, sitemap, canonicals, broken links, schema, mobile, GSC setup); real case study of sitemap domain error
+- [microsite-launch-checklist.md](framework/microsite-launch-checklist.md) — Pre-launch validation checklist (domain, sitemap, canonicals, broken links, schema, mobile, GSC setup); real case study of sitemap domain error; lead capture infrastructure section (Cloudflare D1 + Workers vs. Formspree)
 - [backlinks.md](framework/backlinks.md) — Social media profiles (YouTube, Reddit, Instagram, Facebook, TikTok) as high-authority backlink sources; platform hierarchy by ROI; implementation process for 12-week backlink stack
 - [ai-overviews-local-search.md](framework/ai-overviews-local-search.md) — How AI Overviews reshape local intent and visibility above map packs
 - [local-seo-checklist.md](framework/local-seo-checklist.md) — 7-part checklist to optimize for AI Overviews + skill-level next steps (Beginner/Intermediate/Advanced)
@@ -38,8 +39,9 @@ General SEO/local SEO knowledge, not tied to a client.
 - [agency-operations-scaling.md](framework/agency-operations-scaling.md) — Moving from solo doer to system operator; Loom training, boundaries, documentation for delegation
 - [pricing-and-deal-structures.md](framework/pricing-and-deal-structures.md) — 11 pricing plays and deal structures (per-lead, retainers, stacking, contracts, hourly design)
 - [client-selection-filters.md](framework/client-selection-filters.md) — 4 filters to pick clients that stick (expertise respect, review count, volume capacity, niche leverage)
-- [sales-and-lead-generation.md](framework/sales-and-lead-generation.md) — 4 approaches to get clients: human touch, specific hooks, channel stacking, Google Maps prospecting (find businesses with SEO gaps before they post jobs)
+- [sales-and-lead-generation.md](framework/sales-and-lead-generation.md) — 5 approaches to get clients: human touch, specific hooks, channel stacking, Google Maps prospecting (find businesses with SEO gaps before they post jobs), free trial close (give first lead free, follow up immediately, onboard with Loom)
 - [client-retention-strategies.md](framework/client-retention-strategies.md) — Relationship strength, visible work proof, service intertwining for long-term retention
+- [grey-hat-tactics-and-risks.md](framework/grey-hat-tactics-and-risks.md) — CTR manipulation tools (TrafficDominator), why they're risky, and why Pillar 2 & 4 work better without penalty risk
 
 ## clients/
 
