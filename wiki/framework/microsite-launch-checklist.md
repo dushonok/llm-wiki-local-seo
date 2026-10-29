@@ -2,10 +2,11 @@
 type: framework
 client: none
 status: active
-updated: 2026-10-27
+updated: 2026-10-29
 sources:
   - "raw/framework/Day 37 of My 90-Day Challenge A Wrong Sitemap Found on a Live Site - AI SEO Rank Expand Academy.md"
   - "raw/framework/Lead Form on Cloudflare pages - Even better than Formspree - AI SEO Rank Expand Academy.md"
+  - "raw/framework/Multiple Questions - AI SEO Rank Expand Academy.md"
 ---
 
 # Microsite Launch Checklist
@@ -267,6 +268,101 @@ Cloudflare Pages (free static hosting) + D1 database + Workers (serverless funct
   - [ ] Check analytics for traffic anomalies
   - [ ] Verify ranking baseline in tracker
   - [ ] Test all forms and CTAs work
+
+---
+
+## FAQ: Common Launch Questions
+
+### Email Setup: Google Workspace vs. Blank
+
+**Question:** Should I set up email through Google Workspace or leave it blank?
+
+**Answer:** Neither is required at launch. Here are your options:
+
+**Option 1: Cloudflare Email Routing (Recommended, Free)**
+- Create addresses like `info@yourdomain.com`
+- Incoming emails forward to your personal Gmail
+- No cost
+- Limitation: Cloudflare doesn't provide an inbox; it just forwards
+
+**Option 2: Google Workspace ($6–12/month)**
+- Full inbox, proper email hosting
+- Looks professional
+- Better for client-facing communication
+- Not necessary for microsite launch
+
+**Option 3: Leave Blank at Launch**
+- Use a contact form only (no email address on site)
+- Add email later if needed
+- Most successful microsites work fine this way
+
+**Best practice:** Start with a contact form (Cloudflare D1 + Workers). Add an email address later only if needed.
+
+### Google Search Console: Footprint & Privacy Concerns
+
+**Question:** Is there any concern using Google Search Console if I have multiple microsites with different email addresses?
+
+**Answer:** Short answer: No major concern, but here are the nuances.
+
+**The Risk (Overstated):**
+- Some worry that having multiple microsites in one GSC account makes it easier for Google to de-index all of them if it finds a problem
+- This is largely theoretical. Having legitimate sites in one account hasn't caused problems for community members operating large portfolios
+
+**What Google Can Discover Anyway:**
+Even if you don't use GSC, Google can link your sites through:
+- Google Analytics tracking IDs (same account)
+- Google Tag Manager containers
+- Google Ads account
+- Shared phone numbers, email addresses, or business info
+- Backlink patterns
+- Identical images or shared assets
+- Similar HTML, CSS, templates
+- Hosting information
+- Shared domain registration details
+
+**The Strategy:**
+- Do things the right way and avoid giving Google a legitimate reason to penalize your sites
+- You don't need to obsess over footprint. Build real value.
+- **If you're paranoid:** Spread GSC access across multiple aged Gmail accounts or use tools like Multilogin/AdsPower, but this adds complexity for minimal benefit
+
+**Practical approach:** Use one GSC account for simplicity. Track via pinned search method (see [[five-pillar-local-seo-framework.md]]) instead of trusting rank tracker data.
+
+### Cloudflare Configuration: Workers On or Off?
+
+**Question:** When setting up Cloudflare with a customer domain, should I leave Workers turned on or turn it off?
+
+**Answer:** Depends on your use case.
+
+**Option 1: Cloudflare Pages (Recommended for Static Sites)**
+- Best for pre-built HTML/static microsite generators
+- Free tier covers microsite needs
+- No need for Workers
+- Simpler setup
+- Handles uptime and speed automatically
+
+**How to set up Pages:**
+1. Build your site to an output folder
+2. Drop a `_redirects` file in for your 301 redirects
+3. Zip the folder contents (not the folder itself)
+4. Workers & Pages → Pages → Upload assets
+5. Custom domain wires itself if DNS is on Cloudflare
+6. Connect GitHub repo for automatic deployments on push
+
+**Option 2: Cloudflare Workers (More Powerful)**
+- If you need server-side logic (form processing, API calls, etc.)
+- Cloudflare's direction: Workers is now the primary platform for new projects (as of 2026)
+- More flexibility than Pages
+- Same cost (free tier)
+
+**Best Practice:**
+- Most microsites: Use **Cloudflare Pages** (simpler, sufficient)
+- If you're using Cloudflare D1 + Workers for lead forms: **Keep Workers turned on**
+- If you're just serving static HTML: **Pages only, no need for Workers**
+
+**Why Cloudflare at All?**
+- Uptime: Fresh sites that go down for a day lose a page of rankings
+- Speed: Edge hosting reduces latency
+- Community experience: Sites on Cloudflare Pages don't have reliability issues
 
 ---
 

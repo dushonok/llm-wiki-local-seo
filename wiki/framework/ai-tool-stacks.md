@@ -9,6 +9,7 @@ sources:
   - "raw/framework/49 - The 12-Minute Microsite - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
   - "raw/framework/AI video - What are you building this week · AI SEO Rank Expand Academy.md"
   - "raw/framework/How I make the posts and the shorts (Claude Code + OpenArt) - Bryan Collins - AI SEO Rank Expand Academy.md"
+  - "raw/framework/Reddit Lead Alerts free monitoring tool, telegram bot & automation! · AI SEO Rank Expand Academy.md"
 ---
 
 # AI Tool Stacks: Practical Combinations That Work
@@ -390,6 +391,85 @@ Write it as a reusable script, so the next short is one command.
 - **OpenArt: generate one video at a time.** A 429 error means wait an hour, start fresh chat. Check result in OpenArt's Media tab; "created" status isn't proof.
 - **Client approves the board or short before anything is scheduled**
 - **Every "COMMENT [KEYWORD]" post needs a GHL workflow behind it** (comment contains keyword → reply → DM the link). Build it before the first one goes out.
+
+---
+
+## Lead Sourcing
+
+### Stack #14: Reddit Lead Alerts (Automated Prospect Discovery)
+
+**Concept:** Monitor Reddit 24/7 for people actively asking for help in your niche. Get Telegram alerts when matches are found. Reply with value. Close the deal.
+
+**Why It Works:**
+- Pure intent (prospects asking for solutions NOW, not browsing)
+- No competition (most agencies don't monitor Reddit actively)
+- Relationship starts real (you found them when they asked for help)
+- Free (GitHub scheduler + Telegram = $0)
+- Scalable (same setup works across multiple subreddits/keywords)
+
+**The Stack:**
+
+1. **GitHub Repository:** [neoswf/reddit-lead-alerts](https://github.com/neoswf/reddit-lead-alerts) (free, open-source)
+2. **GitHub Actions Scheduler:** Runs every 30 minutes (free tier covers this)
+3. **Telegram Bot:** Sends alerts to your phone (free)
+4. **No coding required:** Copy the README into Claude, let Claude handle setup
+
+**What It Monitors:**
+
+- Watches multiple subreddits simultaneously (e.g., r/smallbusiness, r/localseo, r/GoogleMyBusiness, r/[city])
+- Catches posts matching your keywords (e.g., "local SEO help," "looking for plumber," "Google Business Profile issue")
+- Sends one alert per post (no duplicates even if cross-posted)
+
+**The Alert Includes:**
+- Post title
+- Excerpt
+- Why it matched (which keyword)
+- Direct link to thread
+
+**Setup (30 minutes, no coding):**
+
+1. Go to [neoswf/reddit-lead-alerts](https://github.com/neoswf/reddit-lead-alerts)
+2. Click "Use this template" → create private copy
+3. Create a Telegram bot (free, 2 minutes)
+4. Edit the settings file in your browser (add subreddits + keywords)
+5. GitHub runs the job automatically every 30 minutes
+
+**Real Example:**
+
+First test caught a UK tree surgery business asking "honest local SEO help" in r/smallbusiness, r/GoogleMyBusiness, and r/localseo. One consolidated alert (no spam of three separate notifications).
+
+**Refining Keywords (Week 1-2):**
+
+First run will catch junk: SEOs asking each other questions, directory sellers, etc. That's normal.
+
+- Give it a week
+- Add phrases *real buyers* actually use
+- Exclude what brings noise
+
+**Best Subreddits by Niche:**
+
+| Subreddit | Type | Quality |
+|-----------|------|---------|
+| r/smallbusiness | Owner questions | High intent |
+| r/localseo | Targeted local SEO | High intent |
+| r/GoogleMyBusiness | GBP-specific | Very high intent |
+| r/[city] | Local, hyperlocal | High intent |
+| r/[service] (e.g., r/Plumbing) | Niche professionals | Medium intent |
+| r/SEO | SEO talk | Low intent (mostly other SEOs) |
+
+**When You Reply:**
+
+- Keep it useful. No pitch.
+- Many subreddits ban self-promotion. Read rules first.
+- Real value + your link = they'll click
+
+**Rate Limits (Important):**
+
+The tool fetches all subreddits in **one request every 30 minutes** and backs off for an hour if Reddit complains. **Keep this pace.** If lots of users hammer Reddit faster, GitHub gets blocked and breaks for everyone.
+
+**Cost:** Completely free
+
+**Timeline to First Lead:** 3-7 days (depends on subreddit traffic and keyword fit)
 
 ---
 

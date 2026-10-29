@@ -2,11 +2,13 @@
 type: framework
 client: none
 status: active
-updated: 2026-10-27
+updated: 2026-10-29
 sources:
   - "raw/framework/🎙️ The Wisdom's In The Calls - Getting Clients When Cold Outreach Feels Dead · AI SEO Rank Expand Academy.md"
   - "raw/framework/Find Your Ideal Client Instead of Waiting for Upwork to Kick In · AI SEO Rank Expand Academy.md"
   - "raw/framework/How I closed a business owner on a free trial - AI SEO Rank Expand Academy.md"
+  - "raw/framework/Cold Outreach - AI SEO Rank Expand Academy.md"
+  - "raw/framework/Reddit Lead Alerts free monitoring tool, telegram bot & automation! · AI SEO Rank Expand Academy.md"
 ---
 
 # Sales and Lead Generation
@@ -100,6 +102,114 @@ The fix isn't a better automation. It's standing out in the ways automation can'
 - Cost per lead (paid ads)
 - Conversion rate by channel
 - Which channel produces the highest-quality leads?
+
+---
+
+## Cold Email Copy Framework (Dominik's Playbook)
+
+**Core Principle:** Keep it short. Make them feel the problem. Make it scannable. Don't make them think.
+
+### The Problem with Long Emails
+
+**What doesn't work:**
+- Long email copy (100+ words)
+- Too technical or "thinking required"
+- "Would you mind?" CTAs (gives them an easy out)
+- Wordy opt-out that's stronger than your CTA
+
+**What works:**
+- ~100 words maximum
+- Lead with **what they're losing** (competitors taking their jobs)
+- Scannable format (bullets)
+- Direct, confident CTA
+
+### The Framework
+
+**Subject & Opening:**
+- Skip pleasantries. Get to the point immediately.
+- Example: "Hi [Name],"
+
+**The Problem (Scarcity/Urgency):**
+Lead with their competitors winning the jobs they could have.
+
+**Use bullets to show the gap:**
+```
+Here's where you rank on Google Maps:
+- #29 for "Roof Repair [City]"
+- #59 for "Roof Replacement [City]"
+```
+
+**The Opportunity (Make it easy):**
+```
+If you want to be seen higher on Maps, simply reply yes and I'll send a personalized video.
+```
+
+**Not:**
+```
+Would you mind if I share a quick video walking through 3 things that can improve your ranking?
+```
+
+(The first says "do this." The second asks for permission and gives them an out.)
+
+**Opt-Out:**
+- Make the opt-out weaker than the CTA
+- Example: "If you'd rather not, just ignore this" (not a strong alternative)
+
+### Real Example
+
+**Original (Too Long, Too Technical):**
+```
+Hi Jan,
+
+I found a few things about All Seasons Exteriors that are hurting your presence on Google. 
+You're #29 on Maps for "roof repair colorado springs" and #59 for "roof replacement colorado springs", 
+and the profile has only 3 photos.
+
+Luckily, some of these are low-hanging fruit. Would you mind if I share a quick video 
+walking through 3 things that can improve your ranking on Google?
+
+Cheers,
+Everly
+
+If you'd rather not hear from me, just reply and let me know.
+```
+
+**Revised (Dominik's Way):**
+```
+Hi Jan,
+
+Here's where you sit on Google Maps right now:
+- #29 for Roof Repair in Colorado Springs
+- #59 for Roof Replacement in Colorado Springs
+
+Your competitors are getting those jobs.
+
+If you want to be seen higher, simply reply yes and I'll send a personalized video.
+
+Cheers,
+Everly
+```
+
+### Key Principles
+
+1. **Keep it under 100 words** — The shorter the email, the more it gets read
+2. **Lead with their problem** — Not your offer. They're losing leads to competitors.
+3. **Use bullets** — Make it scannable. Don't make them read a paragraph.
+4. **Confident CTA** — "Reply yes" not "Would you mind if..."
+5. **Don't over-explain** — If they have to interpret what you're saying, you've lost them
+6. **Weak opt-out** — Your CTA should be stronger than your exit option
+
+### Testing the Copy
+
+**In the real world:**
+- Dominik reads cold emails daily for his agency
+- The ones he actually reads: **short, to the point, easy to understand**
+- The ones he ignores: wordy, unclear, require thinking
+
+**Adjust for your market:**
+- Add/remove bullets based on what resonates
+- Test with 10 emails first
+- Refine based on open rate and replies
 
 ---
 
@@ -360,8 +470,101 @@ From the community:
 
 ---
 
+## Approach #6: Automated Reddit Lead Monitoring (No-Code)
+
+**The Tool:** Reddit Lead Alerts (free, open-source, GitHub-hosted)
+
+**GitHub Repo:** [neoswf/reddit-lead-alerts](https://github.com/neoswf/reddit-lead-alerts)
+
+**What It Does:**
+
+Watches subreddits 24/7 for posts matching your keywords. When a match is found, it sends you a **Telegram alert** with:
+- Post title
+- Short excerpt
+- Why it matched
+- Direct link to the thread
+
+You read it and decide whether to reply. **The tool never posts or comments**—it's purely a lead detector.
+
+**How It Works:**
+- Runs on GitHub's free scheduler every 30 minutes
+- Your laptop stays off (automatic)
+- Alerts go to your private Telegram bot
+- Remembers what it already sent (no duplicate alerts)
+- Subreddits and keywords live in a settings file you edit in the browser
+
+**Cost:** Free (GitHub scheduler + your Telegram bot)
+
+**Real Example:**
+First test run found a tree surgery business in the UK asking "honest local SEO help" in r/smallbusiness, r/GoogleMyBusiness, and r/localseo. Cross-posts arrived as one consolidated alert.
+
+### Setup (No Coding Required)
+
+1. Go to GitHub repo: [neoswf/reddit-lead-alerts](https://github.com/neoswf/reddit-lead-alerts)
+2. Click "Use this template" to make your own copy (keep it private)
+3. Follow the README (copy all instructions into Claude, let Claude handle setup)
+4. Edit the settings file in your browser to add subreddits and keywords
+
+### Reddit Best Practices
+
+**Respect Reddit's rate limits:**
+- The tool fetches all subreddits in one request every 30 minutes
+- Backs off for an hour if Reddit complains ("too many requests")
+- **Keep this rate**. If lots of users hammer it, Reddit will block GitHub and it breaks for everyone.
+
+**Keywords take time to refine:**
+- Your first keyword list will catch junk (SEOs asking each other, directory sellers, etc.)
+- Give it a week
+- Add phrases real *buyers* use, exclude what brings noise
+
+**Subreddit choice matters:**
+- r/SEO = right keywords, almost no clients
+- r/smallbusiness = noisier, but where the owners actually are
+- r/[city] = highly local, high-intent leads
+- r/GoogleMyBusiness, r/localseo = targeted, lower volume
+
+**When you reply:**
+- Keep it useful. Skip the pitch.
+- Many subreddits ban self-promotion. Read the rules first.
+- Real value > ask for the job
+
+### Ideal Use Case
+
+Best for niches where prospects *ask for help on Reddit*:
+- Local SEO ("looking for local SEO help in [city]")
+- Google Business Profile issues
+- Rank and rent questions ("how to build a lead gen site")
+- Service niches ("anyone know a good plumber in [city]?")
+
+Less useful for:
+- Niches where people don't congregate on Reddit
+- High-volume transactional searches (those aren't asking Reddit first)
+
+### Why It Works
+
+1. **Pure intent:** People posting on Reddit want help/solutions NOW
+2. **No competition:** Most SEOs/agencies don't monitor Reddit actively
+3. **Relationship starts real:** You found them when they asked for help, not when they were browsing
+4. **Free:** GitHub scheduler + Telegram bot = $0
+5. **Scalable:** One alert setup works for multiple subreddits and keywords
+
+### Customization
+
+The tool works for any niche where people ask questions on Reddit:
+- Local service niches (plumbing, HVAC, locksmith)
+- Digital products and software
+- SaaS and tools
+- Business problems
+- Legal/financial questions
+
+Set up the keywords for your niche and let it run.
+
+---
+
 ## The Bottom Line
 
 **Cold outreach is dead.** Cold outreach that shows you've done homework and respects the prospect's time is very much alive.
+
+**Better:** Let prospects come to you. Monitor Reddit for people actively asking for help in your niche. Reply with real value. Close the deal.
 
 Stand out by being the opposite of automation: specific, human, and useful. That's all it takes.

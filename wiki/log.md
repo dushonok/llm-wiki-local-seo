@@ -1031,6 +1031,35 @@ Distribution:
 Updated [[wiki/log.md]] with this entry.
 Pages touched: [[wiki/framework/niche-selection-strategy.md]], [[wiki/framework/sales-and-lead-generation.md]], [[wiki/framework/microsite-launch-checklist.md]], [[wiki/log.md]]
 
+## 2026-10-29 | ingest | Calls #59–60, Cold Email Copy, Reddit Lead Alerts, and FAQ updates
+
+Saved three raw sources to `raw/framework/`:
+- Community Call 59 (Oct 29): GBP verification reality, NAP vs. EMD debate, no-follow social links, client site strategy, filtering scraped lists, directory strategy
+- Community Call 60 (Oct 29): Automation with Novamira, mass GBP creation, service-area strategy, reviews vs. raw count, profile protection (LLC/DBA), lead monetization, niche saturation
+- Cold Outreach thread (Oct 29): Email copy feedback from Dominik Piechoczek (keep short, lead with competitor threat, bullets, confident CTAs)
+- Multiple Questions thread (Oct 29): Q&A on CallRail vs GHL, email setup, GSC footprint, Cloudflare Workers
+- Reddit Lead Alerts (Oct 29): Free GitHub tool for monitoring Reddit via Telegram (no-code setup)
+
+Distribution:
+
+1. **[[wiki/framework/sales-and-lead-generation.md]]** (updated timestamp to 2026-10-29, added sources):
+   - New section "Cold Email Copy Framework (Dominik's Playbook)": The problem with long emails (100+ words, too technical, weak CTAs), what works (~100 words, lead with competitor threat, scannable bullets, direct CTAs), real example showing before/after, key principles (short, problem-led, scannable, confident CTA, weak opt-out)
+   - New section "Approach #6: Automated Reddit Lead Monitoring (No-Code)": What it does, how it works, free setup (GitHub + Telegram), real example (UK tree surgery business), keyword refinement, best subreddits by intent level, rate limits, cost ($0), implementation time (3–7 days to first lead)
+
+2. **[[wiki/framework/ai-tool-stacks.md]]** (updated timestamp, added sources, new Stack #14):
+   - New Stack #14 "Reddit Lead Alerts (Automated Prospect Discovery)": Concept (monitor Reddit 24/7, Telegram alerts), why it works (pure intent, no competition, free, scalable), full setup instructions (30 min, no coding), real example, subreddit hierarchy table (quality by type), rate limits, cost
+
+3. **[[wiki/framework/microsite-launch-checklist.md]]** (updated timestamp to 2026-10-29, added source, new FAQ section):
+   - New FAQ subsections (before Automation & Testing Tools):
+     - **Email Setup**: Cloudflare Email Routing (free, forwarding only) vs. Google Workspace ($6–12/mo, full inbox) vs. blank (contact form only). Recommendation: start with contact form, add email later if needed.
+     - **GSC Footprint & Privacy**: Addresses the worry that having multiple sites in one GSC account makes de-indexing easier. Reality: Google can link sites through many signals anyway. Practical approach: do things the right way, build real value, use one account for simplicity.
+     - **Cloudflare Workers On/Off**: Depends on use case. Pages for static sites (simpler, sufficient). Workers if you need server-side logic (D1 + form processing). Cloudflare's direction (as of 2026): Workers is the primary platform for new projects.
+
+4. **[[wiki/index.md]]**: Updated descriptions for affected pages
+
+Updated [[wiki/log.md]] with this entry.
+Pages touched: [[wiki/framework/sales-and-lead-generation.md]], [[wiki/framework/ai-tool-stacks.md]], [[wiki/framework/microsite-launch-checklist.md]], [[wiki/index.md]], [[wiki/log.md]]
+
 ## 2026-10-28 | ingest | Five Pillar Local SEO Framework + Grey Hat Tactics
 
 Saved two raw sources to `raw/framework/`:
