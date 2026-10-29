@@ -2,7 +2,7 @@
 type: framework
 client: none
 status: active
-updated: 2026-10-10
+updated: 2026-10-29
 sources:
   - "raw/framework/🎙️ The Wisdom's In The Calls - Getting Cited by AI  · AI SEO Rank Expand Academy.md"
   - "https://developers.google.com/search/docs/appearance/structured-data/organization (external, fetched 2026-10-09 — basis for the sameAs placement correction below)"
@@ -15,6 +15,8 @@ sources:
 # Getting Cited by AI
 
 **Core Principle:** Getting mentioned is the new ranking. When someone asks ChatGPT or Gemini who to hire, the AI repeats back what it already sees cited. The work moves to wherever the AI reads.
+
+**Measurement & Audit:** To measure WHERE you're appearing in AI answers and mine the AI's trusted citation sources at scale, use [[ai-visibility-audit-aeo.md]] — a systematic framework for building outreach target lists from the pages AI cites most.
 
 ---
 

@@ -2,7 +2,7 @@
 type: framework
 client: none
 status: active
-updated: 2026-10-10
+updated: 2026-10-29
 sources:
   - "raw/framework/Fan-Out Queries - 🚨 Extract Query Fan Out From ChatGPT (1-minute setup) · AI SEO Rank Expand Academy.md"
   - "raw/framework/Fan-Out Queries - Ranking for Multiple Fan-Out Queries Dramatically Increases Your Chances of Getting Cited in AIOs (173,902 URLs Studied).md"
@@ -15,6 +15,8 @@ sources:
 # Fan-Out Queries and AI Overviews
 
 **Definition:** Fan-out queries are the sub-queries and related searches that LLMs (ChatGPT, Gemini) perform internally when answering a user's original question. They represent how AI breaks down and contextualizes a query before generating its response.
+
+**Related Strategy:** After you optimize for fan-outs, measure your visibility results using [[ai-visibility-audit-aeo.md]] — the systematic audit tool that mines the AI's trusted citation sources and surfaces your highest-leverage outreach targets.
 
 ---
 

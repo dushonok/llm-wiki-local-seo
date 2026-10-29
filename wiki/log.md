@@ -1060,6 +1060,35 @@ Distribution:
 Updated [[wiki/log.md]] with this entry.
 Pages touched: [[wiki/framework/sales-and-lead-generation.md]], [[wiki/framework/ai-tool-stacks.md]], [[wiki/framework/microsite-launch-checklist.md]], [[wiki/index.md]], [[wiki/log.md]]
 
+## 2026-10-29 | ingest | AI Visibility Audit & Outreach Target Mining (AEO Strategy)
+
+Saved one raw source to `raw/framework/`:
+- Invisible URLS = AI Visibility + Outreach Targets Prompt (Oct 29): Complete system for measuring AI visibility, classifying brand mentions, and mining third-party pages the AI trusts most
+
+Distribution:
+
+1. **[[wiki/framework/ai-visibility-audit-aeo.md]]** (NEW PAGE): Comprehensive audit framework for measuring and improving AI visibility
+   - **Concept**: Measure WHERE brand appears in ChatGPT/Gemini answers. Mine the AI's trusted citation sources to build outreach hit lists. "It's link building, except the search engine is an LLM's retrieval layer."
+   - **5-Step Pipeline**:
+     - Step 1: Prompt Generation (product-intent + advisory-intent per market)
+     - Step 2: LLM Answer Collection (DataForSEO API, gotchas about max_output_tokens, model costs, Gemini redirect resolution)
+     - Step 3: Classification (RECOMMENDED/CITED_NOT_CREDITED/OMITTED with receipts)
+     - Step 4: Mine Outreach Targets (URLs cited 3+ times, ranked by frequency)
+     - Step 5: Reporting (per-market scorecard, outreach list, expandable receipts)
+   - **Strategy Interpretation**: ChatGPT vs. Gemini divergence is diagnostic (different backends). Amber (cited not credited) is highest-leverage.
+   - **Deliverables**: Collection script, SQLite/Postgres schema, per-market report generator, one-page strategy summary
+   - **Copyable Prompt**: Full prompt to build system in Claude Code
+   - **Pilot Run Guidance**: Start small (1 market, 10 prompts, both models), show results + cost, get approval before scaling
+
+2. **[[wiki/framework/fan-out-queries-and-ais.md]]** (updated): Added cross-reference to ai-visibility-audit-aeo as the measurement framework (run fan-out optimization → measure results with audit tool)
+
+3. **[[wiki/framework/getting-cited-by-ai.md]]** (updated): Added cross-reference noting that ai-visibility-audit-aeo is the systematic measurement framework for Move #1 (invisible URLs)
+
+4. **[[wiki/index.md]]**: Added ai-visibility-audit-aeo to the index with full description
+
+Updated [[wiki/log.md]] with this entry.
+Pages touched: [[wiki/framework/ai-visibility-audit-aeo.md]] (new), [[wiki/framework/fan-out-queries-and-ais.md]], [[wiki/framework/getting-cited-by-ai.md]], [[wiki/index.md]], [[wiki/log.md]]
+
 ## 2026-10-28 | ingest | Five Pillar Local SEO Framework + Grey Hat Tactics
 
 Saved two raw sources to `raw/framework/`:
