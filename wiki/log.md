@@ -1121,3 +1121,27 @@ Pages touched: [[wiki/framework/five-pillar-local-seo-framework.md]] (new), [[wi
 ## 2026-10-27 | query | Main service page cannibalizing microsite home page
 User asked how to handle a microsite's main-service page (e.g. locksmithdurhamregion.ca/locksmith) cannibalizing the home page. Answered from the existing primary-location rule and filed a new subsection in [[framework/external-seo-microsite-tactics.md]]: the home page is the main service page; do not build /[service]; if it exists, merge unique content and 301 to /; spend pages on sub-services and non-primary towns. Index line updated.
 Pages touched: [[framework/external-seo-microsite-tactics.md]], [[index.md]], [[log.md]]
+
+## 2026-11-07 | query | How to verify crawlability
+User asked how to verify crawlability. The steps were scattered across three pages, so answered with a single six-step audit order (robots/noindex → one host + status codes → real HTML → sitemap → full crawl → GSC) and, with the user's approval, filed it back as a new "How to Verify Crawlability" section in [[framework/seo-fundamentals/technical-seo.md]], placed before Indexability. Two GSC checks ("View crawled page", Crawl stats) are general GSC features, not from a raw capture — flagged inline. Added the Five Pillar and Day 37 sitemap raw files to that page's sources; index line updated.
+Pages touched: [[framework/seo-fundamentals/technical-seo.md]], [[index.md]], [[log.md]]
+
+## 2026-11-09 | ingest | Pay-per-call and lead buyer networks (web research)
+User asked whether the wiki had a page on platforms that buy leads/calls (it didn't), then asked for research on the 5 most promising, excluding Polyares and Marketcall (already used / registering). Saved the web research as `raw/framework/2026-11-09 Pay-Per-Call and Lead Buyer Networks - web research.md` (paraphrased findings + URLs) and created [[framework/lead-and-call-buyers.md]]: Lead Smart Inc, Service Direct, The Client Connector, eLocal, CallScaler Marketplace, with fit for our niches, payouts and watch-outs (eLocal experienced-only; Client Connector limits GBP-sourced calls; Canada demand thin). Linked from [[framework/pricing-and-deal-structures.md]] Play #2; index updated. Open: niche coverage for septic, sewer, radon, car detailing not verified per network.
+Pages touched: [[framework/lead-and-call-buyers.md]] (new), [[framework/pricing-and-deal-structures.md]], [[index.md]], [[log.md]]
+
+## 2026-11-09 | update | Polyares is not in use yet
+User corrected the previous entry: Polyares is on their list but not in use yet (only Marketcall registration has started). Fixed [[framework/lead-and-call-buyers.md]], [[framework/pricing-and-deal-structures.md]] and the index line. The raw capture `raw/framework/2026-11-09 Pay-Per-Call and Lead Buyer Networks - web research.md` still says "already uses"; left untouched per the raw/ rule, correction noted on the wiki page.
+Pages touched: [[framework/lead-and-call-buyers.md]], [[framework/pricing-and-deal-structures.md]], [[index.md]], [[log.md]]
+
+## 2026-11-09 | update | Marked community-mentioned lead/call buyers
+User asked to mark Polyares, Marketcall, Lead Smart and any other networks mentioned in the community. Searched all community captures in `raw/` and `Clippings/`: none of them names a pay-per-call network (only deal models: per lead, rev share, commission on jobs, flat lease, partner sells leads). Marked the three with 🏘️ on [[framework/lead-and-call-buyers.md]] as user-stated (no raw source yet), added a short section summarizing the community deal models with call references, and flagged that the "How to sell leads" module (Call #41) is not clipped into `raw/`. Index line updated.
+Pages touched: [[framework/lead-and-call-buyers.md]], [[index.md]], [[log.md]]
+
+## 2026-11-09 | ingest | Marketcall sign-up link from the community
+User relayed a community message: "if you use this link you will get accepted https://b.link/marketcalls". Saved it verbatim to `raw/framework/2026-11-09 Community message - Marketcall sign-up link.md` and added it as a community tip under Marketcall on [[framework/lead-and-call-buyers.md]] (sources updated). Flagged as a shortened, likely referral link with an unverified destination.
+Pages touched: [[framework/lead-and-call-buyers.md]], [[log.md]]
+
+## 2026-11-09 | ingest | OfferVault (community link)
+User relayed a community link to OfferVault Top Offers. Checked the page by web fetch and saved a capture (link + paraphrased description + related OfferVault findings from the earlier research) to `raw/framework/2026-11-09 Community link - OfferVault top offers.md`. Added a "Finding offers: OfferVault 🏘️" section to [[framework/lead-and-call-buyers.md]]: filter Pay Per Call + Home Services + country, search by niche, check "Traffic Accepted" for SEO/GMB, $0.00 usually = RTB/dynamic, use network profiles to vet, directory not a buyer. Sources updated.
+Pages touched: [[framework/lead-and-call-buyers.md]], [[log.md]]

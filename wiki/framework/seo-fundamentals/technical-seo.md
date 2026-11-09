@@ -2,12 +2,14 @@
 type: framework-foundation
 client: none
 status: active
-updated: 2026-10-09
-sources_note: "Canonical HTTP→HTTPS section verified live via curl against http://moldremediationgettysburgpa.org/ on 2026-10-01 — not a raw/ capture, see inline traceability note. www vs. non-www section (2026-10-02) is general reasoning parallel to that case — not independently verified against a live site, see inline traceability note. Organization/sameAs placement section (2026-10-09) corrects an earlier incorrect claim made during a sameAs/OpenGraph review of moldremediationgettysburgpa.org, verified directly against Google's own structured-data documentation — see inline citation and log entry."
+updated: 2026-11-07
+sources_note: "Canonical HTTP→HTTPS section verified live via curl against http://moldremediationgettysburgpa.org/ on 2026-10-01 — not a raw/ capture, see inline traceability note. www vs. non-www section (2026-10-02) is general reasoning parallel to that case — not independently verified against a live site, see inline traceability note. Organization/sameAs placement section (2026-10-09) corrects an earlier incorrect claim made during a sameAs/OpenGraph review of moldremediationgettysburgpa.org, verified directly against Google's own structured-data documentation — see inline citation and log entry. How to Verify Crawlability section (2026-11-07) synthesizes existing wiki pages plus two general GSC features — see inline traceability note."
 sources:
   - "raw/framework/1. SEO Fundamentals - Learn Technical SEO - The Beginner's Guide to Technical SEO.md"
   - "raw/framework/1. SEO Fundamentals - Learn Technical SEO - Google Crawling and Indexing  Google Search Central    Documentation.md"
   - "raw/framework/1. SEO Fundamentals - Learn Technical SEO - Technical optimization.md"
+  - "raw/framework/The Five Pillar Local SEO Checklist - Rank Expand Academy.md"
+  - "raw/framework/Day 37 of My 90-Day Challenge A Wrong Sitemap Found on a Live Site - AI SEO Rank Expand Academy.md"
   - "https://developers.google.com/search/docs/appearance/structured-data/organization (external, fetched 2026-10-09)"
 ---
 
@@ -255,6 +257,52 @@ one-time setup task, not something to actively monitor once confirmed working.
 > *Not sourced from a raw capture — general SEO/canonicalization reasoning,
 > directly parallel to the verified HTTP→HTTPS case above. Flagged here for
 > traceability (same convention as the notes above).*
+
+---
+
+## How to Verify Crawlability (step-by-step)
+
+A repeatable audit order, quickest checks first. Each step points at the page that
+holds the detail. Run it before launch (alongside [[microsite-launch-checklist.md]])
+and whenever a site is stuck or a new client is onboarded.
+
+1. **Robots and noindex (2 min)**
+   - Open `/robots.txt`: no `Disallow: /`; key pages allowed (`Disallow: /admin` is fine).
+   - View source on key pages and look for a stray `<meta name="robots" content="noindex">`
+     — the classic miss is a microsite that went live with its staging noindex still on.
+2. **One host, real status codes (5 min)**
+   - Try http, https, www and non-www: all four must 301 to one address
+     (see the HTTP→HTTPS and www sections above; a third of audited sites served
+     two or four copies — [[five-pillar-local-seo-framework.md]] Pillar 1).
+   - Check status codes directly, not in a browser:
+     `Invoke-WebRequest -Uri "http://..." -Method Head -MaximumRedirection 0`.
+   - The 404 page must return a real `404`, not a `200` (soft 404 — see Indexability below).
+3. **Real HTML (1 min)**
+   - View source on the homepage and find your own paragraphs in the raw HTML. A JS
+     shell that only fills in once rendered is "the biggest handicap a new domain can
+     carry" ([[five-pillar-local-seo-framework.md]]).
+4. **Sitemap**
+   - `/sitemap.xml` exists and is valid XML; every URL is on the correct domain (the
+     wrong-domain sitemap case study in [[microsite-launch-checklist.md]]); `lastmod`
+     dates are real, not one build date on every URL; submitted in GSC with no errors.
+5. **Full crawl (Screaming Frog or Ahrefs)**
+   - Look for 404s, 5xx errors, redirect loops, crawl traps, pages buried very deep
+     (10+ clicks), and important pages with no internal links (orphans).
+   - An Ahrefs "homepage is an orphan" flag is usually a crawl artifact — triage it with
+     the section above before acting on it.
+6. **Google's own view (GSC)**
+   - URL Inspection on key pages → want "URL available to Google".
+   - "Test live URL" → "View crawled page" shows the HTML Googlebot actually received —
+     the final confirmation of step 3.
+   - **Settings → Crawl stats** shows crawl requests, response codes and host problems
+     over time.
+   - Finish with `site:yourdomain.com` to see what's actually indexed.
+
+> *Steps 1–5 and the URL Inspection / `site:` checks are synthesized from existing wiki
+> pages and their raw sources (listed in frontmatter). The "View crawled page" and Crawl
+> stats checks in step 6 are general Google Search Console features, not from a raw
+> capture — flagged for traceability (same convention as the notes above). Added
+> 2026-11-07 from a query.*
 
 ---
 

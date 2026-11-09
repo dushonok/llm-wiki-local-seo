@@ -65,6 +65,8 @@ The operators who do well aren't always the best at SEO. They're the ones who pr
 
 **Pitch Angle:** You deliver *exclusive* leads, unlike Angie's List, which sells the same lead to five businesses at once.
 
+**No buyer yet?** Sell the calls through a pay-per-call network instead: see [[lead-and-call-buyers.md]] (Lead Smart, Service Direct, The Client Connector, eLocal, CallScaler; plus Marketcall (registration started) and Polyares (on the list, not used yet)).
+
 **Transition Path:** Per-lead → build trust & volume data → Flat retainer
 
 ---
