@@ -185,10 +185,10 @@ a keyword's difficulty.
 
 ## Model integrity
 
-This wiki requires a Claude model for ingest, synthesis, lint, and any task that changes wiki content.
+This wiki requires Cursor Composer (any version) or xAI Grok (any version) for ingest, synthesis, lint, and any task that changes wiki content. Other model families, including Claude, may read the wiki but must not modify it.
 
 At the beginning of every task, state the model selected in the Cursor UI.
-If the active model is not Claude, do not make file changes. Stop and tell the user:
-"Claude is not active. I will not modify the LLM Wiki until you select or restore Claude."
+If the active model is not Composer or Grok, do not make file changes. Stop and tell the user:
+"Neither Composer nor Grok is active. I will not modify the LLM Wiki until you select Composer or Grok."
 
-If model identity cannot be verified, assume it is not Claude and do not modify the wiki.
+If model identity cannot be verified, assume it is not Composer or Grok and do not modify the wiki.

@@ -1145,3 +1145,7 @@ Pages touched: [[framework/lead-and-call-buyers.md]], [[log.md]]
 ## 2026-11-09 | ingest | OfferVault (community link)
 User relayed a community link to OfferVault Top Offers. Checked the page by web fetch and saved a capture (link + paraphrased description + related OfferVault findings from the earlier research) to `raw/framework/2026-11-09 Community link - OfferVault top offers.md`. Added a "Finding offers: OfferVault 🏘️" section to [[framework/lead-and-call-buyers.md]]: filter Pay Per Call + Home Services + country, search by niche, check "Traffic Accepted" for SEO/GMB, $0.00 usually = RTB/dynamic, use network profiles to vet, directory not a buyer. Sources updated.
 Pages touched: [[framework/lead-and-call-buyers.md]], [[log.md]]
+
+## 2026-11-11 | update | Model integrity switched from Claude to Composer or Grok
+User changed the team policy for which models may modify the wiki: Cursor Composer or xAI Grok (any version) are now required for ingest, synthesis, lint, and any change to wiki content; other models, including Claude, may only read. Rewrote the Model integrity section of AGENTS.md, and, at the user's request, replaced "tell Claude to ingest" with "tell the agent (Composer or Grok, per AGENTS.md)" in the two raw/ folder READMEs (no source capture touched). Claude mentions in SEO content and raw transcripts left as is. Made by Claude Opus 5.5 under the previous rule.
+Pages touched: AGENTS.md, raw/clients/README.md, raw/framework/README.md, [[log.md]]
