@@ -11,5 +11,6 @@ Typical contents per client:
 Naming: `<what-it-is>-<YYYY-MM-DD>.<ext>`, e.g.
 `raw/clients/acme-plumbing-co/rival-plumbing-co-crawl-2026-09-04.html`.
 
-This folder is never edited by the LLM — only added to. Tell Claude to ingest
-a new file (AGENTS.md §6) to fold it into that client's wiki pages.
+This folder is never edited by the LLM — only added to. Tell the agent
+(Composer or Grok, per AGENTS.md) to ingest a new file (AGENTS.md §6) to fold
+it into that client's wiki pages.
