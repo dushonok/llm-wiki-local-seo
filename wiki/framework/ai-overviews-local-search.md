@@ -2,7 +2,7 @@
 type: framework
 client: none
 status: active
-updated: 2026-09-04
+updated: 2026-11-16
 sources:
   - "raw/framework/Local SEO Innovation - 1 - How AI Changes Local Search Behavior · AI SEO Rank Expand Academy.md"
 ---
@@ -57,3 +57,5 @@ Goal: Understand how AI Overviews reshape local intent, visibility, and clicks.
 ## Key Takeaway
 
 In the AI Overviews era, SEO success requires moving beyond keyword rankings to *entity strength* — proving your business is trustworthy, consistent, and worth recommending based on real customer signals, structured data, and contextual relevance.
+
+**On-page execution:** For snippet/PAA/AIO answer blocks (50-word encyclopedic format, placement, and PAA-at-scale tooling), see [[ranking-in-ai-overviews-semantics.md]].
