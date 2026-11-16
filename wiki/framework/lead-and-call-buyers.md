@@ -8,6 +8,7 @@ sources:
   - "raw/framework/2026-11-09 Community message - Marketcall sign-up link.md"
   - "raw/framework/2026-11-09 Community link - OfferVault top offers.md"
   - "raw/framework/2026-11-16 Community note - eLocal REA forum.md"
+  - "raw/framework/2026-11-16 Community note - WeProvideLeads direct outreach.md"
 ---
 
 # Lead & Call Buyers (Pay-Per-Call Networks)
@@ -35,6 +36,14 @@ calls aren't paid.
   https://elocal.com/affiliate-contact. **Might take Canadian leads** — forum tip, not
   confirmed against their offer/geo list; still aligns with treating Canada as thin/offer-by-offer
   (see Rules of thumb). Also summarized in the top-5 research table below.
+- 🏘️ **We Provide Leads** — https://weprovideleads.com/sell-your-leads (**from REA**, per user
+  2026-11-16). **Inbound:** they solicited the user directly (email outreach), not a clipped
+  forum thread — source: `raw/framework/2026-11-16 Community note - WeProvideLeads direct outreach.md`.
+  **Canada explicitly listed** on their sell page (most trades); US listed trades: roofing,
+  windows, bathroom remodel, gutters, HVAC, siding, solar. Pays **per accepted lead** (calls +
+  form fills) after registration → emailed rates by trade/area → route traffic as they specify.
+  Will register publishers with **no live site yet** if willing to build. Contact: mark@weprovideleads.com.
+  Offer terms and payouts not vetted beyond their public page.
 
 ## Top 5 to add (researched 2026-11-09)
 
@@ -81,8 +90,9 @@ compare networks for one niche in one place instead of signing up everywhere fir
   into niche selection ([[niche-selection-strategy.md]]).
 - **Canada (Ontario sites):** most networks are US-focused; Canadian demand is thin and
   offer-by-offer (e.g. Lead Smart's limited Canada test; REA forum tip that eLocal
-  **might** take Canadian leads — confirm per offer before building). Selling direct to a
-  local business is still the main path there — see [[sales-and-lead-generation.md]].
+  **might** take Canadian leads — confirm per offer before building). 🏘️ **We Provide Leads**
+  states US + Canada on their registration page (Canada: "most trades") — still confirm
+  rates/geo after signup. Selling direct to a local business is still the main path there — see [[sales-and-lead-generation.md]].
 - **Quality decides payout.** Wrong-number, out-of-area and "service not offered" calls
   get disputed and can get you dropped (Service Direct, Client Connector). Make the site
   say clearly what's offered and where.

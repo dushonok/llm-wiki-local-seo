@@ -1161,3 +1161,7 @@ Pages touched: [[framework/directory-strategy.md]], [[framework/reddit-mentions-
 ## 2026-11-16 | ingest | Ranking in AI Overviews (semantics + PAA scraper)
 New Academy module raw captures (transcript-style `.md` + PAA setup lesson). Created [[framework/ranking-in-ai-overviews-semantics.md]]: information retrievability (structure/semantics/transmission), unified snippet recipe for featured snippets/PAA/AI Overviews, three-tool at-scale pipeline, PAA Google Sheet limits (3-level depth, ~85 questions/keyword, max 5 keywords/run, DataForSEO via Apps Script). Cross-link from [[framework/ai-overviews-local-search.md]]. PNG slides in raw not transcribed separately.
 Pages touched: [[framework/ranking-in-ai-overviews-semantics.md]] (new), [[framework/ai-overviews-local-search.md]], [[index.md]], [[log.md]]
+
+## 2026-11-16 | ingest | We Provide Leads (REA + direct outreach)
+User asked to add https://weprovideleads.com/sell-your-leads to lead buyers: mark 🏘️ from REA, Canada accepted, source = solicitor contacted user directly. Saved relay + fetched page summary to `raw/framework/2026-11-16 Community note - WeProvideLeads direct outreach.md`. Updated [[framework/lead-and-call-buyers.md]] "Already on the user's list" and Canada rules cross-ref; index line.
+Pages touched: [[framework/lead-and-call-buyers.md]], [[index.md]], [[log.md]]
