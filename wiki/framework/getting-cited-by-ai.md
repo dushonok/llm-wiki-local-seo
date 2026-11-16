@@ -2,8 +2,9 @@
 type: framework
 client: none
 status: active
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
+  - "raw/framework/Reddit Mentions for AI Inclusion - 🌱🌱 Advanced Courses · AI SEO Rank Expand Academy.md"
   - "raw/framework/🎙️ The Wisdom's In The Calls - Getting Cited by AI  · AI SEO Rank Expand Academy.md"
   - "https://developers.google.com/search/docs/appearance/structured-data/organization (external, fetched 2026-10-09 — basis for the sameAs placement correction below)"
   - "raw/framework/ChatGPT Query Fanout Analyzer (Bookmarklet) - JC Chouinard.md"
@@ -48,7 +49,7 @@ sources:
 **Key Channels:**
 - **YouTube** — Single biggest factor in AI mentions; #2 cited source after Reddit
 - **Facebook Groups (Local)** — Profiles active in local town groups recommending your business get cited in Gemini and ChatGPT
-- **Reddit** — #1 cited source; where conversation happens shapes AI answers
+- **Reddit** — #1 cited source; where conversation happens shapes AI answers. Scalable playbook: [[reddit-mentions-for-ai-inclusion.md]] (find ranking threads via `site:reddit.com` operators, qualify, contribute without pitching)
 
 **Actions:**
 1. Create affiliate YouTube accounts (for services like water treatment, contracting, etc.) cranking out educational content

@@ -2,10 +2,18 @@
 type: framework
 client: none
 status: active
-updated: 2026-10-07
+updated: 2026-11-16
 sources:
   - "raw/framework/Directory Launched 28 Days Ago - 485 Clicks - AI SEO Rank Expand Academy.md"
   - "raw/framework/Community Call 56 - Directory Blueprint as Force Multiplier - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
+  - "raw/framework/AI Directories · 1 ▶️ Start Here - ☰ AI Directories · AI SEO Rank Expand Academy.md"
+  - "raw/framework/AI Directories · 2 Pick Your Vertical and Location - ☰ AI Directories · AI SEO Rank Expand Academy.md"
+  - "raw/framework/AI Directories · 3 Buy Your Domain - ☰ AI Directories · AI SEO Rank Expand Academy.md"
+  - "raw/framework/AI Directories · 4 Pull Your Listings - ☰ AI Directories · AI SEO Rank Expand Academy.md"
+  - "raw/framework/AI Directories · 5📍 Get the Directory Blueprint - ☰ AI Directories · AI SEO Rank Expand Academy.md"
+  - "raw/framework/AI Directories · 6 Build Your Directory - ☰ AI Directories · AI SEO Rank Expand Academy.md"
+  - "raw/framework/1st lead from directory -making money from directories - AI SEO Rank Expand Academy.md"
+  - "raw/framework/First claim on my AI pool directory, under 2 weeks live - AI SEO Rank Expand Academy.md"
 ---
 
 # Directory Strategy
@@ -28,6 +36,130 @@ A directory is a searchable, schema-tagged collection of business listings in a 
 - Can be built in ~45 minutes to 2 hours (end-to-end, including schema)
 - Rank fast because Google recognizes the pattern
 - Can be monetized immediately
+
+**Scale framing (AI Directories Playbook):** A microsite is one service in one town. A directory is every business in one service across one state — state hub, city pages, business pages. Built from a Google Maps pull plus the **Directory Blueprint** (Claude Code). No WordPress, no plugin, no database: a folder of static files on free hosting; when data changes, you rebuild the folder.
+
+---
+
+## AI Directories Playbook: Eight-Step Path
+
+**Reference build:** [floridacustompoolbuilders.com](https://floridacustompoolbuilders.com/) (demo state directory; fast on PageSpeed).
+
+### Why build one (three revenue angles)
+
+1. **Warm outreach list** — "You have a listing on my directory. Is it correct?" Often the highest-value outcome; warmer than generic cold SEO pitches.
+2. **Vertical coverage** — Microsites in several cities plus one state directory = SERP coverage three ways. List your own microsites like any other business; **no cross-links between your sites**.
+3. **Rent top spots** — Premium/featured/best-of placements; many small fees across hundreds of businesses.
+
+### When *not* to start here
+
+For similar money you could launch ~10 microsites. Build a directory when you **already own the vertical** or when you want the **call list**, not as a first site.
+
+### Prerequisites
+
+- Claude Code (Microsite Empire setup lesson if new)
+- DataForSEO connected to **Claude Code** (not only claude.ai) for cheap listing pulls
+- Node.js 20+ (Blueprint build step)
+
+### Cost and timeline
+
+| Item | Typical cost |
+|------|----------------|
+| Domain (.com at Cloudflare) | ~$10.44/year |
+| Listings pull (DataForSEO) | Few dollars/state (e.g. FL pool contractors ~$0.89) |
+| Listings pull (Outscraper) | $3/1k rows after 500 free; large states $60–$120 raw (most rows dropped in clean step) |
+| Hosting | Free (Cloudflare Pages) |
+| Indexing | ~$60 credits (community figure) |
+| **First run total** | **Under ~$100 with DataForSEO; under ~$200 with Outscraper** |
+| **Ongoing** | ~$10/year domain |
+
+**Time:** Weekend build (mostly Claude running). **Ranking curve:** Same as microsites — indexed month 1, Google settles ~month 3, trust ~month 6. One member: 166 → 887 indexed pages in ~30 days after Blueprint rebuild, with first leads and first "list me" request in the same window.
+
+### Steps 1–8 (course order)
+
+1. Pick vertical + state  
+2. Buy domain  
+3. Pull listings (DataForSEO via Blueprint in Gate 1, or Outscraper → `listings-raw.csv`)  
+4. Enrich (Blueprint Gates 1–3: scope, clean, enrich)  
+5. Build (Gates 4–5: plan, generate static site)  
+6. Put online  
+7. Index  
+8. Monetize (claims, featured tiers, outreach)
+
+Live at step 6; steps 7–8 are earnings work.
+
+---
+
+## Vertical Selection: Seven Checks
+
+**Scope rule:** One service, one state, one directory. Second state = second domain later.
+
+**If you already have microsites:** Match the directory to the vertical and state you already target (e.g. pool builders in FL cities → Florida pool builders directory).
+
+**From scratch:** Use Niche Finder GPT + Niche Validator (`tool.rankexpand.com/members`, code **NICHECHECK**) on the service plus the state's largest cities — you want a service winnable in **most** cities, not one lucky town. Search `[service] in [state]` / `[service] [state]` — room if results mix national directories and weak locals; skip if one strong statewide directory owns it.
+
+A service that passes all seven is directory-fit; fail two → stay on microsites.
+
+1. **Exact Google Maps category** — Pull uses category, not free text ("swimming pool contractor" yes; "luxury pool designer" no). Read the label under names in Maps.
+2. **Category names one trade** — Broad categories leak landscapers/handymen on fence pulls; expect manual sorting.
+3. **Comparison shopping** — Pools, roofs, septic, solar, remodels — not midnight locksmiths.
+4. **Four-figure+ tickets, weak brand loyalty** — Makes $97 featured listings an easy yes; franchise-heavy states need you less.
+5. **Most businesses have websites** — Blueprint reads each site; phone-only listings enrich poorly.
+6. **Count band ~200–5,000 reviewed businesses** — Under 200 = thin cities; over 5,000 = heavy Claude token use (e.g. TX roofing 8k+ is a lot for a first build). Ask Claude + DataForSEO to size for ~$0.01.
+7. **Real "how to choose" content** — Licenses, permits, materials, seasons — fuels buyer's guide + Step 8 calls ("your listing doesn't show your license yet").
+
+**Low state-level keyword volume is OK** — City terms stack; one listing sale can pay for the site. Wrong vertical costs an afternoon + a few dollars; abort after the **clean report** before enrichment.
+
+---
+
+## Domain Rules (state directories)
+
+1. **.com only** (Cloudflare Registrar ~$10.44/yr, renews at cost; Porkbun similar)  
+2. **State + service EMD** — `floridapoolbuilders.com` or `poolbuildersflorida.com`; pick one  
+3. **State in name, not a city** — City name = microsite territory  
+4. **Never reuse a microsite domain** — Different jobs, different domains  
+5. **One directory per domain**
+
+---
+
+## Listings Pull: DataForSEO vs Outscraper
+
+Same-day test (swimming pool contractors, Florida): ~95% overlap on open reviewed businesses; phones/websites ~99%+ match when both had the row. Outscraper extra rows were mostly junk (hotels, parks, misc plumbers). Cost: **~$0.89 vs ~$24** on that pull.
+
+| Path | When to use |
+|------|-------------|
+| **DataForSEO** (MCP in Claude Code) | Default; pay mostly for real category rows; Gate 1 quotes cost before pull |
+| **Outscraper** | No API setup; rename download `listings-raw.csv` |
+
+**DataForSEO caveat:** Database, not live scrape — Blueprint drops listings not updated in ~1 year (~1% closed businesses may slip through; catch on claim/outreach).
+
+**Outscraper rules:** Pick category from dropdown (not free-text search — Jesse's $317 / 119k junk rows lesson). State-wide location, default fields, CSV not Excel, skip email add-ons on pull (emails after clean list ~$3/1k domains).
+
+---
+
+## Directory Blueprint: Gates 1–5
+
+Download Blueprint zip → `input/listings-raw.csv` if Outscraper → open folder in Claude Code → `Read CLAUDE.md and run Gate 1.`
+
+| Gate | What happens |
+|------|----------------|
+| **1 — Scope** | Service, state, domain, your microsite phones (same vertical), publisher identity, design inspiration URL(s), data source; DataForSEO pull on approval |
+| **2 — Clean** | State only, open, ≥1 review, category/name match, dedupe; DataForSEO stale drop; Outscraper often **5–6% kept** — if ~1% kept, category is wrong |
+| **3 — Enrich** | 8–15 vertical attributes; scrape each business website; true/false/not enough info + 50–200 word descriptions (no guessing). ~4k tokens/listing; sample batch before full run |
+| **4 — Plan** | City pages (≥3 businesses), sitemap inclusion rules, featured slots, design tokens from inspiration site |
+| **5 — Build** | Static site via Node; city copy 500–800 words + FAQs from facts; buyer's guide via seo-content skill if DataForSEO connected. Preview with `preview-site.command` / `.bat` — **fix data and re-run Gate 5, never hand-edit HTML** |
+
+Thin "not enough info" listings may wait for sitemap at launch (course Step 7).
+
+---
+
+## Member Results (2026)
+
+**Inbound claim (Brandon Belot, Arizona pool):** [arizonacustompoolcontractors.com](https://arizonacustompoolcontractors.com/) — under two weeks live; owner claimed listing, checked "interested in featured," note: "Better SEO." No cold call. Follow-up: welcome email, paid tiers, claimed badge, Stripe on featured page. Featured slots: rotate owned microsites so spot looks active (avoid obvious cross-linking patterns).
+
+**Outbound → microsite retainer (Remco):** Cold email on incomplete listing (photos, badge, Maps integration) → one-word "yes" reply → phone call → €100/mo per site for hosting/maintenance/SEO/web design; closed **€1,000/mo** for 10 sites (3 new domains + 7 existing EMD cities). Email had **no hard offer** — foot in the door only.
+
+**Listing accuracy email pattern (Remco, translated):** Greet → you're on `{directory}` ({N} `{niche}` businesses) → link → listing incomplete (photos, verification badge, Maps) → offer to complete → "Is the info correct? Reply yes." → sign off.
 
 ---
 
@@ -230,6 +362,8 @@ Directory (1 domain, high authority)
 
 ## Related Pages
 
+- [[sales-and-lead-generation.md]] — Directory listing outreach email pattern; cold email framework
+- [[reddit-mentions-for-ai-inclusion.md]] — Optional visibility layer after directory/microsite work
 - [[external-seo-microsite-tactics.md]] — How to leverage directories for backlinks/citations
 - [[niche-selection-strategy.md]] — How to pick niches (applies to both microsites and directories)
 - [[citations-strategy.md]] — Citations as a monetization + SEO lever

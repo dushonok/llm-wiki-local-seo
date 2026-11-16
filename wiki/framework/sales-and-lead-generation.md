@@ -2,13 +2,14 @@
 type: framework
 client: none
 status: active
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - "raw/framework/🎙️ The Wisdom's In The Calls - Getting Clients When Cold Outreach Feels Dead · AI SEO Rank Expand Academy.md"
   - "raw/framework/Find Your Ideal Client Instead of Waiting for Upwork to Kick In · AI SEO Rank Expand Academy.md"
   - "raw/framework/How I closed a business owner on a free trial - AI SEO Rank Expand Academy.md"
   - "raw/framework/Cold Outreach - AI SEO Rank Expand Academy.md"
   - "raw/framework/Reddit Lead Alerts free monitoring tool, telegram bot & automation! · AI SEO Rank Expand Academy.md"
+  - "raw/framework/Reddit Mentions for AI Inclusion - 🌱🌱 Advanced Courses · AI SEO Rank Expand Academy.md"
 ---
 
 # Sales and Lead Generation
@@ -471,6 +472,8 @@ From the community:
 ---
 
 ## Approach #6: Automated Reddit Lead Monitoring (No-Code)
+
+**Complement (proactive):** For threads that already rank in Google and get picked up by AI, use [[reddit-mentions-for-ai-inclusion.md]] (`site:reddit.com` discovery and useful comments). This approach is **reactive** alerts when new posts match your keywords.
 
 **The Tool:** Reddit Lead Alerts (free, open-source, GitHub-hosted)
 
