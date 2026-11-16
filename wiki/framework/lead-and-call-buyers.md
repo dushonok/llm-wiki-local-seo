@@ -2,11 +2,12 @@
 type: framework
 client: none
 status: active
-updated: 2026-11-09
+updated: 2026-11-16
 sources:
   - "raw/framework/2026-11-09 Pay-Per-Call and Lead Buyer Networks - web research.md"
   - "raw/framework/2026-11-09 Community message - Marketcall sign-up link.md"
   - "raw/framework/2026-11-09 Community link - OfferVault top offers.md"
+  - "raw/framework/2026-11-16 Community note - eLocal REA forum.md"
 ---
 
 # Lead & Call Buyers (Pay-Per-Call Networks)
@@ -30,6 +31,10 @@ calls aren't paid.
   - **Community tip:** sign up through https://b.link/marketcalls — a community member says
     "if you use this link you will get accepted." Shortened link, destination not verified;
     likely a member referral link. Source: `raw/framework/2026-11-09 Community message - Marketcall sign-up link.md`.
+- 🏘️ **eLocal** — https://www.elocal.com/ (**from REA forum**). Affiliate onboarding:
+  https://elocal.com/affiliate-contact. **Might take Canadian leads** — forum tip, not
+  confirmed against their offer/geo list; still aligns with treating Canada as thin/offer-by-offer
+  (see Rules of thumb). Also summarized in the top-5 research table below.
 
 ## Top 5 to add (researched 2026-11-09)
 
@@ -38,7 +43,7 @@ calls aren't paid.
 | 1 | 🏘️ **Lead Smart Inc** — leadsmartinc.com/affiliates | Home-services only, 200+ categories; built for local SEO / rank-and-rent publishers; **public ZIP-level payout file, no login** (affiliate-bid-coverage.leadsmartinc.com) — check a niche+town *before* building a microsite. Published medians: mold removal ~$65 (up to $159), plumbing PPCall ~$33 (up to ~$222). Free Pay Per Call Academy Skool community. Limited Canada test (water damage). | Mostly US; payouts monthly (by the 2nd Monday). |
 | 2 | **Service Direct** — servicedirect.com/pay-per-lead-affiliate-program | US local-service marketplace since 2006; "Easy Earn" = one static number, no coding; reports 90%+ of calls find a buyer. Good fit for sewer/plumbing/septic/mold sites. | Must apply and qualify; calls are human-scored (wrong numbers / service-not-offered / disputes hurt you) and low-KPI affiliates get cut; rates not published. |
 | 3 | **The Client Connector** — theclientconnector.com | Home services, 60+ industries incl. plumbing, **locksmith**, mold removal & mold testing; routes to 20+ networks + direct buyers; affiliate gets ~50–90% of buyer price; prefers SEO/organic traffic. | Calls from **Google Business Profiles** get much more limited distribution — prefer the site's own number over the GBP number; paid monthly via Tipalti; geo not stated. |
-| 4 | **eLocal** — elocal.com/affiliate-contact | Big, established (since 2008), 50+ verticals incl. mold; every call screened for intent + geo; **weekly payouts** above a minimum volume. | **Experienced affiliates with existing call volume only** — apply once a few sites are producing calls elsewhere. |
+| 4 | 🏘️ **eLocal** — https://www.elocal.com/ (affiliate: elocal.com/affiliate-contact) | Big, established (since 2008), 50+ verticals incl. mold; every call screened for intent + geo; **weekly payouts** above a minimum volume. REA forum: **might take Canadian leads** (unverified). | **Experienced affiliates with existing call volume only** — apply once a few sites are producing calls elsewhere. |
 | 5 | **CallScaler Marketplace** — callscaler.com/marketplace | Free add-on to CallScaler call tracking: browse/apply to offers (~$12–$85/call, drain repair ~$20–$55), approval usually 24–48h; public payout-by-ZIP page. Also lets you sell calls **direct** to a local buyer you recruit. | Payout depends on whoever posts offers; check buyer coverage per niche/town. |
 
 ## What the community captures in `raw/` say about selling leads
@@ -75,8 +80,9 @@ compare networks for one niche in one place instead of signing up everywhere fir
   payout-by-ZIP pages show whether a niche+town has a buyer and what it pays — fold this
   into niche selection ([[niche-selection-strategy.md]]).
 - **Canada (Ontario sites):** most networks are US-focused; Canadian demand is thin and
-  offer-by-offer (e.g. Lead Smart's limited Canada test). Selling direct to a local
-  business is still the main path there — see [[sales-and-lead-generation.md]].
+  offer-by-offer (e.g. Lead Smart's limited Canada test; REA forum tip that eLocal
+  **might** take Canadian leads — confirm per offer before building). Selling direct to a
+  local business is still the main path there — see [[sales-and-lead-generation.md]].
 - **Quality decides payout.** Wrong-number, out-of-area and "service not offered" calls
   get disputed and can get you dropped (Service Direct, Client Connector). Make the site
   say clearly what's offered and where.
