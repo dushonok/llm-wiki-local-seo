@@ -1165,3 +1165,7 @@ Pages touched: [[framework/ranking-in-ai-overviews-semantics.md]] (new), [[frame
 ## 2026-11-16 | ingest | We Provide Leads (REA + direct outreach)
 User asked to add https://weprovideleads.com/sell-your-leads to lead buyers: mark 🏘️ from REA, Canada accepted, source = solicitor contacted user directly. Saved relay + fetched page summary to `raw/framework/2026-11-16 Community note - WeProvideLeads direct outreach.md`. Updated [[framework/lead-and-call-buyers.md]] "Already on the user's list" and Canada rules cross-ref; index line.
 Pages touched: [[framework/lead-and-call-buyers.md]], [[index.md]], [[log.md]]
+
+## 2026-11-18 | ingest | Microsite pitch + Blair lead-gen threat positioning
+User chose defaults. Ingested `Microsite Pitch Example For New Clients` → [[framework/sales-and-lead-generation.md]]: short microsite **rental email structure** (placeholders only, ~$20 first-month foot-in-door pattern, month-to-month, vs Approach #5). Ingested Blair YouTube clip + community commentary → same page: **threat education positioning** (generic trade), spot fake/lead-gen competitors (SERP/WHOIS/four signals), fight-back checklist, YouTube link; short reverse-psychology note. Remco directory raw: CRLF-only change, not re-ingested. Committed new raw files.
+Pages touched: [[framework/sales-and-lead-generation.md]], [[index.md]], [[log.md]]
