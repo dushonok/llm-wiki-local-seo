@@ -2,7 +2,7 @@
 type: framework
 client: none
 status: active
-updated: 2026-11-16
+updated: 2026-11-20
 sources:
   - "raw/framework/Directory Launched 28 Days Ago - 485 Clicks - AI SEO Rank Expand Academy.md"
   - "raw/framework/Community Call 56 - Directory Blueprint as Force Multiplier - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
@@ -14,6 +14,8 @@ sources:
   - "raw/framework/AI Directories · 6 Build Your Directory - ☰ AI Directories · AI SEO Rank Expand Academy.md"
   - "raw/framework/1st lead from directory -making money from directories - AI SEO Rank Expand Academy.md"
   - "raw/framework/First claim on my AI pool directory, under 2 weeks live - AI SEO Rank Expand Academy.md"
+  - "raw/framework/AI Directories · 8 Get It Indexed - ☰ AI Directories · AI SEO Rank Expand Academy.md"
+  - "raw/framework/AI Directories · 9 Get Paid - ☰ AI Directories · AI SEO Rank Expand Academy.md"
 ---
 
 # Directory Strategy
@@ -41,7 +43,7 @@ A directory is a searchable, schema-tagged collection of business listings in a 
 
 ---
 
-## AI Directories Playbook: Eight-Step Path
+## AI Directories Playbook: Nine-Step Path (Skool course)
 
 **Reference build:** [floridacustompoolbuilders.com](https://floridacustompoolbuilders.com/) (demo state directory; fast on PageSpeed).
 
@@ -69,24 +71,85 @@ For similar money you could launch ~10 microsites. Build a directory when you **
 | Listings pull (DataForSEO) | Few dollars/state (e.g. FL pool contractors ~$0.89) |
 | Listings pull (Outscraper) | $3/1k rows after 500 free; large states $60–$120 raw (most rows dropped in clean step) |
 | Hosting | Free (Cloudflare Pages) |
-| Indexing | ~$60 credits (community figure) |
-| **First run total** | **Under ~$100 with DataForSEO; under ~$200 with Outscraper** |
+| Indexing (Omega Indexer) | ~$60 for 800 credits (~1k URLs ~$75); tiered launch can cut first pass (e.g. ~584 URLs ~$44) |
+| **First run total** | **Under ~$100 with DataForSEO; under ~$200 with Outscraper** (+ indexing credits) |
 | **Ongoing** | ~$10/year domain |
 
 **Time:** Weekend build (mostly Claude running). **Ranking curve:** Same as microsites — indexed month 1, Google settles ~month 3, trust ~month 6. One member: 166 → 887 indexed pages in ~30 days after Blueprint rebuild, with first leads and first "list me" request in the same window.
 
-### Steps 1–8 (course order)
+### Steps 1–9 (course order)
 
 1. Pick vertical + state  
 2. Buy domain  
 3. Pull listings (DataForSEO via Blueprint in Gate 1, or Outscraper → `listings-raw.csv`)  
 4. Enrich (Blueprint Gates 1–3: scope, clean, enrich)  
 5. Build (Gates 4–5: plan, generate static site)  
-6. Put online  
-7. Index  
-8. Monetize (claims, featured tiers, outreach)
+6. Put online (deploy after Gate 5 live check; see **Step 6–7 launch rules** below)  
+7. **Index** (Omega Indexer drip — lesson 8)  
+8. **Get paid — outreach & claims** (lesson 9, §1–2)  
+9. **Get paid — products & Stripe** (lesson 9, §3; rank-and-rent on city pages = later)
 
-Live at step 6; steps 7–8 are earnings work.
+Live after step 6; **steps 7–9** are indexing + revenue work.
+
+### Step 6–7 launch rules (lean sitemap)
+
+Do not dump every built URL into the index on day one—Google may index a slice and ignore the rest.
+
+- **In sitemap at launch:** home, state, every city/town page, **strong** business pages.
+- **Built but `noindex` at launch:** thin business pages (e.g. under five reviews and/or no description). They still render, interlink, and show **"claim this listing."**
+- **Widen later:** claimed listings first, then by review count (`Widen the sitemap` in Claude → re-run Gate 5 → upload). Example from course testing: ~**1,100 / ~1,700** pages in the first sitemap tranche.
+- URL list order lives in **`06-launch.md`** (strong pages first) or copy from `sitemap-index.xml` after Claude's live check passes.
+
+### Step 7: Index with Omega Indexer
+
+**Footprint:** Prefer **no Google Search Console** on the directory—same rationale as microsites: do not tie many sites to one Google account. Track **Omega's indexed count** + **Cloudflare analytics**. GSC is allowed if you accept that tradeoff (course note).
+
+**Workflow (lesson 8):**
+
+1. **URL list** — From `06-launch.md` or sitemap; ask Claude for **tiered cost** (`What will indexing cost, and can we put the most important pages first?`): tier 1 = home + state + cities; tier 2 = strongest listings; tier 3 = remainder. One credit = one URL (example: tier 1–2 **584 URLs ~$44** vs full set **~$81**).
+2. **Omega** — Dashboard → Campaigns → **+ Create Campaign → Copy & Paste Links** (no file upload).
+3. **Dripfeed 7–10 days** — not a one-day blast on a thousand-page launch.
+4. **Launch and wait.**
+5. **30-day calendar check** — Omega indexed count + Cloudflare visitors. If both move: `Widen the sitemap` → Gate 5 → upload → new Omega campaign. Repeat monthly while metrics grow.
+
+**Omega pricing (community):** Subscription can be cancelled while credits remain; **800 credits ~$60** (~$75/1k). Credits last months. See also [[ai-tool-stacks.md]] and [[external-seo-microsite-tactics.md]] for microsite Omega patterns.
+
+### Step 8: Get paid — calls & claims
+
+**1. Make the calls (day-one monetization, nothing else required)**  
+Opening line pattern:
+
+> *"We're connected because you have a listing on my directory, the largest directory of [service] in [state]. Is your listing correct?"*  
+> Then: listing not optimized (photos, links)—offer to fix → normal SEO/site conversation.
+
+Community: directories as **#1 source of SEO clients** for some members—the **call**, not passive traffic.
+
+**2. Handle claims**  
+Every business page: *"Is this your business? Claim it."* Claiming is **free**.
+
+| Step | Action |
+|------|--------|
+| Verify | Real local business (not lead-gen); email domain matches site; phone matches listing |
+| Speed | **Call same day** — "Saw you claimed your listing, welcome." |
+| Update | `Mark <business> as claimed.` → Gate 5 → upload |
+
+**No self-serve logins**—all edits through you (spam control).
+
+### Step 9: Get paid — products, Stripe, own microsites
+
+**Sell by hand:** Stripe Payment Link → they pay → you flip the row → Gate 5 rebuild.
+
+| Product | Price (course starting points) | Notes |
+|---------|-------------------------------|--------|
+| **Premium listing** | **$97/year** | Their photos, links, map, hours, **"Listed on [directory]"** badge for their site (badge links to their listing page) |
+| **Best-of placement** | **$750–$1,200** one-time | Pin on city "best [service] in [city]" + press release package; call list winners first, recall non-winners ~6 months later |
+| **Featured slots** | **$29 / $99 / $499** per month | Top card: one city, city group, or whole state; one business per slot per city |
+
+**Setup:** Create Payment Links in Stripe (free account) → paste into Blueprint **featured tiers** file → Gate 5. After sale: tell Claude which business bought which product → Gate 5 → upload.
+
+**Later — sell the leads:** Tracked number or form on ranking **city pages** = rank-and-rent (Microsite Playbook step 4 analog)—**not** a first-month move.
+
+**Your microsites in the directory:** List like any other business—same card, **no cross-links, no badge tricks**. SERP coverage three ways, not a link scheme.
 
 ---
 
@@ -346,14 +409,17 @@ Directory (1 domain, high authority)
 
 ### Launch
 
-- [ ] Sitemap submitted to GSC
-- [ ] Homepage CMS linkable (points to directory home, not just listings)
-- [ ] Form handler working (Formspree or equivalent for listing claims/submissions)
+- [ ] **Lean sitemap** live (strong pages indexed; thin listings noindex but claimable)
+- [ ] Claude **live check** passed before Omega campaign
+- [ ] **Omega Indexer** campaign: paste URLs, **7–10 day drip**, tier 1–2 first if budget-conscious
+- [ ] **Prefer no GSC** on directory (footprint); use Omega + Cloudflare analytics—or GSC if you explicitly accept account linkage
+- [ ] Claim form / workflow documented (no public listing login)
+- [ ] Stripe Payment Links wired in Blueprint featured tiers (when selling paid products)
 - [ ] Link-flywheel configured (if automating outreach)
 
 ### Post-Launch
 
-- [ ] Track indexing velocity in GSC (expect 50%+ indexed within 4 weeks)
+- [ ] **30-day check** on calendar: Omega indexed count + Cloudflare traffic → `Widen the sitemap` if growing
 - [ ] Monitor click behavior: ensure CTR comes from search intent (not just browse)
 - [ ] Test featured listing monetization with 2–3 businesses before hard pitch
 - [ ] Quarterly review: add/remove listings based on data freshness, expand categories

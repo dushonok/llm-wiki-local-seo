@@ -101,7 +101,7 @@ sources:
 **Process:**
 1. Manus: Generate static HTML from prompt
 2. Upload zip to SiteGround / Cloudflare Pages
-3. Omega Indexer: Bulk-submit all URLs for indexing
+3. Omega Indexer: Bulk-submit all URLs for indexing (directories: tiered URL lists, 7–10 day drip, optional no GSC — [[directory-strategy.md#step-7-index-with-omega-indexer]])
 4. Retell AI + Twilio: Add phone number and voice agent (30 seconds setup)
 5. Nano Banana: Tweak images for uniqueness
 6. LoopNet: Pull real building address for NAP

@@ -2,9 +2,10 @@
 type: framework
 client: none
 status: active
-updated: 2026-10-28
+updated: 2026-11-20
 sources:
   - "raw/framework/Easy to use CTR Software  Traffic Tool - AI SEO Rank Expand Academy.md"
+  - "raw/framework/GBP ranking driving signals vs interactions on the listing - AI SEO Rank Expand Academy.md"
 ---
 
 # Grey Hat Tactics & Risks
@@ -77,6 +78,22 @@ Instead of CTR manipulation:
 3. **Build profiles (Pillar 4):** Every Pillar 4 profile adds legitimacy and tends to improve CTR because users see the business exists in multiple places
 
 **Result:** Ranking improves without penalty risk.
+
+---
+
+## GBP / Map Pack: Driving Signals & Listing Interactions
+
+**What the community debates:** Pushing map-pack rank via **(1) simulated drives / GPS routes** to the business vs **(2) scripted listing interactions** (search → profile → directions / call / photo views).
+
+**Named vendor (community):** **SEO NEO** — cited for route-style geolocation campaigns over multiple years. Not an endorsement; verify contracts, methods, and whether activity violates Google's guidelines.
+
+**Risks (often higher than organic GBP work):**
+
+1. **Profile suspension** — Jesse Cunningham's caution in the REA thread: aggressive review-reply automation or suspicious engagement patterns can trigger suspension; loss of the profile usually beats small ranking bumps.
+2. **Guidelines** — Manufactured popularity and deceptive location behavior conflict with Google Business Profile policies.
+3. **False economy** — If **website categories/services** and **NAP citations** do not match GBP, tactics on the profile will not fix entity mismatch (see Map pack section in [[local-seo-checklist.md]]).
+
+**Legitimate before experimenting:** GBP completeness, site alignment, citations, review velocity/sentiment—then measure with Insights and rank trackers before paying for signal services.
 
 ---
 

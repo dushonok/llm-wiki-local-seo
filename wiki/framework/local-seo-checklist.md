@@ -2,7 +2,7 @@
 type: framework
 client: none
 status: active
-updated: 2026-09-16
+updated: 2026-11-20
 sources:
   - "raw/framework/Local SEO Innovation - 2 - Local AI SEO Checklist - 0. Checklist for Local SEO (AI Overview Readiness) · AI SEO Rank Expand Academy.md"
   - "raw/framework/Local SEO Innovation - 2 - Local AI SEO Checklist - 1. Core Business Data (NAP Consistency) · AI SEO Rank Expand Academy.md"
@@ -13,6 +13,7 @@ sources:
   - "raw/framework/Local SEO Innovation - 2 - Local AI SEO Checklist - 6. Authority & Citations - Local SEO Innovation · AI SEO Rank Expand Academy.md"
   - "raw/framework/Local SEO Innovation - 2 - Local AI SEO Checklist - 7. Monitoring & Reporting - Local SEO Innovation · AI SEO Rank Expand Academy.md"
   - "raw/framework/Local SEO Innovation - 2 - Local AI SEO Checklist - 8. Next Steps for Local AI SEO - Local SEO Innovation · AI SEO Rank Expand Academy.md"
+  - "raw/framework/GBP ranking driving signals vs interactions on the listing - AI SEO Rank Expand Academy.md"
 ---
 
 # Local SEO Checklist
@@ -165,6 +166,26 @@ Use these implementation roadmaps based on current SEO maturity. Source: raw/fra
 5. **Improve GBP engagement** — Add Q&A and 1 new GBP post weekly
 6. **Integrate monitoring sheet** — Track GSC impressions, GBP calls, and review velocity
 7. **Fix duplicate or outdated citations** — Run quarterly audits
+
+### Map pack: driving signals vs. listing interactions (community, 2026)
+
+**Context:** Local businesses (restaurants, trades, any map-pack niche) sometimes test **(A) simulated driving / GPS route signals** to the address vs **(B) synthetic listing interactions** (search keyword → open profile → directions / call / photos).
+
+**Do first (non-negotiable per community):**
+
+- Website **categories and services match GBP** (names, scope, descriptions).
+- Fill **GBP service descriptions** with context that links entity → site → intent.
+- **NAP citations** aligned before chasing geo tricks.
+
+Without alignment, "you can eat all you want—you still won't rank" (community shorthand for piling tactics on a misaligned entity).
+
+**Review replies:** If automating or batching responses, go **slow and steady**—**GBP suspension risk** often outweighs marginal "juice" from reply velocity ([[grey-hat-tactics-and-risks.md]] GBP section). Solid profile + real engagement beats "funny business."
+
+**Grey-zone experiments (documented, not core strategy):**
+
+- Some members report **route simulation** vendors help map rankings after baseline GBP/site work; **SEO NEO** named as a long-running provider in the thread—treat as **vendor risk**, verify ToS, and assume Google may disregard or penalize manipulative patterns.
+- Listing **interaction bots** are higher-profile manipulation; same risk stack as CTR tools.
+- Prefer: pillars 1–4 in [[five-pillar-local-seo-framework.md]], review velocity + sentiment in §3 of this checklist, then measure before any paid signal service.
 
 ## 🔵 ADVANCED — Established SEO / Agencies
 
