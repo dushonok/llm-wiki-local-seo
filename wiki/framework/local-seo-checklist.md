@@ -169,23 +169,32 @@ Use these implementation roadmaps based on current SEO maturity. Source: raw/fra
 
 ### Map pack: driving signals vs. listing interactions (community, 2026)
 
-**Context:** Local businesses (restaurants, trades, any map-pack niche) sometimes test **(A) simulated driving / GPS route signals** to the address vs **(B) synthetic listing interactions** (search keyword → open profile → directions / call / photos).
+**Context:** Local businesses (restaurant thread, but map-pack logic applies to trades) sometimes test **(A) simulated driving / GPS route signals** vs **(B) synthetic listing interactions** (search → profile → directions / call / photos).
 
-**Do first (non-negotiable per community):**
+**Do first (non-negotiable):**
 
 - Website **categories and services match GBP** (names, scope, descriptions).
 - Fill **GBP service descriptions** with context that links entity → site → intent.
 - **NAP citations** aligned before chasing geo tricks.
 
-Without alignment, "you can eat all you want—you still won't rank" (community shorthand for piling tactics on a misaligned entity).
+Without alignment, "you can eat all you want—you still won't rank" (Cyril Garitey, REA thread).
 
-**Review replies:** If automating or batching responses, go **slow and steady**—**GBP suspension risk** often outweighs marginal "juice" from reply velocity ([[grey-hat-tactics-and-risks.md]] GBP section). Solid profile + real engagement beats "funny business."
+**Review replies:** Automate or batch slowly—**suspension risk** can beat marginal gains (Jesse Cunningham). See [[grey-hat-tactics-and-risks.md]].
 
-**Grey-zone experiments (documented, not core strategy):**
+**Dissent in thread:** Cyril and **SEO NEO** proponents report route simulations work after GBP is right—treat as vendor/grey-zone only; see research counter below.
 
-- Some members report **route simulation** vendors help map rankings after baseline GBP/site work; **SEO NEO** named as a long-running provider in the thread—treat as **vendor risk**, verify ToS, and assume Google may disregard or penalize manipulative patterns.
-- Listing **interaction bots** are higher-profile manipulation; same risk stack as CTR tools.
-- Prefer: pillars 1–4 in [[five-pillar-local-seo-framework.md]], review velocity + sentiment in §3 of this checklist, then measure before any paid signal service.
+**Research counter (Michael Elliott, REA — local search / anomaly detection):** Fake drives and listing **CTR-style bots** are an **expensive trap**: possible **3–7 day flicker**, then rank snaps back after the tool stops or Google's **weekly filter sweep**. Spoofed devices (no real location history / Wi‑Fi handoffs) trigger **anomaly flags** → **manual video reverifications** and **weeks locked out of Maps**. Prefer the four levers below over paid signal tools.
+
+**What to do instead (Elliott / live testing — adapt restaurant examples to any niche):**
+
+| Lever | Restaurant example | Home-services transfer |
+|-------|---------------------|-------------------------|
+| **1. Visual scanner** | Real diner photos of dishes (e.g. QR on tables; ~20 real phone photos/week) — Google tags food visuals | Real **job-site / before-after photos** from customers and techs on GBP (not stock) |
+| **2. Hard quantitative data** | Full menu: dish + **exact price**, portions, dietary tags; every native GBP attribute (patio, kids menu, etc.) | GBP **services** with scope and price bands where allowed; every applicable **attribute** filled; no vague "quality work" fluff |
+| **3. Landmark anchoring** | On the site URL linked from GBP: directions via **highway exit, parking, cross streets, transit** to stretch spatial radius | Service-area / location pages with **local landmarks** and honest drive directions from known hubs |
+| **4. Category stack** | Primary = highest-volume cuisine; **3–4 secondaries** (e.g. Pizza, Caterer, Wine Bar) for extra clusters without cannibalizing main | Primary = core trade; secondaries = logical sub-services (don't stack unrelated categories) |
+
+**Default playbook:** pillars 1–4 in [[five-pillar-local-seo-framework.md]], §3 review velocity/sentiment here, citations—then measure in Insights before any paid geo or interaction service.
 
 ## 🔵 ADVANCED — Established SEO / Agencies
 

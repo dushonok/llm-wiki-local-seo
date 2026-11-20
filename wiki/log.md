@@ -1173,3 +1173,7 @@ Pages touched: [[framework/sales-and-lead-generation.md]], [[index.md]], [[log.m
 ## 2026-11-20 | ingest | AI Directories lessons 8–9 + GBP driving signals thread
 User chose defaults. Lessons 8–9 → [[framework/directory-strategy.md]]: **9-step** Skool path; Step 6–7 lean sitemap/`06-launch.md`; Step 7 Omega tiered drip, no-GSC default, 30-day widen loop; Steps 8–9 calls/claims/Stripe ($97, best-of, featured). Checklist aligned (Omega not GSC). GBP Skool thread → [[framework/local-seo-checklist.md]] map-pack section + [[framework/grey-hat-tactics-and-risks.md]] (SEO NEO, route sim risks). [[framework/ai-tool-stacks.md]] Omega cross-link. Lesson 6 video transcript: CRLF-only, not committed.
 Pages touched: [[framework/directory-strategy.md]], [[framework/local-seo-checklist.md]], [[framework/grey-hat-tactics-and-risks.md]], [[framework/ai-tool-stacks.md]], [[index.md]], [[log.md]]
+
+## 2026-11-20 | re-ingest | GBP driving signals thread (Michael Elliott reply)
+Re-ingested expanded raw capture (after `6d515fa`). Updated [[framework/local-seo-checklist.md]] map-pack section: Elliott research counter (3–7d flicker, weekly filter, anomaly/video reverification), four organic levers table (restaurant → trades). Updated [[framework/grey-hat-tactics-and-risks.md]] GBP section to weight research vs SEO NEO dissent. Index line.
+Pages touched: [[framework/local-seo-checklist.md]], [[framework/grey-hat-tactics-and-risks.md]], [[index.md]], [[log.md]]

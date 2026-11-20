@@ -83,17 +83,19 @@ Instead of CTR manipulation:
 
 ## GBP / Map Pack: Driving Signals & Listing Interactions
 
-**What the community debates:** Pushing map-pack rank via **(1) simulated drives / GPS routes** to the business vs **(2) scripted listing interactions** (search → profile → directions / call / photo views).
+**What the community debates:** Pushing map-pack rank via **(1) simulated drives / GPS routes** vs **(2) scripted listing interactions** (search → profile → directions / call / photo views).
 
-**Named vendor (community):** **SEO NEO** — cited for route-style geolocation campaigns over multiple years. Not an endorsement; verify contracts, methods, and whether activity violates Google's guidelines.
+**Pro side (community):** After GBP + site alignment, some members use **route simulation** vendors; **SEO NEO** named. Not an endorsement.
 
-**Risks (often higher than organic GBP work):**
+**Research counter (Michael Elliott, same REA thread):** Live tests on local-search anomaly detection—**fake drives and listing CTR bots** often show only a **3–7 day rank flicker**, then revert when the tool stops or Google runs a **weekly filter sweep**. **Spoofed devices** (no credible location history / Wi‑Fi handoffs) can trigger **manual video reverifications** and **multi-week Maps lockouts**. Treat paid signal tools as high risk / low durability.
 
-1. **Profile suspension** — Jesse Cunningham's caution in the REA thread: aggressive review-reply automation or suspicious engagement patterns can trigger suspension; loss of the profile usually beats small ranking bumps.
-2. **Guidelines** — Manufactured popularity and deceptive location behavior conflict with Google Business Profile policies.
-3. **False economy** — If **website categories/services** and **NAP citations** do not match GBP, tactics on the profile will not fix entity mismatch (see Map pack section in [[local-seo-checklist.md]]).
+**Other risks:**
 
-**Legitimate before experimenting:** GBP completeness, site alignment, citations, review velocity/sentiment—then measure with Insights and rank trackers before paying for signal services.
+1. **Suspension** — Jesse Cunningham: aggressive review-reply automation or fake engagement patterns; profile loss beats small gains.
+2. **Guidelines** — Manufactured popularity and deceptive location behavior violate GBP policies.
+3. **False economy** — Misaligned website categories/services vs GBP cannot be fixed with bots ([[local-seo-checklist.md]] map-pack section lists legitimate levers: real user photos, quantitative profile data, landmark anchoring on linked pages, primary + secondary categories).
+
+**Before any grey experiment:** Complete profile, site alignment, citations, reviews—measure in Insights. Prefer Elliott's four organic levers over SEO NEO–style services when advising clients.
 
 ---
 
