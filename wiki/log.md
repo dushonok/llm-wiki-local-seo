@@ -1193,3 +1193,7 @@ Pages touched: [[framework/local-seo-checklist.md]], [[framework/grey-hat-tactic
 ## 2026-11-23 | ingest | website-launchpad code review path
 User standing instruction: live microsite builds live at `C:\Projects\website-launchpad`. Created [[framework/microsite-code-location.md]] with code-vs-wiki review workflow and environment notes.
 Pages touched: [[framework/microsite-code-location.md]] (new), [[index.md]], [[log.md]]
+
+## 2026-11-23 | ingest | Google AI calls contractors (Ask Maps)
+Ingested `Google AI now connects contractorshomeowners` Skool capture. [[framework/ai-overviews-local-search.md]] — Ask Maps rollout, ranking-as-selection hypothesis, GBP advanced setting, state exclusions, recorded/no-fee calls. [[framework/local-seo-checklist.md]] §2 — automated-call toggle, CSR/scam script, price-availability answers, rogue GBP sweep. Index blurbs updated.
+Pages touched: [[framework/ai-overviews-local-search.md]], [[framework/local-seo-checklist.md]], [[index.md]], [[log.md]]

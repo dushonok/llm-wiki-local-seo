@@ -2,9 +2,10 @@
 type: framework
 client: none
 status: active
-updated: 2026-11-16
+updated: 2026-11-23
 sources:
   - "raw/framework/Local SEO Innovation - 1 - How AI Changes Local Search Behavior · AI SEO Rank Expand Academy.md"
+  - "raw/framework/Google AI now connects contractorshomeowners - AI SEO Rank Expand Academy.md"
 ---
 
 # AI Overviews and Local Search Behavior
@@ -53,6 +54,18 @@ Goal: Understand how AI Overviews reshape local intent, visibility, and clicks.
 6. **Strengthen entity connections**
    - Mentions in local news, directories, associations
    - Build topical authority in your service area
+
+## Ask Maps: Google AI calls businesses for homeowners (U.S., Nov 16 rollout)
+
+**What changed:** In Maps, a user can ask Google to find a **home repair appointment**. Google's AI **calls local businesses** to collect **open times and prices**; what the **CSR says on that call** is what the homeowner hears back.
+
+**Operational hook:** This is a new zero-click path beside Overviews and the map pack — ranking and GBP hygiene may decide **whether you get the call at all**.
+
+**Who gets called:** Google has not documented selection for Ask Maps. When Google added **AI calling in Search** (prior rollout), a spokesperson said businesses were chosen from **normal local search rankings**. If Ask Maps uses the same logic, **map pack / local ranking** gates inbound AI calls.
+
+**GBP setting (verify on every location):** GBP → **More** → **Business Profile settings** → **Advanced settings** → **Google automated calls and text messages** → enable **Bookings and inquiries from customers**. Google's Ask Maps announcement does not explicitly tie to this toggle, but it is the setting Google's help doc lists for **automated calls on the customer's behalf**. That help doc also notes: calls can book and confirm **price/availability**; calls are **recorded**; **no charge** to business or customer; Google **limits repeat calls** and avoids **late night / early morning**; **not available** in Indiana, Louisiana, Minnesota, Montana, Nebraska.
+
+**Agency/client playbook:** See §2 GBP in [[local-seo-checklist.md]] (CSR scripts, scam hang-ups, rogue profile audit).
 
 ## Key Takeaway
 

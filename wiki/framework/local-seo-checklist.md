@@ -14,6 +14,7 @@ sources:
   - "raw/framework/Local SEO Innovation - 2 - Local AI SEO Checklist - 7. Monitoring & Reporting - Local SEO Innovation · AI SEO Rank Expand Academy.md"
   - "raw/framework/Local SEO Innovation - 2 - Local AI SEO Checklist - 8. Next Steps for Local AI SEO - Local SEO Innovation · AI SEO Rank Expand Academy.md"
   - "raw/framework/GBP ranking driving signals vs interactions on the listing - AI SEO Rank Expand Academy.md"
+  - "raw/framework/Google AI now connects contractorshomeowners - AI SEO Rank Expand Academy.md"
 ---
 
 # Local SEO Checklist
@@ -64,6 +65,17 @@ Goal: Ensure a business's data ecosystem is robust enough to be included in Goog
 - ✅ 20+ high-quality photos uploaded (before/after, team, trucks, etc.)
 - ✅ Weekly post schedule maintained (project highlights, reviews, promos)
 - ✅ Q&A section pre-filled with common customer questions and answers
+
+### Google automated calls (Ask Maps — U.S.)
+
+**Context:** Ask Maps can trigger Google's AI to **phone the business** for availability and pricing on home-repair-style requests. Background: [[ai-overviews-local-search.md#ask-maps-google-ai-calls-businesses-for-homeowners-us-nov-16-rollout]].
+
+**Checklist:**
+- ✅ **Advanced settings:** *Bookings and inquiries from customers* turned **on** for every managed location (More → Business Profile settings → Advanced settings → Google automated calls and text messages)
+- ✅ **CSR briefing:** Calls from Google's AI are **real customer requests**; hang up on anyone asking for money or a login to "verify" the listing (scam pattern)
+- ✅ **Price/availability script** for top jobs: next open **day + time**, plus **service fee or honest price range** (this is what gets relayed to the homeowner)
+- ✅ **Rogue profile sweep:** Search the business **name + phone** on Google Maps; delete or report profiles the client does not control
+- ⚠️ **State exclusion:** Automated-call feature not available in IN, LA, MN, MT, NE (per Google help)
 
 ## 3. Review Profile & Sentiment Signals
 
