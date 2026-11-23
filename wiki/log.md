@@ -1185,3 +1185,7 @@ Pages touched: [[framework/local-seo-playbook-maverick.md]] (new), [[framework/g
 ## 2026-11-23 | ingest | Community Calls #13 and #20 (expanded captures)
 Ingested `Community Call 13 … 1.md` + `Community Call 20 … 1.md` (richer than older non-`1` files). #13 → microsite definition/models/silos ([[microsite-qa-reference.md]], [[on-site-seo.md]]), acquisition without cold call + openers ([[sales-and-lead-generation.md]]), GBP suite shortcut noted in [[grey-hat-tactics-and-risks.md]]. #20 → fake reviews, maps-vs-organic, VA hiring ([[agency-operations-scaling.md]]), outbound tools/cadence/pricing ([[sales-and-lead-generation.md]]), directories as sales infra, PI avoid ([[niche-selection-strategy.md]]), templates>AI builders ([[microsite-launch-checklist.md]]).
 Pages touched: [[framework/microsite-qa-reference.md]], [[framework/on-site-seo.md]], [[framework/sales-and-lead-generation.md]], [[framework/agency-operations-scaling.md]], [[framework/directory-strategy.md]], [[framework/niche-selection-strategy.md]], [[framework/grey-hat-tactics-and-risks.md]], [[framework/microsite-launch-checklist.md]], [[log.md]]
+
+## 2026-11-23 | ingest | website-launchpad code review path
+User standing instruction: live microsite builds live at `C:\Projects\website-launchpad`. Created [[framework/microsite-code-location.md]] with code-vs-wiki review workflow and environment notes.
+Pages touched: [[framework/microsite-code-location.md]] (new), [[index.md]], [[log.md]]
