@@ -2,7 +2,7 @@
 type: framework
 client: none
 status: active
-updated: 2026-10-27
+updated: 2026-11-23
 sources:
   - "raw/framework/48 - Niches Within Niches - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
   - "raw/framework/49 - The 12-Minute Microsite - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
@@ -11,11 +11,14 @@ sources:
   - "raw/framework/Community Call 58 - Semantics Over Backlinks, Flat Leasing - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
   - "raw/framework/Bilingual sites Worth it - how to do it - AI SEO Rank Expand Academy.md"
   - "raw/framework/Domains - weird extensions - AI SEO Rank Expand Academy.md"
+  - "raw/framework/Community Call 20 - 🎙️ The Call Vault · AI SEO Rank Expand Academy 1.md"
 ---
 
 # Niche Selection & Microsite Strategy
 
 **Core Principle:** Go one level deeper. "Locksmith" is a bloodbath. "Car locksmith" or "garage-door locksmith" is open. Same holds for concrete, plumbing, HVAC — find the subniche.
+
+**Call #20 — avoid for rank-and-rent microsites:** **Personal injury**, hyper-competitive ad-heavy SERPs, entrenched firms. Favor home/emergency services where owners miss calls or skip SEO (windows, concrete, asphalt, drain cleaning, water heaters, decks, fences, gutters, etc.).
 
 ---
 

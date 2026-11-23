@@ -2,12 +2,12 @@
 type: framework
 client: none
 status: active
-updated: 2026-10-08
+updated: 2026-11-23
 sources:
   - "raw/framework/On-Page SEO Content Frameworks - How To Structure On-Page SEO Content · AI SEO Rank Expand Academy.md"
   - "raw/framework/Small moves  no moves (website updates) - AI SEO Rank Expand Academy.md"
+  - "raw/framework/Community Call 13 - 🎙️ The Call Vault · AI SEO Rank Expand Academy 1.md"
   - "general SEO knowledge (not raw-sourced) — see traceability note in Meta Descriptions section below"
----
 
 # On-Site SEO — Content Structure
 
@@ -30,6 +30,18 @@ Get structure right → rank quickly. Get it wrong → good content still won't 
 > **Key insight:** Small incremental improvements beat waiting for the perfect redesign. Start with the smallest change that points you in the right direction. Iterate. Let future work show you what to optimize next.
 
 **For microsites:** Don't wait for the perfect 10,000-word page. Ship 1,500 words, get traffic data, see which questions the search data reveals, then deepen those sections. The process compounds: small moves → clarity → better positioning → more qualified leads → then optimize deeper.
+
+---
+
+## Microsite silos: location vs service (Call #13)
+
+**Two silos:** **location pages** and **service pages**.
+
+- Interlink **service ↔ location** where the copy naturally mentions the connection.
+- **Sibling services** link only when semantically related — do not mesh every service page "because SEO."
+- If the service is not mentioned in the paragraph, **do not force the link**.
+
+**GBP alignment (Brent, Call #13):** The site should mirror the **GBP knowledge graph** — pages or services **outside the GBP category** dilute entity focus. See [[microsite-qa-reference.md#what-counts-as-a-microsite-community-call-13]] for microsite vs full-site models.
 
 ---
 

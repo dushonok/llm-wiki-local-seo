@@ -2,11 +2,12 @@
 type: framework
 client: none
 status: active
-updated: 2026-10-29
+updated: 2026-11-23
 sources:
   - "raw/framework/Day 37 of My 90-Day Challenge A Wrong Sitemap Found on a Live Site - AI SEO Rank Expand Academy.md"
   - "raw/framework/Lead Form on Cloudflare pages - Even better than Formspree - AI SEO Rank Expand Academy.md"
   - "raw/framework/Multiple Questions - AI SEO Rank Expand Academy.md"
+  - "raw/framework/Community Call 20 - 🎙️ The Call Vault · AI SEO Rank Expand Academy 1.md"
 ---
 
 # Microsite Launch Checklist
@@ -14,6 +15,8 @@ sources:
 **Purpose:** Pre-launch validation checklist for microsites. A real-world case study caught a critical error (wrong domain in sitemap) hours before going live—this checklist prevents similar mistakes.
 
 **When to use:** After your microsite is built and content-complete, but *before* you flip the indexing switch (remove `noindex` tag).
+
+**Build approach (Call #20):** At scale, **proven templates** (city-swap + manual review) beat full-site **AI builders** (Lovable/Bolt-style) for structure and maintainability — use AI for copy refinement and page-level edits, not brittle CMS architecture.
 
 ---
 

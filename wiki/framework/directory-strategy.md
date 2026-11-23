@@ -54,6 +54,8 @@ A directory is a searchable, schema-tagged collection of business listings in a 
 2. **Vertical coverage** — Microsites in several cities plus one state directory = SERP coverage three ways. List your own microsites like any other business; **no cross-links between your sites**.
 3. **Rent top spots** — Premium/featured/best-of placements; many small fees across hundreds of businesses.
 
+**Sales infrastructure (Call #20):** Directories are not microsites — they are **outbound fuel**: branded search, phone-number queries, and "verify your listing" outreach to businesses with weak presence. Funnel verified listings into SEO/featured sales ([[sales-and-lead-generation.md#outbound-stack--buyer-reality-call-20]]).
+
 ### When *not* to start here
 
 For similar money you could launch ~10 microsites. Build a directory when you **already own the vertical** or when you want the **call list**, not as a first site.

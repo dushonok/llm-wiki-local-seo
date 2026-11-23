@@ -2,11 +2,13 @@
 type: framework
 client: none
 status: active
-updated: 2026-10-07
+updated: 2026-11-23
 sources:
   - "raw/framework/We Answered Every Question You Asked This Week - Sep 8, 2026 · AI SEO Rank Expand Academy.md"
   - "raw/framework/We Answered Every Question You Had, 10-22-2026 - AI SEO Rank Expand Academy.md"
   - "raw/framework/Microsite Contest Day 22 One Contestant Is Beating Everyone (on both queries) - Rank Expand Academy.md"
+  - "raw/framework/Community Call 13 - 🎙️ The Call Vault · AI SEO Rank Expand Academy 1.md"
+  - "raw/framework/Community Call 20 - 🎙️ The Call Vault · AI SEO Rank Expand Academy 1.md"
 ---
 
 # Microsite Q&A Reference
@@ -14,6 +16,23 @@ sources:
 **Purpose:** Quick reference for 30+ common questions about microsite building, ranking, and local SEO strategy, plus real-time case studies. Compiled from community Q&A.
 
 **Format:** Questions organized by topic; each answer is practical and field-tested. Answers are sourced from Sep 8, 2026 Q&A batch (Sep batch) and Oct 22, 2026 Q&A batch (Oct batch), plus ongoing community contests.
+
+---
+
+## What counts as a microsite (Community Call #13)
+
+**Community definition:** A **fast, cheap, ~50+ page**, templated site focused on **one primary service + its locations**, without big-site overhead. Own the term "microsite" in content → semantic positioning for the method.
+
+**Two build models:**
+
+| Model | Shape | Best for |
+|-------|--------|----------|
+| **Rank Expand microsite** | 1 primary service, 1 main location hub, **20–50 city pages**, 3–5 supporting services max | Speed, rank-and-rent, minimal maintenance |
+| **Full service website** | 10–20 service pages interlinked to many locations | Long-term client authority when GBP + entity can carry it |
+
+**Lead routing:** Microsite leads can go to you, flat-fee renter, rev-share partner, or free-trial close — your choice ([[sales-and-lead-generation.md]] Approach #5).
+
+**Maps vs organic (Call #20):** On mobile, many searchers **never scroll past the map pack**. Organic #1–#2 can still under-deliver leads vs a buyer checking on their phone — plan testimonials, pre-sell copy, voice agents, or rev-share when Maps isn't in play.
 
 ---
 

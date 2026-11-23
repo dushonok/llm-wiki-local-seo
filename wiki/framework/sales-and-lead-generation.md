@@ -2,7 +2,7 @@
 type: framework
 client: none
 status: active
-updated: 2026-11-18
+updated: 2026-11-23
 sources:
   - "raw/framework/🎙️ The Wisdom's In The Calls - Getting Clients When Cold Outreach Feels Dead · AI SEO Rank Expand Academy.md"
   - "raw/framework/Find Your Ideal Client Instead of Waiting for Upwork to Kick In · AI SEO Rank Expand Academy.md"
@@ -12,6 +12,8 @@ sources:
   - "raw/framework/Reddit Mentions for AI Inclusion - 🌱🌱 Advanced Courses · AI SEO Rank Expand Academy.md"
   - "raw/framework/Microsite Pitch Example For New Clients · AI SEO Rank Expand Academy.md"
   - "raw/framework/FAKE Garage Door Websites Are Stealing Your Leads & Selling Them Back  Garage Door Marketing by Blair Witkowski - Rank Expand Academy.md"
+  - "raw/framework/Community Call 13 - 🎙️ The Call Vault · AI SEO Rank Expand Academy 1.md"
+  - "raw/framework/Community Call 20 - 🎙️ The Call Vault · AI SEO Rank Expand Academy 1.md"
 ---
 
 # Sales and Lead Generation
@@ -256,6 +258,31 @@ Everly
 **Devil's advocate (Blair):** Lead-buying is rational if the owner never invested in marketing; your pitch can be "stop renting your backyard" via owned assets or a fair lease you operate.
 
 **Source video (client-facing education):** https://www.youtube.com/watch?v=nhUnvT9mnkg — garage door industry worked example; messaging transfers to any home-service niche.
+
+---
+
+## Acquisition without cold calling (Call #13)
+
+**Channels:** cold email (once warmed), templated **Loom** (name-swap), LinkedIn, lightweight **lead-survey ads** ("quick research").
+
+**Non-US operators:** Lead with the **lead** (proof you can deliver), not your accent — buyers care about the opportunity.
+
+**Cold-call openers (when you do call):**
+
+- **Customer pose:** "I'm looking to do a [service] in [city]…" → hook as buyer, then reveal marketer role (Seth).
+- **Peer referral:** "We're both in [niche]; I have a client in [city] who needs a referral — room on your schedule?" (Jeff).
+
+---
+
+## Outbound stack & buyer reality (Call #20)
+
+**Tools named:** **Upwork** (task-trial VA hiring), **Instantly**, **Salesforge**, **Smartlead** (segmented outbound by niche/directory).
+
+**Cadence:** Plan **7–10 touches**; deals sometimes close **6–9 months** after first contact.
+
+**What buyers say they want:** **Phone calls**, not rankings, geo-grids, or thick reports. Directories remain a top **lead source** for agencies (see [[directory-strategy.md]] as sales infrastructure).
+
+**Pricing anchors from the call:** $499 flat sites can sell; **$99/mo** maintenance and **$249/yr** renewals; SEO retainers often **$1,250–$2,500/mo** floor; paid ads sometimes needed to qualify serious clients.
 
 ---
 

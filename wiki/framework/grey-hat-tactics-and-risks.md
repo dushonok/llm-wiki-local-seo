@@ -2,10 +2,12 @@
 type: framework
 client: none
 status: active
-updated: 2026-11-20
+updated: 2026-11-23
 sources:
   - "raw/framework/Easy to use CTR Software  Traffic Tool - AI SEO Rank Expand Academy.md"
   - "raw/framework/GBP ranking driving signals vs interactions on the listing - AI SEO Rank Expand Academy.md"
+  - "raw/framework/Community Call 20 - 🎙️ The Call Vault · AI SEO Rank Expand Academy 1.md"
+  - "raw/framework/Community Call 13 - 🎙️ The Call Vault · AI SEO Rank Expand Academy 1.md"
 ---
 
 # Grey Hat Tactics & Risks
@@ -96,6 +98,12 @@ Instead of CTR manipulation:
 3. **False economy** — Misaligned website categories/services vs GBP cannot be fixed with bots ([[local-seo-checklist.md]] map-pack section lists legitimate levers: real user photos, quantitative profile data, landmark anchoring on linked pages, primary + secondary categories).
 
 **Before any grey experiment:** Complete profile, site alignment, citations, reviews—measure in Insights. Prefer Elliott's four organic levers over SEO NEO–style services when advising clients.
+
+### Paid / fake GBP reviews (Call #20)
+
+**Consensus:** Purchased or bulk **fake reviews do not stick**; **FTC** risk on client work. **Account-level suspension** is common — one Gmail per GBP, never mix client assets. Safer paths: legitimate long-relationship testimonials, or reviews on **Facebook / Foursquare / niche platforms** when real — not purchased GBP packs.
+
+**Call #13 (documented, high risk):** Suite-in-commercial-building verification tricks (industrial parks, burner inboxes) appear in call notes — see [[gbp-creation-strategy.md]] for legitimate methods; treat shortcut captures as policy/grey-zone only.
 
 ---
 

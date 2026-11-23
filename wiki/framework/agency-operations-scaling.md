@@ -2,9 +2,10 @@
 type: framework
 client: none
 status: active
-updated: 2026-09-18
+updated: 2026-11-23
 sources:
   - "raw/framework/🎙️ The Wisdom's In The Calls - Scaling Past Doing Everything Yourself · AI SEO Rank Expand Academy.md"
+  - "raw/framework/Community Call 20 - 🎙️ The Call Vault · AI SEO Rank Expand Academy 1.md"
 ---
 
 # Agency Operations: Scaling Past Solo
@@ -38,6 +39,8 @@ To → "I run the system that does the work"
 4. **Train with the library** — don't train the person, the videos train them
 
 **Key Insight:** VAs come and go (churn is normal). The training library is the asset, not the person.
+
+**Call #20 hiring pattern:** Give **200+ applicants** the **same paid/test task** (real output, not resumes). Questions after a clear SOP = disqualify. Rule: **"If you keep stepping in, you're the bottleneck."** Ship at **~75% done** — contractors rarely notice SEO-perfect details.
 
 **One Critical Caveat:** AI taken as gospel will embarrass you in front of a client. Keep a human review in the loop. Don't automate the judgment.
 
