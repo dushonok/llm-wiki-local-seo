@@ -2,7 +2,7 @@
 type: framework
 client: none
 status: active
-updated: 2026-11-20
+updated: 2026-11-23
 sources:
   - "raw/framework/Directory Launched 28 Days Ago - 485 Clicks - AI SEO Rank Expand Academy.md"
   - "raw/framework/Community Call 56 - Directory Blueprint as Force Multiplier - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
@@ -16,6 +16,7 @@ sources:
   - "raw/framework/First claim on my AI pool directory, under 2 weeks live - AI SEO Rank Expand Academy.md"
   - "raw/framework/AI Directories · 8 Get It Indexed - ☰ AI Directories · AI SEO Rank Expand Academy.md"
   - "raw/framework/AI Directories · 9 Get Paid - ☰ AI Directories · AI SEO Rank Expand Academy.md"
+  - "raw/framework/community call 61 - Scaling AI SEO, Sticky Clients - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
 ---
 
 # Directory Strategy
@@ -130,7 +131,7 @@ Every business page: *"Is this your business? Claim it."* Claiming is **free**.
 | Step | Action |
 |------|--------|
 | Verify | Real local business (not lead-gen); email domain matches site; phone matches listing |
-| Speed | **Call same day** — "Saw you claimed your listing, welcome." |
+| Speed | **Call same day** — "Saw you claimed your listing, welcome." Community Call #61: several members **call immediately after a free claim** to sell **featured placement** while intent is highest. |
 | Update | `Mark <business> as claimed.` → Gate 5 → upload |
 
 **No self-serve logins**—all edits through you (spam control).

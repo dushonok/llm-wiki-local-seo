@@ -2,9 +2,11 @@
 type: framework
 client: none
 status: active
-updated: 2026-10-12
+updated: 2026-11-23
 sources:
   - "raw/framework/How to create GBP according to Blair (off-record) - 2026-10-12 - Rank Expand Academy.md"
+  - "raw/framework/community call 61 - Scaling AI SEO, Sticky Clients - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
+  - "raw/framework/Community Call 44 - Getting Mentioned Is the Game - 🎙️ The Call Vault · AI SEO Rank Expand Academy 1.md"
 ---
 
 # GBP Creation Strategy
@@ -137,6 +139,10 @@ sources:
 ---
 
 ## Summary
+
+**GBP after acquisition / address change (Call #44):** **Proximity** to the address dominates; brand even close locations separately. Do **not** 301 the old site away—keep it live with a clear "now part of" banner. Manual citation cleanup (~vendor services in the hundreds of dollars) may be needed if NAP drifted.
+
+**Service-area vs storefront (Call #61):** Mass-GBP / expansion setups re-opened debate: **shown address** generally ranks stronger than pure SAB when legitimately available — see [[local-seo-playbook-maverick.md]]. **Never create GBP solely for rank-and-rent** where policy forbids (Call #44 close).
 
 **Method 1** is the recommended default for legitimate GBP creation — both for real local businesses missing from Maps AND for your own microsites that can't get profiles otherwise. It's slower but sustainable and carries minimal risk when used responsibly. **Key limitation:** Use it **sparingly**. Your Local Person rating is a finite asset. Each profile you create consumes some of that trust. Use it strategically for microsites that genuinely need it, not as a scaling shortcut.
 

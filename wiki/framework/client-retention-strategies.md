@@ -2,9 +2,11 @@
 type: framework
 client: none
 status: active
-updated: 2026-09-18
+updated: 2026-11-23
 sources:
   - "raw/framework/🎙️ The Wisdom's In The Calls - Keeping the Clients You Have · AI SEO Rank Expand Academy.md"
+  - "raw/framework/community call 61 - Scaling AI SEO, Sticky Clients - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
+  - "raw/framework/Community Call 44 - Getting Mentioned Is the Game - 🎙️ The Call Vault · AI SEO Rank Expand Academy 1.md"
 ---
 
 # Client Retention Strategies
@@ -163,6 +165,16 @@ Track these metrics per client:
 - ☐ ROI analysis
 - ☐ Contract renewal or expansion
 - ☐ Relationship reset
+
+---
+
+## Habit #4: Own the CRM (sticky retainers)
+
+**Call #61 (part-time retainer question):** Price **deliverables**, not vague "results." Route leads through **your** stack (community example: **GoHighLevel**) so the client depends on your pipeline—not only your reports.
+
+**Call #44 (website-as-a-service):** Reframe the offer: site + CRM + profiles + leads + scheduled social (community example: many client sites on ~$100/mo autopilot). **Switching cost** rises when you operate the whole system, not a deliverable list in email.
+
+**Directory tie-in (Call #61):** Same-day call when someone **claims a free listing** → sell featured placement while intent is hot ([[directory-strategy.md#step-8-get-paid--calls--claims]]).
 
 ---
 

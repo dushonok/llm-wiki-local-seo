@@ -2,7 +2,7 @@
 type: framework
 client: none
 status: active
-updated: 2026-11-16
+updated: 2026-11-23
 sources:
   - "raw/framework/Reddit Mentions for AI Inclusion - 🌱🌱 Advanced Courses · AI SEO Rank Expand Academy.md"
   - "raw/framework/🎙️ The Wisdom's In The Calls - Getting Cited by AI  · AI SEO Rank Expand Academy.md"
@@ -11,6 +11,7 @@ sources:
   - "raw/framework/How to see fan-out queries in ChatGPT - written by Perplexity on Oct 10, 2026.md"
   - "raw/framework/Pasted image 20261010085447.png"
   - "raw/framework/Pasted image 20261010085748.png"
+  - "raw/framework/Community Call 44 - Getting Mentioned Is the Game - 🎙️ The Call Vault · AI SEO Rank Expand Academy 1.md"
 ---
 
 # Getting Cited by AI
@@ -41,6 +42,10 @@ sources:
 - Build backlink strategy sourced from AI behavior, not domain authority
 
 **Principle:** Stop guessing which links matter. Ask the AI where it reads, then go get listed there.
+
+**Call #44 reinforcement:** Take **top GSC queries** → rephrase as questions → use DataForSEO (or your audit pipeline in [[ai-visibility-audit-aeo.md]]) to see **who Gemini/ChatGPT cite repeatedly** → outreach/list on those URLs. **Two-tier refresh:** community revived an older idea — a **profile page** on your site that links out to citations to help indexing/discovery.
+
+**Directory build note (Call #44):** CMS-generated directory URLs (e.g. heavy plugin stacks) often fail vs **clean static HTML** (Astro-style builds in Claude first, then deploy) — aligns with [[directory-strategy.md]] Blueprint static sites.
 
 ---
 

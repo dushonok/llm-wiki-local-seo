@@ -2,9 +2,11 @@
 type: framework
 client: none
 status: active
-updated: 2026-09-18
+updated: 2026-11-23
 sources:
   - "raw/framework/🎙️ The Wisdom's In The Calls - Why Your AI Keeps Falling Apart Mid-Build · AI SEO Rank Expand Academy.md"
+  - "raw/framework/Community Call 44 - Getting Mentioned Is the Game - 🎙️ The Call Vault · AI SEO Rank Expand Academy 1.md"
+  - "raw/framework/community call 61 - Scaling AI SEO, Sticky Clients - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
 ---
 
 # AI Reliability and Context Management
@@ -94,6 +96,12 @@ Instead of dumping PDFs, images, and notes in one folder, organize Claude's work
 - Create a CLAUDE.md with your project rules
 - Maintain a wiki/ folder structure
 - Use "ingest" prompts to feed new content
+
+**Community Call #44 (2026):** WikiLLM-style **raw → wiki → CLAUDE.md** is becoming the default workflow (per-client wiki so Claude knows the whole business). Classroom promised starter prompt + skeleton; this repo mirrors that pattern in `AGENTS.md`.
+
+**Community Call #61 (2026):** Microsites need **real SEO context**, not only build files — e.g. an **8-month project knowledge base** fed leads before sitemap submission (automotive locksmith example). Paste doctrine from [[local-seo-playbook-maverick.md]] into Claude project knowledge, not just HTML templates.
+
+**Claude Fable (Call #44):** Fast planning/coordination for large jobs (large directory plans in minutes). Treat prepaid/token pricing as volatile; plan fallbacks (**ChatGPT/Codex** when Claude limits hit — Call #61).
 
 **Why It Scales:**
 - Multiple sessions stay coherent
