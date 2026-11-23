@@ -61,3 +61,29 @@ Third, stretch your radius with real landmarks. In my university research on spa
 Fourth, set your categories right. Pick your highest volume cuisine as the primary category, like Italian Restaurant. Then back it up with three or four specific secondary categories like Pizza Restaurant, Caterer, Wine Bar, and Family Friendly Restaurant so you pick up extra search clusters without cannibalizing your main rank.
 
 Real customer photos, a complete menu with prices, and landmark anchoring will push your map pack way faster than bots, and you will never have to worry about waking up to a suspended profile.
+
+[
+
+Brandon Belot: Thank you so much, this is a real playbook. I’m starting with point 2, the menu and the attributes.
+
+1 question from your tests: between clicks on the listing and GPS data, which one does Google weigh more?
+
+Michael Elliott: Clicks win hands down. Clicks have search intent behind them, while a car driving past tells Google nothing about what that person wanted to eat.
+
+Jumper is basically selling a parlor trick. The second the client stops paying them, the bot traffic stops and the rankings vanish. Worse, they are playing Russian roulette with a profile that already has two thousand reviews.
+
+Tell the client: Jumper rents you bot traffic that disappears tomorrow. I build permanent search assets that you own forever.
+
+Here is what actually moves the map pack based on our testing and research:
+
+1. Match your landing page to the profile categories step for step.
+
+2. Fill out every menu item with real prices and photos. Listings with hard prices crush generic profiles in search every time.
+
+3. Put a small QR card on tables asking diners for meal photos. Google scans customer photos with vision models to rank dish searches.
+
+4. Put real driving directions on the site with cross streets and highway exits. In our spatial research, that is what physically stretches your map radius into nearby towns.
+
+That angle wins the client and protects their profile every single time.
+
+Brandon Belot: clicks win, that settles it. Thanks a lot Michael, this is the most complete breakdown I’ve seen on the map pack. The “rent vs own” angle against Jumper is exactly what I needed for this client. Starting with the landing page match and the menu this week, I’ll share the results here.

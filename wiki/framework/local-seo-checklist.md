@@ -2,7 +2,7 @@
 type: framework
 client: none
 status: active
-updated: 2026-11-20
+updated: 2026-11-23
 sources:
   - "raw/framework/Local SEO Innovation - 2 - Local AI SEO Checklist - 0. Checklist for Local SEO (AI Overview Readiness) · AI SEO Rank Expand Academy.md"
   - "raw/framework/Local SEO Innovation - 2 - Local AI SEO Checklist - 1. Core Business Data (NAP Consistency) · AI SEO Rank Expand Academy.md"
@@ -185,6 +185,10 @@ Without alignment, "you can eat all you want—you still won't rank" (Cyril Gari
 
 **Research counter (Michael Elliott, REA — local search / anomaly detection):** Fake drives and listing **CTR-style bots** are an **expensive trap**: possible **3–7 day flicker**, then rank snaps back after the tool stops or Google's **weekly filter sweep**. Spoofed devices (no real location history / Wi‑Fi handoffs) trigger **anomaly flags** → **manual video reverifications** and **weeks locked out of Maps**. Prefer the four levers below over paid signal tools.
 
+**Clicks vs GPS (Elliott, follow-up):** **Listing clicks beat GPS/drive-by signals** — clicks carry **search intent**; a car passing the address does not. Do not treat route/driving vendors as a substitute for profile + site work.
+
+**Client framing (vs bot vendors e.g. Jumper):** *"They rent bot traffic that disappears when you stop paying. We build permanent search assets you own."* High-review profiles make paid bot plays **higher suspension roulette** — see [[grey-hat-tactics-and-risks.md]].
+
 **What to do instead (Elliott / live testing — adapt restaurant examples to any niche):**
 
 | Lever | Restaurant example | Home-services transfer |
@@ -193,6 +197,13 @@ Without alignment, "you can eat all you want—you still won't rank" (Cyril Gari
 | **2. Hard quantitative data** | Full menu: dish + **exact price**, portions, dietary tags; every native GBP attribute (patio, kids menu, etc.) | GBP **services** with scope and price bands where allowed; every applicable **attribute** filled; no vague "quality work" fluff |
 | **3. Landmark anchoring** | On the site URL linked from GBP: directions via **highway exit, parking, cross streets, transit** to stretch spatial radius | Service-area / location pages with **local landmarks** and honest drive directions from known hubs |
 | **4. Category stack** | Primary = highest-volume cuisine; **3–4 secondaries** (e.g. Pizza, Caterer, Wine Bar) for extra clusters without cannibalizing main | Primary = core trade; secondaries = logical sub-services (don't stack unrelated categories) |
+
+**Action order (Elliott condensed — restaurant thread, transferable to trades):**
+
+1. **Landing page ↔ GBP categories match step-for-step** (not just "similar" services).
+2. **Hard data on profile** — full menu/services with **real prices + photos** (priced listings beat generic profiles in their tests).
+3. **Real customer UGC photos** — QR on tables / job prompts; vision tagging for dish/service queries.
+4. **Landmark directions on the linked site** — highway exits, cross streets, parking/transit (stretches map radius in spatial tests).
 
 **Default playbook:** pillars 1–4 in [[five-pillar-local-seo-framework.md]], §3 review velocity/sentiment here, citations—then measure in Insights before any paid geo or interaction service.
 

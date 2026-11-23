@@ -91,6 +91,10 @@ Instead of CTR manipulation:
 
 **Research counter (Michael Elliott, same REA thread):** Live tests on local-search anomaly detection—**fake drives and listing CTR bots** often show only a **3–7 day rank flicker**, then revert when the tool stops or Google runs a **weekly filter sweep**. **Spoofed devices** (no credible location history / Wi‑Fi handoffs) can trigger **manual video reverifications** and **multi-week Maps lockouts**. Treat paid signal tools as high risk / low durability.
 
+**Listing clicks vs GPS:** Real **profile clicks** carry search intent; **GPS/drive-past** signals do not — clicks weigh more in Elliott's tests (see [[local-seo-checklist.md]] map-pack section).
+
+**Vendors named (community):** **SEO NEO** (route simulation), **Jumper** (bot listing/GPS-style traffic). **Jumper pattern:** rankings tied to ongoing payment; traffic stops when spend stops. On mature profiles (e.g. 2,000+ reviews), bot plays increase suspension risk. Sales counter: **rented bot traffic vs owned assets** (profile + site + UGC photos + priced menu/services).
+
 **Other risks:**
 
 1. **Suspension** — Jesse Cunningham: aggressive review-reply automation or fake engagement patterns; profile loss beats small gains.
