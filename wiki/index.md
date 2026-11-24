@@ -51,6 +51,14 @@ General SEO/local SEO knowledge, not tied to a client.
 
 ## clients/
 
+### promold
+- [profile.md](clients/promold/profile.md) — ProMold (Nithin), MICRO/IICRC WRT mold remediation, GTA/Mississauga; prospect, GBP claimed 4.9★/28; waiting on callback
+- [keywords.md](clients/promold/keywords.md) — Mississauga money terms ~pos 40s; Toronto 1300/mo vol gap vs gtamoldremoval.com
+- competitors/
+  - [gta-mold-removal-mississauga.md](clients/promold/competitors/gta-mold-removal-mississauga.md) — pack leader ~190 reviews, City Centre pin
+- [recommendations.md](clients/promold/recommendations.md) — GBP rhythm + Q&A + site/entity fixes; do not pitch category/services rebuild
+- [option-a-plan.md](clients/promold/option-a-plan.md) — GBP-first milestones A1–A11, $1,576 / ~$1,600 flat
+
 ### groupe-nova
 - [profile.md](clients/groupe-nova/profile.md) — Groupe Nova, residential renovation general contractor (kitchen/bathroom/basement/design), Montreal + Laval/North Shore/South Shore/Montérégie/Lanaudière, WordPress+Elementor bilingual FR/EN site; Google Ads launch planned Feb–March 2027; two service-area lists (brief vs website footer) not yet reconciled
 - [keywords.md](clients/groupe-nova/keywords.md) — initial service×area map (no rank-tracker data yet); biggest gap: homepage title has zero keyword/location signal; now also lists Montréal-Est and West Island (from the website footer)

@@ -1197,3 +1197,7 @@ Pages touched: [[framework/microsite-code-location.md]] (new), [[index.md]], [[l
 ## 2026-11-23 | ingest | Google AI calls contractors (Ask Maps)
 Ingested `Google AI now connects contractorshomeowners` Skool capture. [[framework/ai-overviews-local-search.md]] — Ask Maps rollout, ranking-as-selection hypothesis, GBP advanced setting, state exclusions, recorded/no-fee calls. [[framework/local-seo-checklist.md]] §2 — automated-call toggle, CSR/scam script, price-availability answers, rogue GBP sweep. Index blurbs updated.
 Pages touched: [[framework/ai-overviews-local-search.md]], [[framework/local-seo-checklist.md]], [[index.md]], [[log.md]]
+
+## 2026-11-24 | ingest | Onboard client promold (prospect)
+Onboarded ProMold (promold.ca, Nithin) from Nov 18–23 DataForSEO + GBP live audit and Option A GBP-first plan. Added immutable raw audit snapshot; wiki profile, keywords, competitor GTA Mold Removal, recommendations, and milestone plan. Sales status: waiting on callback.
+Pages touched: [[clients/promold/profile.md]], [[clients/promold/keywords.md]], [[clients/promold/competitors/gta-mold-removal-mississauga.md]], [[clients/promold/recommendations.md]], [[clients/promold/option-a-plan.md]], [[index.md]], [[log.md]]
