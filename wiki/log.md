@@ -1201,3 +1201,11 @@ Pages touched: [[framework/ai-overviews-local-search.md]], [[framework/local-seo
 ## 2026-11-24 | ingest | Onboard client promold (prospect)
 Onboarded ProMold (promold.ca, Nithin) from Nov 18–23 DataForSEO + GBP live audit and Option A GBP-first plan. Added immutable raw audit snapshot; wiki profile, keywords, competitor GTA Mold Removal, recommendations, and milestone plan. Sales status: waiting on callback.
 Pages touched: [[clients/promold/profile.md]], [[clients/promold/keywords.md]], [[clients/promold/competitors/gta-mold-removal-mississauga.md]], [[clients/promold/recommendations.md]], [[clients/promold/option-a-plan.md]], [[index.md]], [[log.md]]
+
+## 2026-11-24 | ingest | Montreal Maps cold outreach field playbook
+Captured Nov 24 Pitch-session prospecting: Dompro offline site, KRP/Roof Star alignment, Atlas-Apex skip rule, Couvreur de l'Ouest two-GBP Valleyfield fiche + receptionist hang-up (no "digital marketing" on switchboard). Raw field notes + distilled [[framework/montreal-maps-cold-outreach.md]] with filters, FR skeleton, follow-up cadence, and prospect status table.
+Pages touched: [[framework/montreal-maps-cold-outreach.md]], [[index.md]], [[log.md]]; raw: `raw/framework/2026-11-24-montreal-maps-cold-outreach-field-notes.md`
+
+## 2026-11-25 | ingest | Google Deep Review (Google Research)
+User approved draft. Raw capture `google-deep-review-google-research.md` from portal + Oct 2026 blog. New [[framework/google-deep-review.md]] — four-stage pipeline, access/privacy, limits, local SEO use cases. [[framework/ai-tool-stacks.md]] Document QA subsection + Recommended Resources link. Index updated.
+Pages touched: [[framework/google-deep-review.md]] (new), [[framework/ai-tool-stacks.md]], [[index.md]], [[log.md]]

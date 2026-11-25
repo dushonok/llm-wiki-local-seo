@@ -38,7 +38,8 @@ General SEO/local SEO knowledge, not tied to a client.
 - [open-graph-and-metadata.md](framework/open-graph-and-metadata.md) — OG tags aren't a ranking factor; low-priority polish for social CTR + AI/citation fallback
 
 ### Strategy & Operations
-- [ai-tool-stacks.md](framework/ai-tool-stacks.md) — 14 practical AI/automation stacks (content generation, site building, lead capture, scaling, video + multi-platform distribution, Reddit lead alerts) from community members
+- [ai-tool-stacks.md](framework/ai-tool-stacks.md) — 14 practical AI/automation stacks (content generation, site building, lead capture, scaling, video + multi-platform distribution, Reddit lead alerts) from community members; includes Google Deep Review QA slot
+- [google-deep-review.md](framework/google-deep-review.md) — Google agentic doc review (PAT lineage); QA for audits, briefs, proposals; 2 free reviews/week + alpha API
 - [multi-tier-distribution-network.md](framework/multi-tier-distribution-network.md) — Bryan Collins case study: 4-tier SEO network architecture (Foundation/Amplification/Conversion/Core), 102 indexed pages Day 1, 9-platform publishing automation (Dev.to, Hashnode, GitHub, Reddit, Medium, LinkedIn, YouTube, Pinterest, Claude Artifacts), Claude + OpenAI content generation, 3 revenue streams (direct sales + 2 affiliates)
 - [niche-selection-strategy.md](framework/niche-selection-strategy.md) — "Niches within niches" framework; 12-minute microsite builds; volume strategy; research-first mindset
 - [agency-operations-scaling.md](framework/agency-operations-scaling.md) — Moving from solo doer to system operator; Loom training, boundaries, documentation for delegation
@@ -46,6 +47,7 @@ General SEO/local SEO knowledge, not tied to a client.
 - [lead-and-call-buyers.md](framework/lead-and-call-buyers.md) — Pay-per-call / lead buyer networks to sell microsite calls without a direct client (🏘️ = community/REA-mentioned: Polyares, Marketcall, Lead Smart, eLocal, We Provide Leads): Marketcall (registering) + Polyares (on the list, not used yet); eLocal (REA forum, Canada unverified); We Provide Leads (REA + direct solicitor outreach, Canada on page); top 5 researched; check public payout-by-ZIP before building
 - [client-selection-filters.md](framework/client-selection-filters.md) — 4 filters to pick clients that stick (expertise respect, review count, volume capacity, niche leverage)
 - [sales-and-lead-generation.md](framework/sales-and-lead-generation.md) — 6 approaches + microsite rental short-email structure (low first month, month-to-month), threat-education positioning (lead-gen/fake-site competitors, WHOIS/SERP checks, Blair garage-door video frame), human touch, Maps prospecting, free-trial close, cold email copy, Reddit lead monitoring
+- [montreal-maps-cold-outreach.md](framework/montreal-maps-cold-outreach.md) — Nov 2026 Maps field playbook: prospect filters (offline site, KRP-style misalignment, multi-GBP Couvreur de l'Ouest, skip nationals), FR pitch skeleton, receptionist hang-up rule, prospect log with follow-up status
 - [client-retention-strategies.md](framework/client-retention-strategies.md) — Relationship strength, visible work proof, service intertwining for long-term retention
 - [grey-hat-tactics-and-risks.md](framework/grey-hat-tactics-and-risks.md) — CTR tools (TrafficDominator), GBP driving/route signals (SEO NEO cited), suspension risks; prefer Pillar 2 & 4
 

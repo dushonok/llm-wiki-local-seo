@@ -2,9 +2,10 @@
 type: framework
 client: none
 status: active
-updated: 2026-10-13
+updated: 2026-11-25
 sources:
   - "raw/framework/AI Stacks Members Are Actually Using - 🎙️ The Wisdom's In The Calls · AI SEO Rank Expand Academy.md"
+  - "raw/framework/google-deep-review-google-research.md"
   - "raw/framework/51 - SEO Is Now Prompts and Agents - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
   - "raw/framework/49 - The 12-Minute Microsite - 🎙️ The Call Vault · AI SEO Rank Expand Academy.md"
   - "raw/framework/AI video - What are you building this week · AI SEO Rank Expand Academy.md"
@@ -511,8 +512,19 @@ This represents a new meta-layer: instead of "rank for this keyword," the work b
 
 ---
 
+## Document QA (Google Deep Review)
+
+**When:** After you draft a long deliverable — client audit PDF, microsite brief pack, proposal — not for SERP/rank data.
+
+**Tool:** [Google Deep Review](https://research.google/deepreview/) — 2 free document reviews/week; alpha API with Gemini key for volume. Agentic pipeline: segment → budget → parallel verify → synthesize/ground.
+
+**Use in stack:** Generation (Claude/GPT) → export PDF → Deep Review for contradiction/gap pass → human ship. See [[google-deep-review.md]] for local SEO use cases, limits, and confidentiality.
+
+---
+
 ## Recommended Resources
 
+- **Google Deep Review (doc QA):** https://research.google/deepreview/
 - **Hermes Agent Platform:** [hermes-agent.org](http://hermes-agent.org)
 - **OpenRouter (model marketplace):** [openrouter.ai](http://openrouter.ai)
 - **Index Bolt (indexing at scale):** [indexbolt.com](http://indexbolt.com)
