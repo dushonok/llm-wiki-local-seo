@@ -2,8 +2,9 @@
 type: framework
 client: none
 status: active
-updated: 2026-11-23
+updated: 2026-11-24
 sources:
+  - "raw/framework/2026-11-24-montreal-maps-cold-outreach-field-notes.md"
   - "raw/framework/🎙️ The Wisdom's In The Calls - Getting Clients When Cold Outreach Feels Dead · AI SEO Rank Expand Academy.md"
   - "raw/framework/Find Your Ideal Client Instead of Waiting for Upwork to Kick In · AI SEO Rank Expand Academy.md"
   - "raw/framework/How I closed a business owner on a free trial - AI SEO Rank Expand Academy.md"
@@ -303,6 +304,8 @@ Everly
 ---
 
 ## Approach #4: Find Your Ideal Client Before They Post a Job (Google Maps Prospecting)
+
+**Montreal field notes (2026-11):** Live roofing prospect log, receptionist language, multi-GBP vs national skip rules → [[montreal-maps-cold-outreach.md]].
 
 **The Play:** Instead of waiting for prospects to post jobs on Upwork or request services, find them on Google Maps where they're already ranked and already have customers. Target businesses showing SEO/marketing gaps.
 
