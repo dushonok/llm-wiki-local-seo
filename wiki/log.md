@@ -1206,6 +1206,10 @@ Pages touched: [[clients/promold/profile.md]], [[clients/promold/keywords.md]], 
 Captured Nov 24 Pitch-session prospecting: Dompro offline site, KRP/Roof Star alignment, Atlas-Apex skip rule, Couvreur de l'Ouest two-GBP Valleyfield fiche + receptionist hang-up (no "digital marketing" on switchboard). Raw field notes + distilled [[framework/montreal-maps-cold-outreach.md]] with filters, FR skeleton, follow-up cadence, and prospect status table.
 Pages touched: [[framework/montreal-maps-cold-outreach.md]], [[index.md]], [[log.md]]; raw: `raw/framework/2026-11-24-montreal-maps-cold-outreach-field-notes.md`
 
+## 2026-11-25 | ingest | Microsite Contest Brain AI Pack
+Skool how-to + full `raw/framework/Microsite-Contest-Brain/` (BRAIN, DECISIONS, LLM-INSTRUCTIONS, data, chapters, daily updates, handouts, winner-site). New [[framework/microsite-contest-brain.md]] — load steps, precedence, rules snapshot, wiki contradiction callouts. Updated [[microsite-qa-reference.md]] (Day 22 superseded), [[five-pillar-local-seo-framework.md]], [[parasite-ranking-data.md]] cross-links. Brain precedes interim wiki contest notes.
+Pages touched: [[framework/microsite-contest-brain.md]] (new), [[framework/microsite-qa-reference.md]], [[framework/five-pillar-local-seo-framework.md]], [[framework/parasite-ranking-data.md]], [[index.md]], [[log.md]]
+
 ## 2026-11-25 | ingest | Google Deep Review (Google Research)
 User approved draft. Raw capture `google-deep-review-google-research.md` from portal + Oct 2026 blog. New [[framework/google-deep-review.md]] — four-stage pipeline, access/privacy, limits, local SEO use cases. [[framework/ai-tool-stacks.md]] Document QA subsection + Recommended Resources link. Index updated.
 Pages touched: [[framework/google-deep-review.md]] (new), [[framework/ai-tool-stacks.md]], [[index.md]], [[log.md]]

@@ -2,12 +2,15 @@
 type: framework
 client: none
 status: active
-updated: 2026-10-28
+updated: 2026-11-25
 sources:
   - "raw/framework/The Five Pillar Local SEO Checklist - Rank Expand Academy.md"
+  - "raw/framework/Microsite-Contest-Brain/BRAIN.md"
 ---
 
 # The Five Pillar Local SEO Framework
+
+> **Contest facts:** For measured rules, listing cadence, homepage length, and final standings, prefer [[microsite-contest-brain.md]] (`BRAIN.md` + corrections log) over interim contest posts.
 
 **Foundation:** Built from six weeks of daily ranking checks on 61 brand-new sites and twenty audits of member sites (October 2026).
 

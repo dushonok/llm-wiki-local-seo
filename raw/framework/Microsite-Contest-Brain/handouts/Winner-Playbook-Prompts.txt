@@ -1,0 +1,55 @@
+THE WINNER'S PLAYBOOK: CONTENT PROMPTS
+Rank Expand Academy
+
+These prompts follow the content steps the contest winner described. They are ours, written to match his method. Replace the parts in square brackets.
+
+======================================================================
+1. BUILD THE OUTLINE
+Run this once per page, starting with the home page.
+
+I am writing a page to rank for "[main keyword]" in [town, state].
+Below are the headings from the top five pages that rank for it today.
+
+[paste the headings from each page, labelled Page 1 to Page 5]
+
+List the topics that at least three of them cover. List the topics only one covers. List the questions a customer would ask that none of them answer.
+Then write one outline for my page that covers all three lists, in the order a worried customer would want them.
+
+======================================================================
+2. PULL OUT THE SHARED LANGUAGE
+This is the step he calls entities, n-grams, skip-grams and semantic keywords.
+
+Below is the full text of the top five pages for "[main keyword]".
+
+[paste the text of each page]
+
+Give me four lists:
+1. The people, places, tools, materials, organizations and rules these pages name.
+2. The two to four word phrases that appear on three or more of the pages.
+3. Word pairs that keep appearing near each other, even with other words between them.
+4. Related terms a specialist would expect to see on a page about this.
+For each item say how many of the five pages use it.
+
+======================================================================
+3. WRITE THE PAGE
+Give Claude the outline and the four lists.
+
+Write the page from this outline: [paste outline]
+Work these terms in where they belong, and only where they are true for my business: [paste the four lists]
+Write for a homeowner in [town] who has this problem today. Use plain words. Include real price ranges with a source. Do not invent reviews, awards, staff or licences.
+The finished page must answer more of the customer questions than any of the five pages I gave you.
+
+======================================================================
+4. WRITE A NEIGHBORHOOD PAGE
+One at a time. If the answer comes back generic, the page is not worth publishing.
+
+Write a page for "[service] in [neighborhood or town]".
+Use facts that are only true of this place: the age and type of the housing, the ground and the water, the local council or rules that apply, the landmarks and roads, and the distance from [main town].
+If you cannot find at least five facts that would be wrong for the next town over, tell me, and do not write the page.
+
+======================================================================
+5. FIND PROBLEM BASED BLOG TOPICS
+His blog targets problems, not services.
+
+My site offers [service] in [town]. List 30 questions a homeowner types into Google when they first notice this problem and do not yet know they need a company.
+Start each with the symptom, such as a smell, a stain or a sound. Group them by the room or part of the house. Mark the ones that are specific to [town] or to older homes there.

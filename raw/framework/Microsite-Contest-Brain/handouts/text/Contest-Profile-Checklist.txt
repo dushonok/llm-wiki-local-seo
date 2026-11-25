@@ -1,0 +1,101 @@
+Microsite SEO Contest
+September 15 to November 18, 2026
+The Number One Site's Profile Checklist
+Every profile the winning site built, and which ones Google showed
+The site that won the contest, gettysburgmoldremediationpros.com, lists 16 profiles in its own code. After the contest its builder, Zeeshan Y., shared his own sheet, which logs 63. The full list is in his playbook, under The Citation List. On 26 checks between October 19 and November 17 we recorded every profile and listing that appeared for the two contest searches. Use this as a build list for your own site.
+16
+3
+2
+1 profiles on the winning site of them showed up in Google's top 30 of them reached page one week to build them
+Build these first
+Every kind of profile Google showed during the contest, for the winner or for another contest site. Sorted by the best position any contest listing reached.
+Platform
+What to create
+The winner's own profile
+Best position, any contest listing
+Checks seen (of 26)
+Facebook
+Business page ranked, best 9
+4
+25
+Houzz
+Pro profile built, never seen
+4
+25
+Patch
+Listing on the town's Patch site not on its list
+6
+25
+MapQuest
+Business listing ranked, best 6
+6
+11
+Press release
+One release sent to news sites not on its list
+6
+3
+BBB
+Free business profile not on its list
+7
+18
+YouTube
+Channel with one short video built, never seen
+9
+25
+Birdeye
+Review page not on its list
+13
+25
+Pinterest
+Business account built, never seen
+18
+20
+Manta
+Business listing ranked, best 19
+19
+8
+Green rows are the winner's own profiles that ranked. "Built, never seen" means the winner had one but another contest site's version was the one Google showed. Press releases ranked within days and usually faded within days.
+Then build the rest of the set
+Also on the winning site. Google never showed these for the searches, but they are part of the full set.
+Platform
+What to create
+Name or handle the winner used
+Yelp
+Business page
+Gettysburg Mold Remediation Pros
+Clutch
+Company profile gettysburg-mold-remediation-pros
+ProvenExpert
+Review profile gettysburg-mold-remediation-pros
+Hotfrog
+Directory listing
+Gettysburg Mold Remediation Pros
+Cybo
+Directory listing gettysburg-mold-remediation-pros
+TripAdvisor
+Profile gettysburgmoldremedt
+X
+Account
+@GettysburgMold
+TikTok
+Account
+@gettysburgmold
+Reddit
+User account
+GettysburgMold
+Quora
+Profile
+Gettysburg Mold Remediation Pros
+Rules for every profile
+Use the same business name, spelled the same way, on every profile.
+Use the same phone number and the same town on every profile.
+Link every profile to your homepage.
+Use the same short description and the same logo everywhere.
+Pick one short handle for places that limit length. The winner used GettysburgMold on X, TikTok and
+Reddit.
+Put one short video on YouTube with the service and town in the title.
+Save every profile link in one sheet as you go.
+Add those links to your site's code as the sameAs list. The winner also shows five of them in the footer.
+Build them in your first week, then leave them alone.
+WHAT THIS DOES AND DOES NOT PROVE
+Only 3 of the winner's 16 profiles ever ranked on their own, so we cannot say which ones helped the site. What we can say: the one site with this full set finished at number one, and the second place site, which listed no profiles at all, never reached page one. Positions come from searches with the location set to Gettysburg or York and personalization turned off.

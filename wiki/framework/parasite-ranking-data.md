@@ -2,14 +2,17 @@
 type: framework
 client: none
 status: active
-updated: 2026-10-12
+updated: 2026-11-25
 sources:
   - "raw/framework/Microsite Contest - Parasite SEO & Links - Oct 12, 2026 - Rank Expand Academy.md"
+  - "raw/framework/Microsite-Contest-Brain/BRAIN.md"
 ---
 
 # Parasite Platform Ranking Data (Real Contest Results)
 
 **Purpose:** Real-world proof of which parasite/citation platforms actually rank in search results vs. which don't. Based on Oct 12, 2026 microsite contest data where contestants built the same service across dozens of platforms and tracked which ones appeared in top-50 rankings.
+
+**Newer evidence:** [[microsite-contest-brain.md]] — 26 pinned checks through Nov 17 + winner listing CSVs; **R-09** prioritizes platforms that ranked in contest over this early tier list alone.
 
 **Key insight:** Most parasite platforms contestants built never appeared in rankings. Only 27 platforms out of 50+ built made it to top-50 positions. There's a clear Tier 1 (ranks) vs. Tier 2 (doesn't rank) division.
 

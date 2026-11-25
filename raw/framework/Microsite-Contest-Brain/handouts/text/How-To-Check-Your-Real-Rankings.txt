@@ -1,0 +1,63 @@
+The contest method
+Used on every ranking check
+How to Check Your Real Rankings
+See what a searcher in your town sees, not what your own laptop shows you
+Google changes its results based on where you are and what you have searched before. A search from your own desk can show your site well above where a local customer sees it. Early in the contest that gap was 10 to 15 spots. This is the method we used for every contest check.
+1
+Build a search link that pins the location.
+Take the normal Google search address and add three settings: your town, personalization off, and country. This is the one we used for Gettysburg:
+https://www.google.com/search?q=mold+remediation+gettysburg+pa&hl=en&gl=us&pws=0&uule=w+CAI
+QICIlR2V0dHlzYnVyZyxQZW5uc3lsdmFuaWEsVW5pdGVkIFN0YXRlcw
+2
+Open the link in Chrome.
+Use a normal window. You do not need a VPN or a special tool.
+3
+Scroll to the very bottom before you count anything.
+The footer must show your town and the words "Results are not personalized". If it shows another place, or says the results are based on your activity, throw that check away.
+4
+Count only the regular website results, from the top down.
+See the table below for what to skip. Each page holds about ten.
+5
+For page two, add &start=10 to the end of the link. For page three, &start=20.
+Wait about ten seconds between pages so Google does not block you.
+6
+Write down one position per site: its best page.
+If your home page is at 14 and a service page is at 22, your position is 14.
+7
+Check once a day at most, and judge by weeks.
+One good day is a test by Google. Two or three weeks in the same place is a ranking.
+What counts and what does not
+Count it
+Skip it
+Regular results: a blue title, a web address and a short description
+Sponsored results at the top and bottom
+Directory pages such as Yelp, Angi and the BBB
+The map box with three businesses
+Facebook pages, YouTube videos and listings that appear as normal results
+The AI answer at the top
+Press releases on news sites
+"People also ask" and the forums box
+Making the location code for your own town
+The part of the link after "uule=" is the town. You build it in three pieces:
+Piece
+What it is
+Gettysburg example
+1. The start
+Always the same w+CAIQICI
+2. One character for the length
+Count the characters in the town's full name, then take that position in this list, starting from zero: A to Z, a to z, 0 to 9, then - and _
+37 characters gives the letter l
+3. The name, encoded
+The full name written as City,State,Country with no spaces after the commas, converted to base64
+Gettysburg,Pennsylvania,United
+States
+THE EASY WAY
+Give those three rules and your town to your AI assistant and ask it for the finished link. Then do step three: open it and read the footer. If the footer shows your town, the code is right. If it does not, the town name was not written the way Google lists it.
+A simple log to keep
+Date
+Search
+Footer shows town?
+My site
+Listing 1
+Listing 2
+Track your listings as well as your site. In the contest, listings usually moved first.

@@ -2,8 +2,10 @@
 type: framework
 client: none
 status: active
-updated: 2026-11-23
+updated: 2026-11-25
 sources:
+  - "raw/framework/⭐The Contest Brain AI Pack - 🚀 The Microsite Contest · AI SEO Rank Expand Academy.md"
+  - "raw/framework/Microsite-Contest-Brain/BRAIN.md"
   - "raw/framework/We Answered Every Question You Asked This Week - Sep 8, 2026 · AI SEO Rank Expand Academy.md"
   - "raw/framework/We Answered Every Question You Had, 10-22-2026 - AI SEO Rank Expand Academy.md"
   - "raw/framework/Microsite Contest Day 22 One Contestant Is Beating Everyone (on both queries) - Rank Expand Academy.md"
@@ -218,6 +220,8 @@ None of these is a reason to abandon the niche.
 ---
 
 ## Real-Time Case Study: Microsite Contest Day 22
+
+> **Superseded.** Final contest evidence lives in [[microsite-contest-brain.md]] and `raw/framework/Microsite-Contest-Brain/BRAIN.md` (Nov 17, 2026 final check). This section is an **interim Day 22** snapshot only. Do not use it for winner facts, listing counts, or “no press release” claims — see Brain corrections log and F-27 / F-45–F-49.
 
 **Status:** Ongoing competition (may change as contest progresses)  
 **Contestants:** ~20 active builders competing on two keywords: "mold" and "radon"  

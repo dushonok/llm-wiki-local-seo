@@ -1,0 +1,98 @@
+Microsite SEO Contest
+September 15 to November 18, 2026
+The Winning Site's Blueprint
+How the number one site is put together, page by page
+This is gettysburgmoldremediationpros.com as it stood on the final check: 119 pages built by Zeeshan Y.
+It was last changed on October 27 and finished the contest at number one. Use it as a reference for structure. The words on your site have to be your own.
+119
+220,159
+36
+58 pages words of content town pages articles
+The page types
+Page type
+How many
+Typical words
+Sections
+FAQs
+What it is for
+Home page
+1
+6,805
+18
+9
+The one page that ranks number one
+Service pages
+9
+2,001
+8
+9
+One page for each distinct job
+Location pages
+36
+1,694
+10
+5
+One page for each town, each written separately
+Blog posts
+58
+1,859
+11
+4
+Articles that answer one question each
+Guide pages
+4
+2,655
+14
+8
+Cost, process, state law and FAQ
+Services overview
+1
+610
+3
+Lists every service
+Service areas overview
+1
+2,173
+7
+Lists every town
+Blog index
+1
+2,915
+4
+Lists every article
+Trust pages
+4
+598
+4
+About, contact, careers, warranty
+Legal and utility pages
+4
+877
+9
+Privacy, accessibility, sitemap
+"Typical words" is the middle value for that page type. "Sections" is the number of main headings on a typical page.
+The home page
+The home page is the page that ranked. It runs to 6,805 words under 18 main headings, with 9 questions answered, 3 tables and 19 images. It links to 8 outside sources, including the borough and county websites, the EPA, the state attorney general and FEMA flood maps. The quote form at the top asks for six things: name, phone, email, town, service and a message.
+How the pages link to each other
+From
+Where it links
+Home page
+Links to all 9 services and all 36 towns, and to dozens of articles. The important pages are one click from the home page.
+Every service page
+Links to the other eight service pages, back to the home page, and to the cost and process guides.
+Every article
+Links to about 8 other articles and about 2 service pages.
+The menu
+Lists every service by name, plus cost, blog, FAQ and contact, on every page.
+How different the pages are from each other
+We compared pages of the same type to see how much text they share. The town pages share about 29 percent. The articles share about 5 percent. In our audits, town pages built from a template usually share
+50 to 70 percent.
+What is in the code
+The home page describes the business to Google in one block: name, phone, address, map position, opening hours, the towns served, a list of services, and links to 16 profiles. Most pages also mark up their questions and answers as FAQs.
+How it was shipped
+The site reached number one on October 26 with 47 pages. The next day it grew to 119 in a single update:
+53 articles, 17 town pages and 3 guides. It dropped to 13, returned to number one five days later, and was not edited again.
+Where it goes further than the Microsite Blueprint
+The winner built more than the Blueprint asks for: a much longer home page, nine service pages, 36 town pages each written separately, a 58 article blog, and a street address shown on the site. One site is one result. The second place site had 18 pages and held page two for a month, so size alone does not explain it.
+HOW WE KNOW
+Figures come from a full copy of the site saved on October 27, which matched the live site through the end of the contest. Word counts cover the main content of each page and leave out menus and footers.
