@@ -42,12 +42,54 @@ sources:
 
 Validate with `TEST-QUESTIONS.md`.
 
-## Full load (Cursor / coding agent)
+## Using the Brain in Cursor (step by step)
 
-Add the whole folder to the workspace (already under `raw/framework/Microsite-Contest-Brain/`). Point the agent at `START-HERE.md` and `MANIFEST.md` for file routing. Use `tools/PROMPTS.md` for copy-paste starters.
+This repo already contains the pack at `raw/framework/Microsite-Contest-Brain/`. No zip upload required.
 
-**Minimum files:** `LLM-INSTRUCTIONS.md`, `BRAIN.md`, `DECISIONS.md`.  
-**Ranking checks:** `tools/make_search_link.py` + `results-08` chapter (pinned, non-personalized; footer must show town + “Results are not personalized”).
+### One-time setup
+
+1. Open the **llm-wiki-local-seo** workspace (or any repo that includes this folder).
+2. Optional: add a **Project Rule** or note in `.cursorrules` — *For microsite contest evidence, read `raw/framework/Microsite-Contest-Brain/BRAIN.md` before contradicting contest facts; prefer `knowledge/12-corrections-log.md` over daily updates.*
+3. For **live microsite code** reviews, keep `wiki/framework/microsite-code-location.md` in mind: builds live at `C:\Projects\website-launchpad`; point Cursor at that repo separately when auditing HTML.
+
+### Every new Agent chat (minimum — most questions)
+
+1. Start a **new Agent** or **Composer** chat in this workspace.
+2. In the first message, paste or @-reference:
+   - `raw/framework/Microsite-Contest-Brain/LLM-INSTRUCTIONS.md` — tell the agent to follow it as contest-advisor behavior.
+   - `raw/framework/Microsite-Contest-Brain/BRAIN.md`
+   - `raw/framework/Microsite-Contest-Brain/DECISIONS.md`
+3. State your facts in the same message: **service, town/state**, **domain age**, **page count**, **how many listings**, and (if market-sizing) **what you see on page one** from a **pinned** search.
+4. Ask one question (see `tools/PROMPTS.md` for templates).
+
+**Sanity check:** Ask 2–3 questions from `TEST-QUESTIONS.md`. Wrong answers usually mean the agent did not read `BRAIN.md`.
+
+### Full evidence mode (audits, drops, listing plans)
+
+1. Same as minimum, plus instruct the agent to open files per `LLM-INSTRUCTIONS.md` routing table:
+   - Site audit → `knowledge/13-pre-launch-checks.md`, then compare to **F-23** and **F-27** in `BRAIN.md`.
+   - Winner mechanics → `knowledge/05-winner-own-account.md`, `06-winner-off-page-records.md`, `data/winner_citations.csv`.
+   - Rankings / CSV → `data/rankings_oct19_to_nov17.csv`, `data/DATA-NOTES.md` (Shell/Python in repo is fine).
+   - Contradiction → `knowledge/12-corrections-log.md`.
+2. For **structure-only** winner study (not copy): `winner-site/Winning-Site-LLM-Pack.md` or showcase HTML — never reuse winner body copy.
+
+### Pinned ranking checks (match contest method)
+
+1. Agent reads `knowledge/chapters/results-08-how-to-check-your-real-rankings.md`.
+2. Run or adapt `tools/make_search_link.py` for your query + town.
+3. In Chrome, confirm results footer shows the **town** and **“Results are not personalized”** before trusting positions (see `knowledge/01-contest-rules-and-method.md`).
+
+### Wiki + Brain together
+
+1. Operational checklist → `wiki/framework/microsite-launch-checklist.md` + Brain pre-launch file.
+2. Contest **rules and numbers** → Brain only; use `wiki/framework/microsite-contest-brain.md` as the map, not as a substitute for `BRAIN.md`.
+
+### What not to do in Cursor
+
+- Do not ask the agent to invent contest stats; cite **F-*** / **R-*** IDs from `BRAIN.md`.
+- Do not treat `wiki/framework/microsite-qa-reference.md` **Day 22** section as final truth.
+- Do not recommend winner **guest posts / press / cloud pages** as Academy advice (report only).
+- Member content: do not commit or paste pack files into public repos outside Academy policy.
 
 ## How the assistant should behave
 

@@ -1210,6 +1210,10 @@ Pages touched: [[framework/montreal-maps-cold-outreach.md]], [[index.md]], [[log
 Skool how-to + full `raw/framework/Microsite-Contest-Brain/` (BRAIN, DECISIONS, LLM-INSTRUCTIONS, data, chapters, daily updates, handouts, winner-site). New [[framework/microsite-contest-brain.md]] — load steps, precedence, rules snapshot, wiki contradiction callouts. Updated [[microsite-qa-reference.md]] (Day 22 superseded), [[five-pillar-local-seo-framework.md]], [[parasite-ranking-data.md]] cross-links. Brain precedes interim wiki contest notes.
 Pages touched: [[framework/microsite-contest-brain.md]] (new), [[framework/microsite-qa-reference.md]], [[framework/five-pillar-local-seo-framework.md]], [[framework/parasite-ranking-data.md]], [[index.md]], [[log.md]]
 
+## 2026-11-25 | update | Cursor steps for Contest Brain
+Expanded [[framework/microsite-contest-brain.md]] with step-by-step Cursor usage (minimum vs full load, pinned checks, wiki+Brain, don’ts). Committed in follow-up to main ingest `24b80aa`.
+Pages touched: [[framework/microsite-contest-brain.md]], [[log.md]]
+
 ## 2026-11-25 | ingest | Google Deep Review (Google Research)
 User approved draft. Raw capture `google-deep-review-google-research.md` from portal + Oct 2026 blog. New [[framework/google-deep-review.md]] — four-stage pipeline, access/privacy, limits, local SEO use cases. [[framework/ai-tool-stacks.md]] Document QA subsection + Recommended Resources link. Index updated.
 Pages touched: [[framework/google-deep-review.md]] (new), [[framework/ai-tool-stacks.md]], [[index.md]], [[log.md]]
