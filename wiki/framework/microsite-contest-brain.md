@@ -6,13 +6,16 @@ updated: 2026-11-26
 sources:
   - "raw/framework/⭐The Contest Brain AI Pack - 🚀 The Microsite Contest · AI SEO Rank Expand Academy.md"
   - "raw/framework/2026-11-26-microsite-contest-brain-moved-to-contest-brain-agent.md"
+  - "raw/framework/2026-11-26-contest-brain-agent-remote-github.md"
 ---
 
 # Microsite Contest Brain (AI Pack)
 
 **What it is:** Rank Expand Academy’s frozen evidence pack from the **$1,000 Microsite SEO Contest** (Sep 15–Nov 18, 2026; **61 entries**, final check **Nov 17, 2026**). Built so an LLM can answer “what did we measure?” — not to re-teach the Playbook or Blueprint.
 
-**Canonical pack (filesystem):** `C:\Projects\contest-brain-agent` — **standalone Cursor workspace / agent**; the pack is **not** stored in this wiki repo anymore (removed 2026-11-26).
+**Canonical pack (local):** `C:\Projects\contest-brain-agent` — **standalone Cursor workspace / agent**; the pack is **not** stored in this wiki repo anymore (removed 2026-11-26).
+
+**Git remote:** https://github.com/dushonok/contest-brain-agent.git — clone if the machine has no local checkout (`git clone` into `C:\Projects\contest-brain-agent` or your preferred path, then open that folder in Cursor).
 
 **Skool overview:** `raw/framework/⭐The Contest Brain AI Pack - 🚀 The Microsite Contest · AI SEO Rank Expand Academy.md`
 

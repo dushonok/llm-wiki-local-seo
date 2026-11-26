@@ -15,7 +15,7 @@ sources:
 
 ## Related workspace: Contest Brain agent
 
-**Contest evidence KB:** `C:\Projects\contest-brain-agent` (standalone project — not in this vault). See [[microsite-contest-brain.md]]. Use that workspace for “use Brain”; use **website-launchpad** for deployed HTML.
+**Contest evidence KB:** `C:\Projects\contest-brain-agent` (standalone project — not in this vault). Remote: https://github.com/dushonok/contest-brain-agent.git. See [[microsite-contest-brain.md]]. Use that workspace for “use Brain”; use **website-launchpad** for deployed HTML.
 
 ## Canonical path
 
