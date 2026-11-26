@@ -2,15 +2,20 @@
 type: framework
 client: none
 status: active
-updated: 2026-11-23
+updated: 2026-11-26
 sources:
   - "user instruction (2026-11-23): canonical microsite build output path"
+  - "raw/framework/2026-11-26-microsite-contest-brain-moved-to-contest-brain-agent.md"
   - "wiki/framework/external-seo-microsite-tactics.md (prior live reviews of launchpad builds)"
 ---
 
 # Microsite code location (website-launchpad)
 
 **Purpose:** Tell agents where the user's live microsite HTML/builds live so code-vs-wiki reviews use real files, not assumptions.
+
+## Related workspace: Contest Brain agent
+
+**Contest evidence KB:** `C:\Projects\contest-brain-agent` (standalone project — not in this vault). See [[microsite-contest-brain.md]]. Use that workspace for “use Brain”; use **website-launchpad** for deployed HTML.
 
 ## Canonical path
 

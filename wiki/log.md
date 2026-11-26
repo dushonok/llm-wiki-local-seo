@@ -1210,6 +1210,10 @@ Pages touched: [[framework/montreal-maps-cold-outreach.md]], [[index.md]], [[log
 Skool how-to + full `raw/framework/Microsite-Contest-Brain/` (BRAIN, DECISIONS, LLM-INSTRUCTIONS, data, chapters, daily updates, handouts, winner-site). New [[framework/microsite-contest-brain.md]] — load steps, precedence, rules snapshot, wiki contradiction callouts. Updated [[microsite-qa-reference.md]] (Day 22 superseded), [[five-pillar-local-seo-framework.md]], [[parasite-ranking-data.md]] cross-links. Brain precedes interim wiki contest notes.
 Pages touched: [[framework/microsite-contest-brain.md]] (new), [[framework/microsite-qa-reference.md]], [[framework/five-pillar-local-seo-framework.md]], [[framework/parasite-ranking-data.md]], [[index.md]], [[log.md]]
 
+## 2026-11-26 | relocate | Contest Brain → contest-brain-agent
+User moved pack out of vault. Removed `raw/framework/Microsite-Contest-Brain/` from repo; added pointer raw `2026-11-26-microsite-contest-brain-moved-to-contest-brain-agent.md`. Updated [[microsite-contest-brain.md]] (canonical `C:\Projects\contest-brain-agent`, two-workspace), [[microsite-code-location.md]], sources on [[microsite-qa-reference.md]], [[five-pillar-local-seo-framework.md]], [[parasite-ranking-data.md]], index.
+Pages touched: [[framework/microsite-contest-brain.md]], [[framework/microsite-code-location.md]], [[framework/microsite-qa-reference.md]], [[framework/five-pillar-local-seo-framework.md]], [[framework/parasite-ranking-data.md]], [[index.md]], [[log.md]]; raw pointer added
+
 ## 2026-11-25 | update | Cursor steps for Contest Brain
 Expanded [[framework/microsite-contest-brain.md]] with step-by-step Cursor usage (minimum vs full load, pinned checks, wiki+Brain, don’ts). Committed in follow-up to main ingest `24b80aa`.
 Pages touched: [[framework/microsite-contest-brain.md]], [[log.md]]

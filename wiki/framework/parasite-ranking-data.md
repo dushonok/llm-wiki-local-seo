@@ -2,10 +2,10 @@
 type: framework
 client: none
 status: active
-updated: 2026-11-25
+updated: 2026-11-26
 sources:
   - "raw/framework/Microsite Contest - Parasite SEO & Links - Oct 12, 2026 - Rank Expand Academy.md"
-  - "raw/framework/Microsite-Contest-Brain/BRAIN.md"
+  - "raw/framework/2026-11-26-microsite-contest-brain-moved-to-contest-brain-agent.md"
 ---
 
 # Parasite Platform Ranking Data (Real Contest Results)

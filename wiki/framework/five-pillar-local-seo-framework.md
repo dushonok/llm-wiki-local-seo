@@ -2,10 +2,10 @@
 type: framework
 client: none
 status: active
-updated: 2026-11-25
+updated: 2026-11-26
 sources:
   - "raw/framework/The Five Pillar Local SEO Checklist - Rank Expand Academy.md"
-  - "raw/framework/Microsite-Contest-Brain/BRAIN.md"
+  - "raw/framework/2026-11-26-microsite-contest-brain-moved-to-contest-brain-agent.md"
 ---
 
 # The Five Pillar Local SEO Framework
